@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T06:06:22.644944+09:00",
+  "generated_at": "2026-08-04T06:30:59.594792+09:00",
   "events": 148,
   "organizers": 29,
   "by_region": {
@@ -66,6 +66,20 @@
         "consomme_pokeca"
       ],
       "count": 13
+    },
+    {
+      "level": "error",
+      "kind": "検索が全滅",
+      "message": "すべての検索クエリが0件です。API側の仕様変更や障害を疑ってください。",
+      "ids": [],
+      "count": 0
+    },
+    {
+      "level": "error",
+      "kind": "主催者追跡が全滅",
+      "message": "31アカウントすべてから投稿を取得できていません。",
+      "ids": [],
+      "count": 0
     },
     {
       "level": "warn",
