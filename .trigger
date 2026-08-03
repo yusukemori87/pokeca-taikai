@@ -1,1 +1,1 @@
-run: verify daily settings (LOOKBACK=7, PAGES=4) and deploy site
+run: fix organizer-follow query (was ANDing tonamel.com against t.co links)

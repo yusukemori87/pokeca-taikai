@@ -51,6 +51,8 @@ HORIZON_DAYS = int(os.environ.get("HORIZON_DAYS", "95"))
 MAX_PAGES_PER_QUERY = int(os.environ.get("MAX_PAGES_PER_QUERY", "8"))
 # キーマン(主催者)アカウントを from: 検索で追いかけるか
 FOLLOW_ORGANIZERS = os.environ.get("FOLLOW_ORGANIZERS", "1") == "1"
+# キーマン追跡は投稿数が少なく費用対効果が高いので、キーワード検索より長くさかのぼる
+ORG_LOOKBACK_DAYS = int(os.environ.get("ORG_LOOKBACK_DAYS", "60"))
 
 # 検索クエリ。Twitter の検索演算子がそのまま使える。
 # 「tonamel の URL を含む」×「ポケカ語彙」の掛け算で、余計なゲームの大会を弾く。
@@ -815,13 +817,28 @@ def main() -> int:
     # 「ポケカ」「自主大会」と書かずに告知する主催者を取りこぼさないための保険で、
     # これが件数と精度に一番効く。
     if FOLLOW_ORGANIZERS and not skip_twitter:
-        handles = [o["handle"] for o in load_seed_organizers() if o.get("handle")]
-        handles += [o["alt_handle"] for o in load_seed_organizers() if o.get("alt_handle")]
+        seeds = load_seed_organizers()
+        handles = [o["handle"] for o in seeds if o.get("handle")]
+        handles += [o["alt_handle"] for o in seeds if o.get("alt_handle")]
+        # 前回の収集で自動検出されたキーマンも追跡対象に加える。
+        # 走らせるほど追跡対象が増えて、取りこぼしが減っていく。
+        if OUT_PATH.exists():
+            try:
+                prev = json.loads(OUT_PATH.read_text("utf-8"))
+                handles += [o["handle"] for o in prev.get("organizers", []) if o.get("handle")]
+            except Exception:  # noqa: BLE001
+                pass
+        handles = list(dict.fromkeys(h for h in handles if h))   # 重複除去・順序維持
         log(f"■ キーマン {len(handles)}アカウントの投稿を追跡します")
-        # from:a OR from:b … は1クエリにまとめられる（長すぎるので10人ずつ）
+        # ★重要★ ここに "tonamel.com" を足してはいけない。
+        # ツイート本文のリンクは t.co に短縮されているため、本文に "tonamel.com" という
+        # 文字列は存在せず、AND条件にすると結果がほぼゼロになる（実際それで
+        # ディレグムさん等の大会を丸ごと取りこぼしていた）。
+        # 主催者アカウントは投稿数が少ないので、まるごと取って後からURLを抽出する。
+        org_since = datetime.now(JST) - timedelta(days=ORG_LOOKBACK_DAYS)
         for i in range(0, len(handles), 10):
             chunk = " OR ".join(f"from:{h}" for h in handles[i:i + 10])
-            for tw in search_twitter(f"({chunk}) tonamel.com", since):
+            for tw in search_twitter(f"({chunk})", org_since):
                 if tw.get("id"):
                     # 既知の主催者の投稿は「ポケカ」表記が無くても通す
                     tw["_trusted"] = True
