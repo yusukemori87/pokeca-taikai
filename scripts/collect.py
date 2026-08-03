@@ -62,6 +62,10 @@ ORG_MAX_HANDLES = int(os.environ.get("ORG_MAX_HANDLES", "40"))
 # 自動検出ぶんの追跡を何日かけて一巡させるか。1なら毎日全員、2なら隔日で半分ずつ。
 # 手動登録(seed)のキーマンはローテーションせず毎日必ず追跡する。
 ORG_ROTATE_DAYS = int(os.environ.get("ORG_ROTATE_DAYS", "2"))
+# まだ1件も大会が取れていないキーマンは、深く追いかける。
+# 自主大会の告知は1〜3ヶ月前に出ることがあり、通常の追跡窓では届かないため。
+DEEP_ORG_LOOKBACK_DAYS = int(os.environ.get("DEEP_ORG_LOOKBACK_DAYS", "120"))
+DEEP_ORG_PAGES = int(os.environ.get("DEEP_ORG_PAGES", "3"))
 
 # 解析ロジックのバージョン。ここを上げると、古いバージョンで解析された大会は
 # 次回の実行で自動的に取り直して再解析される。
@@ -919,8 +923,24 @@ def main() -> int:
         #     実測: 単体なら6大会取れるアカウントが、10人まとめると全体で4大会だった。
         # 主催者は投稿頻度が低く、毎日走らせるので1ページ(最新20件)で十分追える。
         org_since = datetime.now(JST) - timedelta(days=ORG_LOOKBACK_DAYS)
+        # 大会が1件も取れていないキーマンは、期間もページ数も広げて深く追う。
+        # 「登録したのに成果ゼロ」を放置しないための自己修復。
+        # 告知は1〜3ヶ月前に出ることがあり、通常の追跡窓(14日)では届かないため。
+        productive: set[str] = set()
+        try:
+            for e in json.loads(OUT_PATH.read_text("utf-8")).get("events", []):
+                for k in ("organizer_handle", "announced_by"):
+                    if e.get(k):
+                        productive.add(e[k])
+        except Exception:  # noqa: BLE001
+            pass
+        deep_since = datetime.now(JST) - timedelta(days=DEEP_ORG_LOOKBACK_DAYS)
+
         for h in handles:
-            for tw in search_twitter(f"from:{h}", org_since, pages=ORG_PAGES):
+            deep = h not in productive
+            since_h = deep_since if deep else org_since
+            pages_h = DEEP_ORG_PAGES if deep else ORG_PAGES
+            for tw in search_twitter(f"from:{h}", since_h, pages=pages_h):
                 if tw.get("id"):
                     # 既知の主催者の投稿は「ポケカ」表記が無くても通す
                     tw["_trusted"] = True
