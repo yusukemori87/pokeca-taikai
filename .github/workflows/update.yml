@@ -38,15 +38,14 @@ jobs:
           TWITTERAPI_IO_KEY: ${{ secrets.TWITTERAPI_IO_KEY }}
           # 毎日回すので、2回目以降は7日ぶんさかのぼれば十分（APIコストが1/6になる）。
           # 初回や取りこぼしを取り戻したい時は、手動実行のとき LOOKBACK_DAYS を大きくする。
-          LOOKBACK_DAYS: ${{ vars.LOOKBACK_DAYS || '45' }}
+          LOOKBACK_DAYS: ${{ vars.LOOKBACK_DAYS || '7' }}
           HORIZON_DAYS: "95"      # 何日先までの大会を載せるか（約3ヶ月）
           FOLLOW_ORGANIZERS: "1"  # キーマンの投稿も直接追う
-          MAX_PAGES_PER_QUERY: ${{ vars.MAX_PAGES_PER_QUERY || '8' }}
-          # ★一時設定: JSON-LDパーサーで全件を作り直すため、
-          #   Twitter検索を飛ばして（クレジット消費ゼロ）Tonamelから取り直す。
-          #   この再解析が終わったら 0 に戻すこと。
-          SKIP_TWITTER: ${{ vars.SKIP_TWITTER || '1' }}
-          FORCE_REFETCH: ${{ vars.FORCE_REFETCH || '1' }}
+          MAX_PAGES_PER_QUERY: ${{ vars.MAX_PAGES_PER_QUERY || '4' }}
+          # 検索を飛ばして未取得ぶんだけ再挑戦したいときは SKIP_TWITTER=1
+          SKIP_TWITTER: ${{ vars.SKIP_TWITTER || '0' }}
+          # 解析ロジックを直したあと、全件をTonamelから取り直したいときは FORCE_REFETCH=1
+          FORCE_REFETCH: ${{ vars.FORCE_REFETCH || '0' }}
         run: python scripts/collect.py
 
       - name: サイトを組み立てる
