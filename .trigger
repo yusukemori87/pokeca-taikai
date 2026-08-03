@@ -1,1 +1,1 @@
-run: DEEP sweep to recover 1-3 month old announcements
+run: first run of tonamel public listing collector (playwright)
