@@ -29,6 +29,9 @@ jobs:
           DIAG_SINCE: ${{ vars.DIAG_SINCE || '2026-04-01' }}
         run: python scripts/debug_search.py
 
+      - name: TonamelのAPIを探す
+        run: python scripts/debug_api.py
+
       - name: 結果をコミット
         run: |
           set -e
