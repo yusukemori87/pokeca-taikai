@@ -35,7 +35,16 @@ jobs:
           python-version: "3.11"
 
       - name: 依存パッケージを入れる
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Tonamelの公開大会を一覧から全件拾う
+        # JavaScript描画の一覧をヘッドレスブラウザで開いて回収する。
+        # Twitterのクレジットは使わない。ここが「公開分100%」の担保。
+        run: python scripts/collect_public.py
+        continue-on-error: true
 
       - name: Twitter から大会情報を集める
         env:
