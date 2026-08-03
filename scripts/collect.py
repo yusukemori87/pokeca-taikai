@@ -75,6 +75,10 @@ DEEP_ORG_PAGES = int(os.environ.get("DEEP_ORG_PAGES", "3"))
 # ★解析ロジックを変えたら必ずこの数字を上げること。
 PARSER_VERSION = 6
 
+# 収集の各経路がどれだけ成果を出したかの記録。
+# 「エラーは出ないのに何も取れていない」という沈黙の故障を検知するために残す。
+STATS: dict = {}
+
 # 検索クエリ。Twitter の検索演算子がそのまま使える。
 # 「tonamel の URL を含む」×「ポケカ語彙」の掛け算で、余計なゲームの大会を弾く。
 SEARCH_QUERIES = [
@@ -341,6 +345,7 @@ def search_twitter(query: str, since: datetime, pages: int | None = None) -> lis
             break
 
     log(f"  検索「{query[:36]}…」 → {len(tweets)}件")
+    STATS.setdefault("search_results", []).append({"q": query[:50], "n": len(tweets)})
     return tweets
 
 
@@ -1015,8 +1020,14 @@ def main() -> int:
             since_h = deep_since if deep else org_since
             pages_h = DEEP_ORG_PAGES if deep else ORG_PAGES
             tl = fetch_user_tweets(h, pages=pages_h)
-            if not tl:                      # 専用APIが駄目なら検索にフォールバック
+            if tl:
+                STATS["org_via_timeline"] = STATS.get("org_via_timeline", 0) + 1
+            else:
                 tl = search_twitter(f"from:{h}", since_h, pages=pages_h)
+                if tl:
+                    STATS["org_via_search"] = STATS.get("org_via_search", 0) + 1
+                else:
+                    STATS["org_no_result"] = STATS.get("org_no_result", 0) + 1
             for tw in tl:
                 if tw.get("id"):
                     # 既知の主催者の投稿は「ポケカ」表記が無くても通す
@@ -1024,6 +1035,9 @@ def main() -> int:
                     all_tweets[tw["id"]] = tw
 
     log(f"■ 重複除去後のツイート数: {len(all_tweets)}")
+    STATS["tweets_total"] = len(all_tweets)
+    STATS["tweets_from_organizers"] = sum(
+        1 for t in all_tweets.values() if t.get("_trusted"))
 
     # 大会ID → その大会を告知していたツイート（最も古いもの＝一次告知を採用）
     id_to_tweet: dict[str, dict] = {}
@@ -1168,6 +1182,10 @@ def main() -> int:
         ),
         "utf-8",
     )
+    STATS["events_total"] = len(upcoming)
+    (DATA_DIR / "collect_stats.json").write_text(
+        json.dumps(STATS, ensure_ascii=False, indent=2), "utf-8")
+
     log(f"■ 完了: {OUT_PATH} に {len(upcoming)}件 / キーマン{len(organizers)}人 を保存しました")
     log(f"   掲載期間: {today} 〜 {horizon}")
     log(f"   地域内訳: {', '.join(f'{k}{v}' for k, v in list(by_pref.items())[:12])}")

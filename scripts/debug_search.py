@@ -33,14 +33,7 @@ CHUNK10 = ("(from:deregmu_og OR from:deregmu_hobby OR from:tomoshibi_cup OR "
            "from:nanase_cup)")
 CHUNK3 = "(from:deregmu_og OR from:deregmu_hobby OR from:tomoshibi_cup)"
 
-QUERIES = [
-    "from:deregmu_og",          # 対照: 前回40件取れたアカウント
-    "from:consomme_pokeca",
-    "from:sakepokes",           # 小文字
-    "from:SakePokes",           # 元の表記
-    "from:moukahai",
-    "@consomme_pokeca",         # メンションとして検索
-]
+QUERIES = ["from:deregmu_og"]
 
 
 def search(q: str, since: str, pages: int = 2) -> list[dict]:
@@ -97,6 +90,28 @@ def main() -> int:
             time.sleep(5.5)
     else:
         report["twitter"]["_skipped"] = "TWITTERAPI_IO_KEY 未設定"
+
+    # ---- (A1) ユーザーのタイムラインを取る専用APIが使えるかを確認する。
+    if KEY:
+        for ep in ["https://api.twitterapi.io/twitter/user/last_tweets",
+                   "https://api.twitterapi.io/twitter/user/tweets",
+                   "https://api.twitterapi.io/twitter/user/timeline",
+                   "https://api.twitterapi.io/twitter/user_tweets"]:
+            for pname in ["userName", "username", "screen_name"]:
+                try:
+                    rr = requests.get(ep, params={pname: "deregmu_og"},
+                                      headers={"X-API-Key": KEY}, timeout=30)
+                    body = rr.text[:700]
+                    n = body.count('"id"')
+                    report.setdefault("timeline", []).append(
+                        {"ep": ep, "param": pname, "status": rr.status_code,
+                         "approx_items": n, "head": body[:350]})
+                    print(f"[timeline] {rr.status_code} {ep}?{pname}= -> ~{n}")
+                    if rr.status_code == 200 and n:
+                        break
+                except Exception as e:  # noqa: BLE001
+                    report.setdefault("timeline", []).append({"ep": ep, "error": str(e)[:100]})
+                time.sleep(5.5)
 
     # ---- (A2) ツイートIDから直接引く。from: が効かないのは
     #      アカウント名が変わっている可能性があるため、実際の userName を確認する。

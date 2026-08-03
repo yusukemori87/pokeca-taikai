@@ -113,6 +113,24 @@ def main() -> int:
             f"{len(silent)}人の登録キーマンから大会が1件も取れていません。"
             f"ハンドル違い、開催が先、または告知が別アカウントの可能性。", silent)
 
+    # --- 6.5 収集経路が静かに死んでいないか
+    #     from: 検索が突然すべて0件を返すようになった事故があった。
+    #     エラーにならないので、成果ゼロそのものを異常として検知する。
+    try:
+        st = json.loads((DATA / "collect_stats.json").read_text("utf-8"))
+        if st.get("search_results"):
+            zero = [x["q"] for x in st["search_results"] if x["n"] == 0]
+            if len(zero) == len(st["search_results"]):
+                add("error", "検索が全滅",
+                    "すべての検索クエリが0件です。API側の仕様変更や障害を疑ってください。")
+            elif zero:
+                add("info", "成果ゼロの検索", f"{len(zero)}本のクエリが0件でした。", zero)
+        if st.get("org_no_result") and not st.get("org_via_timeline"):
+            add("error", "主催者追跡が全滅",
+                f"{st['org_no_result']}アカウントすべてから投稿を取得できていません。")
+    except Exception:  # noqa: BLE001
+        pass
+
     # --- 7. 地域まるごとゼロ（取りこぼしの疑い）
     reg = Counter(P2R.get(e.get("prefecture") or "") for e in E)
     empty = [r for r in REGIONS if not reg.get(r)]
