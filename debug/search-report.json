@@ -1,19 +1,37 @@
 {
   "since": "2026-04-01",
   "twitter": {
-    "コンソメ": {
+    "from:deregmu_og": {
       "tweets": 0,
       "tonamel_ids": [],
       "samples": [],
       "error": null
     },
-    "もうか杯": {
+    "from:consomme_pokeca": {
+      "tweets": 0,
+      "tonamel_ids": [],
+      "samples": [],
+      "error": null
+    },
+    "from:sakepokes": {
       "tweets": 0,
       "tonamel_ids": [],
       "samples": [],
       "error": null
     },
     "from:SakePokes": {
+      "tweets": 0,
+      "tonamel_ids": [],
+      "samples": [],
+      "error": null
+    },
+    "from:moukahai": {
+      "tweets": 0,
+      "tonamel_ids": [],
+      "samples": [],
+      "error": null
+    },
+    "@consomme_pokeca": {
       "tweets": 0,
       "tonamel_ids": [],
       "samples": [],
@@ -43,11 +61,13 @@
   "by_id": [
     {
       "endpoint": "https://api.twitterapi.io/twitter/tweets",
-      "error": "name 'sess' is not defined"
+      "status": 200,
+      "body": "{\"tweets\":[{\"type\":\"tweet\",\"id\":\"2066430513003589767\",\"url\":\"https://x.com/consomme_pokeca/status/2066430513003589767\",\"twitterUrl\":\"https://twitter.com/consomme_pokeca/status/2066430513003589767\",\"text\":\"🎉エントリー開始🎉\\n\\n⭐️第9回　コンソメリーグ（愛知・トレカキャンプ大須店）\\n🔥個人戦　128人\\n📍トレカキャンプ大須店6階\\n🗓️7/11(土)　11:00-11:50受付\\n\\nなんと！優勝者に\\n\\n　🎁ポケモンカード6BOX🎁\\n　　🎁副賞盛りだくさん🎁\\n\\n初のトレカキャンプ開催で絶対に成功させたいので、皆さんのリポストのお力を貸してください💪\\n🎉エントリー開始🎉\\nhttps://t.co/ZOG2cPDrED\",\"source\":\"<a href=\\\"http://twitter.com\\\" rel=\\\"nofollow\\\">Twitter Web Client</a>\",\"retweetCount\":38,\"replyCount\":2,\"likeCount\":71,\"quoteCount\":14,\"viewCount\":60794,\"createdAt\":\"Mon Jun 15 08:00:01 +0000 2026\",\"lang\":\"ja\",\"bookmarkCount\":17,\"isReply\":false,\"inReplyToId\":\"\",\"conversationId\":\"2066430513003589767\",\"displayTextRange\":[0,126],\"inReplyToUserId\":\"\",\"inReplyToUsername\":\"\",\"isPinned\":false,\"author\":{\"type\":\"user\",\"userName\":\"consomme_pokeca\",\"url\":\"https://x.com/consomme_pokeca\",\"twitterUrl\":\"https://twitter.com/consomme_pokeca\",\"id\":\"1015564349983809537\",\"name\":\"キクチシュウマ 8/29コンソメリーグ東京\",\"isVerified\":false,\"isBlueVerified\":true,\"verifiedType\":null,\"profilePicture\":\"https://pbs.twimg.com/profile_images/1887808642583552000/EXPYmxhL_normal.jpg\",\"coverPicture\":\""
     },
     {
       "endpoint": "https://api.twitterapi.io/twitter/tweet",
-      "error": "name 'sess' is not defined"
+      "status": 404,
+      "body": "{\"detail\":\"Not Found\"}"
     }
   ],
   "organizer_url_count": 87
