@@ -2,85 +2,21 @@
   "since": "2026-04-01",
   "twitter": {
     "from:deregmu_og": {
-      "tweets": 40,
-      "tonamel_ids": [
-        "1AE2Y",
-        "6Nprh",
-        "UWfod",
-        "cNJkw",
-        "g7mLa",
-        "xAfVK"
-      ],
-      "samples": [
-        {
-          "at": "Mon Aug 03 13:09:40 +0000 2026",
-          "by": "deregmu_og",
-          "text": "本日のBOX争奪戦(22名)全勝者は🏆やまさんです！\n\nおめでとうございます！🎉\n\nデッキ：タケルライコex\nコメント：うれしいです！\n\n次回は8月7日（金）おもちゃのバンビにて行います！\n\nカエル君が帰ってきたら討伐戦を行います https://t.co/75egFfBsfj"
-        },
-        {
-          "at": "Mon Aug 03 09:34:32 +0000 2026",
-          "by": "deregmu_og",
-          "text": "さあ今宵は誰が優勝するのか！？\n\nメガレックウザは活躍するのか！？\n\nそれはあなた次第🤫"
-        },
-        {
-          "at": "Mon Aug 03 01:21:36 +0000 2026",
-          "by": "deregmu_og",
-          "text": "27日は初心者から強者まで多くの人たちに楽しんでもらうためにチーム戦ではなくスクランブルバトル形式のイベントに変更となる予定です🙇‍♂️\n\nチーム戦楽しみにしていた方々申し訳ありません🙇‍♂️\n\n一日中楽しめるイベントですのでよろしくお願いします！"
-        }
-      ],
+      "tweets": 0,
+      "tonamel_ids": [],
+      "samples": [],
       "error": null
     },
     "(from:deregmu_og OR from:deregmu_hobby OR from:tomoshibi_cup)": {
-      "tweets": 40,
-      "tonamel_ids": [
-        "UWfod",
-        "cNJkw",
-        "g7mLa"
-      ],
-      "samples": [
-        {
-          "at": "Mon Aug 03 13:39:36 +0000 2026",
-          "by": "deregmu_hobby",
-          "text": "チーム戦を楽しみにしていたという声を多数いただいたので何とかできるように調整してみたいと思います🤔"
-        },
-        {
-          "at": "Mon Aug 03 13:09:40 +0000 2026",
-          "by": "deregmu_og",
-          "text": "本日のBOX争奪戦(22名)全勝者は🏆やまさんです！\n\nおめでとうございます！🎉\n\nデッキ：タケルライコex\nコメント：うれしいです！\n\n次回は8月7日（金）おもちゃのバンビにて行います！\n\nカエル君が帰ってきたら討伐戦を行います https://t.co/75egFfBsfj"
-        },
-        {
-          "at": "Mon Aug 03 09:34:32 +0000 2026",
-          "by": "deregmu_og",
-          "text": "さあ今宵は誰が優勝するのか！？\n\nメガレックウザは活躍するのか！？\n\nそれはあなた次第🤫"
-        }
-      ],
+      "tweets": 0,
+      "tonamel_ids": [],
+      "samples": [],
       "error": null
     },
     "(from:deregmu_og OR from:deregmu_hobby OR from:tomoshibi_cup OR from:ISHIKAWAPOKECA OR from:kajipoke OR from:koshigym0428 OR from:Toreca_connect OR from:ohara_las_0123 OR from:kayu_key_gx OR from:nanase_cup)": {
-      "tweets": 40,
-      "tonamel_ids": [
-        "2FCfq",
-        "Rml5j",
-        "g7mLa",
-        "z9vh9"
-      ],
-      "samples": [
-        {
-          "at": "Mon Aug 03 16:42:03 +0000 2026",
-          "by": "kayu_key_gx",
-          "text": "@ano_PK0328 8月の次のイメージでした！\n第五回は是非！！"
-        },
-        {
-          "at": "Mon Aug 03 15:47:33 +0000 2026",
-          "by": "kajipoke",
-          "text": "@torecagrandslam クワッス\nリキキリン\nイダイトウ\n\n画伯古参勢の1人として己の直感を信じます"
-        },
-        {
-          "at": "Mon Aug 03 13:39:36 +0000 2026",
-          "by": "deregmu_hobby",
-          "text": "チーム戦を楽しみにしていたという声を多数いただいたので何とかできるように調整してみたいと思います🤔"
-        }
-      ],
+      "tweets": 0,
+      "tonamel_ids": [],
+      "samples": [],
       "error": null
     }
   },
