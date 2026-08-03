@@ -42,9 +42,11 @@ jobs:
           HORIZON_DAYS: "95"      # 何日先までの大会を載せるか（約3ヶ月）
           FOLLOW_ORGANIZERS: "1"  # キーマンの投稿も直接追う
           MAX_PAGES_PER_QUERY: ${{ vars.MAX_PAGES_PER_QUERY || '8' }}
-          SKIP_TWITTER: ${{ vars.SKIP_TWITTER || '0' }}
-          # 解析ロジックを直したあと、Tonamelから取り直して全件を作り直したいとき用
-          FORCE_REFETCH: ${{ vars.FORCE_REFETCH || '0' }}
+          # ★一時設定: JSON-LDパーサーで全件を作り直すため、
+          #   Twitter検索を飛ばして（クレジット消費ゼロ）Tonamelから取り直す。
+          #   この再解析が終わったら 0 に戻すこと。
+          SKIP_TWITTER: ${{ vars.SKIP_TWITTER || '1' }}
+          FORCE_REFETCH: ${{ vars.FORCE_REFETCH || '1' }}
         run: python scripts/collect.py
 
       - name: サイトを組み立てる

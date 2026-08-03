@@ -1,1 +1,1 @@
-run: reparse-all with json-ld parser (FORCE_REFETCH)
+run: reparse-all via json-ld (SKIP_TWITTER=1, FORCE_REFETCH=1)
