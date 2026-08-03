@@ -18,6 +18,7 @@ Tonamel の大会ページ本体から日時・会場・参加費・定員・景
 
 from __future__ import annotations
 
+import html as html_lib
 import json
 import os
 import re
@@ -429,7 +430,11 @@ def _from_jsonld(ld: dict) -> dict:
     if ld.get("name"):
         out["title"] = str(ld["name"]).strip()
     if ld.get("description"):
-        out["description"] = str(ld["description"])
+        # 説明文は "&amp;gt;" のように二重エスケープされていることがあるので戻す
+        desc = str(ld["description"])
+        for _ in range(2):
+            desc = html_lib.unescape(desc)
+        out["description"] = desc
 
     return out
 
@@ -612,6 +617,10 @@ def parse_prize(text: str) -> str | None:
     m = re.search(r"(?:🥇|1️⃣|優勝|1位|１位)[\s:：]*(.{2,70})", t)
     if m:
         v = _clip(re.split(NEXT_RANK_RE, m.group(1), maxsplit=1)[0], 46)
+        # 「> (変更の可能性あり)・メインイベント優勝:」のような前置きを落とす
+        v = re.sub(r"^[>＞\s]+", "", v)
+        v = re.sub(r"^\([^)]{0,20}(変更|増加)[^)]{0,20}\)[・\s]*", "", v)
+        v = re.sub(r"^(?:メイン(?:イベント)?)?優勝[:：]?\s*", "", v)
         if (v and re.search(r"(BOX|ＢＯＸ|パック|プレイマット|スリーブ|券|カード|円|ギフト|グッズ|プロモ)", v)
                 and not re.match(r"^[はがのをにでとも、。)）\]】]", v)
                 and not re.search(r"(ございません|ありません|なし|無し)", v)):

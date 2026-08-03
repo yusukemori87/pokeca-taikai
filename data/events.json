@@ -153,7 +153,7 @@
       "date": "2026-08-05",
       "start_time": "17:30",
       "prefecture": "東京都",
-      "venue": "D-Cent game&amp;card/ディセントゲーム",
+      "venue": "D-Cent game&card/ディセントゲーム",
       "address": "東京都新宿区舟町7-43MSビル２階",
       "online": false,
       "fee": "1,000円",
@@ -572,11 +572,19 @@
       "online": false,
       "fee": "6,000円",
       "capacity": 32,
+<<<<<<< HEAD
       "prize": "&amp;gt; (変更・増加の可能性あり)・メインイベント優勝:ポケモンカード9BOX、…",
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/DCR65",
       "summary": "チームで力を合わせて優勝を目指せ！＜注意事項＞以下の方は参加をお断りさせていただきます。過去カードゲームのイベント（ジャンル問わず）で迷惑行為、イカサマなどをおこなっていた方※噂が多い方も対象です。大会中に発覚した場合は途中でもご退出していただく場合があります。参加者のみんなさんが楽しくプレイできる措置ですのでご了承ください。&amp;lt;大会概要&amp;gt;日時：8月8日（土）13:00〜",
+=======
+      "prize": "優勝：ポケモンカード9BOX、…",
+      "format": "スタンダード",
+      "kind": "自主大会",
+      "organizer_url": "https://tonamel.com/organization/DCR65",
+      "summary": "チームで力を合わせて優勝を目指せ！＜注意事項＞以下の方は参加をお断りさせていただきます。過去カードゲームのイベント（ジャンル問わず）で迷惑行為、イカサマなどをおこなっていた方※噂が多い方も対象です。大会中に発覚した場合は途中でもご退出していただく場合があります。参加者のみんなさんが楽しくプレイできる措置ですのでご了承ください。<大会概要>日時：8月8日（土）13:00〜",
+>>>>>>> 6c03d89 (取りこぼし修正の仕上げ)
       "source_tweet_url": "https://x.com/deregmu_og/status/2083401549221699758",
       "organizer_handle": "deregmu_og",
       "organizer_name": "ディレグム",
@@ -944,7 +952,7 @@
       "format": "スタンダード",
       "kind": "ショップ主催",
       "organizer_url": "https://tonamel.com/organization/Ol3QO",
-      "summary": "TRADING CARD SHOP OTOです。今回は「ピカチュウVMAXプロモ争奪戦」を開催いたします。色んな方に当店を知ってもらう機会になれば嬉しいです。初めての方も是非お気軽にご参加下さい。【大会概要】日時 2026年8月9日(日) 13:00〜16:00予定 13:00〜13:30受付場所 TRADING CARD SHOP OTO 〒779-0312&amp;nbsp;&amp;nbsp",
+      "summary": "TRADING CARD SHOP OTOです。今回は「ピカチュウVMAXプロモ争奪戦」を開催いたします。色んな方に当店を知ってもらう機会になれば嬉しいです。初めての方も是非お気軽にご参加下さい。【大会概要】日時 2026年8月9日(日) 13:00〜16:00予定 13:00〜13:30受付場所 TRADING CARD SHOP OTO 〒779-0312  ",
       "source_tweet_url": "https://x.com/PokecashopOTO/status/2083482221399482389",
       "organizer_handle": "PokecashopOTO",
       "organizer_name": "TRADING CARD SHOP OTO",
@@ -1883,7 +1891,11 @@
       "online": false,
       "fee": "2,000円",
       "capacity": 64,
+<<<<<<< HEAD
       "prize": "優勝：優勝 ポケカ拡張パック3BOX",
+=======
+      "prize": "優勝：ポケカ拡張パック3BOX",
+>>>>>>> 6c03d89 (取りこぼし修正の仕上げ)
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/kNmA5",
@@ -2508,7 +2520,11 @@
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/rH7zt",
+<<<<<<< HEAD
       "summary": "⭐︎景品提供トーナメントセンターバトロコ高田馬場→https://x.com/batolocobaba?s=21&amp;amp;t=VSw2R_sK5v3KBgreMZ_pGg⭐︎対戦形式スイスドロー6回戦 → 16人決勝※上位4名はデッキの写真を撮らせてください⭐︎開催場所→&amp;nbsp;トーナメントセンターバトロコ高田馬場・交通アクセス高田馬場駅 早稲田口 徒歩３分⭐︎大会スケジュール",
+=======
+      "summary": "⭐︎景品提供トーナメントセンターバトロコ高田馬場→https://x.com/batolocobaba?s=21&t=VSw2R_sK5v3KBgreMZ_pGg⭐︎対戦形式スイスドロー6回戦 → 16人決勝※上位4名はデッキの写真を撮らせてください⭐︎開催場所→ トーナメントセンターバトロコ高田馬場・交通アクセス高田馬場駅 早稲田口 徒歩３分⭐︎大会スケジュール",
+>>>>>>> 6c03d89 (取りこぼし修正の仕上げ)
       "source_tweet_url": "https://x.com/pokekameshi/status/2082742995619869025",
       "organizer_handle": "pokekameshi",
       "organizer_name": "ムキ塾",

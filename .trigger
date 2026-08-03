@@ -1,1 +1,1 @@
-run: per-organizer follow catch-up (ORG_PAGES=3, 60days)
+run: deploy after cleanup (daily settings)
