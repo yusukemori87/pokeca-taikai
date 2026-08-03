@@ -52,7 +52,10 @@ MAX_PAGES_PER_QUERY = int(os.environ.get("MAX_PAGES_PER_QUERY", "8"))
 # キーマン(主催者)アカウントを from: 検索で追いかけるか
 FOLLOW_ORGANIZERS = os.environ.get("FOLLOW_ORGANIZERS", "1") == "1"
 # キーマン追跡は投稿数が少なく費用対効果が高いので、キーワード検索より長くさかのぼる
-ORG_LOOKBACK_DAYS = int(os.environ.get("ORG_LOOKBACK_DAYS", "60"))
+ORG_LOOKBACK_DAYS = int(os.environ.get("ORG_LOOKBACK_DAYS", "14"))
+# 主催者1人あたり何ページ取るか。毎日走らせるなら1(最新20件)で足りる。
+# 初回の取り戻しだけ 3 などに上げる。
+ORG_PAGES = int(os.environ.get("ORG_PAGES", "1"))
 
 # 検索クエリ。Twitter の検索演算子がそのまま使える。
 # 「tonamel の URL を含む」×「ポケカ語彙」の掛け算で、余計なゲームの大会を弾く。
@@ -233,7 +236,7 @@ def api_get(params: dict) -> dict | None:
     return None
 
 
-def search_twitter(query: str, since: datetime) -> list[dict]:
+def search_twitter(query: str, since: datetime, pages: int | None = None) -> list[dict]:
     """twitterapi.io の advanced search を叩いてツイートを集める。"""
     if not API_KEY:
         raise RuntimeError(
@@ -245,7 +248,7 @@ def search_twitter(query: str, since: datetime) -> list[dict]:
     tweets: list[dict] = []
     cursor = ""
 
-    for page in range(MAX_PAGES_PER_QUERY):
+    for page in range(pages or MAX_PAGES_PER_QUERY):
         params = {"query": full_query, "queryType": "Latest"}
         if cursor:
             params["cursor"] = cursor
@@ -277,18 +280,24 @@ def expand_tco(url: str) -> str:
 
 
 def extract_tonamel_ids(tweet: dict) -> set[str]:
-    """ツイート本文・entities から Tonamel の大会IDを抜き出す。"""
+    """
+    ツイートから Tonamel の大会IDを抜き出す。
+
+    APIが返すJSONのどこにURLが入るかは仕様変更で変わりうる（text / entities.urls /
+    extendedEntities / note_tweet など）。決め打ちで掘ると取りこぼすので、
+    ツイートのJSON全体を文字列にして探す。多少雑だが、これが一番取りこぼさない。
+    """
     ids: set[str] = set()
-    blob = tweet.get("text") or ""
-
-    # entities に展開済みURLが入っていればそちらを優先（t.co を叩かずに済む）
-    entities = tweet.get("entities") or {}
-    for u in entities.get("urls") or []:
-        for key in ("expanded_url", "unwound_url", "url"):
-            if u.get(key):
-                blob += " " + u[key]
-
-    ids.update(TONAMEL_RE.findall(blob))
+    try:
+        blob = json.dumps(tweet, ensure_ascii=False)
+    except Exception:  # noqa: BLE001
+        blob = str(tweet)
+    # JSON内では "/" が "\/" とエスケープされることがあるので両方を許す
+    ids.update(
+        i for i in re.findall(
+            r"tonamel\.com\\?/competition\\?/([A-Za-z0-9_-]{5,12})", blob
+        )
+    )
 
     # まだ見つからず t.co が残っているなら展開してみる
     if not ids:
@@ -832,15 +841,16 @@ def main() -> int:
                 pass
         handles = list(dict.fromkeys(h for h in handles if h))   # 重複除去・順序維持
         log(f"■ キーマン {len(handles)}アカウントの投稿を追跡します")
-        # ★重要★ ここに "tonamel.com" を足してはいけない。
-        # ツイート本文のリンクは t.co に短縮されているため、本文に "tonamel.com" という
-        # 文字列は存在せず、AND条件にすると結果がほぼゼロになる（実際それで
-        # ディレグムさん等の大会を丸ごと取りこぼしていた）。
-        # 主催者アカウントは投稿数が少ないので、まるごと取って後からURLを抽出する。
+        # ★重要★ ここは1アカウントずつ投げる。理由は2つ。
+        #  1) "tonamel.com" をAND条件に足すと結果がほぼゼロになる。
+        #     本文のリンクは t.co に短縮されていて、本文に "tonamel.com" は存在しない。
+        #  2) (from:A OR from:B ...) とまとめると、1クエリの取得枠(20件/ページ)を
+        #     全員で分け合うことになり、投稿の多い人に埋もれて他の人が取れない。
+        #     実測: 単体なら6大会取れるアカウントが、10人まとめると全体で4大会だった。
+        # 主催者は投稿頻度が低く、毎日走らせるので1ページ(最新20件)で十分追える。
         org_since = datetime.now(JST) - timedelta(days=ORG_LOOKBACK_DAYS)
-        for i in range(0, len(handles), 10):
-            chunk = " OR ".join(f"from:{h}" for h in handles[i:i + 10])
-            for tw in search_twitter(f"({chunk})", org_since):
+        for h in handles:
+            for tw in search_twitter(f"from:{h}", org_since, pages=ORG_PAGES):
                 if tw.get("id"):
                     # 既知の主催者の投稿は「ポケカ」表記が無くても通す
                     tw["_trusted"] = True

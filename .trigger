@@ -1,1 +1,1 @@
-run: fix organizer-follow query (was ANDing tonamel.com against t.co links)
+run: per-organizer follow catch-up (ORG_PAGES=3, 60days)
