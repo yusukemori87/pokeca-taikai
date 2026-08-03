@@ -1,4 +1,7 @@
 {
+  "queryType": null,
+  "raw_error": null,
+  "all_type_names": [],
   "root_fields": [],
   "candidates": [],
   "types": {}

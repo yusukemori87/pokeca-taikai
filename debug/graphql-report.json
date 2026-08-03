@@ -16,15 +16,15 @@
       "keys": [
         "data"
       ],
-      "data_head": "{\"__schema\": {\"types\": [{\"kind\": \"OBJECT\", \"name\": \"AnnounceCard\", \"fields\": [{\"name\": \"content\", \"args\": []}, {\"args\": [], \"name\": \"createdAt\"}, {\"name\": \"id\", \"args\": []}]}, {\"kind\": \"OBJECT\", \"name\": \"AnnounceCardConnection\", \"fields\": [{\"args\": [], \"name\": \"edges\"}, {\"name\": \"pageInfo\", \"args\": []}]}, {\"fields\": [{\"args\": [], \"name\": \"cursor\"}, {\"args\": [], \"name\": \"node\"}], \"name\": \"AnnounceC"
+      "data_head": "{\"__schema\": {\"queryType\": {\"name\": \"PlayerQuery\"}, \"types\": [{\"fields\": [{\"args\": [], \"name\": \"content\"}, {\"args\": [], \"name\": \"createdAt\"}, {\"args\": [], \"name\": \"id\"}], \"name\": \"AnnounceCard\", \"kind\": \"OBJECT\"}, {\"name\": \"AnnounceCardConnection\", \"kind\": \"OBJECT\", \"fields\": [{\"args\": [], \"name\": \"edges\"}, {\"name\": \"pageInfo\", \"args\": []}]}, {\"fields\": [{\"args\": [], \"name\": \"cursor\"}, {\"args\": []"
     },
     {
       "ep": "/graphql/competition/",
       "status": 200,
       "bytes": 135,
       "keys": [
-        "errors",
-        "data"
+        "data",
+        "errors"
       ],
       "errors": [
         "指定されたイベントはありません。"
@@ -47,8 +47,8 @@
       "status": 200,
       "bytes": 135,
       "keys": [
-        "errors",
-        "data"
+        "data",
+        "errors"
       ],
       "errors": [
         "指定されたイベントはありません。"
@@ -95,7 +95,7 @@
   ],
   "csrf": {
     "status": 200,
-    "head": "{\"csrf_token\":\"A988098C-8F74-11F1-B1D3-B0C3EB9C7480\"}",
+    "head": "{\"csrf_token\":\"24D718F0-8F78-11F1-8221-B0C3EB9C7480\"}",
     "captured": true
   }
 }
