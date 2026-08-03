@@ -125,6 +125,11 @@
   .fact.shop{color:var(--tx-dim)}
   .orgbtn{font:inherit; font-size:12px; cursor:pointer; background:none; border:none; padding:0; color:var(--tx-dim); text-decoration:underline; text-underline-offset:2px}
   .orgbtn:hover{color:var(--accent)}
+  .dlabel{font-size:12.5px; color:var(--tx-mid); display:inline-flex; align-items:center; gap:6px}
+  input[type=date]{font:inherit; font-size:13px; color:var(--tx); background:var(--card);
+    border:1px solid var(--line); border-radius:9px; padding:6px 9px; min-height:34px}
+  input[type=date]:focus{border-color:var(--accent); box-shadow:0 0 0 3px var(--accent-soft); outline:none}
+  .dsep{color:var(--tx-dim); font-size:13px}
   .orgpill{font-size:12.5px; color:var(--tx-mid); background:var(--accent-soft); padding:5px 6px 5px 12px; border-radius:999px; display:inline-flex; align-items:center; gap:8px}
   .orgpill b{color:var(--accent)}
   .orgclear{cursor:pointer; border:none; background:transparent; color:var(--tx-mid); font-size:15px; line-height:1; padding:2px 8px}
@@ -187,9 +192,16 @@
       <button class="chip" id="c-all"  aria-pressed="true"  data-range="all">すべて</button>
       <button class="chip" id="c-week" aria-pressed="false" data-range="weekend">今週末</button>
       <button class="chip" id="c-14"   aria-pressed="false" data-range="14">2週間以内</button>
+      <button class="chip" id="c-custom" aria-pressed="false" data-range="custom">期間を指定</button>
       <button class="chip" id="c-jishu" aria-pressed="false" data-toggle="jishuOnly">自主大会のみ</button>
       <button class="chip" id="c-prize" aria-pressed="false" data-toggle="prize">景品あり</button>
       <span class="count" id="count"></span>
+    </div>
+    <div class="frow" id="dateRangeRow" hidden>
+      <label class="dlabel">期間 <input type="date" id="dFrom" aria-label="開始日"></label>
+      <span class="dsep">〜</span>
+      <label class="dlabel"><input type="date" id="dTo" aria-label="終了日"></label>
+      <button class="chip" id="dClear">クリア</button>
     </div>
     <div class="frow" id="orgFilterRow" hidden>
       <span class="orgpill">主催で絞り込み中：<b id="orgFilterName"></b>
@@ -226,7 +238,7 @@ const REGIONS = {
 const WD = ["日","月","火","水","木","金","土"];
 const events = (DATA.events || []).slice();
 const organizers = (DATA.organizers || []).slice();
-const state = {q:"", pref:"", fmt:"", range:"all", jishuOnly:false, prize:false, org:null, region:""};
+const state = {q:"", pref:"", fmt:"", range:"all", jishuOnly:false, prize:false, org:null, region:"", from:"", to:""};
 
 const PREF_REGION = {};
 for (const [r, ps] of Object.entries(REGIONS)) for (const p of ps) PREF_REGION[p] = r;
@@ -310,8 +322,32 @@ for (const e of events){
   document.querySelectorAll(".chip[data-range]").forEach(b => b.addEventListener("click", () => {
     state.range = b.dataset.range;
     document.querySelectorAll(".chip[data-range]").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    document.getElementById("dateRangeRow").hidden = (state.range !== "custom");
     render();
   }));
+
+  // 期間指定。開催日の範囲を初期値に入れておくと選びやすい
+  const dates = events.map(e => e.date).filter(Boolean).sort();
+  const dFrom = document.getElementById("dFrom"), dTo = document.getElementById("dTo");
+  if (dates.length){
+    dFrom.min = dTo.min = dates[0];
+    dFrom.max = dTo.max = dates[dates.length - 1];
+  }
+  const onDate = () => {
+    state.from = dFrom.value || "";
+    state.to   = dTo.value   || "";
+    if ((state.from || state.to) && state.range !== "custom"){
+      state.range = "custom";
+      document.querySelectorAll(".chip[data-range]").forEach(x =>
+        x.setAttribute("aria-pressed", String(x.dataset.range === "custom")));
+    }
+    render();
+  };
+  dFrom.addEventListener("change", onDate);
+  dTo.addEventListener("change", onDate);
+  document.getElementById("dClear").addEventListener("click", () => {
+    dFrom.value = dTo.value = ""; state.from = state.to = ""; render();
+  });
   document.querySelectorAll(".chip[data-toggle]").forEach(b => b.addEventListener("click", () => {
     const k = b.dataset.toggle; state[k] = !state[k];
     b.setAttribute("aria-pressed", String(state[k]));
@@ -367,6 +403,10 @@ function matches(e){
   if (state.jishuOnly && e.kind && e.kind !== "自主大会") return false;
   if (state.prize && !e.prize) return false;
   if (state.range === "14" && (!e.date || e.date > addDays(14))) return false;
+  if (state.range === "custom"){
+    if (state.from && (!e.date || e.date < state.from)) return false;
+    if (state.to   && (!e.date || e.date > state.to))   return false;
+  }
   if (state.range === "weekend"){
     const [sat, sun] = nextWeekend();
     if (!e.date || (e.date !== sat && e.date !== sun)) return false;
