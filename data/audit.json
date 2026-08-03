@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-08-04T05:12:40.032211+09:00",
+  "events": 123,
+  "organizers": 24,
+  "by_region": {
+    "北海道・東北": 1,
+    "関東": 57,
+    "甲信越": 0,
+    "北陸": 5,
+    "東海": 10,
+    "近畿": 23,
+    "中国": 6,
+    "四国": 1,
+    "九州・沖縄": 8
+  },
+  "findings": [
+    {
+      "level": "warn",
+      "kind": "地域未判定",
+      "message": "4件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
+      "ids": [
+        "99O64",
+        "qN5VB",
+        "vjZaF",
+        "0ECrI"
+      ],
+      "count": 4
+    },
+    {
+      "level": "error",
+      "kind": "オンライン誤判定",
+      "message": "2件が、会場に県名があるのにオンライン扱いになっています。",
+      "ids": [
+        "NLgfA",
+        "WrDaX"
+      ],
+      "count": 2
+    },
+    {
+      "level": "warn",
+      "kind": "取得に失敗し続けている",
+      "message": "8件がTonamelから取得できないまま残っています。削除済み・IDの誤抽出・アクセス制限のいずれかです。",
+      "ids": [
+        "uCRGe",
+        "XCtZO",
+        "ayNAn",
+        "5t",
+        "Vt",
+        "IH",
+        "dL",
+        "xU"
+      ],
+      "count": 8
+    },
+    {
+      "level": "info",
+      "kind": "登録キーマンの成果ゼロ",
+      "message": "12人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
+      "ids": [
+        "tomoshibi_cup",
+        "kajipoke",
+        "koshigym0428",
+        "nanase_cup",
+        "miracle_twin",
+        "hokkaidoPTCG",
+        "torepoinfo",
+        "OP01_soda",
+        "nrissgn913",
+        "team__wassyoi",
+        "SakePokes",
+        "moukahai"
+      ],
+      "count": 12
+    },
+    {
+      "level": "warn",
+      "kind": "地域まるごとゼロ",
+      "message": "甲信越 の大会が0件です。実際に無いのか、取りこぼしかを確認してください。",
+      "ids": [],
+      "count": 0
+    }
+  ]
+}

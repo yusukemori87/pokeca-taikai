@@ -44,12 +44,17 @@ jobs:
           # 主催者追跡の深さ。毎日走らせるので最新20件で足りる（取り戻したいときだけ増やす）
           ORG_LOOKBACK_DAYS: ${{ vars.ORG_LOOKBACK_DAYS || '14' }}
           ORG_PAGES: ${{ vars.ORG_PAGES || '1' }}
+          ORG_MAX_HANDLES: ${{ vars.ORG_MAX_HANDLES || '40' }}
+          ORG_ROTATE_DAYS: ${{ vars.ORG_ROTATE_DAYS || '2' }}
           MAX_PAGES_PER_QUERY: ${{ vars.MAX_PAGES_PER_QUERY || '4' }}
           # 検索を飛ばして未取得ぶんだけ再挑戦したいときは SKIP_TWITTER=1
           SKIP_TWITTER: ${{ vars.SKIP_TWITTER || '0' }}
           # 解析ロジックを直したあと、全件をTonamelから取り直したいときは FORCE_REFETCH=1
           FORCE_REFETCH: ${{ vars.FORCE_REFETCH || '0' }}
         run: python scripts/collect.py
+
+      - name: 収集結果を自己点検する
+        run: python scripts/audit.py
 
       - name: サイトを組み立てる
         run: python scripts/build_site.py
@@ -65,7 +70,7 @@ jobs:
           # 収集中に他のコミットが main に入っていても、リモートの最新に生成物を
           # 上書きし直して push するので、コンフリクトで結果を失うことがない。
           mkdir -p /tmp/out
-          for f in data/events.json data/pending.json docs/index.html; do
+          for f in data/events.json data/pending.json data/audit.json docs/index.html; do
             [ -f "$f" ] && cp "$f" "/tmp/out/$(basename "$f")"
           done
 
@@ -75,9 +80,10 @@ jobs:
 
             [ -f /tmp/out/events.json ]  && cp /tmp/out/events.json  data/events.json
             [ -f /tmp/out/pending.json ] && cp /tmp/out/pending.json data/pending.json
+            [ -f /tmp/out/audit.json ]   && cp /tmp/out/audit.json   data/audit.json
             [ -f /tmp/out/index.html ]   && cp /tmp/out/index.html   docs/index.html
 
-            git add data/events.json data/pending.json docs/index.html 2>/dev/null || true
+            git add data/events.json data/pending.json data/audit.json docs/index.html 2>/dev/null || true
             if git diff --staged --quiet; then
               echo "変更なし。コミットをスキップします。"
               exit 0

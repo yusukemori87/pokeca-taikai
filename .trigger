@@ -1,1 +1,1 @@
-run: deploy after cleanup (daily settings)
+run: region split + new keymen + self-audit + parser v3 reparse

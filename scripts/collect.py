@@ -57,6 +57,17 @@ ORG_LOOKBACK_DAYS = int(os.environ.get("ORG_LOOKBACK_DAYS", "14"))
 # 主催者1人あたり何ページ取るか。毎日走らせるなら1(最新20件)で足りる。
 # 初回の取り戻しだけ 3 などに上げる。
 ORG_PAGES = int(os.environ.get("ORG_PAGES", "1"))
+# 追跡するアカウント数の上限。1人1回のAPI呼び出しなので、そのままコストになる。
+ORG_MAX_HANDLES = int(os.environ.get("ORG_MAX_HANDLES", "40"))
+# 自動検出ぶんの追跡を何日かけて一巡させるか。1なら毎日全員、2なら隔日で半分ずつ。
+# 手動登録(seed)のキーマンはローテーションせず毎日必ず追跡する。
+ORG_ROTATE_DAYS = int(os.environ.get("ORG_ROTATE_DAYS", "2"))
+
+# 解析ロジックのバージョン。ここを上げると、古いバージョンで解析された大会は
+# 次回の実行で自動的に取り直して再解析される。
+# 「解析を直したのに、既に取得済みの大会には反映されない」という事故を防ぐための仕組み。
+# ★解析ロジックを変えたら必ずこの数字を上げること。
+PARSER_VERSION = 3
 
 # 検索クエリ。Twitter の検索演算子がそのまま使える。
 # 「tonamel の URL を含む」×「ポケカ語彙」の掛け算で、余計なゲームの大会を弾く。
@@ -693,8 +704,13 @@ def build_event(comp_id: str, html: str, url: str, tweet: dict) -> dict:
     time_str = ld.get("start_time") or time_str
     venue = ld.get("venue") or venue
     pref = ld.get("prefecture") or pref
+    # オンライン判定は「会場の都道府県が取れなかったとき」だけ採用する。
+    # 説明文に「オンライン対戦の練習に」等が混ざるだけでオンライン扱いされ、
+    # 実在の会場(福井県)がオンラインに化けた事故があったため。
     is_online = ld.get("online", is_online)
-    if is_online and not ld.get("prefecture"):
+    if pref and pref != "オンライン":
+        is_online = bool(ld.get("online"))     # JSON-LDが明示している場合のみ信用
+    if is_online and not pref:
         pref = "オンライン"
 
     author = (tweet.get("author") or {})
@@ -718,8 +734,12 @@ def build_event(comp_id: str, html: str, url: str, tweet: dict) -> dict:
         "organizer_url": ld.get("organizer_url"),
         "summary": re.sub(r"\s+", " ", desc or body)[:200].strip(),
         "source_tweet_url": tweet.get("url"),
-        "organizer_handle": author.get("userName"),
+        # organizer_name は Tonamel(JSON-LD)の主催者。これが正。
+        # ツイート主は「そのURLを流した人」でしかなく、主催者とは限らないので分ける。
+        "organizer_handle": author.get("userName") if not ld.get("organizer_name") else None,
+        "announced_by": author.get("userName"),
         "organizer_name": org_name,
+        "pv": PARSER_VERSION,
         "tweeted_at": posted_at.isoformat(),
         "collected_at": datetime.now(JST).isoformat(),
     }
@@ -728,12 +748,17 @@ def build_event(comp_id: str, html: str, url: str, tweet: dict) -> dict:
 # ---------------------------------------------------------------- メイン
 
 PREF_TO_REGION = {}
+# 地域区分は「探す人の感覚」に合わせて細かめにする。
+# 中部だと広すぎて（富山と静岡が同じ枠）実用にならないので、甲信越/北陸/東海に割る。
 for _region, _prefs in {
     "北海道・東北": ["北海道", "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県"],
     "関東": ["茨城県", "栃木県", "群馬県", "埼玉県", "千葉県", "東京都", "神奈川県"],
-    "中部": ["新潟県", "富山県", "石川県", "福井県", "山梨県", "長野県", "岐阜県", "静岡県", "愛知県"],
-    "近畿": ["三重県", "滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県"],
-    "中国・四国": ["鳥取県", "島根県", "岡山県", "広島県", "山口県", "徳島県", "香川県", "愛媛県", "高知県"],
+    "甲信越": ["新潟県", "山梨県", "長野県"],
+    "北陸": ["富山県", "石川県", "福井県"],
+    "東海": ["岐阜県", "静岡県", "愛知県", "三重県"],
+    "近畿": ["滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県"],
+    "中国": ["鳥取県", "島根県", "岡山県", "広島県", "山口県"],
+    "四国": ["徳島県", "香川県", "愛媛県", "高知県"],
     "九州・沖縄": ["福岡県", "佐賀県", "長崎県", "熊本県", "大分県", "宮崎県", "鹿児島県", "沖縄県"],
 }.items():
     for _p in _prefs:
@@ -762,7 +787,9 @@ def build_organizers(events: list[dict]) -> list[dict]:
 
     stats: dict[str, dict] = {}
     for e in events:
-        h = e.get("organizer_handle")
+        # 表示上の主催者は organizer_name(JSON-LD)だが、追跡すべきは
+        # 「そのURLを流しているアカウント」。announced_by も拾う。
+        h = e.get("organizer_handle") or e.get("announced_by")
         if not h:
             continue
         # キーマンは「自主大会を継続して開いている人」。
@@ -851,9 +878,38 @@ def main() -> int:
             try:
                 prev = json.loads(OUT_PATH.read_text("utf-8"))
                 handles += [o["handle"] for o in prev.get("organizers", []) if o.get("handle")]
+                handles += [e["announced_by"] for e in prev.get("events", []) if e.get("announced_by")]
             except Exception:  # noqa: BLE001
                 pass
-        handles = list(dict.fromkeys(h for h in handles if h))   # 重複除去・順序維持
+        # 重複除去（seedを優先して先頭に残す）
+        handles = list(dict.fromkeys(h for h in handles if h))
+        # 追跡アカウントが増えるほどコストが上がるので上限を設ける。
+        # seedに手で登録した人は必ず追跡し、残りは「告知回数が多い順」に採る。
+        seed_h = {o["handle"] for o in seeds if o.get("handle")}
+        seed_h |= {o["alt_handle"] for o in seeds if o.get("alt_handle")}
+        if len(handles) > ORG_MAX_HANDLES:
+            freq: dict[str, int] = {}
+            try:
+                for e in json.loads(OUT_PATH.read_text("utf-8")).get("events", []):
+                    a = e.get("announced_by")
+                    if a:
+                        freq[a] = freq.get(a, 0) + 1
+            except Exception:  # noqa: BLE001
+                pass
+            others = sorted((h for h in handles if h not in seed_h),
+                            key=lambda h: -freq.get(h, 0))
+            keep = [h for h in handles if h in seed_h] + others
+            handles = keep[:ORG_MAX_HANDLES]
+
+        # ローテーション: seed以外は日替わりで一部だけ追う（コスト削減）
+        if ORG_ROTATE_DAYS > 1:
+            day = datetime.now(JST).timetuple().tm_yday % ORG_ROTATE_DAYS
+            rotated = [h for h in handles if h in seed_h]
+            others = [h for h in handles if h not in seed_h]
+            rotated += [h for i, h in enumerate(others) if i % ORG_ROTATE_DAYS == day]
+            handles = rotated
+        log(f"■ 追跡アカウント {len(handles)}件"
+            f"（手動登録 {len(seed_h & set(handles))}件 / {ORG_ROTATE_DAYS}日で一巡）")
         log(f"■ キーマン {len(handles)}アカウントの投稿を追跡します")
         # ★重要★ ここは1アカウントずつ投げる。理由は2つ。
         #  1) "tonamel.com" をAND条件に足すと結果がほぼゼロになる。
@@ -921,10 +977,25 @@ def main() -> int:
             })
         log(f"■ FORCE_REFETCH=1: 取得済みを含む {len(id_to_tweet)}件を再解析します")
 
+    # 解析ロジックが更新されていたら、取得済みの大会も対象に戻す（自己修復）
+    stale_ids = [i for i, e in existing.items() if e.get("pv") != PARSER_VERSION]
+    if stale_ids and not force_refetch:
+        log(f"■ 解析バージョンが古い {len(stale_ids)}件を再解析対象にします")
+        for comp_id in stale_ids:
+            ev = existing[comp_id]
+            id_to_tweet.setdefault(comp_id, {
+                "url": ev.get("source_tweet_url"),
+                "createdAt": ev.get("tweeted_at") or "",
+                "author": {"userName": ev.get("announced_by") or ev.get("organizer_handle"),
+                           "name": ev.get("organizer_name")},
+            })
+
     log("■ Tonamel の大会ページから詳細を取得します")
     ok = miss = 0
     for i, (comp_id, tw) in enumerate(list(id_to_tweet.items()), 1):
-        if not force_refetch and comp_id in existing and existing[comp_id].get("date"):
+        stale = existing.get(comp_id, {}).get("pv") != PARSER_VERSION
+        if (not force_refetch and not stale
+                and comp_id in existing and existing[comp_id].get("date")):
             pending.pop(comp_id, None)
             continue
         got = fetch_tonamel(comp_id)

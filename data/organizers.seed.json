@@ -3,7 +3,7 @@
     "handle": "deregmu_og",
     "name": "ディレグム",
     "area": "富山県",
-    "region": "中部",
+    "region": "北陸",
     "note": "富山の自主大会シーンの中心人物。「ディレグム杯EX」を主催し、小矢部市で120人規模を実施。射水市の大門総合会館も会場に使用。",
     "alt_handle": "deregmu_hobby"
   },
@@ -11,21 +11,21 @@
     "handle": "tomoshibi_cup",
     "name": "ともしび杯",
     "area": "石川県金沢市",
-    "region": "中部",
+    "region": "北陸",
     "note": "北陸最大級の自主大会シリーズ。第4回・第5回は約130人規模。第7回は2周年記念の「メガともしび杯」。"
   },
   {
     "handle": "ISHIKAWAPOKECA",
     "name": "石川ポケカCS",
     "area": "石川県",
-    "region": "中部",
+    "region": "北陸",
     "note": "「石川ポケカCS」「ビギナー🔰杯」「BOX争奪戦」を継続開催。主会場は北国書林松任店（白山市）。"
   },
   {
     "handle": "kajipoke",
     "name": "かじ",
     "area": "広島県東広島市",
-    "region": "中国・四国",
+    "region": "中国",
     "note": "「きんのたま杯」主催。自主大会の立ち上げ方をnoteで解説しており、これから主催したい人の参考になる。"
   },
   {
@@ -89,7 +89,7 @@
     "handle": "SHIMA_PCG",
     "name": "しま",
     "area": "広島県",
-    "region": "中国・四国",
+    "region": "中国",
     "note": "「ならくのうらもん杯」主催。"
   },
   {
@@ -98,5 +98,33 @@
     "area": "東京都秋葉原",
     "region": "関東",
     "note": "「ポケカ×そだ杯」主催。会場はカードショップポンポコ。"
+  },
+  {
+    "handle": "nrissgn913",
+    "name": "スイレン",
+    "area": "福井県",
+    "region": "北陸",
+    "note": "福井の「北陸杯」主催。CARDBOX Super KaBoS 二の宮本店などで大型のチーム戦を開催。北陸のキーマンの一人。"
+  },
+  {
+    "handle": "team__wassyoi",
+    "name": "チームわっしょい",
+    "area": "福井県",
+    "region": "北陸",
+    "note": "「北陸杯」をスイレンさんと共催。"
+  },
+  {
+    "handle": "SakePokes",
+    "name": "さけ",
+    "area": "石川県",
+    "region": "北陸",
+    "note": "石川の自主大会「さけ杯」主催。北陸のキーマンの一人。"
+  },
+  {
+    "handle": "moukahai",
+    "name": "もうか杯",
+    "area": "石川県",
+    "region": "北陸",
+    "note": "石川で「もうか杯」を継続開催。北国書林松任店などが会場。"
   }
 ]
