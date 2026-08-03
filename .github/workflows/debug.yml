@@ -32,6 +32,9 @@ jobs:
       - name: TonamelのAPIを探す
         run: python scripts/debug_api.py
 
+      - name: TonamelのGraphQLを調べる
+        run: python scripts/debug_graphql.py
+
       - name: 結果をコミット
         run: |
           set -e
