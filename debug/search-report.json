@@ -1,19 +1,19 @@
 {
   "since": "2026-04-01",
   "twitter": {
-    "from:deregmu_og": {
+    "from:consomme_pokeca": {
       "tweets": 0,
       "tonamel_ids": [],
       "samples": [],
       "error": null
     },
-    "(from:deregmu_og OR from:deregmu_hobby OR from:tomoshibi_cup)": {
+    "from:moukahai": {
       "tweets": 0,
       "tonamel_ids": [],
       "samples": [],
       "error": null
     },
-    "(from:deregmu_og OR from:deregmu_hobby OR from:tomoshibi_cup OR from:ISHIKAWAPOKECA OR from:kajipoke OR from:koshigym0428 OR from:Toreca_connect OR from:ohara_las_0123 OR from:kayu_key_gx OR from:nanase_cup)": {
+    "コンソメリーグ": {
       "tweets": 0,
       "tonamel_ids": [],
       "samples": [],

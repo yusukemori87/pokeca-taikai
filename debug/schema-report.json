@@ -1,8 +1,1 @@
-{
-  "queryType": null,
-  "raw_error": null,
-  "all_type_names": [],
-  "root_fields": [],
-  "candidates": [],
-  "types": {}
-}
+{"error": "Expecting value: line 1 column 1 (char 0)"}

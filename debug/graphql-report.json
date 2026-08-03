@@ -16,7 +16,7 @@
       "keys": [
         "data"
       ],
-      "data_head": "{\"__schema\": {\"queryType\": {\"name\": \"PlayerQuery\"}, \"types\": [{\"fields\": [{\"args\": [], \"name\": \"content\"}, {\"args\": [], \"name\": \"createdAt\"}, {\"args\": [], \"name\": \"id\"}], \"name\": \"AnnounceCard\", \"kind\": \"OBJECT\"}, {\"name\": \"AnnounceCardConnection\", \"kind\": \"OBJECT\", \"fields\": [{\"args\": [], \"name\": \"edges\"}, {\"name\": \"pageInfo\", \"args\": []}]}, {\"fields\": [{\"args\": [], \"name\": \"cursor\"}, {\"args\": []"
+      "data_head": "{\"__schema\": {\"queryType\": {\"name\": \"PlayerQuery\"}, \"types\": [{\"name\": \"AnnounceCard\", \"kind\": \"OBJECT\", \"fields\": [{\"name\": \"content\", \"args\": []}, {\"name\": \"createdAt\", \"args\": []}, {\"name\": \"id\", \"args\": []}]}, {\"name\": \"AnnounceCardConnection\", \"kind\": \"OBJECT\", \"fields\": [{\"args\": [], \"name\": \"edges\"}, {\"name\": \"pageInfo\", \"args\": []}]}, {\"name\": \"AnnounceCardEdge\", \"kind\": \"OBJECT\", \"fields\""
     },
     {
       "ep": "/graphql/competition/",
@@ -35,8 +35,8 @@
       "status": 200,
       "bytes": 135,
       "keys": [
-        "data",
-        "errors"
+        "errors",
+        "data"
       ],
       "errors": [
         "指定されたイベントはありません。"
@@ -95,7 +95,7 @@
   ],
   "csrf": {
     "status": 200,
-    "head": "{\"csrf_token\":\"24D718F0-8F78-11F1-8221-B0C3EB9C7480\"}",
+    "head": "{\"csrf_token\":\"E113E0A6-8F79-11F1-885A-B0C3EB9C7480\"}",
     "captured": true
   }
 }
