@@ -73,7 +73,7 @@ DEEP_ORG_PAGES = int(os.environ.get("DEEP_ORG_PAGES", "3"))
 # 次回の実行で自動的に取り直して再解析される。
 # 「解析を直したのに、既に取得済みの大会には反映されない」という事故を防ぐための仕組み。
 # ★解析ロジックを変えたら必ずこの数字を上げること。
-PARSER_VERSION = 4
+PARSER_VERSION = 6
 
 # 検索クエリ。Twitter の検索演算子がそのまま使える。
 # 「tonamel の URL を含む」×「ポケカ語彙」の掛け算で、余計なゲームの大会を弾く。
@@ -181,7 +181,8 @@ ONLINE_WORDS = ["オンライン", "リモート", "リモポケカ", "Discord",
 
 # イベントの種別判定。自主大会だけ見たい人のためにフィルタできるようにする
 KOURYU_WORDS = ["交流会", "対戦会", "フリー対戦", "調整会", "もくもく会", "練習会"]
-SHOP_WORDS = ["ジムバトル", "トレーナーズリーグ", "店舗大会", "当店", "店内"]
+SHOP_WORDS = ["ジムバトル", "トレーナーズリーグ", "店舗大会", "当店", "店内",
+              "ハレツー", "デイリー", "パックバトル", "シールド戦", "無料バトル"]
 # 主催者名がカードショップかどうかの判定
 SHOP_NAME_RE = (
     r"(店$|店\s|カードショップ|カードラボ|トレカ|晴れる屋|TSUTAYA|ドラゴンスター|"
@@ -257,6 +258,56 @@ def api_get(params: dict) -> dict | None:
         except Exception:  # noqa: BLE001
             return None
     return None
+
+
+USER_TL_ENDPOINTS = [
+    "https://api.twitterapi.io/twitter/user/last_tweets",
+    "https://api.twitterapi.io/twitter/user/tweets",
+]
+
+
+def fetch_user_tweets(handle: str, pages: int = 1) -> list[dict]:
+    """
+    指定アカウントの投稿を「タイムライン専用エンドポイント」から取る。
+
+    検索演算子の from: は、動いていたのに突然すべて0件を返すようになった
+    （既知の成功例で対照実験して確認）。検索は仕様変更の影響を受けやすいので、
+    主催者の追跡は専用エンドポイントを主、検索を予備として使う。
+    """
+    out: list[dict] = []
+    for ep in USER_TL_ENDPOINTS:
+        cursor = ""
+        got_any = False
+        for _ in range(pages):
+            params = {"userName": handle}
+            if cursor:
+                params["cursor"] = cursor
+            _throttle()
+            try:
+                r = requests.get(ep, params=params,
+                                 headers={"X-API-Key": API_KEY}, timeout=40)
+            except Exception:  # noqa: BLE001
+                break
+            if r.status_code != 200:
+                break
+            try:
+                b = r.json()
+            except Exception:  # noqa: BLE001
+                break
+            tws = (b.get("data") or {}).get("tweets") if isinstance(b.get("data"), dict) else None
+            tws = tws or b.get("tweets") or []
+            if not tws:
+                break
+            out.extend(tws)
+            got_any = True
+            if not b.get("has_next_page"):
+                break
+            cursor = b.get("next_cursor") or ""
+            if not cursor:
+                break
+        if got_any:
+            return out
+    return out
 
 
 def search_twitter(query: str, since: datetime, pages: int | None = None) -> list[dict]:
@@ -658,6 +709,24 @@ def parse_prize(text: str) -> str | None:
     return None
 
 
+def is_pokeca_event(title: str, desc: str) -> bool:
+    """
+    その大会が本当にポケカかを判定する。
+    Tonamelの公開一覧には他ゲームの大会も混ざる（実際にARKの大会が紛れ込んだ）。
+    Twitter経由は検索時点でポケカ語彙で絞れているが、公開一覧経由は無防備なのでここで弾く。
+    """
+    t = norm(f"{title}\n{desc}")[:1500]
+    if not re.search(r"ポケカ|ポケモンカード|ポケモンTCG|PTCG|Pokemon Card|ポケモン", t, re.I):
+        return False
+    # 明らかに別ゲーム
+    if re.search(r"(ARK|Apex|VALORANT|スプラトゥーン|スマブラ|ストリートファイター|"
+                 r"デュエマ|デュエル・?マスターズ|遊戯王|ワンピースカード|ヴァイス|"
+                 r"シャドウバース|MTG|マジック:?ザ)", t, re.I) and \
+            not re.search(r"ポケカ|ポケモンカード", t):
+        return False
+    return True
+
+
 def parse_kind(title: str, text: str, organizer: str | None = None) -> str:
     """自主大会 / 交流会 / ショップ主催 のどれかに分類する。"""
     t = norm(f"{title}\n{text[:900]}")
@@ -945,7 +1014,10 @@ def main() -> int:
             deep = h not in productive
             since_h = deep_since if deep else org_since
             pages_h = DEEP_ORG_PAGES if deep else ORG_PAGES
-            for tw in search_twitter(f"from:{h}", since_h, pages=pages_h):
+            tl = fetch_user_tweets(h, pages=pages_h)
+            if not tl:                      # 専用APIが駄目なら検索にフォールバック
+                tl = search_twitter(f"from:{h}", since_h, pages=pages_h)
+            for tw in tl:
                 if tw.get("id"):
                     # 既知の主催者の投稿は「ポケカ」表記が無くても通す
                     tw["_trusted"] = True
@@ -1031,6 +1103,12 @@ def main() -> int:
         if save_raw:
             (RAW_DIR / f"{comp_id}.html").write_text(html, "utf-8")
         ev = build_event(comp_id, html, url, tw)
+        # 公開一覧から拾ったものは、ポケカ以外が混ざるのでここで弾く
+        if tw.get("_source") == "tonamel_public" and not is_pokeca_event(
+                ev.get("title") or "", ev.get("summary") or ""):
+            pending.pop(comp_id, None)
+            log(f"     ポケカ以外のためスキップ: {ev.get('title','')[:30]}")
+            continue
         events[comp_id] = ev
         pending.pop(comp_id, None)     # 取れたので控えから外す
         ok += 1
