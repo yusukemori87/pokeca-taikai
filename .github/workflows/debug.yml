@@ -23,6 +23,12 @@ jobs:
       - name: 大会ページを数件取得して構造を書き出す
         run: python scripts/debug_fetch.py
 
+      - name: 取りこぼしの原因を診断する
+        env:
+          TWITTERAPI_IO_KEY: ${{ secrets.TWITTERAPI_IO_KEY }}
+          DIAG_SINCE: ${{ vars.DIAG_SINCE || '2026-04-01' }}
+        run: python scripts/debug_search.py
+
       - name: 結果をコミット
         run: |
           set -e
