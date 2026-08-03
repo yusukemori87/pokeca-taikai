@@ -599,12 +599,17 @@ def parse_prize(text: str) -> str | None:
     m = re.search(r"(?:🥇|1️⃣|優勝|1位|１位)[\s:：]*(.{2,70})", t)
     if m:
         v = _clip(re.split(NEXT_RANK_RE, m.group(1), maxsplit=1)[0], 46)
-        if v and re.search(r"(BOX|ＢＯＸ|パック|プレイマット|券|カード|円|ギフト|賞)", v):
+        if (v and re.search(r"(BOX|ＢＯＸ|パック|プレイマット|スリーブ|券|カード|円|ギフト|グッズ|プロモ)", v)
+                and not re.match(r"^[はがのをにでとも、。)）\]】]", v)
+                and not re.search(r"(ございません|ありません|なし|無し)", v)):
             return f"優勝：{v}"
     m = re.search(r"(賞品|景品|参加賞)[\s:：]*(.{2,70})", t)
     if m:
         v = _clip(re.split(NEXT_RANK_RE, m.group(2), maxsplit=1)[0], 46)
-        if v:
+        # 「参加賞の配布はございません」のような否定文や助詞始まりを景品として出さない
+        if (v and re.search(r"(BOX|ＢＯＸ|パック|プレイマット|スリーブ|券|カード|円|ギフト|グッズ|プロモ)", v)
+                and not re.match(r"^[はがのをにでとも、。)）\]】]", v)
+                and not re.search(r"(ございません|ありません|なし|無し|該当なし)", v)):
             return v
     return None
 
@@ -747,15 +752,17 @@ def build_organizers(events: list[dict]) -> list[dict]:
 
     for handle, s in stats.items():
         top_pref = max(s["prefs"], key=s["prefs"].get) if s["prefs"] else None
+        # 複数県をまたいで開催している主催者を、1県だけの人と同じに見せない
+        area_label = f"{top_pref}ほか" if top_pref and len(s["prefs"]) > 1 else top_pref
         if handle in seeds:
-            seeds[handle].setdefault("area", top_pref or "不明")
+            seeds[handle].setdefault("area", area_label or "不明")
             continue
         if s["count"] < 2:          # 1回だけの主催はキーマン扱いしない
             continue
         seeds[handle] = {
             "handle": handle,
             "name": s["name"],
-            "area": top_pref or "不明",
+            "area": area_label or "不明",
             "region": PREF_TO_REGION.get(top_pref or "", "全国"),
             "note": f"直近3ヶ月で{s['count']}件の大会を主催しています。",
             "auto": True,

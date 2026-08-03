@@ -70,7 +70,7 @@
       "online": false,
       "fee": "500円",
       "capacity": 10,
-      "prize": "の配布はございません。)===",
+      "prize": null,
       "format": "スタンダード",
       "kind": "交流会",
       "organizer_url": "https://tonamel.com/organization/rAEjr",
@@ -645,7 +645,7 @@
       "online": false,
       "fee": "6,000円",
       "capacity": 32,
-      "prize": "優勝：を目指せ!<注意事項>以下の方は参加をお断りさせていただきます。過去カードゲームのイベント…",
+      "prize": null,
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/DCR65",
@@ -921,7 +921,11 @@
       "online": false,
       "fee": "1,000円",
       "capacity": 128,
+<<<<<<< HEAD
       "prize": "のお渡し及びサイドイベントの参加が不可になります。決勝トーナメント予選の1~1",
+=======
+      "prize": null,
+>>>>>>> 2d62fec (景品抽出の不具合を修正し、日次運用の設定に戻す)
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/r7zK6",
@@ -1588,7 +1592,11 @@
       "online": true,
       "fee": "1,000円",
       "capacity": 64,
+<<<<<<< HEAD
       "prize": "について優勝:ストームエメラルダ 2BOX",
+=======
+      "prize": null,
+>>>>>>> 2d62fec (景品抽出の不具合を修正し、日次運用の設定に戻す)
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/5rzAP",
@@ -1611,7 +1619,11 @@
       "online": false,
       "fee": "無料",
       "capacity": 252,
+<<<<<<< HEAD
       "prize": "を贈呈",
+=======
+      "prize": null,
+>>>>>>> 2d62fec (景品抽出の不具合を修正し、日次運用の設定に戻す)
       "format": "スタンダード",
       "kind": "ショップ主催",
       "organizer_url": "https://tonamel.com/organization/7y7dc",
@@ -2186,7 +2198,7 @@
       "online": false,
       "fee": "2,000円",
       "capacity": 32,
-      "prize": "優勝：、ポケモンセンターフクオカSPセット2BOX",
+      "prize": null,
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/xlENg",
@@ -2416,7 +2428,7 @@
       "online": false,
       "fee": null,
       "capacity": 60,
-      "prize": "優勝：、メガドリームex1BOX",
+      "prize": null,
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/xlENg",
@@ -2508,7 +2520,11 @@
       "online": false,
       "fee": "無料",
       "capacity": 30,
+<<<<<<< HEAD
       "prize": "を購入可。景品:プレゼント交換会(各自1つずつプレゼントを持ち寄り、優勝者から景品をお選び…",
+=======
+      "prize": null,
+>>>>>>> 2d62fec (景品抽出の不具合を修正し、日次運用の設定に戻す)
       "format": "その他",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/lsQwi",
@@ -2692,7 +2708,7 @@
       "online": false,
       "fee": "1,500円",
       "capacity": 46,
-      "prize": "のご用意はありますが、初心者歓迎のイベントでもあるので、その旨をご理解の上ご参加ください。…",
+      "prize": null,
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/xjrdo",
@@ -3152,7 +3168,7 @@
       "online": true,
       "fee": "1,000円",
       "capacity": 32,
-      "prize": "には、あの脳汁が止まらないと噂の",
+      "prize": null,
       "format": "レギュ限定",
       "kind": "ショップ主催",
       "organizer_url": "https://tonamel.com/organization/yoeU5",
@@ -3221,7 +3237,7 @@
       "online": true,
       "fee": "1,000円",
       "capacity": 32,
-      "prize": "には、あのYouTubeショートで話題で、全然手に入らないと噂の",
+      "prize": null,
       "format": "スタンダード",
       "kind": "ショップ主催",
       "organizer_url": "https://tonamel.com/organization/yoeU5",
@@ -3244,7 +3260,7 @@
       "online": false,
       "fee": "1,500円",
       "capacity": 32,
-      "prize": "の配布方法が変更になります",
+      "prize": null,
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/idrAJ",
@@ -3336,7 +3352,11 @@
       "online": false,
       "fee": "500円",
       "capacity": 30,
+<<<<<<< HEAD
       "prize": "優勝：です!受付13時~13時15分時間厳守でお願いします!参加費 500円試合時間25分時間切…",
+=======
+      "prize": null,
+>>>>>>> 2d62fec (景品抽出の不具合を修正し、日次運用の設定に戻す)
       "format": "その他",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/UUzet",
@@ -3566,7 +3586,7 @@
       "online": false,
       "fee": "2,500円",
       "capacity": 100,
-      "prize": "優勝：、『151』3BOX or『ムニキスゼロ』15BOX",
+      "prize": null,
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/xlENg",
@@ -3773,7 +3793,7 @@
       "online": false,
       "fee": "1,000円",
       "capacity": 32,
-      "prize": "が渡ると思います♪ぜひ楽しみましょう!◎ジムバトルやシティリーグ等に参加したことのない方の…",
+      "prize": null,
       "format": "スタンダード",
       "kind": "ショップ主催",
       "organizer_url": "https://tonamel.com/organization/9JD03",
@@ -3826,9 +3846,9 @@
     {
       "handle": "kadoraba",
       "name": "すなやまのあそびば",
-      "area": "愛知県",
+      "area": "愛知県ほか",
       "region": "中部",
-      "note": "直近3ヶ月で14件の大会を主催しています。",
+      "note": "直近3ヶ月で11件の大会を主催しています。",
       "auto": true
     },
     {
@@ -3855,17 +3875,9 @@
       "alt_handle": "deregmu_hobby"
     },
     {
-      "handle": "tp_ignition",
-      "name": "トレカプラザ名古屋駅前店",
-      "area": "愛知県",
-      "region": "中部",
-      "note": "直近3ヶ月で2件の大会を主催しています。",
-      "auto": true
-    },
-    {
       "handle": "nowbridge22",
       "name": "水戸ポケカ大会",
-      "area": "石川県",
+      "area": "石川県ほか",
       "region": "中部",
       "note": "直近3ヶ月で4件の大会を主催しています。",
       "auto": true
@@ -3886,6 +3898,7 @@
       "auto": true
     },
     {
+<<<<<<< HEAD
       "handle": "toycomp80",
       "name": "トイコンプアリオ八尾店",
       "area": "オンライン",
@@ -3894,6 +3907,8 @@
       "auto": true
     },
     {
+=======
+>>>>>>> 2d62fec (景品抽出の不具合を修正し、日次運用の設定に戻す)
       "handle": "torepoinfo",
       "name": "トレポ｜自主大会交流会まとめ",
       "area": "全国",
@@ -3906,38 +3921,6 @@
       "area": "北海道",
       "region": "北海道・東北",
       "note": "北海道の自主大会情報をまとめて発信しているアカウント。道内を探すならまずここ。"
-    },
-    {
-      "handle": "laughteria_TCG",
-      "name": "カードショップラフテリア",
-      "area": "兵庫県",
-      "region": "近畿",
-      "note": "直近3ヶ月で2件の大会を主催しています。",
-      "auto": true
-    },
-    {
-      "handle": "toycomp6",
-      "name": "トイコンプ 堺東店",
-      "area": "大阪府",
-      "region": "近畿",
-      "note": "直近3ヶ月で4件の大会を主催しています。",
-      "auto": true
-    },
-    {
-      "handle": "ryuunoshippo_nu",
-      "name": "トレカショップ　竜のしっぽ　NU茶屋町店",
-      "area": "大阪府",
-      "region": "近畿",
-      "note": "直近3ヶ月で2件の大会を主催しています。",
-      "auto": true
-    },
-    {
-      "handle": "hareruya2namba",
-      "name": "晴れる屋2　なんば店",
-      "area": "大阪府",
-      "region": "近畿",
-      "note": "直近3ヶ月で2件の大会を主催しています。",
-      "auto": true
     },
     {
       "handle": "Tcghizakura",
@@ -4022,14 +4005,6 @@
       "note": "「トレコネポケカフェス」を第4回まで開催。100人規模でジュニア料金設定あり。"
     },
     {
-      "handle": "PLAYGYMTOKYO",
-      "name": "プレイジムTOKYO",
-      "area": "東京都",
-      "region": "関東",
-      "note": "直近3ヶ月で2件の大会を主催しています。",
-      "auto": true
-    },
-    {
       "handle": "Hokkai_poke2306",
       "name": "ホッカイポケカルト",
       "area": "東京都",
@@ -4058,7 +4033,7 @@
       "name": "宝石祭",
       "area": "東京都",
       "region": "関東",
-      "note": "直近3ヶ月で5件の大会を主催しています。",
+      "note": "直近3ヶ月で3件の大会を主催しています。",
       "auto": true
     },
     {

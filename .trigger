@@ -1,1 +1,1 @@
-run: reparse-all v2 (zip-code pref lookup, shop exclusion)
+run: verify daily settings (LOOKBACK=7, PAGES=4) and deploy site
