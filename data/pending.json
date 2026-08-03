@@ -887,5 +887,29 @@
   "isLimitedReply": false,
   "communityInfo": null,
   "article": null
+ },
+ "_compet": {
+  "id": null,
+  "text": "",
+  "createdAt": "",
+  "url": null,
+  "author": {},
+  "_source": "tonamel_public"
+ },
+ "_competiti": {
+  "id": null,
+  "text": "",
+  "createdAt": "",
+  "url": null,
+  "author": {},
+  "_source": "tonamel_public"
+ },
+ "index": {
+  "id": null,
+  "text": "",
+  "createdAt": "",
+  "url": null,
+  "author": {},
+  "_source": "tonamel_public"
  }
 }
