@@ -142,6 +142,12 @@ ONLINE_WORDS = ["オンライン", "リモート", "リモポケカ", "Discord",
 # イベントの種別判定。自主大会だけ見たい人のためにフィルタできるようにする
 KOURYU_WORDS = ["交流会", "対戦会", "フリー対戦", "調整会", "もくもく会", "練習会"]
 SHOP_WORDS = ["ジムバトル", "トレーナーズリーグ", "店舗大会", "当店", "店内"]
+# 主催者名がカードショップかどうかの判定
+SHOP_NAME_RE = (
+    r"(店$|店\s|カードショップ|カードラボ|トレカ|晴れる屋|TSUTAYA|ドラゴンスター|"
+    r"フルコンプ|イエローサブマリン|ホビーステーション|らしんばん|駿河屋|万代|"
+    r"ブックオフ|GEO|ゲオ|トイコンプ|カードキングダム|遊々亭|ミント|MINT)"
+)
 
 FORMAT_WORDS = {
     "スタンダード": ["スタンダード", "スタン"],
@@ -295,6 +301,7 @@ def fetch_tonamel(comp_id: str) -> tuple[str, str] | None:
     url = f"https://tonamel.com/competition/{comp_id}"
     try:
         r = requests.get(url, headers=UA, timeout=25)
+        r.encoding = "utf-8"   # 明示しないと文字化けする
         if r.status_code != 200:
             log(f"  - {comp_id}: HTTP {r.status_code} (削除 or 非公開)")
             return None
@@ -329,26 +336,74 @@ def _strip_tags(html: str) -> str:
     return re.sub(r"\n{3,}", "\n\n", text).strip()
 
 
-def _embedded_json(html: str) -> dict:
-    """Next.js / Nuxt が埋め込む状態JSONがあれば拾う（サイト構造変更への保険）。"""
-    m = re.search(
-        r'<script[^>]+id=["\']__NEXT_DATA__["\'][^>]*>(.*?)</script>', html, re.S
-    )
-    if m:
-        try:
-            return json.loads(m.group(1))
-        except Exception:  # noqa: BLE001
-            pass
+def extract_jsonld(html: str) -> dict:
+    """
+    Tonamel は schema.org の Event を JSON-LD で埋め込んでいる。
+    ページ本体は Nuxt の SPA なので素のHTTPでは本文が取れないが、
+    この JSON-LD には開催日時・住所・定員・主催者・説明文が構造化されて入っている。
+    ここを読むのが一番正確で速い。
+    """
     for m in re.finditer(
         r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>', html, re.S
     ):
         try:
             obj = json.loads(m.group(1))
-            if isinstance(obj, dict) and obj.get("@type") in ("Event", "SportsEvent"):
-                return {"jsonld": obj}
         except Exception:  # noqa: BLE001
             continue
+        if isinstance(obj, list):
+            obj = next((o for o in obj if isinstance(o, dict)
+                        and o.get("@type") in ("Event", "SportsEvent")), None)
+        if isinstance(obj, dict) and obj.get("@type") in ("Event", "SportsEvent"):
+            return obj
     return {}
+
+
+def _from_jsonld(ld: dict) -> dict:
+    """JSON-LD から、そのまま信用してよい項目を取り出す。"""
+    out: dict = {}
+
+    # 開催日時（タイムゾーン付きISO。年の推測が不要になるので一番効く）
+    start = ld.get("startDate")
+    if isinstance(start, str) and len(start) >= 10:
+        out["date"] = start[:10]
+        m = re.search(r"T(\d{2}):(\d{2})", start)
+        if m and m.group(0) != "T00:00":
+            out["start_time"] = f"{m.group(1)}:{m.group(2)}"
+
+    loc = ld.get("location") or {}
+    if isinstance(loc, dict):
+        if loc.get("name"):
+            out["venue"] = str(loc["name"])[:80]
+        addr = loc.get("address")
+        if isinstance(addr, dict):
+            addr = " ".join(str(v) for v in addr.values() if isinstance(v, str))
+        if isinstance(addr, str) and addr:
+            out["address"] = addr
+            p = _pref_from(norm(addr))
+            if p:
+                out["prefecture"] = p
+
+    mode = str(ld.get("eventAttendanceMode") or "")
+    if "Online" in mode:
+        out["online"] = True
+
+    cap = ld.get("maximumAttendeeCapacity")
+    if isinstance(cap, int) and 0 < cap < 10000:
+        out["capacity"] = cap
+
+    org = ld.get("organizer") or {}
+    if isinstance(org, dict):
+        if org.get("name"):
+            out["organizer_name"] = str(org["name"])[:60]
+        if org.get("url"):
+            out["organizer_url"] = str(org["url"])
+
+    if ld.get("name"):
+        out["title"] = str(ld["name"]).strip()
+    if ld.get("description"):
+        out["description"] = str(ld["description"])
+
+    return out
 
 
 DATE_PATTERNS = [
@@ -446,13 +501,40 @@ def parse_place(text: str, title: str = "") -> tuple[str | None, str | None, boo
     return venue, pref, is_online
 
 
+# Tonamelの説明文は改行が潰されて1行になっており、代わりに装飾記号が区切りに使われる。
+# 「参加費: 2,000円◼️メイン: 予選スイス…」のように続くので、ここで切らないと全部拾ってしまう。
+SEP_RE = r"[◼◾■□▪▶►◯〇●○※【】\n\r]|(?:[・]{2,})|(?:\s{3,})"
+# 「優勝：…準優勝：…」と続くので、次の順位が始まったら切る
+NEXT_RANK_RE = r"(?:準優勝|準優|[2-9２-９]位|ベスト\s*\d|🥈|🥉|[2-9]️⃣|参加賞|上位\d)"
+
+
+def _clip(s: str, limit: int) -> str:
+    """最初の区切り記号までで切り、長すぎれば省略する。"""
+    s = re.split(SEP_RE, s, maxsplit=1)[0]
+    s = s.strip(" 　:：-–—>》」』")
+    return (s[: limit - 1] + "…") if len(s) > limit else s
+
+
 def parse_money(text: str) -> str | None:
+    """参加費。金額そのものを最優先で取る（説明文が続いても巻き込まない）。"""
     t = norm(text)
-    m = re.search(r"(参加費|エントリー費|参加料)[\s:：]*([^\n]{1,40})", t)
+    # 「参加費：2,000円」「参加費 ¥2,000」など、ラベルの近くにある金額
+    # ラベルの後ろ60文字以内に出てくる最初の金額を採る。
+    # 「参加費(当日現金払い)▶小学生以下1人/1,000円」のように説明が挟まることが多い。
+    m = re.search(r"(参加費|エントリー費|参加料|参加費用)(.{0,60})", t, re.S)
     if m:
-        return m.group(2).strip(" 　:：-")[:40]
-    m = re.search(r"([0-9,]{3,7})\s*円", t)
-    return f"{m.group(1)}円" if m else None
+        amt = re.search(r"[¥￥]?\s*([0-9][0-9,]{2,6})\s*円?", m.group(2))
+        if amt:
+            return f"{int(amt.group(1).replace(',', '')):,}円"
+    if re.search(r"(参加費|エントリー費)[^。]{0,10}(無料|0円)", t):
+        return "無料"
+    m = re.search(r"(参加費|エントリー費|参加料)[\s:：]*(.{1,30})", t)
+    if m:
+        v = _clip(m.group(2), 30)
+        if v:
+            return v
+    m = re.search(r"[¥￥]\s*([0-9][0-9,]{2,6})", t)
+    return f"{int(m.group(1).replace(',', '')):,}円" if m else None
 
 
 def parse_capacity(text: str) -> int | None:
@@ -465,19 +547,36 @@ def parse_capacity(text: str) -> int | None:
 
 
 def parse_prize(text: str) -> str | None:
+    """景品。「優勝：〇〇」が一番知りたい情報なので、それを優先して短く出す。"""
     t = norm(text)
-    m = re.search(r"(賞品|景品|参加賞|優勝賞品)[\s:：]*([^\n]{2,120})", t)
+    m = re.search(r"(?:🥇|1️⃣|優勝|1位|１位)[\s:：]*(.{2,70})", t)
     if m:
-        return m.group(2).strip(" 　:：-")[:120]
+        v = _clip(re.split(NEXT_RANK_RE, m.group(1), maxsplit=1)[0], 46)
+        if v and re.search(r"(BOX|ＢＯＸ|パック|プレイマット|券|カード|円|ギフト|賞)", v):
+            return f"優勝：{v}"
+    m = re.search(r"(賞品|景品|参加賞)[\s:：]*(.{2,70})", t)
+    if m:
+        v = _clip(re.split(NEXT_RANK_RE, m.group(2), maxsplit=1)[0], 46)
+        if v:
+            return v
     return None
 
 
-def parse_kind(title: str, text: str) -> str:
+def parse_kind(title: str, text: str, organizer: str | None = None) -> str:
     """自主大会 / 交流会 / ショップ主催 のどれかに分類する。"""
     t = norm(f"{title}\n{text[:900]}")
+    # 主催者名が店名なら、まずショップ主催の定例イベントとみなす。
+    # （「晴れる屋2 なんば店」「TSUTAYA大垣店」などが自主大会に混ざるのを防ぐ）
+    if organizer and re.search(SHOP_NAME_RE, norm(organizer)):
+        return "ショップ主催"
     if any(w in t for w in SHOP_WORDS):
         return "ショップ主催"
-    if any(w in t for w in KOURYU_WORDS) and "杯" not in title:
+    # 交流会かどうかはタイトルで判断する。本文には「サブイベントのGLC交流会」のように
+    # 部分的な言及が混ざるので、本文で判定すると大会まで交流会になってしまう。
+    nt = norm(title)
+    if any(w in nt for w in ("杯", "カップ", "CUP", "CS", "選手権", "大会")):
+        return "自主大会"
+    if any(w in nt for w in KOURYU_WORDS):
         return "交流会"
     return "自主大会"
 
@@ -491,11 +590,13 @@ def parse_format(text: str) -> str:
 
 
 def build_event(comp_id: str, html: str, url: str, tweet: dict) -> dict:
-    title = _meta(html, "og:title") or _meta(html, "twitter:title") or f"大会 {comp_id}"
-    title = re.sub(r"\s*[|｜]\s*Tonamel\s*$", "", title).strip()
-    desc_meta = _meta(html, "og:description")
-    body = _strip_tags(html)
-    haystack = f"{title}\n{desc_meta}\n{body}"
+    ld = _from_jsonld(extract_jsonld(html))
+
+    title = ld.get("title") or _meta(html, "og:title") or f"大会 {comp_id}"
+    title = re.sub(r"\s*[-|｜]\s*Tonamel\s*$", "", title).strip()
+    desc = ld.get("description") or _meta(html, "og:description") or ""
+    body = "" if desc else _strip_tags(html)
+    haystack = f"{title}\n{desc}\n{body}\n{ld.get('address', '')}"
 
     posted_raw = tweet.get("createdAt") or ""
     posted_at = datetime.now(JST)
@@ -506,10 +607,19 @@ def build_event(comp_id: str, html: str, url: str, tweet: dict) -> dict:
         except Exception:  # noqa: BLE001
             continue
 
+    # JSON-LD にある項目はそれを信用し、無いものだけ本文から推測する
     date_str, time_str = parse_datetime(haystack, posted_at)
     venue, pref, is_online = parse_place(haystack, title)
+    date_str = ld.get("date") or date_str
+    time_str = ld.get("start_time") or time_str
+    venue = ld.get("venue") or venue
+    pref = ld.get("prefecture") or pref
+    is_online = ld.get("online", is_online)
+    if is_online and not ld.get("prefecture"):
+        pref = "オンライン"
 
     author = (tweet.get("author") or {})
+    org_name = ld.get("organizer_name") or author.get("name")
 
     return {
         "id": comp_id,
@@ -519,16 +629,18 @@ def build_event(comp_id: str, html: str, url: str, tweet: dict) -> dict:
         "start_time": time_str,
         "prefecture": pref,
         "venue": venue,
-        "online": is_online,
+        "address": ld.get("address"),
+        "online": bool(is_online),
         "fee": parse_money(haystack),
-        "capacity": parse_capacity(haystack),
+        "capacity": ld.get("capacity") or parse_capacity(haystack),
         "prize": parse_prize(haystack),
         "format": parse_format(haystack),
-        "kind": parse_kind(title, haystack),
-        "summary": (desc_meta or body[:180]).strip()[:220],
+        "kind": parse_kind(title, haystack, org_name),
+        "organizer_url": ld.get("organizer_url"),
+        "summary": re.sub(r"\s+", " ", desc or body)[:200].strip(),
         "source_tweet_url": tweet.get("url"),
         "organizer_handle": author.get("userName"),
-        "organizer_name": author.get("name"),
+        "organizer_name": org_name,
         "tweeted_at": posted_at.isoformat(),
         "collected_at": datetime.now(JST).isoformat(),
     }
