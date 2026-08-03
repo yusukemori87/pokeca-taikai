@@ -34,9 +34,9 @@ CHUNK10 = ("(from:deregmu_og OR from:deregmu_hobby OR from:tomoshibi_cup OR "
 CHUNK3 = "(from:deregmu_og OR from:deregmu_hobby OR from:tomoshibi_cup)"
 
 QUERIES = [
-    "from:deregmu_og",
-    CHUNK3,
-    CHUNK10,
+    "from:consomme_pokeca",
+    "from:moukahai",
+    "コンソメリーグ",
 ]
 
 
@@ -82,9 +82,11 @@ def main() -> int:
                     {
                         "at": t.get("createdAt"),
                         "by": (t.get("author") or {}).get("userName"),
-                        "text": (t.get("text") or "")[:200],
+                        "text": (t.get("text") or "")[:400],
+                        "url_fields": sorted(set(re.findall(r'https?://[^\s"\\]+', json.dumps(t, ensure_ascii=False))))[:12],
+                        "top_keys": sorted(t)[:20],
                     }
-                    for t in tws[:3] if t.get("id")
+                    for t in tws[:5] if t.get("id")
                 ],
                 "error": next((t for t in tws if "_error" in t or "_status" in t), None),
             }
