@@ -689,10 +689,26 @@ def main() -> int:
     if save_raw:
         RAW_DIR.mkdir(parents=True, exist_ok=True)
 
+    # FORCE_REFETCH=1 のときは、取得済みの大会も Tonamel から取り直して解析し直す。
+    # 解析ロジックを改善したあとに、Twitterのクレジットを1も使わずに全件を作り直せる。
+    force_refetch = os.environ.get("FORCE_REFETCH") == "1"
+    if force_refetch:
+        for comp_id, ev in existing.items():
+            id_to_tweet.setdefault(comp_id, {
+                "url": ev.get("source_tweet_url"),
+                # 「8月23日」のような年なし表記の年推定に使うので、元の告知日時を引き継ぐ
+                "createdAt": ev.get("tweeted_at") or "",
+                "author": {
+                    "userName": ev.get("organizer_handle"),
+                    "name": ev.get("organizer_name"),
+                },
+            })
+        log(f"■ FORCE_REFETCH=1: 取得済みを含む {len(id_to_tweet)}件を再解析します")
+
     log("■ Tonamel の大会ページから詳細を取得します")
     ok = miss = 0
     for i, (comp_id, tw) in enumerate(list(id_to_tweet.items()), 1):
-        if comp_id in existing and existing[comp_id].get("date"):
+        if not force_refetch and comp_id in existing and existing[comp_id].get("date"):
             pending.pop(comp_id, None)
             continue
         got = fetch_tonamel(comp_id)

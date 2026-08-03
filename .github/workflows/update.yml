@@ -43,6 +43,8 @@ jobs:
           FOLLOW_ORGANIZERS: "1"  # キーマンの投稿も直接追う
           MAX_PAGES_PER_QUERY: ${{ vars.MAX_PAGES_PER_QUERY || '8' }}
           SKIP_TWITTER: ${{ vars.SKIP_TWITTER || '0' }}
+          # 解析ロジックを直したあと、Tonamelから取り直して全件を作り直したいとき用
+          FORCE_REFETCH: ${{ vars.FORCE_REFETCH || '0' }}
         run: python scripts/collect.py
 
       - name: サイトを組み立てる
