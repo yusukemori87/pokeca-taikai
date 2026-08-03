@@ -182,6 +182,7 @@
       <select id="pref" aria-label="都道府県"><option value="">全国</option></select>
       <select id="fmt" aria-label="フォーマット"><option value="">全フォーマット</option></select>
     </div>
+    <div class="frow" id="regionRow"></div>
     <div class="frow">
       <button class="chip" id="c-all"  aria-pressed="true"  data-range="all">すべて</button>
       <button class="chip" id="c-week" aria-pressed="false" data-range="weekend">今週末</button>
@@ -225,7 +226,11 @@ const REGIONS = {
 const WD = ["日","月","火","水","木","金","土"];
 const events = (DATA.events || []).slice();
 const organizers = (DATA.organizers || []).slice();
-const state = {q:"", pref:"", fmt:"", range:"all", jishuOnly:false, prize:false, org:null};
+const state = {q:"", pref:"", fmt:"", range:"all", jishuOnly:false, prize:false, org:null, region:""};
+
+const PREF_REGION = {};
+for (const [r, ps] of Object.entries(REGIONS)) for (const p of ps) PREF_REGION[p] = r;
+const regionOf = e => e.online ? "オンライン" : (PREF_REGION[e.prefecture] || "地域未判定");
 
 // 主催ハンドル → その主催が持っている掲載中の大会数
 const orgEventCount = {};
@@ -267,12 +272,36 @@ for (const e of events){
     sel.appendChild(g);
   }
 
+  // 地域チップ（件数の多い順、実データにある地域だけ）
+  const rCount = {};
+  for (const e of events) rCount[regionOf(e)] = (rCount[regionOf(e)] || 0) + 1;
+  const rOrder = ["北海道・東北","関東","中部","近畿","中国・四国","九州・沖縄","オンライン","地域未判定"]
+    .filter(r => rCount[r]);
+  const row = document.getElementById("regionRow");
+  if (rOrder.length > 1){
+    row.innerHTML = `<button class="chip" data-region="" aria-pressed="true">全国 ${events.length}</button>`
+      + rOrder.map(r => `<button class="chip" data-region="${esc(r)}" aria-pressed="false">${esc(r)} ${rCount[r]}</button>`).join("");
+    row.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
+      state.region = b.dataset.region; state.pref = ""; sel.value = "";
+      row.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+      render();
+    }));
+  } else { row.hidden = true; }
+
   const fmts = [...new Set(events.map(e => e.format).filter(Boolean))];
   const fsel = document.getElementById("fmt");
   for (const f of fmts){ const o=document.createElement("option"); o.value=f; o.textContent=f; fsel.appendChild(o); }
 
   document.getElementById("q").addEventListener("input", e => { state.q = e.target.value.trim(); render(); });
-  sel.addEventListener("change", e => { state.pref = e.target.value; render(); });
+  sel.addEventListener("change", e => {
+    state.pref = e.target.value;
+    if (state.pref){   // 都道府県を選んだら地域チップは「全国」に戻す
+      state.region = "";
+      document.querySelectorAll("#regionRow .chip").forEach(x =>
+        x.setAttribute("aria-pressed", String(x.dataset.region === "")));
+    }
+    render();
+  });
   fsel.addEventListener("change", e => { state.fmt = e.target.value; render(); });
 
   document.querySelectorAll(".chip[data-range]").forEach(b => b.addEventListener("click", () => {
@@ -329,6 +358,7 @@ function relLabel(ds){
 /* ---------- filter + render ---------- */
 function matches(e){
   if (state.org && e.organizer_handle !== state.org) return false;
+  if (state.region && regionOf(e) !== state.region) return false;
   if (state.pref && e.prefecture !== state.pref) return false;
   if (state.fmt && e.format !== state.fmt) return false;
   if (state.jishuOnly && e.kind && e.kind !== "自主大会") return false;
