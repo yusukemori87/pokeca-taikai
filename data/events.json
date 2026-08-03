@@ -1,37 +1,30 @@
 {
-  "generated_at": "2026-08-04T01:22:53.118338+09:00",
-  "count": 164,
+  "generated_at": "2026-08-04T01:30:25.457850+09:00",
+  "count": 114,
   "horizon": "2026-11-07",
   "by_prefecture": {
-    "東京都": 48,
+    "東京都": 29,
     "大阪府": 15,
-    "愛知県": 11,
-    "埼玉県": 11,
-    "神奈川県": 11,
+    "愛知県": 10,
     "茨城県": 10,
+    "神奈川県": 8,
     "オンライン": 7,
-    "不明": 6,
-    "石川県": 5,
-    "福岡県": 4,
+    "埼玉県": 5,
+    "石川県": 4,
+    "不明": 4,
     "兵庫県": 4,
-    "千葉県": 3,
-    "沖縄県": 3,
-    "新潟県": 2,
     "鳥取県": 2,
     "滋賀県": 2,
-    "広島県": 2,
-    "鹿児島県": 2,
-    "京都府": 2,
-    "福島県": 2,
+    "沖縄県": 2,
     "佐賀県": 2,
-    "三重県": 1,
     "山口県": 1,
-    "富山県": 1,
     "岡山県": 1,
-    "栃木県": 1,
     "徳島県": 1,
-    "宮城県": 1,
+    "福島県": 1,
+    "福岡県": 1,
     "和歌山県": 1,
+    "鹿児島県": 1,
+    "千葉県": 1,
     "熊本県": 1,
     "宮崎県": 1
   },
@@ -57,7 +50,7 @@
       "organizer_handle": "PLAYGYMTOKYO",
       "organizer_name": "プレイジムTOKYO",
       "tweeted_at": "2026-08-03T22:36:06+09:00",
-      "collected_at": "2026-08-04T01:19:25.024795+09:00"
+      "collected_at": "2026-08-04T01:26:19.573137+09:00"
     },
     {
       "id": "ksGBb",
@@ -71,7 +64,7 @@
       "online": false,
       "fee": "500円",
       "capacity": 10,
-      "prize": "の配布はございません。)===",
+      "prize": null,
       "format": "スタンダード",
       "kind": "交流会",
       "organizer_url": "https://tonamel.com/organization/rAEjr",
@@ -80,7 +73,7 @@
       "organizer_handle": "PLAYGYMTOKYO",
       "organizer_name": "プレイジムTOKYO",
       "tweeted_at": "2026-08-03T22:36:06+09:00",
-      "collected_at": "2026-08-04T01:19:26.213775+09:00"
+      "collected_at": "2026-08-04T01:26:21.144772+09:00"
     },
     {
       "id": "JAneu",
@@ -103,7 +96,7 @@
       "organizer_handle": "SkipTamade",
       "organizer_name": "トレカショップスキップ大会",
       "tweeted_at": "2026-08-03T18:00:01+09:00",
-      "collected_at": "2026-08-04T01:19:27.445636+09:00"
+      "collected_at": "2026-08-04T01:26:39.779915+09:00"
     },
     {
       "id": "VBEWn",
@@ -117,7 +110,7 @@
       "online": false,
       "fee": "2,000円",
       "capacity": 33,
-      "prize": "〉優勝🥇",
+      "prize": null,
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/xlENg",
@@ -126,7 +119,7 @@
       "organizer_handle": "chocol8band",
       "organizer_name": "ちょこはち",
       "tweeted_at": "2026-07-31T17:06:14+09:00",
-      "collected_at": "2026-08-04T01:19:28.641060+09:00"
+      "collected_at": "2026-08-04T01:30:06.272846+09:00"
     },
     {
       "id": "Rml5j",
@@ -149,7 +142,7 @@
       "organizer_handle": "ISHIKAWAPOKECA",
       "organizer_name": "石川ポケカCS",
       "tweeted_at": "2026-07-31T18:19:07+09:00",
-      "collected_at": "2026-08-04T01:19:29.747690+09:00"
+      "collected_at": "2026-08-04T01:30:22.935123+09:00"
     },
     {
       "id": "OINbb",
@@ -172,7 +165,7 @@
       "organizer_handle": "DCentGame",
       "organizer_name": "D-Cent game&amp;card",
       "tweeted_at": "2026-08-03T16:30:00+09:00",
-      "collected_at": "2026-08-04T01:19:31.191479+09:00"
+      "collected_at": "2026-08-04T01:26:35.691360+09:00"
     },
     {
       "id": "XiErY",
@@ -195,7 +188,7 @@
       "organizer_handle": "TCG_ADVANTAGE",
       "organizer_name": "アドバンテージ",
       "tweeted_at": "2026-08-04T00:36:00+09:00",
-      "collected_at": "2026-08-04T01:19:32.713125+09:00"
+      "collected_at": "2026-08-04T01:26:15.474205+09:00"
     },
     {
       "id": "99O64",
@@ -218,7 +211,7 @@
       "organizer_handle": "sr_AromaLady29",
       "organizer_name": "イベント開催用",
       "tweeted_at": "2026-07-29T21:59:58+09:00",
-      "collected_at": "2026-08-04T01:19:33.785679+09:00"
+      "collected_at": "2026-08-04T01:28:53.421160+09:00"
     },
     {
       "id": "YV7A5",
@@ -241,7 +234,7 @@
       "organizer_handle": "tp_ignition",
       "organizer_name": "トレカプラザ名古屋駅前店",
       "tweeted_at": "2026-08-02T18:39:22+09:00",
-      "collected_at": "2026-08-04T01:19:34.966847+09:00"
+      "collected_at": "2026-08-04T01:27:37.404454+09:00"
     },
     {
       "id": "Q4Xkl",
@@ -255,7 +248,7 @@
       "online": false,
       "fee": "1,000円",
       "capacity": 32,
-      "prize": "受け渡し",
+      "prize": null,
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/7ENVu",
@@ -264,7 +257,7 @@
       "organizer_handle": "OP01_soda",
       "organizer_name": "SODA CUP",
       "tweeted_at": "2026-07-29T19:03:10+09:00",
-      "collected_at": "2026-08-04T01:19:36.023918+09:00"
+      "collected_at": "2026-08-04T01:30:24.455408+09:00"
     },
     {
       "id": "qG4ys",
@@ -287,7 +280,7 @@
       "organizer_handle": "fussadepokeca",
       "organizer_name": "福生deポケカ",
       "tweeted_at": "2026-08-03T13:07:35+09:00",
-      "collected_at": "2026-08-04T01:19:37.446611+09:00"
+      "collected_at": "2026-08-04T01:26:53.970418+09:00"
     },
     {
       "id": "4Wygg",
@@ -310,7 +303,7 @@
       "organizer_handle": "kepamayapokeca",
       "organizer_name": "けぱポケカ杯",
       "tweeted_at": "2026-07-31T21:42:15+09:00",
-      "collected_at": "2026-08-04T01:19:38.847061+09:00"
+      "collected_at": "2026-08-04T01:29:51.286769+09:00"
     },
     {
       "id": "o9zCD",
@@ -333,7 +326,7 @@
       "organizer_handle": "tokopoke_PTCG",
       "organizer_name": "所沢でポケカをする会",
       "tweeted_at": "2026-08-02T14:54:25+09:00",
-      "collected_at": "2026-08-04T01:19:40.032787+09:00"
+      "collected_at": "2026-08-04T01:27:47.823817+09:00"
     },
     {
       "id": "NttpB",
@@ -347,7 +340,7 @@
       "online": false,
       "fee": "1,000円",
       "capacity": 32,
-      "prize": "1位(全勝者)",
+      "prize": null,
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/9U5Ar",
@@ -356,30 +349,7 @@
       "organizer_handle": "tst_tsunashima",
       "organizer_name": "カドラバ＆トレステ綱島",
       "tweeted_at": "2026-08-03T12:00:00+09:00",
-      "collected_at": "2026-08-04T01:19:41.439319+09:00"
-    },
-    {
-      "id": "IN7YC",
-      "title": "【オーガナイザーイベント】社会人ポケカ研究会【8月】",
-      "url": "https://tonamel.com/competition/IN7YC",
-      "date": "2026-08-07",
-      "start_time": "19:00",
-      "prefecture": "東京都",
-      "venue": "デュエルサロン太陽",
-      "address": "東京都新宿区馬場下町9-8　ハイライフホーム早稲田駅前ビル5F",
-      "online": false,
-      "fee": null,
-      "capacity": 24,
-      "prize": null,
-      "format": "その他",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/4cZRI",
-      "summary": "会社終わりの金曜日。明日を気にせずポケカやるぞ！そんな大人たちのポケモンカード研究会。普段子どもたちとやっているお父さん、お母さん、コソ練で一緒に上手くなりましょう！そんな仲間を見つけるイベントです。もちろんマスターであればどなたでも大歓迎です。基本的にはフリー対戦での交流会形式です。店舗に備え付けのレンタルデッキを使用して練習することも可能です。また時間内であれば途中参加、途中退室も可能です。",
-      "source_tweet_url": null,
-      "organizer_handle": null,
-      "organizer_name": "デュエルサロン太陽",
-      "tweeted_at": "2026-08-04T01:19:43.862006+09:00",
-      "collected_at": "2026-08-04T01:19:43.862803+09:00"
+      "collected_at": "2026-08-04T01:29:33.870668+09:00"
     },
     {
       "id": "5dCaJ",
@@ -402,30 +372,7 @@
       "organizer_handle": "housekisai",
       "organizer_name": "宝石祭",
       "tweeted_at": "2026-08-03T14:23:28+09:00",
-      "collected_at": "2026-08-04T01:19:42.681564+09:00"
-    },
-    {
-      "id": "HSpjA",
-      "title": "第五回《つばさんCS》",
-      "url": "https://tonamel.com/competition/HSpjA",
-      "date": "2026-08-08",
-      "start_time": "09:00",
-      "prefecture": "新潟県",
-      "venue": "三条東公民館・第1ホール",
-      "address": "〒955-0046 新潟県三条市興野１丁目１３−７０",
-      "online": false,
-      "fee": "500円",
-      "capacity": 48,
-      "prize": "優勝：・ストームエメラルダ 1BOX《",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/TIQJK",
-      "summary": "《 第5回 つばさんCS 》【大会概要】参加者があまり多く集まらないと見込まれた場合、開催時間・試合数などを変更させていただく可能性があります。ご了承下さい。※7月20日更新試合数を６試合→５試合に変更しました。今回は個人戦(BO3)での大会になります！もうすぐ世界大会が開催されます！せっかくなので世界大会で使用可能なレギュレーションでの大会を行います！ポケモンカードゲーム自主大会《つばさんCS》",
-      "source_tweet_url": "https://x.com/tsubasan_cs/status/2073747751909937507",
-      "organizer_handle": "tsubasan_cs",
-      "organizer_name": "《つばさんCS》",
-      "tweeted_at": "2026-07-05T21:36:07+09:00",
-      "collected_at": "2026-08-04T01:19:44.963605+09:00"
+      "collected_at": "2026-08-04T01:26:45.085737+09:00"
     },
     {
       "id": "UKrnM",
@@ -448,30 +395,7 @@
       "organizer_handle": "kadoraba",
       "organizer_name": "すなやまのあそびば",
       "tweeted_at": "2026-08-01T11:30:00+09:00",
-      "collected_at": "2026-08-04T01:19:46.361429+09:00"
-    },
-    {
-      "id": "W0i4r",
-      "title": "第81回むしのしらせストライク杯",
-      "url": "https://tonamel.com/competition/W0i4r",
-      "date": "2026-08-08",
-      "start_time": "10:30",
-      "prefecture": "福岡県",
-      "venue": "オレタン福岡天神店",
-      "address": "福岡県福岡市中央区天神3−2−22河村天神荘ビル３F",
-      "online": false,
-      "fee": "600円",
-      "capacity": 128,
-      "prize": "優勝：ストームエメラルダ2BOX",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/H5OSK",
-      "summary": "◆大会参加に必要な物大会参加するために必要な物です。必ず持参して下さい。・参加費（600円）・スタンダードレギュレーション60枚デッキ・ダメカン・マスク着用は個人の判断でお願いします。◆スケジュール10:00~10:30 大会受付10:40 開会式11:00~11:25 スイスドロー1回戦11:40~12:05 スイスドロー2回戦12:20~12:45 スイスドロー3回戦13:00~13:25 ス",
-      "source_tweet_url": "https://x.com/card_strike/status/2079159386077794383",
-      "organizer_handle": "card_strike",
-      "organizer_name": "むしのしらせ/テクニシャン杯",
-      "tweeted_at": "2026-07-20T20:00:01+09:00",
-      "collected_at": "2026-08-04T01:19:47.419399+09:00"
+      "collected_at": "2026-08-04T01:29:14.328211+09:00"
     },
     {
       "id": "baXqm",
@@ -494,7 +418,7 @@
       "organizer_handle": "kadoraba",
       "organizer_name": "もーちー杯",
       "tweeted_at": "2026-08-01T11:30:00+09:00",
-      "collected_at": "2026-08-04T01:19:48.851301+09:00"
+      "collected_at": "2026-08-04T01:29:22.078184+09:00"
     },
     {
       "id": "NLgfA",
@@ -513,34 +437,11 @@
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/E7jNq",
       "summary": "おはようございます！こんにちは！こんばんは！主催のスイレン(@nrissgn913)とチームわっしょい(@team__wassyoi)です。このたび、スイレンとチームわっしょいで「北陸杯」という名前で記念すべき大型チームイベントを開催する運びとなりました㊗️以下、大会概要なのでご確認ください🙇‍♂️【大会概要】開催日：2026年8月8日 (土)会場：【CARDBOX】Super KaBoS 二の宮",
-      "source_tweet_url": "https://x.com/harutonGX/status/2078027338777055718",
-      "organizer_handle": "harutonGX",
+      "source_tweet_url": "https://x.com/kadoraba/status/2083379692908818651",
+      "organizer_handle": "kadoraba",
       "organizer_name": "スイレンカップ",
-      "tweeted_at": "2026-07-17T17:01:40+09:00",
-      "collected_at": "2026-08-04T01:19:50.293976+09:00"
-    },
-    {
-      "id": "FLNVE",
-      "title": "おじフェス",
-      "url": "https://tonamel.com/competition/FLNVE",
-      "date": "2026-08-08",
-      "start_time": "11:00",
-      "prefecture": "三重県",
-      "venue": "菰野町民センター",
-      "address": "三重県三重郡菰野町福村８７１−２",
-      "online": true,
-      "fee": "2,000円",
-      "capacity": 64,
-      "prize": "優勝：賞品",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/DQPEt",
-      "summary": "【開催日】 2026年8月8日（土）【受付時間】 11:00〜11:45【定員】64名（個人戦）【開催場所】 菰野町民センター【参加費】 2000円【優勝賞品】【２位】【３位】【４位】【ベスト8】【ランダム賞有】景品は優勝から順に景品コーナーから選ぶ（ポケカBOXやお土産に嬉しい物までいろいろ）【デッキリストの提出】 有本大会はデッキレシピ提出をお願いしております。大会開始前までに提出お願いいたし",
-      "source_tweet_url": "https://x.com/maaateru_fuma/status/2081766038082101248",
-      "organizer_handle": "maaateru_fuma",
-      "organizer_name": "ハッテンフェス",
-      "tweeted_at": "2026-07-28T00:37:55+09:00",
-      "collected_at": "2026-08-04T01:19:51.349499+09:00"
+      "tweeted_at": "2026-08-01T11:30:00+09:00",
+      "collected_at": "2026-08-04T01:28:55.986403+09:00"
     },
     {
       "id": "jtcRC",
@@ -563,7 +464,7 @@
       "organizer_handle": "big_horn_tcg",
       "organizer_name": "ビックホーン",
       "tweeted_at": "2026-08-03T21:52:44+09:00",
-      "collected_at": "2026-08-04T01:19:52.746995+09:00"
+      "collected_at": "2026-08-04T01:26:22.670384+09:00"
     },
     {
       "id": "Pab5b",
@@ -577,7 +478,7 @@
       "online": false,
       "fee": "無料",
       "capacity": 24,
-      "prize": "優勝：賞:優勝カップ▸",
+      "prize": "公認自主大会トレーナーズパック▸その他の賞:スリーブなどご提供品いただいたものをお配りしま…",
       "format": "その他",
       "kind": "ショップ主催",
       "organizer_url": "https://tonamel.com/organization/PTrgs",
@@ -586,7 +487,7 @@
       "organizer_handle": "iwakuniTCG",
       "organizer_name": "カードショップ リッケ",
       "tweeted_at": "2026-08-03T17:17:37+09:00",
-      "collected_at": "2026-08-04T01:19:53.925842+09:00"
+      "collected_at": "2026-08-04T01:26:41.047720+09:00"
     },
     {
       "id": "wjweG",
@@ -609,7 +510,7 @@
       "organizer_handle": "misatoptcgc",
       "organizer_name": "三郷ポケカ部",
       "tweeted_at": "2026-08-02T21:29:59+09:00",
-      "collected_at": "2026-08-04T01:19:55.317514+09:00"
+      "collected_at": "2026-08-04T01:27:20.537964+09:00"
     },
     {
       "id": "HyN6B",
@@ -632,30 +533,7 @@
       "organizer_handle": "tokopoke_PTCG",
       "organizer_name": "所沢でポケカをする会",
       "tweeted_at": "2026-08-02T14:54:25+09:00",
-      "collected_at": "2026-08-04T01:19:56.499288+09:00"
-    },
-    {
-      "id": "UWfod",
-      "title": "ディレグム杯ex3on3チーム戦",
-      "url": "https://tonamel.com/competition/UWfod",
-      "date": "2026-08-08",
-      "start_time": "13:00",
-      "prefecture": "富山県",
-      "venue": "アイザック小杉文化ホールラポール",
-      "address": "富山県射水市戸破1500",
-      "online": false,
-      "fee": "6,000円",
-      "capacity": 32,
-      "prize": "優勝：を目指せ!<注意事項>以下の方は参加をお断りさせていただきます。過去カードゲームのイベント…",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/DCR65",
-      "summary": "チームで力を合わせて優勝を目指せ！＜注意事項＞以下の方は参加をお断りさせていただきます。過去カードゲームのイベント（ジャンル問わず）で迷惑行為、イカサマなどをおこなっていた方※噂が多い方も対象です。大会中に発覚した場合は途中でもご退出していただく場合があります。参加者のみんなさんが楽しくプレイできる措置ですのでご了承ください。&amp;lt;大会概要&amp;gt;日時：8月8日（土）13:00〜",
-      "source_tweet_url": "https://x.com/deregmu_og/status/2073392268036444298",
-      "organizer_handle": "deregmu_og",
-      "organizer_name": "ディレグム",
-      "tweeted_at": "2026-07-04T22:03:33+09:00",
-      "collected_at": "2026-08-04T01:19:57.556955+09:00"
+      "collected_at": "2026-08-04T01:27:49.351593+09:00"
     },
     {
       "id": "akqs8",
@@ -678,7 +556,7 @@
       "organizer_handle": "sorawani",
       "organizer_name": "そらわに",
       "tweeted_at": "2026-08-02T20:39:09+09:00",
-      "collected_at": "2026-08-04T01:19:58.944723+09:00"
+      "collected_at": "2026-08-04T01:27:30.201741+09:00"
     },
     {
       "id": "6SBtI",
@@ -701,7 +579,7 @@
       "organizer_handle": "kadoraba",
       "organizer_name": "すなやまのあそびば",
       "tweeted_at": "2026-08-01T11:30:00+09:00",
-      "collected_at": "2026-08-04T01:20:00.368716+09:00"
+      "collected_at": "2026-08-04T01:29:17.380733+09:00"
     },
     {
       "id": "X5UKm",
@@ -724,7 +602,7 @@
       "organizer_handle": "laughteria_TCG",
       "organizer_name": "カードショップラフテリア",
       "tweeted_at": "2026-08-01T20:20:52+09:00",
-      "collected_at": "2026-08-04T01:20:01.551831+09:00"
+      "collected_at": "2026-08-04T01:27:38.658839+09:00"
     },
     {
       "id": "VtbrF",
@@ -738,7 +616,7 @@
       "online": false,
       "fee": "100円",
       "capacity": 12,
-      "prize": "1燈桜オリジナル先攻/後攻マーカー2燈桜オリジナルステッカー",
+      "prize": null,
       "format": "その他",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/sH0U5",
@@ -747,7 +625,7 @@
       "organizer_handle": "Tcghizakura",
       "organizer_name": "DEEEP",
       "tweeted_at": "2026-08-02T11:12:50+09:00",
-      "collected_at": "2026-08-04T01:20:02.779981+09:00"
+      "collected_at": "2026-08-04T01:28:09.205707+09:00"
     },
     {
       "id": "xU2Dd",
@@ -761,7 +639,7 @@
       "online": false,
       "fee": "100円",
       "capacity": 12,
-      "prize": "1燈桜オリジナル先攻/後攻マーカー2燈桜オリジナルステッカー",
+      "prize": null,
       "format": "その他",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/sH0U5",
@@ -770,7 +648,30 @@
       "organizer_handle": "Tcghizakura",
       "organizer_name": "DEEEP",
       "tweeted_at": "2026-08-02T11:12:50+09:00",
-      "collected_at": "2026-08-04T01:20:03.976582+09:00"
+      "collected_at": "2026-08-04T01:28:13.242990+09:00"
+    },
+    {
+      "id": "VoGmp",
+      "title": "ストームエメラルダBOX争奪戦",
+      "url": "https://tonamel.com/competition/VoGmp",
+      "date": "2026-08-08",
+      "start_time": "19:30",
+      "prefecture": "沖縄県",
+      "venue": "那覇BASE",
+      "address": "沖縄県那覇市泉崎1丁目12-4 マラカイト泉崎ビル 4F",
+      "online": false,
+      "fee": "500円",
+      "capacity": 11,
+      "prize": null,
+      "format": "スタンダード",
+      "kind": "自主大会",
+      "organizer_url": "https://tonamel.com/organization/Z1K6o",
+      "summary": "【🔥ストームエメラルダBOX争奪戦🔥】⚪︎日時 8月8日 土曜日⚪︎場所 那覇BASE⚪︎受け付け 19時20分〜19時30分⚪︎参加費 1人 ¥500⚪︎景品 1位 ストームエメラルダ 1box景品は7名以下で景品の変更の可能性あります🙇‍♂️お酒飲みながらの参加可能🙆🔥🔥🔥※Bar営業なので未成年参加は不可になります🙏●大会参加に必要な物 ・大会に使用する「デッキ」・対戦に必要なもの（ダメカン",
+      "source_tweet_url": "https://x.com/oknwpokemon/status/2084313863164703123",
+      "organizer_handle": "oknwpokemon",
+      "organizer_name": "那覇BASE",
+      "tweeted_at": "2026-08-04T01:22:04+09:00",
+      "collected_at": "2026-08-04T01:26:11.075708+09:00"
     },
     {
       "id": "nV9qf",
@@ -793,7 +694,7 @@
       "organizer_handle": "kadoraba",
       "organizer_name": "まんじゅう杯",
       "tweeted_at": "2026-08-01T11:30:00+09:00",
-      "collected_at": "2026-08-04T01:20:06.563793+09:00"
+      "collected_at": "2026-08-04T01:29:15.853904+09:00"
     },
     {
       "id": "7JXfQ",
@@ -816,122 +717,7 @@
       "organizer_handle": "kadoraba",
       "organizer_name": "さけ",
       "tweeted_at": "2026-08-01T11:30:00+09:00",
-      "collected_at": "2026-08-04T01:20:07.790093+09:00"
-    },
-    {
-      "id": "RZLcv",
-      "title": "CL柳川　season Summer",
-      "url": "https://tonamel.com/competition/RZLcv",
-      "date": "2026-08-09",
-      "start_time": "10:00",
-      "prefecture": "福岡県",
-      "venue": "TSUTAYA柳川店",
-      "address": "福岡県柳川市三橋町藤吉509-1",
-      "online": false,
-      "fee": "200円",
-      "capacity": 54,
-      "prize": "贈呈15:00頃・今回のみ、ゲストのサイン会が16時よりあります!それから、18:00まで…",
-      "format": "その他",
-      "kind": "ショップ主催",
-      "organizer_url": "https://tonamel.com/organization/EkKsA",
-      "summary": "参加費として、主催者へのお支払いは不要ですが、場所代としてお店で200円以上のお買い物をお願いしています大会日程 ・10：00より受付開始・10：45にて受付終了※遠方から来られる方もいらっしゃいます。受付終了後、大会日程やルール確認、対戦準備を行いますが、よほどの事情や事前連絡なく遅れられる場合はキャンセルと見なし、キャンセル待ちの方を優先して入れて行きます。⭐︎1戦目 11：00〜11：25⭐",
-      "source_tweet_url": "https://x.com/kyogasensei/status/2081186682574090306",
-      "organizer_handle": "kyogasensei",
-      "organizer_name": "きょが先生主催大会",
-      "tweeted_at": "2026-07-26T10:15:46+09:00",
-      "collected_at": "2026-08-04T01:20:09.184082+09:00"
-    },
-    {
-      "id": "U7hoN",
-      "title": "第9回ならくのうらもん杯",
-      "url": "https://tonamel.com/competition/U7hoN",
-      "date": "2026-08-09",
-      "start_time": "10:00",
-      "prefecture": "広島県",
-      "venue": "フタバ図書TSUTAYA広店",
-      "address": " 広島県呉市広中町１−９",
-      "online": false,
-      "fee": "1,000円",
-      "capacity": 48,
-      "prize": "優勝：拡張パック  2BOX (15ポイント)",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/4BTlt",
-      "summary": "■主催挨拶ポケモンカード 自主大会【ならくのうらもん杯】第9回をフタバ図書TSUTAYA広店にて開催することとなりました！下記は大会の概要となっておりますので、ご一読お願いいたします。■大会概要【日時】8月9日 (日) 10:00～（受付開始）（11:00 受付終了）【定員】48人【会場】フタバ図書TSUTAYA広店【参加費】1人：1,000円親子で参加される方：親御さん 1,000円 (中学生以",
-      "source_tweet_url": "https://x.com/SHIMA_PCG/status/2074439629638672417",
-      "organizer_handle": "SHIMA_PCG",
-      "organizer_name": "ならくのうらもん杯運営",
-      "tweeted_at": "2026-07-07T19:25:23+09:00",
-      "collected_at": "2026-08-04T01:20:10.242328+09:00"
-    },
-    {
-      "id": "neVnN",
-      "title": "第2回すぷりんぴっく(WCS2010)",
-      "url": "https://tonamel.com/competition/neVnN",
-      "date": "2026-08-09",
-      "start_time": "10:00",
-      "prefecture": null,
-      "venue": "セシオン杉並第9・10集会室",
-      "address": "杉並区梅里1-22-32",
-      "online": false,
-      "fee": "の返金はございません。・持ち込んだゴミは持ち帰りをお願いして",
-      "capacity": 60,
-      "prize": null,
-      "format": "その他",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/kP10Y",
-      "summary": "WCS2010レギュの大会です。詳細はこちらhttps://note.com/spr381/n/n74dbd626614d?sub_rt=share_pb【注意事項】・カードを含む貴重品、お荷物は、自己責任での管理をお願い致します。紛失・盗難について主催・会場では責任を負いかねます。・大会の様子をSNSへ投稿する予定です。なおモザイク等を利用し個人の特定への配慮を行います。・大会参加中の飲酒はご遠",
-      "source_tweet_url": null,
-      "organizer_handle": null,
-      "organizer_name": "すぷりんた",
-      "tweeted_at": "2026-08-04T01:20:29.120937+09:00",
-      "collected_at": "2026-08-04T01:20:29.121444+09:00"
-    },
-    {
-      "id": "8z9gk",
-      "title": "ポケカ非公認大会 in SUMMER",
-      "url": "https://tonamel.com/competition/8z9gk",
-      "date": "2026-08-09",
-      "start_time": "10:30",
-      "prefecture": "鹿児島県",
-      "venue": "マンガ倉庫鹿児島店",
-      "address": "鹿児島県鹿児島市小松原１丁目６−７",
-      "online": false,
-      "fee": "3,000円",
-      "capacity": 16,
-      "prize": "優勝：カードコーナーで使える中古商品券(3000円分)",
-      "format": "スタンダード",
-      "kind": "ショップ主催",
-      "organizer_url": "https://tonamel.com/organization/gpMrp",
-      "summary": "□■□■□■□■□■□■□■□■□■□■マンガ倉庫鹿児島店カードコーナーにて≫≫≫ポケモンカード非公認大会開催決定！！≪≪≪□■□■□■□■□■□■□■□■□■□■◆大会形式・スタンダードレギュレーション60枚・制限時間［25分］※時間切れは両者敗北となります※本イベントはセルフジャッジでの進行とさせていただきます。◆定員…※当イベントは先着受付順となります。 定員を超えた場合はキャンセル待ちとな",
-      "source_tweet_url": "https://x.com/mansoukgsm_tcg/status/2081208344891822424",
-      "organizer_handle": "mansoukgsm_tcg",
-      "organizer_name": "マンガ倉庫鹿児島店",
-      "tweeted_at": "2026-07-26T11:41:51+09:00",
-      "collected_at": "2026-08-04T01:20:11.444481+09:00"
-    },
-    {
-      "id": "JIfgJ",
-      "title": "⚡️Light-Zing Scrim⚡️特別編",
-      "url": "https://tonamel.com/competition/JIfgJ",
-      "date": "2026-08-09",
-      "start_time": "11:00",
-      "prefecture": "栃木県",
-      "venue": "宇都宮市雀宮地区市民センター　ホール1、2",
-      "address": "栃木県宇都宮市新富町９−４",
-      "online": false,
-      "fee": "1,000円",
-      "capacity": 128,
-      "prize": "のお渡し及びサイドイベントの参加が不可になります。決勝トーナメント予選の1~1",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/r7zK6",
-      "summary": "栃木県宇都宮市で開催するポケモンカードの練習会！今回は夏休み特別編と題しまして100人超でのイベントを開催せていただくことになりました！たくさんのご参加お待ちしております♪▪︎日時▪︎2026年8月9日（日）受付10時00分～11時00分▪︎場所▪︎宇都宮市雀宮地区市民センター ホール1、2住所▶︎〒321-0133 栃木県宇都宮市新富町９−４▪︎参加費▪︎1000円▪︎参加方法▪︎こちらのページ",
-      "source_tweet_url": null,
-      "organizer_handle": null,
-      "organizer_name": "にゃんこさんのねこのしゅうかい",
-      "tweeted_at": "2026-08-04T01:20:05.382098+09:00",
-      "collected_at": "2026-08-04T01:20:05.384074+09:00"
+      "collected_at": "2026-08-04T01:29:29.519627+09:00"
     },
     {
       "id": "sSKTi",
@@ -954,30 +740,7 @@
       "organizer_handle": "1shot_ishibashi",
       "organizer_name": "トレカショップワンショット",
       "tweeted_at": "2026-08-03T13:37:33+09:00",
-      "collected_at": "2026-08-04T01:20:12.890550+09:00"
-    },
-    {
-      "id": "Pk24m",
-      "title": "第二回新生・果てなき野望杯　(予選スイスドロー)",
-      "url": "https://tonamel.com/competition/Pk24m",
-      "date": "2026-08-09",
-      "start_time": "11:30",
-      "prefecture": "京都府",
-      "venue": "トレカザウルス 京都店",
-      "address": "京都府京都市下京区東塩小路町６８４ Tissage塩小路 2F",
-      "online": false,
-      "fee": "1,000円",
-      "capacity": 64,
-      "prize": "優勝：3BOX(最新弾予定)",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/Z614z",
-      "summary": "場所:トレカザウルス 京都店日時:8/9(日) 11:40~(受付11:00~11:30)参加費:1000円レギュレーション:スタンダード60枚※参加費は運営費用としていただき、景品は店舗様より用意していただいた商品になります。景品の都合、参加者が32名に満たない場合は中止となる場合がございます。ご了承ください。景品:本戦ラウンド優勝:3BOX(最新弾予定)2位:2BOX3位:1BOX予選ラウンド",
-      "source_tweet_url": "https://x.com/yabouhai_poke/status/2079434450434429423",
-      "organizer_handle": "yabouhai_poke",
-      "organizer_name": "果てなき野望杯運営",
-      "tweeted_at": "2026-07-21T14:13:01+09:00",
-      "collected_at": "2026-08-04T01:20:14.068014+09:00"
+      "collected_at": "2026-08-04T01:26:51.195796+09:00"
     },
     {
       "id": "biK3K",
@@ -991,7 +754,7 @@
       "online": false,
       "fee": "6,000円",
       "capacity": 18,
-      "prize": "==================",
+      "prize": null,
       "format": "その他",
       "kind": "ショップ主催",
       "organizer_url": "https://tonamel.com/organization/98jVd",
@@ -1000,7 +763,7 @@
       "organizer_handle": "kadoraba",
       "organizer_name": "メルカード秋葉原2号店",
       "tweeted_at": "2026-08-01T11:30:00+09:00",
-      "collected_at": "2026-08-04T01:20:15.464849+09:00"
+      "collected_at": "2026-08-04T01:29:30.820236+09:00"
     },
     {
       "id": "qN5VB",
@@ -1019,11 +782,11 @@
       "kind": "ショップ主催",
       "organizer_url": "https://tonamel.com/organization/eZ60O",
       "summary": "【本イベントは2026年6~7月のジムバトル優勝者限定大会です】以下の方のみエントリーが可能です(優勝回数順/敬称略)アキうなぎこうたろうセナしょどなつりんりんナユタかつhouseゆっくらーどたかみのすもつひーちへとあおふちゃちゃピタひろ店長が認識している名前と異なる場合があるので、優勝したけど名前ないよ~って方は連絡お願いいたします。【日時】8/9(日) 12:50-16:30【エントリー期間】",
-      "source_tweet_url": "https://x.com/hk_izanagi/status/2083200516587467169",
+      "source_tweet_url": "https://x.com/hk_izanagi/status/2084183108312780806",
       "organizer_handle": "hk_izanagi",
       "organizer_name": "秘密基地イザナギ",
-      "tweeted_at": "2026-07-31T23:38:01+09:00",
-      "collected_at": "2026-08-04T01:20:30.306044+09:00"
+      "tweeted_at": "2026-08-03T16:42:29+09:00",
+      "collected_at": "2026-08-04T01:26:18.314365+09:00"
     },
     {
       "id": "NIZwE",
@@ -1042,11 +805,11 @@
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/543Vy",
       "summary": "【レギュレーション】 スタンダードレギュレーション【形式】 スイスドロー方式(1位決定まで)【対戦時間】 25分【デッキ・カード交換】 不可【使用できるカード】・スタンダードレギュレーションに沿ったカードのみ、使用可能。・コピーカードやオリジナルカードの使用は禁止・サインカードの使用は原則不可。・その他、使用できるカードはフロアルールに準じる。【大会予定】12:50～13:00 大会受付13:00",
-      "source_tweet_url": "https://x.com/laughteria_TCG/status/2083323981457928376",
+      "source_tweet_url": "https://x.com/laughteria_TCG/status/2083513289448050708",
       "organizer_handle": "laughteria_TCG",
       "organizer_name": "たくみ＠ラフテリア",
-      "tweeted_at": "2026-08-01T07:48:38+09:00",
-      "collected_at": "2026-08-04T01:20:16.654479+09:00"
+      "tweeted_at": "2026-08-01T20:20:52+09:00",
+      "collected_at": "2026-08-04T01:27:40.218145+09:00"
     },
     {
       "id": "MKMI9",
@@ -1069,7 +832,7 @@
       "organizer_handle": "hareruya2namba",
       "organizer_name": "晴れる屋2　なんば店",
       "tweeted_at": "2026-08-02T15:07:53+09:00",
-      "collected_at": "2026-08-04T01:20:17.835537+09:00"
+      "collected_at": "2026-08-04T01:27:44.887776+09:00"
     },
     {
       "id": "qhPpS",
@@ -1092,7 +855,7 @@
       "organizer_handle": "PokecashopOTO",
       "organizer_name": "TRADING CARD SHOP OTO",
       "tweeted_at": "2026-08-01T18:17:25+09:00",
-      "collected_at": "2026-08-04T01:20:19.020180+09:00"
+      "collected_at": "2026-08-04T01:28:58.766657+09:00"
     },
     {
       "id": "B0TGW",
@@ -1115,7 +878,7 @@
       "organizer_handle": "torecagarage",
       "organizer_name": "トレカガレージ 新宿南口店",
       "tweeted_at": "2026-08-01T15:00:01+09:00",
-      "collected_at": "2026-08-04T01:20:20.420987+09:00"
+      "collected_at": "2026-08-04T01:29:03.090840+09:00"
     },
     {
       "id": "vjZaF",
@@ -1138,53 +901,7 @@
       "organizer_handle": "TCGDungeon",
       "organizer_name": "トレカダンジョン",
       "tweeted_at": "2026-07-31T21:48:25+09:00",
-      "collected_at": "2026-08-04T01:20:21.602040+09:00"
-    },
-    {
-      "id": "YpRSb",
-      "title": "【ポケカ公認自主大会】第２回_つがカップ（小・中学生対象）",
-      "url": "https://tonamel.com/competition/YpRSb",
-      "date": "2026-08-09",
-      "start_time": "13:00",
-      "prefecture": "千葉県",
-      "venue": "都賀コミュニティセンター2階講習室2,3",
-      "address": "千葉県千葉市若葉区都賀4-20-1",
-      "online": false,
-      "fee": "200円",
-      "capacity": 48,
-      "prize": "オーガナイザープロモパック1パック",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/3wDFn",
-      "summary": "千葉県千葉市若葉区（都賀駅周辺）で開催される小・中学生対象のポケカ公認自主大会（オーガナイザーイベント）です。今回は第２回目となります。【大会概要】日時：8/9（日）13:00～16:00（受付は13:15まで、17:00までフリー対戦可）場所：都賀コミュニティセンター2階 講習室2,3ルール：スタンダードレギュレーション、60枚対戦方式：スイスドロー方式参加費：200円／人エントリー上限数：48",
-      "source_tweet_url": "https://x.com/tsugapokeca/status/2075183347446509755",
-      "organizer_handle": "tsugapokeca",
-      "organizer_name": "つがカップ",
-      "tweeted_at": "2026-07-09T20:40:39+09:00",
-      "collected_at": "2026-08-04T01:20:22.829751+09:00"
-    },
-    {
-      "id": "Ay7Hb",
-      "title": "ポケカ非公認大会「新弾BOX争奪戦」",
-      "url": "https://tonamel.com/competition/Ay7Hb",
-      "date": "2026-08-09",
-      "start_time": "13:30",
-      "prefecture": null,
-      "venue": null,
-      "address": null,
-      "online": false,
-      "fee": "のお支払い(",
-      "capacity": 64,
-      "prize": "優勝：1BOX",
-      "format": "スタンダード",
-      "kind": "ショップ主催",
-      "organizer_url": "https://tonamel.com/organization/awrIf",
-      "summary": "《イベント詳細/重要事項》以下の事項を必ずご確認・ご了承の上、エントリー下さい。【WEBエントリー時の注意】当サイトでのWEBエントリーと当日のチェックインで参加登録が完了します。単独でプレイできる小学生以上の方のみエントリー可能です。WEBエントリー先着１番～32番は定員内受付です。WEBエントリー済の参加予定者は、大会当日店頭にて、受付時間内にチェックインをお済ませ下さい。（受付時間13:00",
-      "source_tweet_url": "https://x.com/sanyodoTCG_taru/status/2079808153274003602",
-      "organizer_handle": "sanyodoTCG_taru",
-      "organizer_name": "三洋堂トレカ館垂井店",
-      "tweeted_at": "2026-07-22T14:57:59+09:00",
-      "collected_at": "2026-08-04T01:20:23.947487+09:00"
+      "collected_at": "2026-08-04T01:29:49.650590+09:00"
     },
     {
       "id": "0ECrI",
@@ -1207,7 +924,7 @@
       "organizer_handle": "booklifekanoya",
       "organizer_name": "BOOK☆LIFE　東串良店",
       "tweeted_at": "2026-08-02T12:30:00+09:00",
-      "collected_at": "2026-08-04T01:20:25.353740+09:00"
+      "collected_at": "2026-08-04T01:27:53.739539+09:00"
     },
     {
       "id": "lTeXY",
@@ -1230,7 +947,7 @@
       "organizer_handle": "sanyodoTCG_toyo",
       "organizer_name": "三洋堂トレカ館豊郷店",
       "tweeted_at": "2026-07-31T20:00:00+09:00",
-      "collected_at": "2026-08-04T01:20:26.540033+09:00"
+      "collected_at": "2026-08-04T01:29:54.066900+09:00"
     },
     {
       "id": "oX8GQ",
@@ -1253,7 +970,7 @@
       "organizer_handle": "torekaX",
       "organizer_name": "トレカX",
       "tweeted_at": "2026-08-03T21:11:54+09:00",
-      "collected_at": "2026-08-04T01:20:31.699422+09:00"
+      "collected_at": "2026-08-04T01:26:29.811920+09:00"
     },
     {
       "id": "5t60v",
@@ -1267,7 +984,7 @@
       "online": false,
       "fee": "無料",
       "capacity": 11,
-      "prize": "1位 ニャースSRお酒飲みながらの参加可能🙆🔥🔥🔥",
+      "prize": null,
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/Z1K6o",
@@ -1276,7 +993,7 @@
       "organizer_handle": "oknwpokemon",
       "organizer_name": "那覇BASE",
       "tweeted_at": "2026-08-02T06:42:10+09:00",
-      "collected_at": "2026-08-04T01:20:27.938685+09:00"
+      "collected_at": "2026-08-04T01:28:33.585543+09:00"
     },
     {
       "id": "EBdTP",
@@ -1299,53 +1016,7 @@
       "organizer_handle": "twi1ight0777",
       "organizer_name": "ササキヒロムチャンネル",
       "tweeted_at": "2026-07-30T16:29:34+09:00",
-      "collected_at": "2026-08-04T01:20:32.760681+09:00"
-    },
-    {
-      "id": "djXOA",
-      "title": "PIT CS ポケモンカード",
-      "url": "https://tonamel.com/competition/djXOA",
-      "date": "2026-08-11",
-      "start_time": "11:00",
-      "prefecture": "新潟県",
-      "venue": "トレーディングカードピット上越インター店",
-      "address": "〒943-0173 新潟県上越市富岡 3439 アピナ上越インター店内",
-      "online": false,
-      "fee": "500円",
-      "capacity": 64,
-      "prize": "優勝：MEGAドリームex 1BOX ストームエメラルダ1BOX",
-      "format": "スタンダード",
-      "kind": "ショップ主催",
-      "organizer_url": "https://tonamel.com/organization/8shPN",
-      "summary": "トレーディングカードピット上越インター店 初の64人規模の大会を開催いたします！皆様のご参加をお待ちしております！・日時2026年8月11日(火)・受付時間10:00∼11:00大会受付カウンターまでお越しください。・定員64人・参加費1人500円・参加賞拡張パック【ストームエメラルダ】1パック・賞品優勝 MEGAドリームex 1BOX ストームエメラルダ1BOX準優勝 ストームエメラルダ 1BO",
-      "source_tweet_url": "https://x.com/tcgpit_joetsu/status/2077740037274476796",
-      "organizer_handle": "tcgpit_joetsu",
-      "organizer_name": "トレーディングカードピット上越インター",
-      "tweeted_at": "2026-07-16T22:00:02+09:00",
-      "collected_at": "2026-08-04T01:20:33.822097+09:00"
-    },
-    {
-      "id": "mEavl",
-      "title": "下北沢ポケカCS2026SUMMER",
-      "url": "https://tonamel.com/competition/mEavl",
-      "date": "2026-08-11",
-      "start_time": "13:00",
-      "prefecture": "東京都",
-      "venue": "北沢タウンホール3階ミーティングルーム",
-      "address": "〒155-0031 東京都世田谷区北沢２丁目８−１８",
-      "online": false,
-      "fee": "2,000円",
-      "capacity": 70,
-      "prize": "優勝：ポケモンカード[ストームエメラルダ]3BOX",
-      "format": "その他",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/rnQK9",
-      "summary": "こんにちは下北沢ポケカCS運営のオハらです。宜しくお願い致します。【大会概要】◼️開催日 : 2026年8月11日火曜日(祝・山の日)◼️時間 : 13:00〜21:00終了予定 (受付13:00〜13:45) (前回は同規模で決勝戦終了は20:00でした)◼️参加費 : ¥2,000-◼️メイン : 予選スイスドロー+決勝トナメ方式◾️サブイベ: GLC交流会2回戦 (ジムリーダーチャレンジ)",
-      "source_tweet_url": null,
-      "organizer_handle": "ohara_las_0123",
-      "organizer_name": "下北沢ポケカCS",
-      "tweeted_at": "2026-08-04T01:20:35.215986+09:00",
-      "collected_at": "2026-08-04T01:20:35.217492+09:00"
+      "collected_at": "2026-08-04T01:30:21.340872+09:00"
     },
     {
       "id": "ATlbk",
@@ -1368,7 +1039,7 @@
       "organizer_handle": "hareruya2namba",
       "organizer_name": "晴れる屋2　なんば店",
       "tweeted_at": "2026-08-02T15:07:53+09:00",
-      "collected_at": "2026-08-04T01:20:36.620837+09:00"
+      "collected_at": "2026-08-04T01:27:46.240297+09:00"
     },
     {
       "id": "CUbAm",
@@ -1391,7 +1062,7 @@
       "organizer_handle": "toycomp6",
       "organizer_name": "トイコンプ 堺東店",
       "tweeted_at": "2026-07-31T22:18:51+09:00",
-      "collected_at": "2026-08-04T01:20:38.056579+09:00"
+      "collected_at": "2026-08-04T01:28:47.539384+09:00"
     },
     {
       "id": "IkFJa",
@@ -1414,30 +1085,7 @@
       "organizer_handle": "ueda037",
       "organizer_name": "ブックエース植田店",
       "tweeted_at": "2026-07-30T22:39:25+09:00",
-      "collected_at": "2026-08-04T01:20:39.117167+09:00"
-    },
-    {
-      "id": "T8mtC",
-      "title": "第3回ことりんぴっく Sponsored by ETERNIS",
-      "url": "https://tonamel.com/competition/T8mtC",
-      "date": "2026-08-11",
-      "start_time": "13:20",
-      "prefecture": "東京都",
-      "venue": "秋葉原トレカ はかいこうせん",
-      "address": "東京都千代田区外神田３丁目３−５ 2F",
-      "online": false,
-      "fee": "1,100円",
-      "capacity": 32,
-      "prize": null,
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/7JPoT",
-      "summary": "【はじめに】こんにちは！主催の「ことりん」こと南琴里です。是非ご参加いただき、一緒にポケモンカードゲームを楽しんでいっていただけたらと思います！私は、ポケモンカードゲームに出会ってから毎日に楽しみが増えました。もっとポケモンカードの輪を広げていきたいと思い、自主大会を開催する運びとなりました。今回は デュアルマットスリーブ ETERNIS PRO 様の提供でお送りいたします！どうぞよろしくお願いい",
-      "source_tweet_url": "https://x.com/Kotorinpics/status/2081320011235565887",
-      "organizer_handle": "Kotorinpics",
-      "organizer_name": "ことりんぴっく",
-      "tweeted_at": "2026-07-26T19:05:34+09:00",
-      "collected_at": "2026-08-04T01:20:40.338649+09:00"
+      "collected_at": "2026-08-04T01:30:13.432197+09:00"
     },
     {
       "id": "Z8gav",
@@ -1460,30 +1108,7 @@
       "organizer_handle": "CK_mizonokuchi",
       "organizer_name": "カードキングダム溝の口店",
       "tweeted_at": "2026-08-01T21:14:07+09:00",
-      "collected_at": "2026-08-04T01:20:41.735849+09:00"
-    },
-    {
-      "id": "eZcRj",
-      "title": "下北沢ポケカCS2026［GLC］",
-      "url": "https://tonamel.com/competition/eZcRj",
-      "date": "2026-08-11",
-      "start_time": "18:00",
-      "prefecture": "東京都",
-      "venue": "北沢タウンホール3階ミーティングルーム",
-      "address": "〒155-0031 東京都世田谷区北沢２丁目８−１８",
-      "online": false,
-      "fee": "200円",
-      "capacity": 32,
-      "prize": "ポケモンカード最新弾1BOX全勝者で山分けタイムスケジュール(当日進行度合いにより変動致し…",
-      "format": "その他",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/rnQK9",
-      "summary": "こんにちは下北沢ポケカCS運営のオハらです。宜しくお願い致します。【イベント概要】◼️開催日 : 2026年8月11日火曜日(祝・山の日)◼️時間 : 18:00〜21:00終了予定 (受付18:00〜18:30)◼️参加費 : ¥200-◾️形式 : GLC交流会3回戦 (ジムリーダーチャレンジ) メインイベント参加者は無料でご参加 いただけます。◾️メインイベントはこちら↓https://to",
-      "source_tweet_url": null,
-      "organizer_handle": "ohara_las_0123",
-      "organizer_name": "下北沢ポケカCS",
-      "tweeted_at": "2026-08-04T01:20:43.177689+09:00",
-      "collected_at": "2026-08-04T01:20:43.178415+09:00"
+      "collected_at": "2026-08-04T01:28:14.504017+09:00"
     },
     {
       "id": "Bz05U",
@@ -1497,7 +1122,7 @@
       "online": false,
       "fee": "500円",
       "capacity": 32,
-      "prize": "優勝：アビスアイ1BOX(シュリンクなし)",
+      "prize": null,
       "format": "スタンダード",
       "kind": "ショップ主催",
       "organizer_url": "https://tonamel.com/organization/LD5K5",
@@ -1506,30 +1131,7 @@
       "organizer_handle": "tcg_paradise_",
       "organizer_name": "トレカパラダイス",
       "tweeted_at": "2026-07-31T22:26:31+09:00",
-      "collected_at": "2026-08-04T01:20:44.366985+09:00"
-    },
-    {
-      "id": "Lb50s",
-      "title": "【カーデリア池袋店／ポケカ】BOX争奪戦",
-      "url": "https://tonamel.com/competition/Lb50s",
-      "date": "2026-08-12",
-      "start_time": "13:00",
-      "prefecture": "東京都",
-      "venue": "カーデリア池袋店",
-      "address": "東京都豊島区東池袋1-19-10 太陽ビル2階",
-      "online": false,
-      "fee": "500円",
-      "capacity": 32,
-      "prize": "優勝：賞品:お好きなBOX 1BOX下記からお選びいただきます↓ステラミラクル/ニンジャスピナー…",
-      "format": "スタンダード",
-      "kind": "ショップ主催",
-      "organizer_url": "https://tonamel.com/organization/3MGlx",
-      "summary": "【大会概要】イベント名：【カーデリア池袋店／ポケモンカード】BOX争奪戦開催日時：2026年8月12日（水）13:00〜開催会場：カーデリア池袋店レギュレーション：スタンダード対戦形式：スイスドロー（最大5回戦）定員：32名参加費：500円優勝賞品：お好きなBOX 1BOX下記からお選びいただきます↓ステラミラクル/ニンジャスピナー/ムニキスゼロ/MEGAドリームex/インフェルノX2位～6位：ク",
-      "source_tweet_url": null,
-      "organizer_handle": null,
-      "organizer_name": "カーデリア池袋店",
-      "tweeted_at": "2026-08-04T01:20:45.765957+09:00",
-      "collected_at": "2026-08-04T01:20:45.767494+09:00"
+      "collected_at": "2026-08-04T01:29:45.291678+09:00"
     },
     {
       "id": "k6alA",
@@ -1543,16 +1145,16 @@
       "online": true,
       "fee": "500円",
       "capacity": 32,
-      "prize": "優勝：賞品「ストームエメラルダ」1box・",
+      "prize": null,
       "format": "その他",
       "kind": "ショップ主催",
       "organizer_url": "https://tonamel.com/organization/1yj5K",
       "summary": "■開催日時8月12日(水)15:00〜当日PM14:30よりお店で受付を開始します。※参加受付は前日までの先着での募集とさせていただきます。■場所トイコンプアリオ八尾店■参加費参加人数/32人■参加費500円/1人■大会ルール・対戦形式:スイスドロー最大4回戦＋決勝トーナメント2回戦(上位4人)・デッキや裁定、ルール等は公式に準じます。■参加申し込み方法トナメルで事前応募か当日の大会開始までお店に",
-      "source_tweet_url": "https://x.com/toycomp80/status/2083105317773271215",
+      "source_tweet_url": "https://x.com/toycomp80/status/2084080773548929261",
       "organizer_handle": "toycomp80",
       "organizer_name": "トイコンプアリオ八尾店",
-      "tweeted_at": "2026-07-31T17:19:44+09:00",
-      "collected_at": "2026-08-04T01:20:48.343723+09:00"
+      "tweeted_at": "2026-08-03T09:55:51+09:00",
+      "collected_at": "2026-08-04T01:27:08.621448+09:00"
     },
     {
       "id": "3Ywwf",
@@ -1575,76 +1177,7 @@
       "organizer_handle": "TCG_ADVANTAGE",
       "organizer_name": "アドバンテージ",
       "tweeted_at": "2026-08-04T00:36:00+09:00",
-      "collected_at": "2026-08-04T01:20:46.953858+09:00"
-    },
-    {
-      "id": "WrDaX",
-      "title": "U22ブーストしんか",
-      "url": "https://tonamel.com/competition/WrDaX",
-      "date": "2026-08-13",
-      "start_time": "10:00",
-      "prefecture": "東京都",
-      "venue": "としま区民センター 701・702・703",
-      "address": "〒170-0013 東京都豊島区東池袋１丁目２０−１０",
-      "online": true,
-      "fee": "1,000円",
-      "capacity": 64,
-      "prize": "について優勝:ストームエメラルダ 2BOX",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/5rzAP",
-      "summary": "注意⚠️この大会は株式会社ポケモンからの主催,並びに協賛を受けた大会ではありません。1.はじめに「学生最強プレイヤーは誰だ！？」それを決める大会に参加しませんか？はじめまして！U22ブーストしんかの主催をさせていただくミルミル(@miracle_twin)としゅれ(@shure_poke)です！公式大会の年齢区分とは異なる、U22（2004年4月2日以降生まれ）のプレイヤーだけが集う特別な1日。「",
-      "source_tweet_url": null,
-      "organizer_handle": "miracle_twin",
-      "organizer_name": "U22ブーストしんか",
-      "tweeted_at": "2026-08-04T01:20:49.855845+09:00",
-      "collected_at": "2026-08-04T01:20:49.859581+09:00"
-    },
-    {
-      "id": "vwluI",
-      "title": "トレカアライブ東京大会Vol.2（ポケモンカード）",
-      "url": "https://tonamel.com/competition/vwluI",
-      "date": "2026-08-13",
-      "start_time": "10:00",
-      "prefecture": "東京都",
-      "venue": "Zepp DiverCity(TOKYO)",
-      "address": "東京都江東区青海１丁目１−１０",
-      "online": false,
-      "fee": "無料",
-      "capacity": 252,
-      "prize": "を贈呈",
-      "format": "スタンダード",
-      "kind": "ショップ主催",
-      "organizer_url": "https://tonamel.com/organization/7y7dc",
-      "summary": "■概要大会名：トレカアライブ 2026 非公認ポケモンカードゲーム予選大会主催：株式会社日本トレカセンター参加形式：個人戦参加費：無料（参加費一切不要）フォーマット：公式ルールスタンダードレギュレーション大会方式：スイスドロー（全7ラウンド） 決勝トーナメント（シングル・エリミネーション）制限時間：25分 1本先取開催日：8月13日（木）定員：252名ラウンド数：スイス7ラウンド決勝形式：トップ1",
-      "source_tweet_url": null,
-      "organizer_handle": null,
-      "organizer_name": "トレカアライブ製作委員会",
-      "tweeted_at": "2026-08-04T01:20:51.252654+09:00",
-      "collected_at": "2026-08-04T01:20:51.254943+09:00"
-    },
-    {
-      "id": "F6T39",
-      "title": "たかサンのポケカビギナーリーグ",
-      "url": "https://tonamel.com/competition/F6T39",
-      "date": "2026-08-13",
-      "start_time": "10:30",
-      "prefecture": "愛知県",
-      "venue": "TSUTAYAウイングタウン岡崎店 デュエルスペース",
-      "address": "愛知県 岡崎市 羽根町字小豆坂3番地 ウイングタウン内",
-      "online": false,
-      "fee": "無料",
-      "capacity": 16,
-      "prize": null,
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/luSJD",
-      "summary": "【7/28追記】山札のカットなどを親御様がお手伝いすることが可能です※プレイングの助言はNG【カドラバ様ご協賛について】本イベントにて、カドラバ様にご協賛いただくことになりました！カドラバアプリをダウンロードしているorダウンロードしていただいた方に、オーバースリーブ「奇跡の手触り」を配布！※スマホをお持ちでないお子様は、親御様がダウンロードすれば配布可能ですhttps://www.kadorab",
-      "source_tweet_url": "https://x.com/kadoraba/status/2083379692908818651",
-      "organizer_handle": "kadoraba",
-      "organizer_name": "たかサンのポケカ交流会",
-      "tweeted_at": "2026-08-01T11:30:00+09:00",
-      "collected_at": "2026-08-04T01:20:52.439513+09:00"
+      "collected_at": "2026-08-04T01:26:16.779198+09:00"
     },
     {
       "id": "zjoEv",
@@ -1667,7 +1200,30 @@
       "organizer_handle": "kadoraba",
       "organizer_name": "たかサンのポケカ交流会",
       "tweeted_at": "2026-08-01T11:30:00+09:00",
-      "collected_at": "2026-08-04T01:20:53.850338+09:00"
+      "collected_at": "2026-08-04T01:29:23.604487+09:00"
+    },
+    {
+      "id": "F6T39",
+      "title": "たかサンのポケカビギナーリーグ",
+      "url": "https://tonamel.com/competition/F6T39",
+      "date": "2026-08-13",
+      "start_time": "10:30",
+      "prefecture": "愛知県",
+      "venue": "TSUTAYAウイングタウン岡崎店 デュエルスペース",
+      "address": "愛知県 岡崎市 羽根町字小豆坂3番地 ウイングタウン内",
+      "online": false,
+      "fee": "無料",
+      "capacity": 16,
+      "prize": null,
+      "format": "スタンダード",
+      "kind": "自主大会",
+      "organizer_url": "https://tonamel.com/organization/luSJD",
+      "summary": "【7/28追記】山札のカットなどを親御様がお手伝いすることが可能です※プレイングの助言はNG【カドラバ様ご協賛について】本イベントにて、カドラバ様にご協賛いただくことになりました！カドラバアプリをダウンロードしているorダウンロードしていただいた方に、オーバースリーブ「奇跡の手触り」を配布！※スマホをお持ちでないお子様は、親御様がダウンロードすれば配布可能ですhttps://www.kadorab",
+      "source_tweet_url": "https://x.com/kadoraba/status/2083379692908818651",
+      "organizer_handle": "kadoraba",
+      "organizer_name": "たかサンのポケカ交流会",
+      "tweeted_at": "2026-08-01T11:30:00+09:00",
+      "collected_at": "2026-08-04T01:29:28.002905+09:00"
     },
     {
       "id": "ztmDg",
@@ -1690,7 +1246,30 @@
       "organizer_handle": "kadoraba",
       "organizer_name": "たかサンのポケカ交流会",
       "tweeted_at": "2026-08-01T11:30:00+09:00",
-      "collected_at": "2026-08-04T01:20:55.248709+09:00"
+      "collected_at": "2026-08-04T01:29:39.843821+09:00"
+    },
+    {
+      "id": "YJRFr",
+      "title": "8/13トイコンプアリオ八尾店ポケカイベントWeek!",
+      "url": "https://tonamel.com/competition/YJRFr",
+      "date": "2026-08-13",
+      "start_time": "15:00",
+      "prefecture": "オンライン",
+      "venue": "トイコンプアリオ八尾店■参加費参加人数/32人■参加費500円/1人■大会ルール・対戦形式:スイスドロー最大4回戦+決勝",
+      "address": null,
+      "online": true,
+      "fee": "500円",
+      "capacity": 32,
+      "prize": null,
+      "format": "その他",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/1yj5K",
+      "summary": "■開催日時8月13日(木)15:00〜当日PM14:30よりお店で受付を開始します。※参加受付は前日までの先着での募集とさせていただきます。■場所トイコンプアリオ八尾店■参加費参加人数/32人■参加費500円/1人■大会ルール・対戦形式:スイスドロー最大4回戦＋決勝トーナメント2回戦(上位4人)・デッキや裁定、ルール等は公式に準じます。■参加申し込み方法トナメルで事前応募か当日の大会開始までお店に",
+      "source_tweet_url": "https://x.com/toycomp80/status/2084080773548929261",
+      "organizer_handle": "toycomp80",
+      "organizer_name": "トイコンプアリオ八尾店",
+      "tweeted_at": "2026-08-03T09:55:51+09:00",
+      "collected_at": "2026-08-04T01:27:10.147836+09:00"
     },
     {
       "id": "GhGvx",
@@ -1713,30 +1292,7 @@
       "organizer_handle": "tp_ignition",
       "organizer_name": "トレカプラザ名古屋駅前店",
       "tweeted_at": "2026-08-02T18:40:06+09:00",
-      "collected_at": "2026-08-04T01:20:56.653937+09:00"
-    },
-    {
-      "id": "YJRFr",
-      "title": "8/13トイコンプアリオ八尾店ポケカイベントWeek!",
-      "url": "https://tonamel.com/competition/YJRFr",
-      "date": "2026-08-13",
-      "start_time": "15:00",
-      "prefecture": "オンライン",
-      "venue": "トイコンプアリオ八尾店■参加費参加人数/32人■参加費500円/1人■大会ルール・対戦形式:スイスドロー最大4回戦+決勝",
-      "address": null,
-      "online": true,
-      "fee": "500円",
-      "capacity": 32,
-      "prize": "優勝：賞品「30th CELEBRATION」1box・",
-      "format": "その他",
-      "kind": "ショップ主催",
-      "organizer_url": "https://tonamel.com/organization/1yj5K",
-      "summary": "■開催日時8月13日(木)15:00〜当日PM14:30よりお店で受付を開始します。※参加受付は前日までの先着での募集とさせていただきます。■場所トイコンプアリオ八尾店■参加費参加人数/32人■参加費500円/1人■大会ルール・対戦形式:スイスドロー最大4回戦＋決勝トーナメント2回戦(上位4人)・デッキや裁定、ルール等は公式に準じます。■参加申し込み方法トナメルで事前応募か当日の大会開始までお店に",
-      "source_tweet_url": "https://x.com/toycomp80/status/2083105317773271215",
-      "organizer_handle": "toycomp80",
-      "organizer_name": "トイコンプアリオ八尾店",
-      "tweeted_at": "2026-07-31T17:19:44+09:00",
-      "collected_at": "2026-08-04T01:20:57.831348+09:00"
+      "collected_at": "2026-08-04T01:27:36.142758+09:00"
     },
     {
       "id": "MgUcQ",
@@ -1759,30 +1315,7 @@
       "organizer_handle": "pokeryo925",
       "organizer_name": "多久ポケカ練習会",
       "tweeted_at": "2026-08-03T20:44:02+09:00",
-      "collected_at": "2026-08-04T01:20:59.288853+09:00"
-    },
-    {
-      "id": "q3ruq",
-      "title": "シーガル大河原ガチポケカ　夏の陣",
-      "url": "https://tonamel.com/competition/q3ruq",
-      "date": "2026-08-14",
-      "start_time": "13:00",
-      "prefecture": "京都府",
-      "venue": "シーガル大河原店",
-      "address": "柴田郡大河原町字新東２１－１８",
-      "online": false,
-      "fee": "1,000円",
-      "capacity": 32,
-      "prize": null,
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/L0NFb",
-      "summary": "こんにちは！シーガル大河原店ポケカ担当大石です！この夏シーガル大河原でガチポケカやりましょう！！！【参加費】1000円【参加賞】ストームエメラルダ３パック【景品】優勝：サーナイト SAR (348/190)２位：ストームエメラルダ １Box３位：メガシンフォニア １Boxじゃんけん賞：？？？参加人数に応じて変動する場合がございます。【大会進行】すべてTCGマイスターを使用して行います。【レギュレー",
-      "source_tweet_url": "https://x.com/yanagyu1/status/2082375230404825580",
-      "organizer_handle": "yanagyu1",
-      "organizer_name": "シーガル大河原",
-      "tweeted_at": "2026-07-29T16:58:38+09:00",
-      "collected_at": "2026-08-04T01:21:00.346958+09:00"
+      "collected_at": "2026-08-04T01:26:34.117404+09:00"
     },
     {
       "id": "8HNYD",
@@ -1796,39 +1329,16 @@
       "online": true,
       "fee": "500円",
       "capacity": 32,
-      "prize": "優勝：賞品「ストームエメラルダ」1box・",
+      "prize": null,
       "format": "その他",
       "kind": "ショップ主催",
       "organizer_url": "https://tonamel.com/organization/1yj5K",
       "summary": "■開催日時8月14日(金)15:00〜当日PM14:30よりお店で受付を開始します。※参加受付は前日までの先着での募集とさせていただきます。■場所トイコンプアリオ八尾店■参加費参加人数/32人■参加費500円/1人■大会ルール・対戦形式:スイスドロー最大4回戦＋決勝トーナメント2回戦(上位4人)・デッキや裁定、ルール等は公式に準じます。■参加申し込み方法トナメルで事前応募か当日の大会開始までお店に",
-      "source_tweet_url": "https://x.com/toycomp80/status/2083105317773271215",
+      "source_tweet_url": "https://x.com/toycomp80/status/2084080773548929261",
       "organizer_handle": "toycomp80",
       "organizer_name": "トイコンプアリオ八尾店",
-      "tweeted_at": "2026-07-31T17:19:44+09:00",
-      "collected_at": "2026-08-04T01:21:03.153791+09:00"
-    },
-    {
-      "id": "N6pT4",
-      "title": "【オーガナイザーイベント】社会人ポケカ研究会【8月】",
-      "url": "https://tonamel.com/competition/N6pT4",
-      "date": "2026-08-14",
-      "start_time": "19:00",
-      "prefecture": "東京都",
-      "venue": "デュエルサロン太陽",
-      "address": "東京都新宿区馬場下町9-8　ハイライフホーム早稲田駅前ビル5F",
-      "online": false,
-      "fee": null,
-      "capacity": 24,
-      "prize": null,
-      "format": "その他",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/4cZRI",
-      "summary": "会社終わりの金曜日。明日を気にせずポケカやるぞ！そんな大人たちのポケモンカード研究会。普段子どもたちとやっているお父さん、お母さん、コソ練で一緒に上手くなりましょう！そんな仲間を見つけるイベントです。もちろんマスターであればどなたでも大歓迎です。基本的にはフリー対戦での交流会形式です。店舗に備え付けのレンタルデッキを使用して練習することも可能です。また時間内であれば途中参加、途中退室も可能です。",
-      "source_tweet_url": null,
-      "organizer_handle": null,
-      "organizer_name": "デュエルサロン太陽",
-      "tweeted_at": "2026-08-04T01:21:01.755786+09:00",
-      "collected_at": "2026-08-04T01:21:01.756256+09:00"
+      "tweeted_at": "2026-08-03T09:55:51+09:00",
+      "collected_at": "2026-08-04T01:27:11.471038+09:00"
     },
     {
       "id": "QGTOa",
@@ -1851,76 +1361,30 @@
       "organizer_handle": "altoteana",
       "organizer_name": "桜餅あるとん",
       "tweeted_at": "2026-07-31T22:05:33+09:00",
-      "collected_at": "2026-08-04T01:21:04.550111+09:00"
+      "collected_at": "2026-08-04T01:29:46.821097+09:00"
     },
     {
-      "id": "x4Ra5",
-      "title": "第一回「スタンダード休肝日」",
-      "url": "https://tonamel.com/competition/x4Ra5",
-      "date": "2026-08-15",
-      "start_time": "10:00",
-      "prefecture": "埼玉県",
-      "venue": "草加市文化会館　第一会議室",
-      "address": "〒340-0013 埼玉県草加市松江１丁目１−５",
-      "online": false,
-      "fee": "1,500円",
-      "capacity": 96,
-      "prize": "優勝「カプ・テテフGX 」SR 1枚",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/oAsSy",
-      "summary": "今年の5月、まさかの結果で終わったCL2026 愛知Mオープンリーグ。大会結果を受けて、不完全燃焼だった人も多かったのではないでしょうか？この度大きな会場を取ることが出来たので約100人規模でエクストラの大会を開くことにしました。今後、定期的にこう言った大会を開けたらと思い、スタンダード以外のレギュレーションならほぼ全てに使える大会名と致しました！w特に招待選手なりがいるわけではありませんがみんな",
-      "source_tweet_url": null,
-      "organizer_handle": "often330",
-      "organizer_name": "夢食いバク",
-      "tweeted_at": "2026-08-04T01:21:05.728745+09:00",
-      "collected_at": "2026-08-04T01:21:05.730600+09:00"
-    },
-    {
-      "id": "FKPSR",
-      "title": "マピオ杯　特殊チーム戦",
-      "url": "https://tonamel.com/competition/FKPSR",
+      "id": "SpkWS",
+      "title": "8/15トイコンプアリオ八尾店ポケカイベントWeek!",
+      "url": "https://tonamel.com/competition/SpkWS",
       "date": "2026-08-15",
       "start_time": "11:00",
-      "prefecture": "愛知県",
-      "venue": "岡崎市民会館　会議棟　大会議室２０１号室",
-      "address": "〒444-0072　愛知県岡崎市六供町字出崎15番地1 電話番号",
-      "online": false,
-      "fee": "6,000円",
-      "capacity": 50,
+      "prefecture": "オンライン",
+      "venue": "トイコンプアリオ八尾店■参加費参加人数/32人■参加費500円/1人■大会ルール・対戦形式:スイスドロー最大4回戦+決勝",
+      "address": null,
+      "online": true,
+      "fee": "500円",
+      "capacity": 32,
       "prize": null,
       "format": "その他",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/yFB0p",
-      "summary": "※真夏での開催のため各自熱中症対策を お願いいたします 。 入口横の時計置き場付近に塩タブレット を設置します 適宜お取りになってください。 数に限りがありますので1人2〜3個目安で お願いします（必ず水分と併用してご利用ください）※４２チーム→５０チームに増枠しました今回もプロモーション活動の一環として「カドラバ」さんにスポンサーとして協力していただきますhttps://www.kadoraba",
-      "source_tweet_url": "https://x.com/kadoraba/status/2083379692908818651",
-      "organizer_handle": "kadoraba",
-      "organizer_name": "マピオ杯主催",
-      "tweeted_at": "2026-08-01T11:30:00+09:00",
-      "collected_at": "2026-08-04T01:21:07.176004+09:00"
-    },
-    {
-      "id": "u8RPj",
-      "title": "Academy at night cup(夜のアカデミー杯)vol.4",
-      "url": "https://tonamel.com/competition/u8RPj",
-      "date": "2026-08-15",
-      "start_time": "11:00",
-      "prefecture": "宮城県",
-      "venue": "戦災復興記念館 4階第4会議室",
-      "address": "〒980-0804 宮城県仙台市青葉区大町2丁目12-1",
-      "online": false,
-      "fee": "1,000円",
-      "capacity": 48,
-      "prize": "優勝：アビスアイ1BOXとお好きなサプライ・",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/U2riZ",
-      "summary": "初めましての方もそうでない方もおはようございますこんにちはこんばんは。久しぶりに再開したポケモンGOにハマりはじめているシブイ(CV、ニキなど呼び名多数)です。今回で4回目のAcademy at night cup(夜のアカデミー杯)になります。2026-2027シーズン前のオフに気楽にポケモンカードで遊べればいいなと思い今回も大会を開催することにしました。今回も大人の為の環境外デッキ限定の交流会",
-      "source_tweet_url": "https://x.com/cv_1stgrader/status/2083358044046647772",
-      "organizer_handle": "cv_1stgrader",
-      "organizer_name": "Academy at night cup",
-      "tweeted_at": "2026-08-01T10:03:59+09:00",
-      "collected_at": "2026-08-04T01:21:08.403408+09:00"
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/1yj5K",
+      "summary": "■開催日時8月15日(土)11:00〜当日PM10:30よりお店で受付を開始します。※参加受付は前日までの先着での募集とさせていただきます。■場所トイコンプアリオ八尾店■参加費参加人数/32人■参加費500円/1人■大会ルール・対戦形式:スイスドロー最大4回戦＋決勝トーナメント2回戦(上位4人)・デッキや裁定、ルール等は公式に準じます。■参加申し込み方法トナメルで事前応募か当日の大会開始までお店に",
+      "source_tweet_url": "https://x.com/toycomp80/status/2084080773548929261",
+      "organizer_handle": "toycomp80",
+      "organizer_name": "トイコンプアリオ八尾店",
+      "tweeted_at": "2026-08-03T09:55:51+09:00",
+      "collected_at": "2026-08-04T01:27:07.094169+09:00"
     },
     {
       "id": "uzAEQ",
@@ -1943,76 +1407,30 @@
       "organizer_handle": "toycomp6",
       "organizer_name": "トイコンプ 堺東店",
       "tweeted_at": "2026-07-31T22:18:51+09:00",
-      "collected_at": "2026-08-04T01:21:09.582576+09:00"
+      "collected_at": "2026-08-04T01:28:46.268185+09:00"
     },
     {
-      "id": "NIy7p",
-      "title": "EXTREME-シングルバトル-",
-      "url": "https://tonamel.com/competition/NIy7p",
+      "id": "FKPSR",
+      "title": "マピオ杯　特殊チーム戦",
+      "url": "https://tonamel.com/competition/FKPSR",
       "date": "2026-08-15",
       "start_time": "11:00",
-      "prefecture": "東京都",
-      "venue": "大田区産業プラザPiO　1階　大展示ホール",
-      "address": "東京都大田区南蒲田１丁目２０−２０",
-      "online": true,
-      "fee": "4,000円",
-      "capacity": 456,
+      "prefecture": "愛知県",
+      "venue": "岡崎市民会館　会議棟　大会議室２０１号室",
+      "address": "〒444-0072　愛知県岡崎市六供町字出崎15番地1 電話番号",
+      "online": false,
+      "fee": "6,000円",
+      "capacity": 50,
       "prize": null,
       "format": "その他",
       "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/5uWAs",
-      "summary": "⚠️本大会はPokémon Championsのオフライン大会です。本大会は、2026年8月15日(土)～8月16日(日)の二日間開催です。皆様のご申請をお待ちしております。本大会は、当日現金決済です。事前決済制ではありませんので、あらかじめご了承ください。☆大会参加希望者は、必ず以下の招待リンクからEXTREME参加者用Discordサーバーにご参加ください。https://discord.gg",
-      "source_tweet_url": "https://x.com/shure_poke/status/2072338820784328904",
-      "organizer_handle": "shure_poke",
-      "organizer_name": "EXTREME",
-      "tweeted_at": "2026-07-02T00:17:31+09:00",
-      "collected_at": "2026-08-04T01:21:10.640668+09:00"
-    },
-    {
-      "id": "SpkWS",
-      "title": "8/15トイコンプアリオ八尾店ポケカイベントWeek!",
-      "url": "https://tonamel.com/competition/SpkWS",
-      "date": "2026-08-15",
-      "start_time": "11:00",
-      "prefecture": "オンライン",
-      "venue": "トイコンプアリオ八尾店■参加費参加人数/32人■参加費500円/1人■大会ルール・対戦形式:スイスドロー最大4回戦+決勝",
-      "address": null,
-      "online": true,
-      "fee": "500円",
-      "capacity": 32,
-      "prize": "優勝：賞品「30th CELEBRATION」1box・",
-      "format": "その他",
-      "kind": "ショップ主催",
-      "organizer_url": "https://tonamel.com/organization/1yj5K",
-      "summary": "■開催日時8月15日(土)11:00〜当日PM10:30よりお店で受付を開始します。※参加受付は前日までの先着での募集とさせていただきます。■場所トイコンプアリオ八尾店■参加費参加人数/32人■参加費500円/1人■大会ルール・対戦形式:スイスドロー最大4回戦＋決勝トーナメント2回戦(上位4人)・デッキや裁定、ルール等は公式に準じます。■参加申し込み方法トナメルで事前応募か当日の大会開始までお店に",
-      "source_tweet_url": "https://x.com/toycomp80/status/2083105317773271215",
-      "organizer_handle": "toycomp80",
-      "organizer_name": "トイコンプアリオ八尾店",
-      "tweeted_at": "2026-07-31T17:19:44+09:00",
-      "collected_at": "2026-08-04T01:21:19.812291+09:00"
-    },
-    {
-      "id": "1t4se",
-      "title": "ポケカ　第2回フジロコCS　BOX争奪3ON3",
-      "url": "https://tonamel.com/competition/1t4se",
-      "date": "2026-08-15",
-      "start_time": "12:00",
-      "prefecture": "神奈川県",
-      "venue": "トーナメントセンターバトロコ藤沢駅北口",
-      "address": "神奈川県藤沢市藤沢971-3パール湘南3F",
-      "online": false,
-      "fee": "7,500円",
-      "capacity": 24,
-      "prize": "優勝：🥇  ストームエメラルダ 6BOX",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/R4QE8",
-      "summary": "日時 8月15日（土）11:15～受付開始場所 トーナメントセンターバトロコ藤沢駅北口参加費 1チーム7500円 【大会ルール】大会ルールは基本的にチャンピオンズリーグに準ずる。【制限時間】予選決勝ともに 25分予選は時間内にゲームが終了しなかった場合、両者敗北・両チーム共に２マッチ以上勝利をしていない場合は、両チーム敗北・対戦相手は、同じナンバー同士で対戦を行っていただきます。例：メンバー１vs",
-      "source_tweet_url": "https://x.com/batoloco_K_Fuji/status/2081299195873661273",
-      "organizer_handle": "batoloco_K_Fuji",
-      "organizer_name": "TCバトロコ藤沢駅北口",
-      "tweeted_at": "2026-07-26T17:42:51+09:00",
-      "collected_at": "2026-08-04T01:21:11.821949+09:00"
+      "organizer_url": "https://tonamel.com/organization/yFB0p",
+      "summary": "※真夏での開催のため各自熱中症対策を お願いいたします 。 入口横の時計置き場付近に塩タブレット を設置します 適宜お取りになってください。 数に限りがありますので1人2〜3個目安で お願いします（必ず水分と併用してご利用ください）※４２チーム→５０チームに増枠しました今回もプロモーション活動の一環として「カドラバ」さんにスポンサーとして協力していただきますhttps://www.kadoraba",
+      "source_tweet_url": "https://x.com/kadoraba/status/2083379692908818651",
+      "organizer_handle": "kadoraba",
+      "organizer_name": "マピオ杯主催",
+      "tweeted_at": "2026-08-01T11:30:00+09:00",
+      "collected_at": "2026-08-04T01:29:18.914053+09:00"
     },
     {
       "id": "4mTwg",
@@ -2035,7 +1453,7 @@
       "organizer_handle": "Hokkai_poke2306",
       "organizer_name": "ホッカイポケカルト",
       "tweeted_at": "2026-08-03T17:01:24+09:00",
-      "collected_at": "2026-08-04T01:21:13.225436+09:00"
+      "collected_at": "2026-08-04T01:26:42.306875+09:00"
     },
     {
       "id": "SNCl2",
@@ -2058,7 +1476,7 @@
       "organizer_handle": "fukuoka_PBC",
       "organizer_name": "ブックオフチャチャタウン小倉店",
       "tweeted_at": "2026-08-03T21:28:02+09:00",
-      "collected_at": "2026-08-04T01:21:14.409768+09:00"
+      "collected_at": "2026-08-04T01:26:23.929681+09:00"
     },
     {
       "id": "UJKiC",
@@ -2072,7 +1490,7 @@
       "online": false,
       "fee": "500円",
       "capacity": 32,
-      "prize": "1位(全勝者)",
+      "prize": null,
       "format": "スタンダード",
       "kind": "ショップ主催",
       "organizer_url": "https://tonamel.com/organization/zW6NF",
@@ -2081,7 +1499,7 @@
       "organizer_handle": "kadoraba",
       "organizer_name": "カドラバ×カードショップランス",
       "tweeted_at": "2026-08-01T11:30:00+09:00",
-      "collected_at": "2026-08-04T01:21:20.994383+09:00"
+      "collected_at": "2026-08-04T01:29:38.315783+09:00"
     },
     {
       "id": "JX5nP",
@@ -2095,7 +1513,7 @@
       "online": false,
       "fee": "100円",
       "capacity": 12,
-      "prize": "1燈桜オリジナル先攻/後攻マーカー2燈桜オリジナルステッカー",
+      "prize": null,
       "format": "その他",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/sH0U5",
@@ -2104,7 +1522,7 @@
       "organizer_handle": "Tcghizakura",
       "organizer_name": "DEEEP",
       "tweeted_at": "2026-08-02T11:12:50+09:00",
-      "collected_at": "2026-08-04T01:21:15.800165+09:00"
+      "collected_at": "2026-08-04T01:28:07.680201+09:00"
     },
     {
       "id": "y3fRb",
@@ -2118,7 +1536,7 @@
       "online": false,
       "fee": "100円",
       "capacity": 12,
-      "prize": "1燈桜オリジナル先攻/後攻マーカー2燈桜オリジナルステッカー",
+      "prize": null,
       "format": "その他",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/sH0U5",
@@ -2127,7 +1545,7 @@
       "organizer_handle": "Tcghizakura",
       "organizer_name": "DEEEP",
       "tweeted_at": "2026-08-02T11:12:50+09:00",
-      "collected_at": "2026-08-04T01:21:16.980221+09:00"
+      "collected_at": "2026-08-04T01:28:10.465399+09:00"
     },
     {
       "id": "X7Kv1",
@@ -2141,7 +1559,7 @@
       "online": false,
       "fee": "100円",
       "capacity": 12,
-      "prize": "1燈桜オリジナル先攻/後攻マーカー",
+      "prize": null,
       "format": "その他",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/sH0U5",
@@ -2150,53 +1568,7 @@
       "organizer_handle": "Tcghizakura",
       "organizer_name": "DEEEP",
       "tweeted_at": "2026-08-02T11:12:50+09:00",
-      "collected_at": "2026-08-04T01:21:18.378099+09:00"
-    },
-    {
-      "id": "KYpP5",
-      "title": "【第４回】トレコネポケカフェス＠南浦和",
-      "url": "https://tonamel.com/competition/KYpP5",
-      "date": "2026-08-16",
-      "start_time": "10:00",
-      "prefecture": "埼玉県",
-      "venue": "さいたま市文化センター　三階",
-      "address": "埼玉県さいたま市南区根岸１丁目７−１",
-      "online": false,
-      "fee": "1,000円",
-      "capacity": 108,
-      "prize": "優勝：新品BOX:2BOX(タイトルは未定)",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/co769",
-      "summary": "■主催トレカコネクトX(旧Twitter):https://x.com/Toreca_connectメールアドレス:toreca_connect@outlook.jpうそなき交流会X(旧Twitter):https://x.com/shotaroo3gou■日時2026年8月16日(日)開場10:00閉場18:00■場所「さいたま市文化センター」〒336-0024埼玉県さいたま市南区根岸１丁目７−",
-      "source_tweet_url": null,
-      "organizer_handle": "Toreca_connect",
-      "organizer_name": "トレコネCS",
-      "tweeted_at": "2026-08-04T01:21:22.389463+09:00",
-      "collected_at": "2026-08-04T01:21:22.390998+09:00"
-    },
-    {
-      "id": "e275Z",
-      "title": "夏休みちょこはちポケカ大会！2on2ペア戦！ スペシャルセット争奪戦！",
-      "url": "https://tonamel.com/competition/e275Z",
-      "date": "2026-08-16",
-      "start_time": "10:00",
-      "prefecture": "東京都",
-      "venue": "としま区民センター",
-      "address": "東京都豊島区東池袋1-20-10",
-      "online": false,
-      "fee": "2,000円",
-      "capacity": 32,
-      "prize": "優勝：、ポケモンセンターフクオカSPセット2BOX",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/xlENg",
-      "summary": "8/16（日)としま区民センター 601.602東京都豊島区東池袋1-20-10『夏休みちょこはちポケカ大会！ペア戦！スペシャルセット争奪戦！』・悪質な当日無断キャンセルが多発しています。参加キャンセルは必ず大会前日夜までにお願いいたします。・エントリーメンバーが仮、あ、Aなどの場合、3日前までに正式な登録がない場合エントリーキャンセルとします。【出場チーム数】定員32チーム＋ゲストチーム【出場参",
-      "source_tweet_url": "https://x.com/chocol8band/status/2078655882376994948",
-      "organizer_handle": "chocol8band",
-      "organizer_name": "ちょこはち",
-      "tweeted_at": "2026-07-19T10:39:16+09:00",
-      "collected_at": "2026-08-04T01:21:23.449046+09:00"
+      "collected_at": "2026-08-04T01:28:11.719518+09:00"
     },
     {
       "id": "IRbHd",
@@ -2215,57 +1587,11 @@
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/pKz7Q",
       "summary": "エントリーの際には、ポケギルドFLOWの𝕏をフォローお願いします。していただくことでDMの送付が可能となり、内容に誤りがある方や対応が漏れている方に個別でリマインドが可能です。また、イベントに関するお知らせを発信しています。ポケギルドFLOW（@Pokeguild_FLOW）/ X⚔️概要⚔️ポケギルド FLOW主催 FLOWカップのページへようこそ！今回は3人チーム戦での開催となります。トナメル",
-      "source_tweet_url": "https://x.com/Pokeguild_FLOW/status/2078136659523375238",
-      "organizer_handle": "Pokeguild_FLOW",
+      "source_tweet_url": "https://x.com/mkpokeka/status/2084079734129066213",
+      "organizer_handle": "mkpokeka",
       "organizer_name": "ポケギルドFLOW",
-      "tweeted_at": "2026-07-18T00:16:04+09:00",
-      "collected_at": "2026-08-04T01:21:24.859266+09:00"
-    },
-    {
-      "id": "CbXT0",
-      "title": "第15回 N.O.E.cup",
-      "url": "https://tonamel.com/competition/CbXT0",
-      "date": "2026-08-16",
-      "start_time": "11:00",
-      "prefecture": "愛知県",
-      "venue": "トレカキャンプ大須店 7F",
-      "address": "愛知県名古屋市中区上前津２丁目１−４",
-      "online": false,
-      "fee": "1,500円",
-      "capacity": 128,
-      "prize": "優勝：20,000pt券",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/RvMs6",
-      "summary": "大会概要【大会ルール】・スイスドロー6回戦+上位16名によるトーナメント4回戦※全勝者が1名以下になった場合も6回戦行います。・対戦形式：25分1本先取 スタンダードレギュレーション・コピーカードやサインカードは使用不可【会場】トレカキャンプ大須店 7階torecacamp-pokemon.com/pages/osu-shop【アクセス】上前津駅4番5番出口から徒歩10秒！お車でお越しの方は近隣の",
-      "source_tweet_url": "https://x.com/NOE_cup/status/2077332346454601961",
-      "organizer_handle": "NOE_cup",
-      "organizer_name": "のえかっぷ",
-      "tweeted_at": "2026-07-15T19:00:01+09:00",
-      "collected_at": "2026-08-04T01:21:26.042684+09:00"
-    },
-    {
-      "id": "z9vh9",
-      "title": "第4回　かゆ・きぃた杯【エクストラ】",
-      "url": "https://tonamel.com/competition/z9vh9",
-      "date": "2026-08-16",
-      "start_time": "11:30",
-      "prefecture": "埼玉県",
-      "venue": "寄居中央公民館",
-      "address": "埼玉県大里郡寄居町寄居１３００",
-      "online": false,
-      "fee": "1,000円",
-      "capacity": 52,
-      "prize": null,
-      "format": "エクストラ",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/OKrln",
-      "summary": "■詳細開催日程:8/16(日) 11時30分〜会場:寄居町中央公民館 会議室C参加募集人数:52人参加登録方法:Tonamel参加費:1000円(高校生以下、CＬ2026愛知エク決勝トナメ進出者500円)■大会景品■( 予定 )用意:シュリ付きボックス、主催者の欲しいプレイマット等優勝、準優勝、3位、4位の順番で希望のもの※参加人数によって調整をさせていただきます。あらかじめご了承ください。ベスト",
-      "source_tweet_url": null,
-      "organizer_handle": "kayu_key_gx",
-      "organizer_name": "チャンピオンズリーグ嵐山",
-      "tweeted_at": "2026-08-04T01:21:27.218434+09:00",
-      "collected_at": "2026-08-04T01:21:27.219529+09:00"
+      "tweeted_at": "2026-08-03T09:51:43+09:00",
+      "collected_at": "2026-08-04T01:27:12.999959+09:00"
     },
     {
       "id": "7RDPL",
@@ -2284,11 +1610,11 @@
       "kind": "ショップ主催",
       "organizer_url": "https://tonamel.com/organization/sEGfR",
       "summary": "ドラゴンスター日本橋3号店月1のチャンピオンを決める店舗イベントめざせ！ドラスタチャンピオン！！参加受付ページです☆※【先着事前受付】となります！---------------------------------------------------------------【開催日】8月16日(日) 12：30より開始定員：64名（トナメルにて先着受付）参加費：1000円--------------",
-      "source_tweet_url": "https://x.com/ds_nipponbashi3/status/2083523201565384883",
+      "source_tweet_url": "https://x.com/ds_nipponbashi3/status/2083885550168060303",
       "organizer_handle": "ds_nipponbashi3",
       "organizer_name": "ドラゴンスター日本橋３号店",
-      "tweeted_at": "2026-08-01T21:00:15+09:00",
-      "collected_at": "2026-08-04T01:21:28.399602+09:00"
+      "tweeted_at": "2026-08-02T21:00:06+09:00",
+      "collected_at": "2026-08-04T01:27:27.420765+09:00"
     },
     {
       "id": "jq7VL",
@@ -2302,7 +1628,7 @@
       "online": false,
       "fee": "500円",
       "capacity": 32,
-      "prize": "配布・閉会式・じゃんけん大会(大会の進行状況に応じて、前後する可能性がございます。予めご了…",
+      "prize": null,
       "format": "スタンダード",
       "kind": "ショップ主催",
       "organizer_url": "https://tonamel.com/organization/gUuqF",
@@ -2311,7 +1637,7 @@
       "organizer_handle": "ds_kuzuhamall",
       "organizer_name": "ドラゴンスターくずはモール",
       "tweeted_at": "2026-07-31T18:00:10+09:00",
-      "collected_at": "2026-08-04T01:21:29.583801+09:00"
+      "collected_at": "2026-08-04T01:26:38.250091+09:00"
     },
     {
       "id": "gcegQ",
@@ -2334,30 +1660,7 @@
       "organizer_handle": "e1eastmurayama",
       "organizer_name": "E-1東ムラヤマ選手権",
       "tweeted_at": "2026-08-03T07:54:00+09:00",
-      "collected_at": "2026-08-04T01:21:30.757533+09:00"
-    },
-    {
-      "id": "AqBf3",
-      "title": "第２回 ななせ杯",
-      "url": "https://tonamel.com/competition/AqBf3",
-      "date": "2026-08-16",
-      "start_time": "13:50",
-      "prefecture": "東京都",
-      "venue": "としま区民センター　601号室",
-      "address": "東京都豊島区東池袋1-20-10　601号室",
-      "online": false,
-      "fee": "2,000円",
-      "capacity": 64,
-      "prize": "優勝：優勝 ポケカ拡張パック3BOX",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/kNmA5",
-      "summary": "大会概要日時8月16日（日）13:50〜※受付時間は13:50～14:30会場としま区民センター 601・602号室東京都豊島区東池袋1-20-10参加費1人 2,000円定員最大64名（先着順）レギュレーションスタンダード対戦形式スイスドロー形式 予選最大6回戦予選終了後、上位8名によるトナメ3回戦運営協力チームdot.エクストラ界隈ご協賛企業逆鱗SHIELDさま- ̗̀📣エントリーに関するお願",
-      "source_tweet_url": null,
-      "organizer_handle": "nanase_cup",
-      "organizer_name": "自主大会運営用",
-      "tweeted_at": "2026-08-04T01:21:31.935510+09:00",
-      "collected_at": "2026-08-04T01:21:31.937747+09:00"
+      "collected_at": "2026-08-04T01:27:14.530428+09:00"
     },
     {
       "id": "uCxED",
@@ -2371,7 +1674,7 @@
       "online": false,
       "fee": "1,000円",
       "capacity": 24,
-      "prize": "1位(全勝者)",
+      "prize": null,
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/26fxb",
@@ -2380,7 +1683,7 @@
       "organizer_handle": "kadoraba",
       "organizer_name": "カドラバ×らぐなろっく",
       "tweeted_at": "2026-08-01T11:30:00+09:00",
-      "collected_at": "2026-08-04T01:21:33.123604+09:00"
+      "collected_at": "2026-08-04T01:29:25.174886+09:00"
     },
     {
       "id": "67v5Z",
@@ -2403,30 +1706,7 @@
       "organizer_handle": "torekaX",
       "organizer_name": "トレカX",
       "tweeted_at": "2026-08-03T21:11:54+09:00",
-      "collected_at": "2026-08-04T01:21:35.620716+09:00"
-    },
-    {
-      "id": "RxuZR",
-      "title": "夏休みちょこはちポケカ大会！BOXいっぱい争奪戦！",
-      "url": "https://tonamel.com/competition/RxuZR",
-      "date": "2026-08-16",
-      "start_time": "18:00",
-      "prefecture": "東京都",
-      "venue": "としま区民センター",
-      "address": " 東京都豊島区東池袋1-20-10",
-      "online": false,
-      "fee": null,
-      "capacity": 60,
-      "prize": "優勝：、メガドリームex1BOX",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/xlENg",
-      "summary": "8/16（日）夏休みちょこはちポケカ大会！BOXいっぱい争奪戦！個人戦！ーーーーーーーーーーーーー・悪質な当日無断キャンセルが多発しています。参加キャンセルは必ず大会前日夜までにお願いいたします。・エントリーメンバーが仮、あ、Aなどの場合、3日前までに正式な登録がない場合エントリーキャンセルとします。ーーーーーーーーーーーーー【出場者数】60名＋ゲスト【出場条件】1人2000円【タイムスケジュール",
-      "source_tweet_url": "https://x.com/chocol8band/status/2078655882376994948",
-      "organizer_handle": "chocol8band",
-      "organizer_name": "ちょこはち",
-      "tweeted_at": "2026-07-19T10:39:16+09:00",
-      "collected_at": "2026-08-04T01:21:34.180712+09:00"
+      "collected_at": "2026-08-04T01:26:31.073276+09:00"
     },
     {
       "id": "5PstI",
@@ -2449,30 +1729,7 @@
       "organizer_handle": "TCG_ADVANTAGE",
       "organizer_name": "アドバンテージ",
       "tweeted_at": "2026-08-04T00:36:00+09:00",
-      "collected_at": "2026-08-04T01:21:37.023456+09:00"
-    },
-    {
-      "id": "HYiLc",
-      "title": "【オーガナイザーイベント】社会人ポケカ研究会【8月】",
-      "url": "https://tonamel.com/competition/HYiLc",
-      "date": "2026-08-21",
-      "start_time": "19:00",
-      "prefecture": "東京都",
-      "venue": "デュエルサロン太陽",
-      "address": "東京都新宿区馬場下町9-8　ハイライフホーム早稲田駅前ビル5F",
-      "online": false,
-      "fee": null,
-      "capacity": 24,
-      "prize": null,
-      "format": "その他",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/4cZRI",
-      "summary": "会社終わりの金曜日。明日を気にせずポケカやるぞ！そんな大人たちのポケモンカード研究会。普段子どもたちとやっているお父さん、お母さん、コソ練で一緒に上手くなりましょう！そんな仲間を見つけるイベントです。もちろんマスターであればどなたでも大歓迎です。基本的にはフリー対戦での交流会形式です。店舗に備え付けのレンタルデッキを使用して練習することも可能です。また時間内であれば途中参加、途中退室も可能です。",
-      "source_tweet_url": null,
-      "organizer_handle": null,
-      "organizer_name": "デュエルサロン太陽",
-      "tweeted_at": "2026-08-04T01:21:39.404913+09:00",
-      "collected_at": "2026-08-04T01:21:39.405393+09:00"
+      "collected_at": "2026-08-04T01:26:12.590981+09:00"
     },
     {
       "id": "8wf2x",
@@ -2495,7 +1752,7 @@
       "organizer_handle": "housekisai",
       "organizer_name": "宝石祭",
       "tweeted_at": "2026-07-29T20:00:01+09:00",
-      "collected_at": "2026-08-04T01:21:38.219934+09:00"
+      "collected_at": "2026-08-04T01:28:54.675943+09:00"
     },
     {
       "id": "mhz1W",
@@ -2509,7 +1766,7 @@
       "online": false,
       "fee": "無料",
       "capacity": 30,
-      "prize": "を購入可。景品:プレゼント交換会(各自1つずつプレゼントを持ち寄り、優勝者から景品をお選び…",
+      "prize": null,
       "format": "その他",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/lsQwi",
@@ -2518,30 +1775,7 @@
       "organizer_handle": "TN_ty3",
       "organizer_name": "デラン宅",
       "tweeted_at": "2026-08-02T19:59:25+09:00",
-      "collected_at": "2026-08-04T01:21:40.585808+09:00"
-    },
-    {
-      "id": "Yuxdk",
-      "title": "無色マスター決定戦",
-      "url": "https://tonamel.com/competition/Yuxdk",
-      "date": "2026-08-22",
-      "start_time": "09:00",
-      "prefecture": "千葉県",
-      "venue": "流山市 東部公民館",
-      "address": "270-0145 流山市名都借756-4",
-      "online": false,
-      "fee": "無料",
-      "capacity": 24,
-      "prize": "サプライやオリパなどになる予定。前日〜当日の無断キャンセル・不正等につきましては厳しく対応…",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/A4dPk",
-      "summary": "流山ポケカ部の還元イベント部員限定のイベントです。【日時】8月22日(土)13:00〜19:00(受付13:00〜13:20)場所 東部公民館【概要】レギュレーション:スタンダード定員24名 参加費無料スイスドロー:5回戦 ＜内容＞無色ポケモン限定大会！(スイスドロー5回戦)※デッキに入れられるカードは無色ポケモンのみ※ロケット団の監視塔はデッキに入れられません。大会後 ・ビンゴ大会 ・その後はフ",
-      "source_tweet_url": "https://x.com/ngrym_poke/status/2082674244153155732",
-      "organizer_handle": "ngrym_poke",
-      "organizer_name": "流山ポケカ部",
-      "tweeted_at": "2026-07-30T12:46:48+09:00",
-      "collected_at": "2026-08-04T01:21:42.022257+09:00"
+      "collected_at": "2026-08-04T01:27:31.479679+09:00"
     },
     {
       "id": "a4SIs",
@@ -2564,53 +1798,7 @@
       "organizer_handle": "kadoraba",
       "organizer_name": "激流杯グループ",
       "tweeted_at": "2026-08-01T11:30:00+09:00",
-      "collected_at": "2026-08-04T01:21:43.201356+09:00"
-    },
-    {
-      "id": "AOltQ",
-      "title": "第9回 ともしび杯",
-      "url": "https://tonamel.com/competition/AOltQ",
-      "date": "2026-08-22",
-      "start_time": "10:00",
-      "prefecture": "石川県",
-      "venue": "ITビジネスプラザ武蔵 6階交流室1・2",
-      "address": "石川県金沢市武蔵町14-31",
-      "online": false,
-      "fee": "1,500円",
-      "capacity": 130,
-      "prize": "優勝：拡張パック「ストームエメラルダ」3BOX+スタートデッキ100+次回大会以降の大会1回参加…",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/aXKT0",
-      "summary": "こんにちは、主催の かしゃ(@kasyakisaki)です。金沢を離れて2年ちょっとが経ちますが、金沢に行く理由をつけるために相変わらず大会を続けています。主催が満足なのでヨシ！【大会概要】開催日：2026年8月22日 (土)会場：ITビジネスプラザ武蔵 6階交流室1・2 (石川県金沢市武蔵町14-31)大会形式：個人戦(予選スイスドロー6回戦、上位16名による決勝トーナメント4回戦)定員：13",
-      "source_tweet_url": "https://x.com/tomoshibi_cup/status/2075898077500805235",
-      "organizer_handle": "tomoshibi_cup",
-      "organizer_name": "ともしび杯",
-      "tweeted_at": "2026-07-11T20:00:44+09:00",
-      "collected_at": "2026-08-04T01:21:44.379857+09:00"
-    },
-    {
-      "id": "ae5ut",
-      "title": "第1回 おおくまチャンピオンシップス",
-      "url": "https://tonamel.com/competition/ae5ut",
-      "date": "2026-08-22",
-      "start_time": "10:30",
-      "prefecture": "福島県",
-      "venue": "CREVAおおくま 貸会議室1A・1B",
-      "address": "CREVAおおくま 福島県双葉郡大熊町下野上大野１１６−５",
-      "online": false,
-      "fee": "15円",
-      "capacity": 64,
-      "prize": "優勝：ポケモンカードゲーム未開封BOX「ストームエメラルダ」 1BOX大熊町特産品 3,000円…",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/6V0Xs",
-      "summary": "福島県大熊町にて、ポケモンカードゲームの自主大会「第1回 おおくまチャンピオンシップス」を開催します。本大会では、予選スイスドロー6回戦と、予選上位8名による決勝トーナメントを実施します。大会本戦のほか、スペシャルゲストの参加、サイドイベント、ポケモンカード関連景品や大熊町ならではの特産品を使用した景品も予定しています。また、おおくまチャンピオンシップスは、OCS 2026-2027シーズンとして",
-      "source_tweet_url": "https://x.com/okuma_cs/status/2074055764759707926",
-      "organizer_handle": "okuma_cs",
-      "organizer_name": "おおくまチャンピオンシップス実行委員会",
-      "tweeted_at": "2026-07-06T18:00:03+09:00",
-      "collected_at": "2026-08-04T01:21:45.438727+09:00"
+      "collected_at": "2026-08-04T01:29:26.703834+09:00"
     },
     {
       "id": "oBzEm",
@@ -2633,99 +1821,7 @@
       "organizer_handle": "duelsalon_taiyo",
       "organizer_name": "デュエルサロン太陽",
       "tweeted_at": "2026-08-01T18:08:06+09:00",
-      "collected_at": "2026-08-04T01:21:46.839918+09:00"
-    },
-    {
-      "id": "snhOo",
-      "title": "第30回ノスポカップ",
-      "url": "https://tonamel.com/competition/snhOo",
-      "date": "2026-08-22",
-      "start_time": "11:00",
-      "prefecture": "神奈川県",
-      "venue": "ブックオフ スーパーバザー ノースポート・モール店",
-      "address": "横浜市都筑区中川中央1-25-1",
-      "online": false,
-      "fee": "500円",
-      "capacity": 84,
-      "prize": "優勝：「未定」20パック  3 位:「未定」15パック  4 位:「未定」9パック",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/5tYxU",
-      "summary": "【注意】 当大会もしくは他の大会やイベントで問題を起こすことがあった方や、公式のルールに抵触するような行為のあった方、「ピカリボン宣誓でうたわれている内容」に御賛同いただけない方などに関しては、運営判断で申請をお断りする事がございます。⚪日時 ８/22（土）11時00分～ （10時30分受付開始）⚪会場 ブックオフ スーパーバザー ノースポート・モール店 （横浜市都筑区中川中央１-25-１）⚪会場",
-      "source_tweet_url": "https://x.com/northportcup/status/2081272390051594547",
-      "organizer_handle": "northportcup",
-      "organizer_name": "ノスポカップ運営",
-      "tweeted_at": "2026-07-26T15:56:20+09:00",
-      "collected_at": "2026-08-04T01:21:48.021328+09:00"
-    },
-    {
-      "id": "YPWBV",
-      "title": "第2回　パルテノンみやじ杯",
-      "url": "https://tonamel.com/competition/YPWBV",
-      "date": "2026-08-22",
-      "start_time": "11:40",
-      "prefecture": "神奈川県",
-      "venue": "カードボックス青馬堂 矢向店",
-      "address": " 日本、〒230-0001 神奈川県横浜市鶴見区矢向５丁目８−４２ ＨＥＩＳＥＩビル",
-      "online": false,
-      "fee": "2,000円",
-      "capacity": 102,
-      "prize": "優勝：新弾 2BOX+シングル券2000円・",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/Ez8mB",
-      "summary": "〈パルテノンみやじ主催100人規模自主大会！〉カードボックス青馬堂矢向店にて、ポケモンカードの非公認大会「第2回パルテノンみやじ杯」を開催します！※大会にはみやじも参加いたします。ゲストにガーリィレコード高井さんが来てくれます！！！！！圧倒的ゲスト…！！！！！！ 【開催日時】 2026/08/22(土) 11：40～受付時間：11：00～11：40 【開催場所 】 ・カードボックス青馬堂矢向店〒2",
-      "source_tweet_url": null,
-      "organizer_handle": null,
-      "organizer_name": "パルテノンみやじ",
-      "tweeted_at": "2026-08-04T01:21:49.205507+09:00",
-      "collected_at": "2026-08-04T01:21:49.207316+09:00"
-    },
-    {
-      "id": "G4ejd",
-      "title": "第14回ラキボ杯",
-      "url": "https://tonamel.com/competition/G4ejd",
-      "date": "2026-08-22",
-      "start_time": "11:50",
-      "prefecture": "東京都",
-      "venue": "調布市市民プラザ あくろす　3階ホール２",
-      "address": "調布市国領町2-5-15",
-      "online": false,
-      "fee": "1,500円",
-      "capacity": 46,
-      "prize": "のご用意はありますが、初心者歓迎のイベントでもあるので、その旨をご理解の上ご参加ください。…",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/xjrdo",
-      "summary": "こんにちは、はじめまして。チームラッキーボーナスのむらさきです。今回は国領駅すぐ近くの市民プラザあくろすにて、自主大会を企画しました！本イベントのカテゴリは初心者大歓迎！です。ジムイベントが初めてという方もお気軽にご参加ください。※本イベントは景品のご用意はありますが、初心者歓迎のイベントでもあるので、その旨をご理解の上ご参加ください。エントリーする前に必ず X(Twitter)@team_luc",
-      "source_tweet_url": "https://x.com/team_luckybonus/status/2077664783864619108",
-      "organizer_handle": "team_luckybonus",
-      "organizer_name": "チームラッキーボーナス",
-      "tweeted_at": "2026-07-16T17:01:00+09:00",
-      "collected_at": "2026-08-04T01:21:50.390681+09:00"
-    },
-    {
-      "id": "gN6yZ",
-      "title": "第２回 机上論者杯",
-      "url": "https://tonamel.com/competition/gN6yZ",
-      "date": "2026-08-22",
-      "start_time": "12:30",
-      "prefecture": "埼玉県",
-      "venue": "TSUTAYA レイクタウン",
-      "address": "埼玉県越谷市レイクタウン４丁目２−２ 2F イオンレイクタウンKaze",
-      "online": false,
-      "fee": "1,500円",
-      "capacity": 32,
-      "prize": "優勝：ストームエメラルダ 2BOX",
-      "format": "エクストラ",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/k2hwd",
-      "summary": "【大会概要】日時：8/22（土）12:30~会場：TSUTAYA レイクタウン参加者定員：32名参加費：1500円レギュレーション：エクストラレギュレーション大会のルール：公式のフロアルールに則るその他：プロキシの使用は不可※直前（3日前）のキャンセルは主催のXのDMまでご連絡お願い致します。【大会景品】優勝：ストームエメラルダ ２BOX準優勝：ストームエメラルダ １BOX３位：ストームエメラルダ",
-      "source_tweet_url": null,
-      "organizer_handle": null,
-      "organizer_name": "机上論者杯",
-      "tweeted_at": "2026-08-04T01:21:51.570992+09:00",
-      "collected_at": "2026-08-04T01:21:51.572023+09:00"
+      "collected_at": "2026-08-04T01:28:41.978372+09:00"
     },
     {
       "id": "8s1Be",
@@ -2739,7 +1835,7 @@
       "online": false,
       "fee": "1,000円",
       "capacity": 32,
-      "prize": "・じゃんけん大会⚠️スケジュールは予定です。変更となる可能性もありますのでご了承ください。…",
+      "prize": null,
       "format": "スタンダード",
       "kind": "交流会",
       "organizer_url": "https://tonamel.com/organization/5vzES",
@@ -2748,7 +1844,7 @@
       "organizer_handle": "housekisai",
       "organizer_name": "宝石祭",
       "tweeted_at": "2026-08-03T14:24:20+09:00",
-      "collected_at": "2026-08-04T01:21:52.749393+09:00"
+      "collected_at": "2026-08-04T01:30:18.799210+09:00"
     },
     {
       "id": "eABBl",
@@ -2762,7 +1858,7 @@
       "online": false,
       "fee": "1,000円",
       "capacity": 32,
-      "prize": "・じゃんけん大会⚠️スケジュールは予定です。変更となる可能性もありますのでご了承ください。…",
+      "prize": null,
       "format": "スタンダード",
       "kind": "交流会",
       "organizer_url": "https://tonamel.com/organization/5vzES",
@@ -2771,30 +1867,7 @@
       "organizer_handle": "housekisai",
       "organizer_name": "宝石祭",
       "tweeted_at": "2026-08-03T14:24:20+09:00",
-      "collected_at": "2026-08-04T01:21:54.150506+09:00"
-    },
-    {
-      "id": "c0cEr",
-      "title": "燈桜ジムリーダー決定戦『ドラゴン』",
-      "url": "https://tonamel.com/competition/c0cEr",
-      "date": "2026-08-22",
-      "start_time": "19:00",
-      "prefecture": "茨城県",
-      "venue": "TCG Guild燈桜",
-      "address": "茨城県日立市神峰町1-10-4",
-      "online": false,
-      "fee": "100円",
-      "capacity": 12,
-      "prize": "1燈桜オリジナル先攻/後攻マーカー2燈桜オリジナルステッカー",
-      "format": "その他",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/sH0U5",
-      "summary": "8月の毎週土曜日は『ジムリーダー決定戦』を行います！！各タイプの真の王者を決める戦い、ここに開幕！第4回は『ちょうタイプ』『無色タイプ』『ドラゴンタイプ』こちらのページは『ドラゴンタイプ』のエントリーページとなっております。▼大会概要▼日時:2026年8月9日(日)19:00~試合形式:スイスドロー4回戦参加費:100円景品:①燈桜オリジナル先攻/後攻マーカー②燈桜オリジナルステッカー参加賞:燈桜",
-      "source_tweet_url": "https://x.com/Tcghizakura/status/2083738349156598024",
-      "organizer_handle": "Tcghizakura",
-      "organizer_name": "DEEEP",
-      "tweeted_at": "2026-08-02T11:15:11+09:00",
-      "collected_at": "2026-08-04T01:21:55.546121+09:00"
+      "collected_at": "2026-08-04T01:30:17.541301+09:00"
     },
     {
       "id": "nCPxh",
@@ -2808,7 +1881,7 @@
       "online": false,
       "fee": "100円",
       "capacity": 12,
-      "prize": "1燈桜オリジナル先攻/後攻マーカー2燈桜オリジナルステッカー",
+      "prize": null,
       "format": "その他",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/sH0U5",
@@ -2817,7 +1890,30 @@
       "organizer_handle": "Tcghizakura",
       "organizer_name": "DEEEP",
       "tweeted_at": "2026-08-02T11:15:11+09:00",
-      "collected_at": "2026-08-04T01:21:56.723219+09:00"
+      "collected_at": "2026-08-04T01:28:03.222725+09:00"
+    },
+    {
+      "id": "c0cEr",
+      "title": "燈桜ジムリーダー決定戦『ドラゴン』",
+      "url": "https://tonamel.com/competition/c0cEr",
+      "date": "2026-08-22",
+      "start_time": "19:00",
+      "prefecture": "茨城県",
+      "venue": "TCG Guild燈桜",
+      "address": "茨城県日立市神峰町1-10-4",
+      "online": false,
+      "fee": "100円",
+      "capacity": 12,
+      "prize": null,
+      "format": "その他",
+      "kind": "自主大会",
+      "organizer_url": "https://tonamel.com/organization/sH0U5",
+      "summary": "8月の毎週土曜日は『ジムリーダー決定戦』を行います！！各タイプの真の王者を決める戦い、ここに開幕！第4回は『ちょうタイプ』『無色タイプ』『ドラゴンタイプ』こちらのページは『ドラゴンタイプ』のエントリーページとなっております。▼大会概要▼日時:2026年8月9日(日)19:00~試合形式:スイスドロー4回戦参加費:100円景品:①燈桜オリジナル先攻/後攻マーカー②燈桜オリジナルステッカー参加賞:燈桜",
+      "source_tweet_url": "https://x.com/Tcghizakura/status/2083738349156598024",
+      "organizer_handle": "Tcghizakura",
+      "organizer_name": "DEEEP",
+      "tweeted_at": "2026-08-02T11:15:11+09:00",
+      "collected_at": "2026-08-04T01:28:04.479410+09:00"
     },
     {
       "id": "fAEXq",
@@ -2831,7 +1927,7 @@
       "online": false,
       "fee": "100円",
       "capacity": 12,
-      "prize": "1燈桜オリジナル先攻/後攻マーカー2燈桜オリジナルステッカー",
+      "prize": null,
       "format": "その他",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/sH0U5",
@@ -2840,7 +1936,7 @@
       "organizer_handle": "Tcghizakura",
       "organizer_name": "DEEEP",
       "tweeted_at": "2026-08-02T11:15:11+09:00",
-      "collected_at": "2026-08-04T01:21:58.118641+09:00"
+      "collected_at": "2026-08-04T01:28:06.008624+09:00"
     },
     {
       "id": "2p8Hn",
@@ -2863,53 +1959,7 @@
       "organizer_handle": "toycomp6",
       "organizer_name": "トイコンプ 堺東店",
       "tweeted_at": "2026-07-31T22:18:51+09:00",
-      "collected_at": "2026-08-04T01:21:59.302866+09:00"
-    },
-    {
-      "id": "vodjo",
-      "title": "TYPE MASTERS SERIES〜メタルマスター決定戦〜",
-      "url": "https://tonamel.com/competition/vodjo",
-      "date": "2026-08-23",
-      "start_time": "12:00",
-      "prefecture": "東京都",
-      "venue": "ふれあい貸し会議室　渋谷No30",
-      "address": "東京都渋谷区渋谷2−22−7",
-      "online": false,
-      "fee": "1,000円",
-      "capacity": 32,
-      "prize": "公認自主イベントトレーナーズパックマスターズポイント3ポイント☆賞品・優勝優勝楯称号『メタ…",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/Udiu8",
-      "summary": "草、炎、水、雷、超、闘、悪、鋼、フェアリー、ドラゴン、無色。ポケモンカードに存在する全１１タイプ、それぞれのタイプの最強の使い手『タイプマスター』を決める戦い。『タイプマスター決定戦』の優勝者には、『タイプマスター』の称号が与えられるぞ！各タイプマスターは、最強のタイプマスターを決める大会『グランドマスター決定戦』への挑戦権を得る！！各タイプのマスターの頂点であり最強のプレイヤー『グランドマスター",
-      "source_tweet_url": "https://x.com/shaymin_moci/status/2080286117568610503",
-      "organizer_handle": "shaymin_moci",
-      "organizer_name": "TYPE MASTERS SERIES",
-      "tweeted_at": "2026-07-23T22:37:14+09:00",
-      "collected_at": "2026-08-04T01:22:00.709939+09:00"
-    },
-    {
-      "id": "jVZli",
-      "title": "8/23(日)第2回ぺあころ杯 【ペア戦】同性ペアOK",
-      "url": "https://tonamel.com/competition/jVZli",
-      "date": "2026-08-23",
-      "start_time": "12:00",
-      "prefecture": "東京都",
-      "venue": "カードショップポンポコ 地下１階",
-      "address": "東京都千代田区外神田1-2-14紀伊国屋ビル",
-      "online": false,
-      "fee": "2,500円",
-      "capacity": 40,
-      "prize": null,
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/0ymWz",
-      "summary": "必ず最後まで目を通していただいてからエントリーをお願い致します！！！！！同性ペア可能です！【ペアのうち最低でも一名はゆねころろ(主催)のフォローをお願いします】※8/17(月)〜8/19(水)の期間に参加の意思確認をX(旧:Twitter)のDMからお送りさせていただきますので、必ず連絡の取れるX(旧:Twitter)アカウントをご用意ください。また、必ず主催者ゆねころろ( @Yuneko_ro",
-      "source_tweet_url": "https://x.com/Yuneko_ro/status/2078793002198479337",
-      "organizer_handle": "Yuneko_ro",
-      "organizer_name": "ころころろ大会運営部",
-      "tweeted_at": "2026-07-19T19:44:08+09:00",
-      "collected_at": "2026-08-04T01:22:09.748947+09:00"
+      "collected_at": "2026-08-04T01:28:49.074689+09:00"
     },
     {
       "id": "e7Zck",
@@ -2932,53 +1982,7 @@
       "organizer_handle": "card_tatsuno",
       "organizer_name": "CARD Pl@ce",
       "tweeted_at": "2026-08-02T20:40:49+09:00",
-      "collected_at": "2026-08-04T01:22:02.112026+09:00"
-    },
-    {
-      "id": "B8U3T",
-      "title": "第三回チームバッフロンWP杯",
-      "url": "https://tonamel.com/competition/B8U3T",
-      "date": "2026-08-23",
-      "start_time": "13:00",
-      "prefecture": "東京都",
-      "venue": "池袋カードシークレット",
-      "address": "〒170-0013 東京都豊島区東池袋１丁目２３−９ 近代ビル 10 4階",
-      "online": false,
-      "fee": "1,200円",
-      "capacity": 64,
-      "prize": "優勝：2BOX+カドシク金券¥10,000分バッフロンex SAR 1枚",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/RT5NW",
-      "summary": "🏆大会景品🐃優勝2BOX+カドシク金券¥10,000分バッフロンex SAR 1枚準優勝１BOX+カドシク金券¥5,000分バッフロンex SR 1枚3位1BOX+カドシク金券¥3,000分4位カドシク金券¥1,500分ベスト8カドシク金券¥1,000分その他ジャンケン賞複数あり！※箱に関しては後日発表🐃大会概要参加費¥1,200(カドシク金券¥200分付)当日現金払いのみ対応受付時間: 12:3",
-      "source_tweet_url": null,
-      "organizer_handle": null,
-      "organizer_name": "チームバッフロンWP",
-      "tweeted_at": "2026-08-04T01:22:03.294542+09:00",
-      "collected_at": "2026-08-04T01:22:03.296343+09:00"
-    },
-    {
-      "id": "h19pC",
-      "title": "第14回ミモザ会",
-      "url": "https://tonamel.com/competition/h19pC",
-      "date": "2026-08-23",
-      "start_time": "14:00",
-      "prefecture": "福岡県",
-      "venue": "オレタン福岡天神店",
-      "address": "福岡県福岡市中央区天神３丁目２−２２ 河村天神荘ビル 3F",
-      "online": false,
-      "fee": "500円",
-      "capacity": 32,
-      "prize": "最多賞(4勝した人):最新弾15パックトリプル賞(3勝した人):最新弾5パック",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/DEL7a",
-      "summary": "◆イベント形式女性限定交流会スイスドロー形式小学生以下のお子様は男女問わず、ご参加いただけます。◆イベントに必要な物イベントに参加するために必要な物です。必ず持参して下さい。・スタンダードレギュレーション60枚デッキ・ダメカン・参加費500円◆スケジュール13:30~14:00 大会受付14:00~14:20 開会式14:20~14:50 1回戦15:00~15:30 2回戦15:40~16:10",
-      "source_tweet_url": "https://x.com/card_strike/status/2079159391933137035",
-      "organizer_handle": "card_strike",
-      "organizer_name": "ミモザ会",
-      "tweeted_at": "2026-07-20T20:00:02+09:00",
-      "collected_at": "2026-08-04T01:22:04.474787+09:00"
+      "collected_at": "2026-08-04T01:27:28.675877+09:00"
     },
     {
       "id": "KVhjj",
@@ -3001,7 +2005,7 @@
       "organizer_handle": "nowbridge22",
       "organizer_name": "水戸ポケカ大会",
       "tweeted_at": "2026-08-01T13:50:10+09:00",
-      "collected_at": "2026-08-04T01:22:05.875287+09:00"
+      "collected_at": "2026-08-04T01:29:09.971537+09:00"
     },
     {
       "id": "h9lRL",
@@ -3024,7 +2028,7 @@
       "organizer_handle": "cardshop_Bambi",
       "organizer_name": "カードショップBambi",
       "tweeted_at": "2026-08-02T14:08:53+09:00",
-      "collected_at": "2026-08-04T01:22:07.053188+09:00"
+      "collected_at": "2026-08-04T01:27:50.608682+09:00"
     },
     {
       "id": "l6wbH",
@@ -3047,7 +2051,7 @@
       "organizer_handle": "torekaX",
       "organizer_name": "トレカX",
       "tweeted_at": "2026-08-03T21:11:54+09:00",
-      "collected_at": "2026-08-04T01:22:08.236684+09:00"
+      "collected_at": "2026-08-04T01:26:28.276033+09:00"
     },
     {
       "id": "H0YwA",
@@ -3070,7 +2074,7 @@
       "organizer_handle": "nowbridge22",
       "organizer_name": "水戸ポケカ大会",
       "tweeted_at": "2026-08-01T13:50:10+09:00",
-      "collected_at": "2026-08-04T01:22:10.929005+09:00"
+      "collected_at": "2026-08-04T01:29:11.544040+09:00"
     },
     {
       "id": "wocZQ",
@@ -3093,7 +2097,7 @@
       "organizer_handle": "TCG_ADVANTAGE",
       "organizer_name": "アドバンテージ",
       "tweeted_at": "2026-08-04T00:36:00+09:00",
-      "collected_at": "2026-08-04T01:22:12.321251+09:00"
+      "collected_at": "2026-08-04T01:26:14.172501+09:00"
     },
     {
       "id": "s6GiW",
@@ -3116,30 +2120,7 @@
       "organizer_handle": "piroibk",
       "organizer_name": "中之島ポケカ会",
       "tweeted_at": "2026-08-02T16:31:10+09:00",
-      "collected_at": "2026-08-04T01:22:13.537964+09:00"
-    },
-    {
-      "id": "vuGL2",
-      "title": "【オーガナイザーイベント】社会人ポケカ研究会【8月】",
-      "url": "https://tonamel.com/competition/vuGL2",
-      "date": "2026-08-28",
-      "start_time": "19:00",
-      "prefecture": "東京都",
-      "venue": "デュエルサロン太陽",
-      "address": "東京都新宿区馬場下町9-8　ハイライフホーム早稲田駅前ビル5F",
-      "online": false,
-      "fee": null,
-      "capacity": 24,
-      "prize": null,
-      "format": "その他",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/4cZRI",
-      "summary": "会社終わりの金曜日。明日を気にせずポケカやるぞ！そんな大人たちのポケモンカード研究会。普段子どもたちとやっているお父さん、お母さん、コソ練で一緒に上手くなりましょう！そんな仲間を見つけるイベントです。もちろんマスターであればどなたでも大歓迎です。基本的にはフリー対戦での交流会形式です。店舗に備え付けのレンタルデッキを使用して練習することも可能です。また時間内であれば途中参加、途中退室も可能です。",
-      "source_tweet_url": null,
-      "organizer_handle": null,
-      "organizer_name": "デュエルサロン太陽",
-      "tweeted_at": "2026-08-04T01:22:14.755527+09:00",
-      "collected_at": "2026-08-04T01:22:14.756014+09:00"
+      "collected_at": "2026-08-04T01:27:41.744561+09:00"
     },
     {
       "id": "qU8XH",
@@ -3153,7 +2134,7 @@
       "online": true,
       "fee": "1,000円",
       "capacity": 32,
-      "prize": "には、あの脳汁が止まらないと噂の",
+      "prize": null,
       "format": "レギュ限定",
       "kind": "ショップ主催",
       "organizer_url": "https://tonamel.com/organization/yoeU5",
@@ -3162,7 +2143,7 @@
       "organizer_handle": "ryuunoshippo_nu",
       "organizer_name": "トレカショップ　竜のしっぽ　NU茶屋町店",
       "tweeted_at": "2026-08-03T11:18:08+09:00",
-      "collected_at": "2026-08-04T01:22:15.936798+09:00"
+      "collected_at": "2026-08-04T01:27:01.511834+09:00"
     },
     {
       "id": "8wDig",
@@ -3185,30 +2166,7 @@
       "organizer_handle": "toycomp6",
       "organizer_name": "トイコンプ 堺東店",
       "tweeted_at": "2026-07-31T22:18:51+09:00",
-      "collected_at": "2026-08-04T01:22:17.114765+09:00"
-    },
-    {
-      "id": "UY5bV",
-      "title": "BOX争奪戦",
-      "url": "https://tonamel.com/competition/UY5bV",
-      "date": "2026-08-29",
-      "start_time": "15:00",
-      "prefecture": "沖縄県",
-      "venue": "マンガ倉庫浦添店",
-      "address": "沖縄県浦添市城間2689",
-      "online": false,
-      "fee": "2,000円",
-      "capacity": 16,
-      "prize": "優勝：アビスアイ 1BOX",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/ljVSM",
-      "summary": "●大会ルールポケモンカードゲームのスタンダードレギュレーションを適用致します。&amp;nbsp;ルール | ポケモンカードゲーム公式ホームページ (pokemon-card.com)・大会形式：スイスドロー形式・使用可能カード：大会当日までに日本国内で配布、販売されたカード時間の都合上、時間内の決着がつかなかった場合両者敗北扱いとします。●大会賞品1位：アビスアイ 1BOX2位：店舗内のポケモン",
-      "source_tweet_url": "https://x.com/urasoe_card/status/2082638280944980011",
-      "organizer_handle": "urasoe_card",
-      "organizer_name": "マンガ倉庫浦添店カード部門",
-      "tweeted_at": "2026-07-30T10:23:54+09:00",
-      "collected_at": "2026-08-04T01:22:18.510208+09:00"
+      "collected_at": "2026-08-04T01:28:50.332048+09:00"
     },
     {
       "id": "dlf0t",
@@ -3222,7 +2180,7 @@
       "online": true,
       "fee": "1,000円",
       "capacity": 32,
-      "prize": "には、あのYouTubeショートで話題で、全然手に入らないと噂の",
+      "prize": null,
       "format": "スタンダード",
       "kind": "ショップ主催",
       "organizer_url": "https://tonamel.com/organization/yoeU5",
@@ -3231,7 +2189,7 @@
       "organizer_handle": "ryuunoshippo_nu",
       "organizer_name": "トレカショップ　竜のしっぽ　NU茶屋町店",
       "tweeted_at": "2026-08-03T11:18:08+09:00",
-      "collected_at": "2026-08-04T01:22:19.694689+09:00"
+      "collected_at": "2026-08-04T01:27:03.050536+09:00"
     },
     {
       "id": "S252g",
@@ -3245,7 +2203,7 @@
       "online": false,
       "fee": "1,500円",
       "capacity": 32,
-      "prize": "の配布方法が変更になります",
+      "prize": null,
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/idrAJ",
@@ -3254,7 +2212,7 @@
       "organizer_handle": "Hokkai_poke2306",
       "organizer_name": "ホッカイポケカ",
       "tweeted_at": "2026-07-31T08:41:26+09:00",
-      "collected_at": "2026-08-04T01:22:21.095937+09:00"
+      "collected_at": "2026-08-04T01:30:20.057514+09:00"
     },
     {
       "id": "fU7aG",
@@ -3273,11 +2231,11 @@
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/5vzES",
       "summary": "┈┈┈┈┈┈┈┈┈┈このたびは 宝石祭 with カドラバ へのご参加ありがとうございます。みんなで安心して楽しめる大会にするため、下記に記載のルール・注意事項は必ずご確認ください。※『読んでいなかった』『知らなかった』などの理由は、一切受け付けません。📅 【タイムスケジュール】12:10~12:50 | 受付12:45~13:15 | 挨拶・ルール説明13:20~13:45 | 1回戦13:55",
-      "source_tweet_url": "https://x.com/housekisai/status/2075520416136019999",
+      "source_tweet_url": "https://x.com/housekisai/status/2084148564981403831",
       "organizer_handle": "housekisai",
       "organizer_name": "宝石祭",
-      "tweeted_at": "2026-07-10T19:00:03+09:00",
-      "collected_at": "2026-08-04T01:22:22.498236+09:00"
+      "tweeted_at": "2026-08-03T14:25:14+09:00",
+      "collected_at": "2026-08-04T01:29:32.344237+09:00"
     },
     {
       "id": "yblDu",
@@ -3300,7 +2258,7 @@
       "organizer_handle": "kadoraba",
       "organizer_name": "TSUTAYA 田崎店",
       "tweeted_at": "2026-08-01T11:30:00+09:00",
-      "collected_at": "2026-08-04T01:22:23.687488+09:00"
+      "collected_at": "2026-08-04T01:29:36.708654+09:00"
     },
     {
       "id": "44rHT",
@@ -3323,53 +2281,7 @@
       "organizer_handle": "nowbridge22",
       "organizer_name": "水戸ポケカ大会",
       "tweeted_at": "2026-08-01T13:50:10+09:00",
-      "collected_at": "2026-08-04T01:22:24.868001+09:00"
-    },
-    {
-      "id": "FFTO4",
-      "title": "コシガヤシティジムvol.20～SummerEvent～ランダム5人チーム戦！",
-      "url": "https://tonamel.com/competition/FFTO4",
-      "date": "2026-08-30",
-      "start_time": "13:00",
-      "prefecture": "埼玉県",
-      "venue": "越谷コミュニティセンター第1会議室",
-      "address": "埼玉県越谷市南越谷2876-1 越谷コミュニティセンター",
-      "online": false,
-      "fee": "500円",
-      "capacity": 30,
-      "prize": "優勝：です!受付13時~13時15分時間厳守でお願いします!参加費 500円試合時間25分時間切…",
-      "format": "その他",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/UUzet",
-      "summary": "コシガヤシティジム毎年恒例夏のイベントです！！！🌺こちらは中学生以上を対象としたイベントになっております。小学生以下のお子様はファミリー回へお越しください✨今年の夏は！！『ランダム5人チーム戦』です！！参加者からランダムで5人チームを組むので、もちろんおひとり様でエントリーして頂けます。全6チーム、総当たり戦となります！いちばん勝ち数の多いチームの優勝です！受付13時～13時15分時間厳守でお願い",
-      "source_tweet_url": null,
-      "organizer_handle": "koshigym0428",
-      "organizer_name": "コシガヤシティジム",
-      "tweeted_at": "2026-08-04T01:22:26.046650+09:00",
-      "collected_at": "2026-08-04T01:22:26.048411+09:00"
-    },
-    {
-      "id": "Jn0rm",
-      "title": "【石垣島ポケカ大会】第32回石垣島Coral Cup",
-      "url": "https://tonamel.com/competition/Jn0rm",
-      "date": "2026-08-30",
-      "start_time": "14:15",
-      "prefecture": "沖縄県",
-      "venue": "大濱信泉記念館2F研修室Ⅰ",
-      "address": "石垣市登野城2-70",
-      "online": false,
-      "fee": "500円",
-      "capacity": 18,
-      "prize": "検討中副賞:年始の石垣CS2026の出場権利副賞:オリジナルプレマ引き換え1/2権",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/UZDs2",
-      "summary": "石垣島でのポケカ大会(スタンダード)です！優勝者には2027年1月頃に開催予定の石垣CS2026への出場権が与えられます！空きがあれば当日飛び入りでも大歓迎ですが、席に限りがありますのでトナメルでの早めのエントリーがおすすめです。【エントリー方法】①本トナメルにて自身のアカウントでエントリー②アカウントがない方は主催X(Twitter)のDMにて受け付けますまた、当日会場にて受付も行いますが参加人",
-      "source_tweet_url": "https://x.com/kiki765go/status/2081904657056796714",
-      "organizer_handle": "kiki765go",
-      "organizer_name": "石垣島Coral Cup",
-      "tweeted_at": "2026-07-28T09:48:44+09:00",
-      "collected_at": "2026-08-04T01:22:27.448280+09:00"
+      "collected_at": "2026-08-04T01:29:08.716828+09:00"
     },
     {
       "id": "0Jzjl",
@@ -3392,7 +2304,7 @@
       "organizer_handle": "torekaX",
       "organizer_name": "トレカX",
       "tweeted_at": "2026-08-03T21:11:54+09:00",
-      "collected_at": "2026-08-04T01:22:30.056653+09:00"
+      "collected_at": "2026-08-04T01:26:32.586792+09:00"
     },
     {
       "id": "vGK0K",
@@ -3415,7 +2327,7 @@
       "organizer_handle": "nowbridge22",
       "organizer_name": "水戸ポケカ大会",
       "tweeted_at": "2026-08-01T13:50:10+09:00",
-      "collected_at": "2026-08-04T01:22:28.628290+09:00"
+      "collected_at": "2026-08-04T01:29:05.939628+09:00"
     },
     {
       "id": "xnLb2",
@@ -3429,7 +2341,7 @@
       "online": false,
       "fee": "1,000円",
       "capacity": 32,
-      "prize": "大したものはご用意できない予定です🙇‍♂️",
+      "prize": null,
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/qBfT4",
@@ -3438,7 +2350,7 @@
       "organizer_handle": "peisan_1004",
       "organizer_name": "昭和生まれのポケカ練習会",
       "tweeted_at": "2026-08-01T07:41:13+09:00",
-      "collected_at": "2026-08-04T01:22:31.463309+09:00"
+      "collected_at": "2026-08-04T01:29:44.185801+09:00"
     },
     {
       "id": "E68mh",
@@ -3461,30 +2373,7 @@
       "organizer_handle": "ninnnin_osaka2",
       "organizer_name": "ニンニン",
       "tweeted_at": "2026-08-02T11:18:53+09:00",
-      "collected_at": "2026-08-04T01:22:34.034901+09:00"
-    },
-    {
-      "id": "XYnhc",
-      "title": "ハトガヤオープン2026 Autumn（30歳以上限定大会）",
-      "url": "https://tonamel.com/competition/XYnhc",
-      "date": "2026-09-05",
-      "start_time": "14:00",
-      "prefecture": "埼玉県",
-      "venue": "鳩ヶ谷駅市民センター",
-      "address": "埼玉県川口市大字里1650-1（埼玉高速鉄道 鳩ヶ谷駅2階）",
-      "online": false,
-      "fee": "400円",
-      "capacity": 16,
-      "prize": null,
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/KivLE",
-      "summary": "＜主催＞ちも（@timo63960592）＜日時＞2026年9月5日(土)14:00~18:00※13:30受付開始(到着が遅れる場合は必ずご連絡下さい)＜定員＞16名＜大会概要＞たまには30歳以上の大人世代だけで、楽しみながらも割と真剣に勝負がしたい、そんな気持ちになったことがある方向けの大会です。参加条件：2026年9月5日時点で30歳以上の方原則セルフジャッジになりますが、対戦中は主催が控え",
-      "source_tweet_url": "https://x.com/timo63960592/status/2079095075439792612",
-      "organizer_handle": "timo63960592",
-      "organizer_name": "夜ポケカの会",
-      "tweeted_at": "2026-07-20T15:44:28+09:00",
-      "collected_at": "2026-08-04T01:22:32.855161+09:00"
+      "collected_at": "2026-08-04T01:28:01.686011+09:00"
     },
     {
       "id": "udoo5",
@@ -3507,7 +2396,7 @@
       "organizer_handle": "yokatoko_pcg",
       "organizer_name": "嬉ポケ",
       "tweeted_at": "2026-08-01T18:43:21+09:00",
-      "collected_at": "2026-08-04T01:22:35.431457+09:00"
+      "collected_at": "2026-08-04T01:28:40.452308+09:00"
     },
     {
       "id": "B8j1O",
@@ -3521,7 +2410,7 @@
       "online": false,
       "fee": "無料",
       "capacity": 70,
-      "prize": "決まり次第お知らせします。",
+      "prize": null,
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/D4AUr",
@@ -3530,7 +2419,7 @@
       "organizer_handle": "DMM_Myca",
       "organizer_name": "株式会社Myca",
       "tweeted_at": "2026-08-02T19:00:00+09:00",
-      "collected_at": "2026-08-04T01:22:36.608359+09:00"
+      "collected_at": "2026-08-04T01:27:34.607121+09:00"
     },
     {
       "id": "Nv74J",
@@ -3553,7 +2442,7 @@
       "organizer_handle": "hachipoke023",
       "organizer_name": "八王子ポケカ会",
       "tweeted_at": "2026-08-02T19:25:43+09:00",
-      "collected_at": "2026-08-04T01:22:37.782785+09:00"
+      "collected_at": "2026-08-04T01:27:33.068831+09:00"
     },
     {
       "id": "FrIYf",
@@ -3567,16 +2456,16 @@
       "online": false,
       "fee": "2,500円",
       "capacity": 100,
-      "prize": "優勝：、『151』3BOX or『ムニキスゼロ』15BOX",
+      "prize": "(80チーム以上の場合)1位、『151』3BOX or『ムニキスゼロ』15BOX",
       "format": "スタンダード",
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/xlENg",
       "summary": "9/12（土）東京都立産業貿易センター浜松町館3on3！ちょこはち秋の大ポケカ大会チーム戦！ーーーーーーーーーーーーー・悪質な当日無断キャンセルが多発しています。参加キャンセルは必ず大会前日夜までにお願いいたします。・エントリーメンバーが仮、あ、Aなどで5日前までにXの情報などの正式な登録がない場合エントリーキャンセルとします。ーーーーーーーーーーーーー9/12（土）3on3！ちょこはち主催秋の大",
-      "source_tweet_url": "https://x.com/sei_every1/status/2083524306022109501",
+      "source_tweet_url": "https://x.com/sei_every1/status/2083886113383428412",
       "organizer_handle": "sei_every1",
       "organizer_name": "ちょこはち",
-      "tweeted_at": "2026-08-01T21:04:39+09:00",
-      "collected_at": "2026-08-04T01:22:39.186234+09:00"
+      "tweeted_at": "2026-08-02T21:02:20+09:00",
+      "collected_at": "2026-08-04T01:27:21.800725+09:00"
     },
     {
       "id": "LYn4p",
@@ -3595,11 +2484,11 @@
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/yt0Jo",
       "summary": "〇挨拶初めまして🌟この度はエントリーをご検討いただきありがとうございます！長いですが最後まで内容の方お読み頂ければ幸いです。運営①なな(@nnisg_hb03)CR推し⇒だるさん👼🏻‎ぶいすぽ推し⇒小森めと🪐‪橘ひなの🍫💘です！！！当日は楽しんで貰えると嬉しいです✨運営②クロスタ情報局(@XrossStars_info)推し⇒如月れん⏰‪昏昏アリア三度の飯もLoLも好きです！当日は精いっぱい頑張り",
-      "source_tweet_url": "https://x.com/sei_every1/status/2083524306022109501",
+      "source_tweet_url": "https://x.com/sei_every1/status/2083886113383428412",
       "organizer_handle": "sei_every1",
       "organizer_name": "ぽたくCS コラボver.",
-      "tweeted_at": "2026-08-01T21:04:39+09:00",
-      "collected_at": "2026-08-04T01:22:40.623599+09:00"
+      "tweeted_at": "2026-08-02T21:02:20+09:00",
+      "collected_at": "2026-08-04T01:27:24.581614+09:00"
     },
     {
       "id": "iH8R3",
@@ -3618,11 +2507,11 @@
       "kind": "自主大会",
       "organizer_url": "https://tonamel.com/organization/ac7Mj",
       "summary": "はじめにイベントに関する連絡をX(@TORECARDS_ua)から発信します。参加をご検討される方はこちらのアカウントをフォローお願いします。イベント趣旨☆5on5×BO3形式のカジュアル大会環境の陰に隠れ、活躍の機を伺っているデッキで遊ぼう！が趣旨の個人主催のCSです。今回はせい様からお誘い頂き”せい祭“との共同開催となります！ いつもより大規模になりますが、大会趣旨はこれまでのカジュアル杯と変",
-      "source_tweet_url": "https://x.com/sei_every1/status/2083524306022109501",
+      "source_tweet_url": "https://x.com/sei_every1/status/2083886113383428412",
       "organizer_handle": "sei_every1",
       "organizer_name": "TORECARDS",
-      "tweeted_at": "2026-08-01T21:04:39+09:00",
-      "collected_at": "2026-08-04T01:22:42.019349+09:00"
+      "tweeted_at": "2026-08-02T21:02:20+09:00",
+      "collected_at": "2026-08-04T01:27:23.058905+09:00"
     },
     {
       "id": "gnBIx",
@@ -3645,30 +2534,7 @@
       "organizer_handle": "tozyocap",
       "organizer_name": "トージョウ杯運営",
       "tweeted_at": "2026-08-01T12:50:00+09:00",
-      "collected_at": "2026-08-04T01:22:43.200230+09:00"
-    },
-    {
-      "id": "W0i8f",
-      "title": "No.01 +FREE ポ×ボ",
-      "url": "https://tonamel.com/competition/W0i8f",
-      "date": "2026-09-19",
-      "start_time": "11:00",
-      "prefecture": "広島県",
-      "venue": "トレジャーコレクションフジグラン広島店",
-      "address": "広島県広島市中区宝町2−1",
-      "online": false,
-      "fee": "1,000円",
-      "capacity": 64,
-      "prize": "]優勝",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/Sx4Qv",
-      "summary": "【ご挨拶】こんにちは🦭広島でKADOCCHO.というチームでポケカをしております、かずのこと申します。「遊びに、息抜きを。」をテーマに、「+FREE(フリー)」という大会を開催させていただく運びとなりました。今回はポ×ボということでポケカとボドゲを楽しんでいただければと思います。よろしくお願いいたします。【主催】かずのこX ▶︎ @kazunoko_____【大会概要】［日時］9/19 (土) 1",
-      "source_tweet_url": "https://x.com/FREE_POBOBE/status/2079521776753848707",
-      "organizer_handle": "FREE_POBOBE",
-      "organizer_name": "+FREE",
-      "tweeted_at": "2026-07-21T20:00:01+09:00",
-      "collected_at": "2026-08-04T01:22:44.594686+09:00"
+      "collected_at": "2026-08-04T01:28:43.502553+09:00"
     },
     {
       "id": "oBi2l",
@@ -3691,7 +2557,7 @@
       "organizer_handle": "AThome_yanagima",
       "organizer_name": "カードショップ＠ほ～む。宮崎店",
       "tweeted_at": "2026-08-02T10:53:30+09:00",
-      "collected_at": "2026-08-04T01:22:45.773187+09:00"
+      "collected_at": "2026-08-04T01:28:16.035874+09:00"
     },
     {
       "id": "wvcPx",
@@ -3714,7 +2580,7 @@
       "organizer_handle": "often330",
       "organizer_name": "ジャッジとバトル！",
       "tweeted_at": "2026-08-03T21:21:07+09:00",
-      "collected_at": "2026-08-04T01:22:46.953096+09:00"
+      "collected_at": "2026-08-04T01:26:25.185785+09:00"
     },
     {
       "id": "LGz5Y",
@@ -3737,7 +2603,7 @@
       "organizer_handle": "KawaguchiPokeca",
       "organizer_name": "川口ポケカ部",
       "tweeted_at": "2026-08-03T19:34:01+09:00",
-      "collected_at": "2026-08-04T01:22:48.349794+09:00"
+      "collected_at": "2026-08-04T01:26:36.950097+09:00"
     },
     {
       "id": "Sb9VB",
@@ -3760,7 +2626,7 @@
       "organizer_handle": "team_jijiron",
       "organizer_name": "チームジジーロン",
       "tweeted_at": "2026-08-01T20:00:05+09:00",
-      "collected_at": "2026-08-04T01:22:49.756908+09:00"
+      "collected_at": "2026-08-04T01:28:39.198997+09:00"
     },
     {
       "id": "NADKT",
@@ -3774,7 +2640,7 @@
       "online": false,
       "fee": "1,000円",
       "capacity": 32,
-      "prize": "が渡ると思います♪ぜひ楽しみましょう!◎ジムバトルやシティリーグ等に参加したことのない方の…",
+      "prize": null,
       "format": "スタンダード",
       "kind": "ショップ主催",
       "organizer_url": "https://tonamel.com/organization/9JD03",
@@ -3783,30 +2649,7 @@
       "organizer_handle": "pocketuna_",
       "organizer_name": "ポケつな会",
       "tweeted_at": "2026-08-02T09:01:06+09:00",
-      "collected_at": "2026-08-04T01:22:50.936166+09:00"
-    },
-    {
-      "id": "9PxHN",
-      "title": "10/31(土)第23回みんなでころがる杯@福福トレカ秋葉原店(３人チーム戦)",
-      "url": "https://tonamel.com/competition/9PxHN",
-      "date": "2026-10-31",
-      "start_time": "12:00",
-      "prefecture": "東京都",
-      "venue": "福福トレカ秋葉原店",
-      "address": "東京都千代田区外神田1-9-8木村ビル4F",
-      "online": false,
-      "fee": "2,500円",
-      "capacity": 26,
-      "prize": "優勝：チーム福福トレカ商品券15,000円分&amp;nbsp;×&amp;nbsp;3人分",
-      "format": "スタンダード",
-      "kind": "自主大会",
-      "organizer_url": "https://tonamel.com/organization/0ymWz",
-      "summary": "必ず最後まで目を通していただいてからエントリーをお願い致します！！！！！【大会開始１週間前からは最低でも２名のメンバーが確定しているチームのみエントリーが可能です】※仮メンバーが2名の場合はキャンセル処理をさせていただきます。18歳未満の方のみで編成されたチームはエントリー不可とさせていただきます。※チームメンバーに１人でも18歳以上の方がいる場合は参加可。【連絡の取れるアカウントをご準備ください",
-      "source_tweet_url": "https://x.com/Yuneko_ro/status/2068302731698475122",
-      "organizer_handle": "Yuneko_ro",
-      "organizer_name": "ころころろ大会運営部",
-      "tweeted_at": "2026-06-20T20:59:33+09:00",
-      "collected_at": "2026-08-04T01:22:52.115772+09:00"
+      "collected_at": "2026-08-04T01:28:29.291400+09:00"
     }
   ],
   "organizers": [
@@ -3827,9 +2670,9 @@
     {
       "handle": "kadoraba",
       "name": "すなやまのあそびば",
-      "area": "愛知県",
+      "area": "愛知県ほか",
       "region": "中部",
-      "note": "直近3ヶ月で11件の大会を主催しています。",
+      "note": "直近3ヶ月で12件の大会を主催しています。",
       "auto": true
     },
     {
@@ -3858,7 +2701,7 @@
     {
       "handle": "nowbridge22",
       "name": "水戸ポケカ大会",
-      "area": "石川県",
+      "area": "石川県ほか",
       "region": "中部",
       "note": "直近3ヶ月で4件の大会を主催しています。",
       "auto": true
@@ -3871,9 +2714,9 @@
       "note": "「石川ポケカCS」「ビギナー🔰杯」「BOX争奪戦」を継続開催。主会場は北国書林松任店（白山市）。"
     },
     {
-      "handle": "card_strike",
-      "name": "むしのしらせ/テクニシャン杯",
-      "area": "福岡県",
+      "handle": "oknwpokemon",
+      "name": "那覇BASE",
+      "area": "沖縄県",
       "region": "九州・沖縄",
       "note": "直近3ヶ月で2件の大会を主催しています。",
       "auto": true
@@ -3908,27 +2751,11 @@
       "note": "エクストラレギュレーション専門の自主大会を第4回まで開催。50人規模。"
     },
     {
-      "handle": "Yuneko_ro",
-      "name": "ころころろ大会運営部",
-      "area": "東京都",
-      "region": "関東",
-      "note": "直近3ヶ月で2件の大会を主催しています。",
-      "auto": true
-    },
-    {
       "handle": "OP01_soda",
       "name": "そだ",
       "area": "東京都秋葉原",
       "region": "関東",
       "note": "「ポケカ×そだ杯」主催。会場はカードショップポンポコ。"
-    },
-    {
-      "handle": "chocol8band",
-      "name": "ちょこはち",
-      "area": "東京都",
-      "region": "関東",
-      "note": "直近3ヶ月で3件の大会を主催しています。",
-      "auto": true
     },
     {
       "handle": "sei_every1",
