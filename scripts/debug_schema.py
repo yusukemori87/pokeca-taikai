@@ -1,14 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Tonamel の GraphQL スキーマを読んで「公開大会を検索するクエリ」を特定する。
+Tonamel の GraphQL スキーマから「公開大会を検索するクエリ」を特定する。
 
-イントロスペクションが有効だと分かったので、
-  1. ルート(PlayerQuery)のフィールド一覧と引数を取る
-  2. 大会検索に使えそうなフィールドを絞り込む
-  3. Competition 型のフィールド一覧を取る
-  4. 実際に叩いてみて結果を保存する
-までを自動でやる。
+__type(name:) と __schema.queryType.fields はどちらも空を返したが、
+__schema.types { name fields { name args } } の形だけは通ることが分かっている。
+そこで全型を一度に取得し、その中からルート型(PlayerQuery)と大会関連の型を探す。
 """
 
 from __future__ import annotations
@@ -23,39 +20,23 @@ import requests
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "debug"
 EP = "https://tonamel.com/graphql"
-UA = {
-    "User-Agent": "Mozilla/5.0 (compatible; PokecaJishuBot/1.0; +pokeca-taikai)",
-    "Content-Type": "application/json",
-}
+UA = {"User-Agent": "Mozilla/5.0 (compatible; PokecaJishuBot/1.0; +pokeca-taikai)",
+      "Content-Type": "application/json"}
 
-Q_ROOT = """
-query { __type(name: "%s") { name fields {
-  name
-  description
-  args { name defaultValue type { kind name ofType { kind name ofType { kind name } } } }
-  type { kind name ofType { kind name ofType { kind name ofType { kind name } } } }
-} } }
-"""
-
-Q_TYPE = """
-query { __type(name: "%s") { name kind
-  enumValues { name }
-  inputFields { name type { kind name ofType { kind name } } }
-  fields { name type { kind name ofType { kind name ofType { kind name } } } }
-} }
+Q = """
+query { __schema {
+  queryType { name }
+  types {
+    name kind
+    fields { name args { name type { kind name ofType { kind name } } }
+             type { kind name ofType { kind name ofType { kind name } } } }
+    inputFields { name type { kind name ofType { kind name } } }
+    enumValues { name }
+  } } }
 """
 
 
-def gql(query: str, sess: requests.Session) -> dict:
-    try:
-        r = sess.post(EP, json={"query": query}, headers=UA, timeout=30)
-        return r.json()
-    except Exception as e:  # noqa: BLE001
-        return {"_error": str(e)[:160]}
-
-
-def unwrap(t: dict | None) -> str:
-    """型のラッパー(NON_NULL/LIST)を剥がして名前を出す。"""
+def unwrap(t):
     names = []
     while t:
         if t.get("name"):
@@ -66,77 +47,67 @@ def unwrap(t: dict | None) -> str:
 
 def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
-    sess = requests.Session()
-    report: dict = {}
+    try:
+        r = requests.post(EP, json={"query": Q}, headers=UA, timeout=60)
+        body = r.json()
+    except Exception as e:  # noqa: BLE001
+        (OUT / "schema-report.json").write_text(
+            json.dumps({"error": str(e)[:200]}, ensure_ascii=False), "utf-8")
+        print("失敗:", e)
+        return 0
 
-    # __type(name:"PlayerQuery") は空を返したので、__schema からルート型を直接読む
-    Q_SCHEMA_ROOT = """
-    query { __schema { queryType {
-      name
-      fields {
-        name description
-        args { name type { kind name ofType { kind name ofType { kind name } } } }
-        type { kind name ofType { kind name ofType { kind name ofType { kind name } } } }
-      } } } }
-    """
-    root = gql(Q_SCHEMA_ROOT, sess)
-    qt = ((root.get("data") or {}).get("__schema") or {}).get("queryType") or {}
-    fields = qt.get("fields") or []
-    report["queryType"] = qt.get("name")
-    report["raw_error"] = root.get("errors")
-    if not fields:
-        allt = gql('query { __schema { types { name kind } } }', sess)
-        names = [t["name"] for t in
-                 (((allt.get("data") or {}).get("__schema") or {}).get("types") or [])]
-        report["all_type_names"] = [n for n in names if not n.startswith("__")][:400]
-        print("ルートのフィールドが取れないので全型名を保存:", len(names))
-    report["root_fields"] = [
-        {"name": f["name"], "returns": unwrap(f.get("type")),
-         "args": [{"name": a["name"], "type": unwrap(a.get("type"))} for a in f.get("args") or []],
-         "desc": f.get("description")}
-        for f in fields
-    ]
-    print(f"=== PlayerQuery のフィールド {len(fields)}件 ===")
+    if body.get("errors"):
+        print("GraphQLエラー:", body["errors"][:2])
+    sch = (body.get("data") or {}).get("__schema") or {}
+    types = sch.get("types") or []
+    print("取得した型数:", len(types))
+
+    by_name = {t["name"]: t for t in types if t.get("name")}
+    root_name = (sch.get("queryType") or {}).get("name") or "PlayerQuery"
+    root = by_name.get(root_name) or {}
+    rfields = root.get("fields") or []
+
+    report = {
+        "queryType": root_name,
+        "root_fields": [
+            {"name": f["name"],
+             "args": [{"name": a["name"], "type": unwrap(a.get("type"))} for a in f.get("args") or []],
+             "returns": unwrap(f.get("type"))}
+            for f in rfields
+        ],
+        "type_count": len(types),
+    }
+    print(f"=== {root_name} のフィールド {len(rfields)}件 ===")
     for f in report["root_fields"]:
-        args = ", ".join(f"{a['name']}:{a['type']}" for a in f["args"])
-        print(f"  {f['name']}({args}) -> {f['returns']}")
+        print(f"  {f['name']}({', '.join(a['name']+':'+a['type'] for a in f['args'])}) -> {f['returns']}")
 
-    # 大会検索に使えそうなフィールドを拾う
-    KEY = re.compile(r"competition|tournament|event|search", re.I)
+    KEY = re.compile(r"competition|tournament|event|search|public|list", re.I)
     cands = [f for f in report["root_fields"] if KEY.search(f["name"])]
-    report["candidates"] = [c["name"] for c in cands]
+    report["candidates"] = cands
     print("\n=== 大会検索の候補 ===")
     for c in cands:
-        print(" ", c["name"], "->", c["returns"],
-              "| args:", [a["name"] for a in c["args"]])
+        print(" ", c["name"], "->", c["returns"], "| args:", [a["name"] for a in c["args"]])
 
-    # 関係しそうな型の中身を見る
-    types_to_look = {c["returns"] for c in cands}
-    for c in cands:
-        for a in c["args"]:
-            types_to_look.add(a["type"])
+    # 候補の戻り値・引数の型の中身
+    want = {c["returns"] for c in cands} | {a["type"] for c in cands for a in c["args"]}
     report["types"] = {}
-    for tname in sorted(types_to_look)[:14]:
-        if tname in ("String", "Int", "Boolean", "ID", "?"):
-            continue
-        d = gql(Q_TYPE % tname, sess)
-        t = (d.get("data") or {}).get("__type")
+    for n in sorted(want):
+        t = by_name.get(n)
         if not t:
             continue
-        report["types"][tname] = {
+        report["types"][n] = {
             "kind": t.get("kind"),
+            "fields": [{"name": f["name"], "type": unwrap(f.get("type"))} for f in t.get("fields") or []][:60],
+            "inputFields": [{"name": f["name"], "type": unwrap(f.get("type"))} for f in t.get("inputFields") or []],
             "enumValues": [e["name"] for e in t.get("enumValues") or []][:60],
-            "inputFields": [{"name": i["name"], "type": unwrap(i.get("type"))}
-                            for i in t.get("inputFields") or []],
-            "fields": [{"name": f["name"], "type": unwrap(f.get("type"))}
-                       for f in t.get("fields") or []][:60],
         }
-        print(f"\n--- 型 {tname} ({t.get('kind')}) ---")
-        for k in ("enumValues", "inputFields", "fields"):
-            v = report["types"][tname][k]
+        print(f"\n--- {n} ({t.get('kind')}) ---")
+        for k in ("inputFields", "enumValues", "fields"):
+            v = report["types"][n][k]
             if v:
-                print(f"   {k}: {json.dumps(v, ensure_ascii=False)[:400]}")
+                print(f"   {k}: {json.dumps(v, ensure_ascii=False)[:420]}")
 
+    report["all_type_names"] = [t["name"] for t in types if not t["name"].startswith("__")]
     (OUT / "schema-report.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2), "utf-8")
     print("\n書き出し:", OUT / "schema-report.json")

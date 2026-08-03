@@ -1,1 +1,1 @@
-debug: schema root via __schema.queryType.fields
+debug: full types introspection to locate competition search
