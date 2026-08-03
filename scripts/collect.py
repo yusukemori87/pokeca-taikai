@@ -121,6 +121,50 @@ def norm(text: str) -> str:
 
 # ---------------------------------------------------------------- Twitter 検索
 
+# 無料プランは 0.2 QPS（5秒に1回）なので、呼び出し間隔を自前で守る。
+# 有料プランに上げたら QPS_INTERVAL を 0.4 くらいまで下げてよい。
+QPS_INTERVAL = float(os.environ.get("QPS_INTERVAL", "5.5"))
+_last_call = [0.0]
+
+
+def _throttle() -> None:
+    wait = QPS_INTERVAL - (time.monotonic() - _last_call[0])
+    if wait > 0:
+        time.sleep(wait)
+    _last_call[0] = time.monotonic()
+
+
+def api_get(params: dict) -> dict | None:
+    """レート制限を守りつつ叩く。429なら待って最大3回リトライ。"""
+    for attempt in range(3):
+        _throttle()
+        try:
+            r = requests.get(
+                API_BASE, params=params, headers={"X-API-Key": API_KEY}, timeout=40
+            )
+        except Exception as e:  # noqa: BLE001
+            log(f"    通信エラー({attempt + 1}/3): {e}")
+            time.sleep(5)
+            continue
+
+        if r.status_code == 429:
+            back = 15 * (attempt + 1)
+            log(f"    レート制限。{back}秒待って再試行 ({attempt + 1}/3)")
+            time.sleep(back)
+            continue
+        if r.status_code == 402:
+            log("    !! クレジット残高が不足しています")
+            return None
+        if r.status_code != 200:
+            log(f"    HTTP {r.status_code}: {r.text[:160]}")
+            return None
+        try:
+            return r.json()
+        except Exception:  # noqa: BLE001
+            return None
+    return None
+
+
 def search_twitter(query: str, since: datetime) -> list[dict]:
     """twitterapi.io の advanced search を叩いてツイートを集める。"""
     if not API_KEY:
@@ -138,19 +182,10 @@ def search_twitter(query: str, since: datetime) -> list[dict]:
         if cursor:
             params["cursor"] = cursor
 
-        try:
-            r = requests.get(
-                API_BASE,
-                params=params,
-                headers={"X-API-Key": API_KEY},
-                timeout=30,
-            )
-            r.raise_for_status()
-        except Exception as e:  # noqa: BLE001
-            log(f"  !! 検索失敗 ({query[:30]}...): {e}")
+        body = api_get(params)
+        if body is None:
             break
 
-        body = r.json()
         batch = body.get("tweets") or []
         tweets.extend(batch)
 
@@ -159,7 +194,6 @@ def search_twitter(query: str, since: datetime) -> list[dict]:
         cursor = body.get("next_cursor") or ""
         if not cursor:
             break
-        time.sleep(0.4)
 
     log(f"  検索「{query[:36]}…」 → {len(tweets)}件")
     return tweets
