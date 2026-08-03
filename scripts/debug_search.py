@@ -34,9 +34,9 @@ CHUNK10 = ("(from:deregmu_og OR from:deregmu_hobby OR from:tomoshibi_cup OR "
 CHUNK3 = "(from:deregmu_og OR from:deregmu_hobby OR from:tomoshibi_cup)"
 
 QUERIES = [
-    "from:consomme_pokeca",
-    "from:moukahai",
-    "コンソメリーグ",
+    "コンソメ",
+    "もうか杯",
+    "from:SakePokes",
 ]
 
 
@@ -94,6 +94,27 @@ def main() -> int:
             time.sleep(5.5)
     else:
         report["twitter"]["_skipped"] = "TWITTERAPI_IO_KEY 未設定"
+
+    # ---- (A2) ツイートIDから直接引く。from: が効かないのは
+    #      アカウント名が変わっている可能性があるため、実際の userName を確認する。
+    if KEY:
+        for tid in ["2066430513003589767"]:
+            for ep, param in [
+                ("https://api.twitterapi.io/twitter/tweets", "tweet_ids"),
+                ("https://api.twitterapi.io/twitter/tweet", "tweet_id"),
+            ]:
+                try:
+                    rr = sess.get(ep, params={param: tid},
+                                  headers={"X-API-Key": KEY}, timeout=30)
+                    body = rr.text[:1200]
+                    report.setdefault("by_id", []).append(
+                        {"endpoint": ep, "status": rr.status_code, "body": body})
+                    print(f"[by_id] {rr.status_code} {ep}")
+                    if rr.status_code == 200:
+                        print("   ", body[:500])
+                except Exception as e:  # noqa: BLE001
+                    report.setdefault("by_id", []).append({"endpoint": ep, "error": str(e)[:120]})
+                time.sleep(5.5)
 
     # ---- (B) Tonamel の主催者ページから大会一覧を辿れるか
     try:
