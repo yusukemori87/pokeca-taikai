@@ -246,7 +246,10 @@ for (const e of events){
     document.getElementById("updated").textContent = s;
     document.getElementById("genfoot").textContent = "データ生成: " + s;
   }
-  document.getElementById("total").textContent = `掲載 ${events.length} 大会`;
+  const nPref = new Set(events.map(e => e.prefecture).filter(Boolean)).size;
+  const nJishu = events.filter(e => !e.kind || e.kind === "自主大会").length;
+  document.getElementById("total").textContent =
+    `掲載 ${events.length} 大会（うち自主大会 ${nJishu}・${nPref}都道府県）`;
   if (DATA.sample) document.getElementById("sampleBanner").hidden = false;
   if (DATA.coverage_note){
     const b = document.getElementById("coverageBanner");
@@ -390,13 +393,14 @@ function card(e){
   }
   if (e.prize) facts.push(`<span class="fact prize">🎁 ${esc(e.prize)}</span>`);
 
-  let by = "";
-  if (e.organizer_handle){
-    by = `<span class="by">主催 <a href="https://x.com/${esc(e.organizer_handle)}" target="_blank" rel="noopener">@${esc(e.organizer_handle)}</a>
-      ・<button class="orgbtn" onclick="setOrg('${esc(e.organizer_handle)}')">この主催の大会</button></span>`;
-  } else if (e.organizer_name){
-    by = `<span class="by">主催 ${esc(e.organizer_name)}</span>`;
-  }
+  const orgName = e.organizer_name ? esc(e.organizer_name) : "";
+  const parts = [];
+  if (orgName) parts.push(e.organizer_url
+    ? `<a href="${esc(e.organizer_url)}" target="_blank" rel="noopener">${orgName}</a>` : orgName);
+  if (e.organizer_handle) parts.push(
+    `<a href="https://x.com/${esc(e.organizer_handle)}" target="_blank" rel="noopener">@${esc(e.organizer_handle)}</a>`
+    + `・<button class="orgbtn" onclick="setOrg('${esc(e.organizer_handle)}')">この主催の大会</button>`);
+  const by = parts.length ? `<span class="by">主催 ${parts.join(" / ")}</span>` : "";
   const tweet = e.source_tweet_url
     ? `<a class="btn" href="${esc(e.source_tweet_url)}" target="_blank" rel="noopener">告知ツイート</a>` : "";
 
