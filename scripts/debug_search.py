@@ -34,9 +34,12 @@ CHUNK10 = ("(from:deregmu_og OR from:deregmu_hobby OR from:tomoshibi_cup OR "
 CHUNK3 = "(from:deregmu_og OR from:deregmu_hobby OR from:tomoshibi_cup)"
 
 QUERIES = [
-    "コンソメ",
-    "もうか杯",
-    "from:SakePokes",
+    "from:deregmu_og",          # 対照: 前回40件取れたアカウント
+    "from:consomme_pokeca",
+    "from:sakepokes",           # 小文字
+    "from:SakePokes",           # 元の表記
+    "from:moukahai",
+    "@consomme_pokeca",         # メンションとして検索
 ]
 
 
@@ -104,7 +107,7 @@ def main() -> int:
                 ("https://api.twitterapi.io/twitter/tweet", "tweet_id"),
             ]:
                 try:
-                    rr = sess.get(ep, params={param: tid},
+                    rr = requests.get(ep, params={param: tid},
                                   headers={"X-API-Key": KEY}, timeout=30)
                     body = rr.text[:1200]
                     report.setdefault("by_id", []).append(
