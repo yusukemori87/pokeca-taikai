@@ -4,17 +4,11 @@
     "from:deregmu_og": {
       "tweets": 40,
       "tonamel_ids": [
-        "1A",
         "1AE2Y",
-        "6N",
         "6Nprh",
-        "UW",
         "UWfod",
-        "cN",
         "cNJkw",
-        "g7",
         "g7mLa",
-        "xA",
         "xAfVK"
       ],
       "samples": [
@@ -36,9 +30,13 @@
       ],
       "error": null
     },
-    "from:deregmu_hobby": {
+    "(from:deregmu_og OR from:deregmu_hobby OR from:tomoshibi_cup)": {
       "tweets": 40,
-      "tonamel_ids": [],
+      "tonamel_ids": [
+        "UWfod",
+        "cNJkw",
+        "g7mLa"
+      ],
       "samples": [
         {
           "at": "Mon Aug 03 13:39:36 +0000 2026",
@@ -46,174 +44,41 @@
           "text": "チーム戦を楽しみにしていたという声を多数いただいたので何とかできるように調整してみたいと思います🤔"
         },
         {
-          "at": "Mon Aug 03 01:27:14 +0000 2026",
-          "by": "deregmu_hobby",
-          "text": "@bbpokeca_1981 熱気というか活気がすごかったですね（笑）"
-        },
-        {
-          "at": "Sat Aug 01 07:32:10 +0000 2026",
-          "by": "deregmu_hobby",
-          "text": "@bbpokeca_1981 オリパですわ"
-        }
-      ],
-      "error": null
-    },
-    "ディレグム": {
-      "tweets": 40,
-      "tonamel_ids": [
-        "1A",
-        "1AE2Y",
-        "xA",
-        "xAfVK"
-      ],
-      "samples": [
-        {
-          "at": "Mon Aug 03 14:13:57 +0000 2026",
-          "by": "mta93_s",
-          "text": "ディレグムさんの夜の集いに行ってきました😊\n\nこのデッキかなりやれますね！\nやれることの幅がめちゃくちゃ広いので序盤の展開が難しいけど、上手く使えるとめっちゃ強いです！\n\nサポートが最低限なので腕力が必要です笑 https://t.co/QvsEaAdT9W"
-        },
-        {
-          "at": "Mon Aug 03 01:22:16 +0000 2026",
-          "by": "hidamari_cup",
-          "text": "@bbpokeca_1981 富山からのご参加ありがとうございました！ \nディレグムさんもありがとうございます🙏\nまた次回もよろしくお願いします！"
-        },
-        {
-          "at": "Mon Aug 03 00:49:15 +0000 2026",
-          "by": "bbpokeca_1981",
-          "text": "昨日はひだまり杯へ参加してきました\n(息子が)\n\n今回はディレグムさん運転のもと\n富山参加キッズ三名の送迎で賑やか🤣\n会場もゲストのサイトウコウセイさん含む\n賑やかな会で本当に素晴らしかったです\n\n主催のunchoさん他運営の皆様\nサイトウコウセイさんお疲れ様でした\n\nディレグムさんもありがとー💕"
-        }
-      ],
-      "error": null
-    },
-    "ディレグム 大会": {
-      "tweets": 33,
-      "tonamel_ids": [
-        "1A",
-        "1AE2Y",
-        "6N",
-        "6Nprh",
-        "En",
-        "EnXtC",
-        "xA",
-        "xAfVK"
-      ],
-      "samples": [
-        {
-          "at": "Mon Aug 03 01:22:16 +0000 2026",
-          "by": "hidamari_cup",
-          "text": "@bbpokeca_1981 富山からのご参加ありがとうございました！ \nディレグムさんもありがとうございます🙏\nまた次回もよろしくお願いします！"
-        },
-        {
-          "at": "Tue Jul 28 15:38:18 +0000 2026",
-          "by": "Fuugami_beast",
-          "text": "ディレグム9月大会までにもう1デッキ組みたい"
-        },
-        {
-          "at": "Sat Jul 25 05:52:04 +0000 2026",
+          "at": "Mon Aug 03 13:09:40 +0000 2026",
           "by": "deregmu_og",
-          "text": "先日行われた第４回ディレグム杯exでは様々な店舗からご協賛をいただきましたので改めてご紹介させていただきます🙇‍♂️"
+          "text": "本日のBOX争奪戦(22名)全勝者は🏆やまさんです！\n\nおめでとうございます！🎉\n\nデッキ：タケルライコex\nコメント：うれしいです！\n\n次回は8月7日（金）おもちゃのバンビにて行います！\n\nカエル君が帰ってきたら討伐戦を行います https://t.co/75egFfBsfj"
+        },
+        {
+          "at": "Mon Aug 03 09:34:32 +0000 2026",
+          "by": "deregmu_og",
+          "text": "さあ今宵は誰が優勝するのか！？\n\nメガレックウザは活躍するのか！？\n\nそれはあなた次第🤫"
         }
       ],
       "error": null
     },
-    "富山 ポケカ 大会": {
+    "(from:deregmu_og OR from:deregmu_hobby OR from:tomoshibi_cup OR from:ISHIKAWAPOKECA OR from:kajipoke OR from:koshigym0428 OR from:Toreca_connect OR from:ohara_las_0123 OR from:kayu_key_gx OR from:nanase_cup)": {
       "tweets": 40,
-      "tonamel_ids": [],
-      "samples": [
-        {
-          "at": "Mon Aug 03 11:00:00 +0000 2026",
-          "by": "batoloco_tym",
-          "text": "本日もご来店ありがとうございました❕\n明日は1⃣2⃣時オープン🎶\n\n【大会予定】\n17:00　#ポケカ　エクストラバトルの日　100円\n18:00　#バトスピ　ショップバトル\n18:00　#デュエマ　ガチデュエバトル　オリジナル　100円\n\nご来店お待ちしております🌟 https://t.co/XwYWuys4eD"
-        },
-        {
-          "at": "Mon Aug 03 09:10:08 +0000 2026",
-          "by": "batoloco_tym",
-          "text": "【大会結果】\n\n本日の　#ポケカ　ジムバトル\n\n優勝は 🏆りぴーと🏆さんです\n\nデッキ名 : テツノイバラ\n一言 : 強力なボルトサイクロンだ。\n\n優勝おめでとうございます🎉🎊\n\nご参加いただきました皆様ありがとうございました☺️\n\n#トヤロコ https://t.co/EngVC8zaMm"
-        },
-        {
-          "at": "Mon Aug 03 02:34:50 +0000 2026",
-          "by": "batoloco_tym",
-          "text": "おはようございます❕\n本日は1⃣2⃣時オープン🎶\n\n【大会予定】\n17:00　#ポケカ　ジムバトル　100円\n18:00　#遊戯王　ランキングデュエル　１デュエル\n18:00　#デュエマ　レジェンドカード解禁祭～勝太編～　100円\n\nご来店お待ちしております🌟\n\n#トヤロコ　#バトロコ https://t.co/nlVhKcCVw0"
-        }
-      ],
-      "error": null
-    },
-    "富山 ポケカ 自主大会": {
-      "tweets": 6,
-      "tonamel_ids": [],
-      "samples": [
-        {
-          "at": "Sat Jun 27 03:22:36 +0000 2026",
-          "by": "compoff_favo",
-          "text": "【#ポケカ】\nコンプオフ富山ファボーレ店\n🔥7月ポケカ大会予定です🔥\n毎週火金土日 公認 ジムバトル\n7/14、7/11 公認 エクストラバトルの日\n7/12 公認自主イベント ポケカ女子会\n7/1、7/25 公認自主イベント コンプオフジムチャレンジ\n7/25 公認自主イベント コンプオフエクストラチャレンジ\n7/5、7/19 公認自主イベント キッズ交流会✨\n7/4、7/11 公認 ジムバトル"
-        },
-        {
-          "at": "Sat Jun 13 09:52:45 +0000 2026",
-          "by": "compoff_favo",
-          "text": "6/13(土）自主大会エクストラチャレンジ\n参加：8名\n\n優勝者🏆\nリュウさん【雷ルギア】🎉\n\nご参加ありがとうございました‼️\n\n#コンプオフでポケカをしよう\n#ポケカ https://t.co/Sx05ixsGNL"
-        },
-        {
-          "at": "Sat Jun 13 06:46:58 +0000 2026",
-          "by": "compoff_favo",
-          "text": "6/13(土）自主大会ジムチャレンジ\n参加：12名\n\n全勝者🏆\nうつぼうさん【ヨノワール】🎉\nyuiさん【ボムドラパ】🎉\n\nご参加ありがとうございました‼️\n\n#コンプオフでポケカをしよう\n#ポケカ https://t.co/64RAYxGhiz"
-        }
-      ],
-      "error": null
-    },
-    "tonamel.com 富山": {
-      "tweets": 4,
       "tonamel_ids": [
-        "S5",
-        "S51cs",
-        "pS",
-        "pSAV4",
-        "xA",
-        "xAraP"
+        "2FCfq",
+        "Rml5j",
+        "g7mLa",
+        "z9vh9"
       ],
       "samples": [
         {
-          "at": "Fri Jun 19 02:37:38 +0000 2026",
-          "by": "KonaPowder257",
-          "text": "お待たせしました。富山スト6対戦会の募集を開始します！参加者の皆様のおかげで遂に20回目の開催となりました。新キャラ使いはどれだけ残っているか楽しみですね〜拡散のご協力よろしくお願いします🙇‍♂️\n富山ストリートファイター６対戦会CORE CLASH#20 - Tonamel https://t.co/soYYAS1O7M"
+          "at": "Mon Aug 03 16:42:03 +0000 2026",
+          "by": "kayu_key_gx",
+          "text": "@ano_PK0328 8月の次のイメージでした！\n第五回は是非！！"
         },
         {
-          "at": "Tue May 12 02:38:54 +0000 2026",
-          "by": "KonaPowder257",
-          "text": "お待たせしました。次回の富山スト6対戦会の募集を開始します。新キャライングリッドが実装されてすぐなので皆で数こなしていきましょう！！\n富山ストリートファイター６対戦会CORE CLASH#19 - Tonamel https://t.co/LzMzoFkx1F"
+          "at": "Mon Aug 03 15:47:33 +0000 2026",
+          "by": "kajipoke",
+          "text": "@torecagrandslam クワッス\nリキキリン\nイダイトウ\n\n画伯古参勢の1人として己の直感を信じます"
         },
         {
-          "at": "Tue Apr 21 12:12:50 +0000 2026",
-          "by": "yamori70914701",
-          "text": "5/2 13:00〜\n富山県高岡市の野村第五公民館で\nヤモリ杯を開催致します。\n参加の方は下記トナメルよりエントリーをお願いします。\nhttps://t.co/0zggAO2sCg"
-        }
-      ],
-      "error": null
-    },
-    "url:tonamel.com 富山": {
-      "tweets": 4,
-      "tonamel_ids": [
-        "S5",
-        "S51cs",
-        "pS",
-        "pSAV4",
-        "xA",
-        "xAraP"
-      ],
-      "samples": [
-        {
-          "at": "Fri Jun 19 02:37:38 +0000 2026",
-          "by": "KonaPowder257",
-          "text": "お待たせしました。富山スト6対戦会の募集を開始します！参加者の皆様のおかげで遂に20回目の開催となりました。新キャラ使いはどれだけ残っているか楽しみですね〜拡散のご協力よろしくお願いします🙇‍♂️\n富山ストリートファイター６対戦会CORE CLASH#20 - Tonamel https://t.co/soYYAS1O7M"
-        },
-        {
-          "at": "Tue May 12 02:38:54 +0000 2026",
-          "by": "KonaPowder257",
-          "text": "お待たせしました。次回の富山スト6対戦会の募集を開始します。新キャライングリッドが実装されてすぐなので皆で数こなしていきましょう！！\n富山ストリートファイター６対戦会CORE CLASH#19 - Tonamel https://t.co/LzMzoFkx1F"
-        },
-        {
-          "at": "Tue Apr 21 12:12:50 +0000 2026",
-          "by": "yamori70914701",
-          "text": "5/2 13:00〜\n富山県高岡市の野村第五公民館で\nヤモリ杯を開催致します。\n参加の方は下記トナメルよりエントリーをお願いします。\nhttps://t.co/0zggAO2sCg"
+          "at": "Mon Aug 03 13:39:36 +0000 2026",
+          "by": "deregmu_hobby",
+          "text": "チーム戦を楽しみにしていたという声を多数いただいたので何とかできるように調整してみたいと思います🤔"
         }
       ],
       "error": null
