@@ -1,0 +1,101 @@
+{
+  "introspection": [
+    {
+      "ep": "/graphql",
+      "status": 200,
+      "bytes": 58,
+      "keys": [
+        "data"
+      ],
+      "data_head": "{\"__schema\": {\"queryType\": {\"name\": \"PlayerQuery\"}}}"
+    },
+    {
+      "ep": "/graphql",
+      "status": 200,
+      "bytes": 24906,
+      "keys": [
+        "data"
+      ],
+      "data_head": "{\"__schema\": {\"types\": [{\"name\": \"AnnounceCard\", \"kind\": \"OBJECT\", \"fields\": [{\"args\": [], \"name\": \"content\"}, {\"name\": \"createdAt\", \"args\": []}, {\"args\": [], \"name\": \"id\"}]}, {\"fields\": [{\"args\": [], \"name\": \"edges\"}, {\"args\": [], \"name\": \"pageInfo\"}], \"name\": \"AnnounceCardConnection\", \"kind\": \"OBJECT\"}, {\"fields\": [{\"name\": \"cursor\", \"args\": []}, {\"name\": \"node\", \"args\": []}], \"kind\": \"OBJECT\", "
+    },
+    {
+      "ep": "/graphql/competition/",
+      "status": 200,
+      "bytes": 135,
+      "keys": [
+        "data",
+        "errors"
+      ],
+      "errors": [
+        "指定されたイベントはありません。"
+      ]
+    },
+    {
+      "ep": "/graphql/competition/",
+      "status": 200,
+      "bytes": 135,
+      "keys": [
+        "data",
+        "errors"
+      ],
+      "errors": [
+        "指定されたイベントはありません。"
+      ]
+    },
+    {
+      "ep": "/graphql/competition",
+      "status": 200,
+      "bytes": 135,
+      "keys": [
+        "errors",
+        "data"
+      ],
+      "errors": [
+        "指定されたイベントはありません。"
+      ]
+    },
+    {
+      "ep": "/graphql/competition",
+      "status": 200,
+      "bytes": 135,
+      "keys": [
+        "errors",
+        "data"
+      ],
+      "errors": [
+        "指定されたイベントはありません。"
+      ]
+    }
+  ],
+  "gql_in_js": {
+    "competition(": "turn n.length?n[0]:\"\"}},function(e,n,t){\"use strict\";t.d(n,\"a\",(function(){return d}));var o,r=t(72),l=t.n(r),m=t(165);function d(e,n,t,o){var r=o?\"/organize/graphql\":\"/graphql\",d=function(e){switch(e){case\"competitionChatStatus\":return\"\\n  query getCompetitionChatStatus($competitionId: ID!) {\\n    competition(id:$competitionId) {\\n      statuses\\n      name\\n      registrationUnitType\\n      tournament {\\n        unreadRooms\\n        alerts {\\n          monitored\\n        }\\n      }\\n    }\\n  }\\n\";case\"deletePlayerSettingMutation\":return\"\\n  mutation func {\\n    deletePlayerSettingLobi{\\n      message\\n      errors\\n    }\\n  }\\n\";case\"entryInfo\":return\"\\n  query func($competitionId: ID!, $matchupId: ID!) {\\n    competition(id: $competitionId) {\\n      banCount\\n      isResultReportEnabled\\n      autoAcceptDelayMinutes\\n      game {\\n  id\\n}\\n      questionnaire {\\n  items {\\n    label\\n    hidden\\n  }\\n}\\n    }\\n    matchup(id: $matchupId) {\\n      competitor1 {\\n  participant {\\n    "
+  },
+  "operation_names": [
+    "mutation deleteErrorMessage",
+    "mutation func",
+    "mutation markAsReadNotificationMessage",
+    "mutation updateMatchupCardMemo",
+    "mutation validateGenerating",
+    "query func",
+    "query getAvailableLanguages",
+    "query getCompetitionChatStatus",
+    "query getCompetitionRegion",
+    "query getCompetitionRegionForOrganizer",
+    "query getCompetitionStatusesOrganization",
+    "query getGuest",
+    "query getMutationResult",
+    "query getNotificationMessages",
+    "query getProfileRegions",
+    "query getSession",
+    "query getSessionOnCompetition",
+    "query getTournamentIds",
+    "query getTournamentStyle",
+    "query getUnreadNotificationCount",
+    "query viewerAndLocalizeInfo"
+  ],
+  "csrf": {
+    "status": 200,
+    "head": "{\"csrf_token\":\"5459DB48-8F74-11F1-9F36-B0C3EB9C7480\"}",
+    "captured": true
+  }
+}
