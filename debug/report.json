@@ -1,0 +1,56 @@
+[
+  {
+    "id": "mEavl",
+    "status": 200,
+    "bytes": 23157,
+    "has__NEXT_DATA__": false,
+    "has__NUXT__": true,
+    "has_ld_json": true,
+    "has_apollo": false,
+    "script_ids": [
+      "906ec2cc-0b4d-4de9-a10f-a55b199e3648"
+    ],
+    "og_title": null,
+    "og_desc_len": 0,
+    "jp_chars": 0,
+    "has_kaisai": false,
+    "has_kaijou": false,
+    "has_sankahi": false
+  },
+  {
+    "id": "KYpP5",
+    "status": 200,
+    "bytes": 24742,
+    "has__NEXT_DATA__": false,
+    "has__NUXT__": true,
+    "has_ld_json": true,
+    "has_apollo": false,
+    "script_ids": [
+      "906ec2cc-0b4d-4de9-a10f-a55b199e3648"
+    ],
+    "og_title": null,
+    "og_desc_len": 0,
+    "jp_chars": 0,
+    "has_kaisai": false,
+    "has_kaijou": false,
+    "has_sankahi": false
+  },
+  {
+    "id": "YPWBV",
+    "status": 200,
+    "bytes": 28814,
+    "has__NEXT_DATA__": false,
+    "has__NUXT__": true,
+    "has_ld_json": true,
+    "has_apollo": false,
+    "script_ids": [
+      "906ec2cc-0b4d-4de9-a10f-a55b199e3648"
+    ],
+    "og_title": null,
+    "og_desc_len": 0,
+    "jp_chars": 0,
+    "has_kaisai": false,
+    "has_kaijou": false,
+    "has_sankahi": false
+  }
+]
