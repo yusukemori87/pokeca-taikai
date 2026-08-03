@@ -116,7 +116,7 @@ def main() -> int:
     # ---- (A2) ツイートIDから直接引く。from: が効かないのは
     #      アカウント名が変わっている可能性があるため、実際の userName を確認する。
     if KEY:
-        for tid in ["2066430513003589767"]:
+        for tid in ["2081303514899456480", "2066430513003589767"]:
             for ep, param in [
                 ("https://api.twitterapi.io/twitter/tweets", "tweet_ids"),
                 ("https://api.twitterapi.io/twitter/tweet", "tweet_id"),
@@ -124,7 +124,7 @@ def main() -> int:
                 try:
                     rr = requests.get(ep, params={param: tid},
                                   headers={"X-API-Key": KEY}, timeout=30)
-                    body = rr.text[:1200]
+                    body = rr.text[:4000]
                     report.setdefault("by_id", []).append(
                         {"endpoint": ep, "status": rr.status_code, "body": body})
                     print(f"[by_id] {rr.status_code} {ep}")
