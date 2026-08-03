@@ -1,1 +1,1 @@
-debug: introspect PlayerQuery to find public competition search
+debug: schema root via __schema.queryType.fields

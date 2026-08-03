@@ -69,8 +69,27 @@ def main() -> int:
     sess = requests.Session()
     report: dict = {}
 
-    root = gql(Q_ROOT % "PlayerQuery", sess)
-    fields = (((root.get("data") or {}).get("__type") or {}).get("fields")) or []
+    # __type(name:"PlayerQuery") は空を返したので、__schema からルート型を直接読む
+    Q_SCHEMA_ROOT = """
+    query { __schema { queryType {
+      name
+      fields {
+        name description
+        args { name type { kind name ofType { kind name ofType { kind name } } } }
+        type { kind name ofType { kind name ofType { kind name ofType { kind name } } } }
+      } } } }
+    """
+    root = gql(Q_SCHEMA_ROOT, sess)
+    qt = ((root.get("data") or {}).get("__schema") or {}).get("queryType") or {}
+    fields = qt.get("fields") or []
+    report["queryType"] = qt.get("name")
+    report["raw_error"] = root.get("errors")
+    if not fields:
+        allt = gql('query { __schema { types { name kind } } }', sess)
+        names = [t["name"] for t in
+                 (((allt.get("data") or {}).get("__schema") or {}).get("types") or [])]
+        report["all_type_names"] = [n for n in names if not n.startswith("__")][:400]
+        print("ルートのフィールドが取れないので全型名を保存:", len(names))
     report["root_fields"] = [
         {"name": f["name"], "returns": unwrap(f.get("type")),
          "args": [{"name": a["name"], "type": unwrap(a.get("type"))} for a in f.get("args") or []],
