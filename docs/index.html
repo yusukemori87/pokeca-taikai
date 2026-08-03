@@ -193,7 +193,7 @@
       <button class="chip" id="c-week" aria-pressed="false" data-range="weekend">今週末</button>
       <button class="chip" id="c-14"   aria-pressed="false" data-range="14">2週間以内</button>
       <button class="chip" id="c-custom" aria-pressed="false" data-range="custom">期間を指定</button>
-      <button class="chip" id="c-jishu" aria-pressed="false" data-toggle="jishuOnly">自主大会のみ</button>
+      <button class="chip" id="c-jishu" aria-pressed="true" data-toggle="jishuOnly">自主大会のみ</button>
       <button class="chip" id="c-prize" aria-pressed="false" data-toggle="prize">景品あり</button>
       <span class="count" id="count"></span>
     </div>
@@ -241,7 +241,7 @@ const REGIONS = {
 const WD = ["日","月","火","水","木","金","土"];
 const events = (DATA.events || []).slice();
 const organizers = (DATA.organizers || []).slice();
-const state = {q:"", pref:"", fmt:"", range:"all", jishuOnly:false, prize:false, org:null, region:"", from:"", to:""};
+const state = {q:"", pref:"", fmt:"", range:"all", jishuOnly:true, prize:false, org:null, region:"", from:"", to:""};
 
 const PREF_REGION = {};
 for (const [r, ps] of Object.entries(REGIONS)) for (const p of ps) PREF_REGION[p] = r;
@@ -497,7 +497,8 @@ function renderKeymen(){
 
 function render(){
   const hits = events.filter(matches);
-  document.getElementById("count").textContent = `${hits.length}件`;
+  document.getElementById("count").textContent =
+    state.jishuOnly ? `${hits.length}件（自主大会のみ）` : `${hits.length}件`;
   const list = document.getElementById("list");
 
   if (!hits.length){

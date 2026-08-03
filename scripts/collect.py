@@ -73,7 +73,7 @@ DEEP_ORG_PAGES = int(os.environ.get("DEEP_ORG_PAGES", "3"))
 # 次回の実行で自動的に取り直して再解析される。
 # 「解析を直したのに、既に取得済みの大会には反映されない」という事故を防ぐための仕組み。
 # ★解析ロジックを変えたら必ずこの数字を上げること。
-PARSER_VERSION = 6
+PARSER_VERSION = 7
 
 # 収集の各経路がどれだけ成果を出したかの記録。
 # 「エラーは出ないのに何も取れていない」という沈黙の故障を検知するために残す。
@@ -99,7 +99,11 @@ NEGATIVE_WORDS = ["ポケポケ", "ポケモンカードアプリ", "ポケモ�
 
 # Tonamelの大会IDは5文字。ツイート本文が途中で切れて「…/competition/5t」のような
 # 断片が混ざることがあるので、長さで弾く（短いIDを拾うと取得失敗が積み上がる）。
-TONAMEL_RE = re.compile(r"tonamel\.com/competition/([A-Za-z0-9_-]{5,12})")
+# Tonamelの大会URLには2種類ある。主催者が管理画面からコピーすると
+#   https://tonamel.com/organize/{主催者ID}/competition/{大会ID}
+# の形になり、これを見落としていた（実際にコンソメリーグを取りこぼしていた）。
+TONAMEL_RE = re.compile(
+    r"tonamel\.com/(?:organize/[A-Za-z0-9_-]+/)?competition/([A-Za-z0-9_-]{5,12})")
 TCO_RE = re.compile(r"https?://t\.co/[A-Za-z0-9]+")
 
 PREFECTURES = [
@@ -374,7 +378,7 @@ def extract_tonamel_ids(tweet: dict) -> set[str]:
     # JSON内では "/" が "\/" とエスケープされることがあるので両方を許す
     ids.update(
         i for i in re.findall(
-            r"tonamel\.com\\?/competition\\?/([A-Za-z0-9_-]{5,12})", blob
+            r"tonamel\.com\\?/(?:organize\\?/[A-Za-z0-9_-]+\\?/)?competition\\?/([A-Za-z0-9_-]{5,12})", blob
         )
     )
 
