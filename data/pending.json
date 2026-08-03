@@ -1,0 +1,891 @@
+{
+ "uCRGe": {
+  "type": "tweet",
+  "id": "2070454848525570122",
+  "url": "https://x.com/Kazunolab_Poke/status/2070454848525570122",
+  "twitterUrl": "https://twitter.com/Kazunolab_Poke/status/2070454848525570122",
+  "text": "【再告知】\n第六回鹿角CS 三人チーム戦\n7月19日　開催‼️\n\n招待チーム はるnチャンネル(はるn選手抜き)\n　まく選手 @sokesokesoke200 \n　あめれ選手@Amere0817 \n　あさき選手 @poke_asaki \n\n場所:道の駅かづの　あんとらあ\n鹿角CS初のチーム戦\nエントリーはこちらから💁‍♀️\nhttps://t.co/43yPaj6xdg\n#ポケカ自主大会",
+  "source": "Twitter for iPhone",
+  "retweetCount": 11,
+  "replyCount": 0,
+  "likeCount": 18,
+  "quoteCount": 2,
+  "viewCount": 21105,
+  "createdAt": "Fri Jun 26 10:31:17 +0000 2026",
+  "lang": "ja",
+  "bookmarkCount": 4,
+  "isReply": false,
+  "inReplyToId": null,
+  "conversationId": "2070454848525570122",
+  "displayTextRange": [
+   0,
+   186
+  ],
+  "inReplyToUserId": null,
+  "inReplyToUsername": null,
+  "author": {
+   "type": "user",
+   "userName": "Kazunolab_Poke",
+   "url": "https://x.com/Kazunolab_Poke",
+   "twitterUrl": "https://twitter.com/Kazunolab_Poke",
+   "id": "1761934329083805696",
+   "name": "鹿角ラボTCG部",
+   "isVerified": false,
+   "isBlueVerified": true,
+   "verifiedType": null,
+   "profilePicture": "https://pbs.twimg.com/profile_images/2014248947712135168/qruVu8xd_normal.jpg",
+   "coverPicture": "",
+   "description": "",
+   "location": "秋田県鹿角市",
+   "followers": 396,
+   "following": 54,
+   "status": "",
+   "canDm": true,
+   "canMediaTag": true,
+   "createdAt": "Mon Feb 26 02:01:38 +0000 2024",
+   "entities": {
+    "description": {
+     "urls": []
+    },
+    "url": {}
+   },
+   "fastFollowersCount": 0,
+   "favouritesCount": 327,
+   "hasCustomTimelines": true,
+   "isTranslator": false,
+   "mediaCount": 73,
+   "statusesCount": 423,
+   "withheldInCountries": [],
+   "affiliatesHighlightedLabel": {},
+   "possiblySensitive": false,
+   "pinnedTweetIds": [
+    "2070454848525570122"
+   ],
+   "profile_bio": {
+    "description": "鹿角ラボ @kazunolab のTCG用アカウント 大会情報や商品の発信が主になります。 ジムイベント https://t.co/xQuOzMzkLT",
+    "entities": {
+     "description": {
+      "urls": [
+       {
+        "display_url": "players.pokemon-card.com/event/search/2…",
+        "expanded_url": "https://players.pokemon-card.com/event/search/20078/202411/list",
+        "indices": [
+         53,
+         76
+        ],
+        "url": "https://t.co/xQuOzMzkLT"
+       }
+      ],
+      "user_mentions": [
+       {
+        "id_str": "",
+        "indices": [
+         5,
+         15
+        ],
+        "name": "",
+        "screen_name": "kazunolab"
+       }
+      ]
+     },
+     "url": {
+      "urls": [
+       {
+        "display_url": "tonamel.com/organization/1…",
+        "expanded_url": "https://tonamel.com/organization/1ZCQd?game=pokemon_card",
+        "indices": [
+         0,
+         23
+        ],
+        "url": "https://t.co/woqBmRXTnK"
+       }
+      ]
+     }
+    }
+   },
+   "isAutomated": false,
+   "automatedBy": null
+  },
+  "extendedEntities": {
+   "media": [
+    {
+     "allow_download_status": {
+      "allow_download": true
+     },
+     "display_url": "pic.x.com/keoSkSMyov",
+     "expanded_url": "https://x.com/Kazunolab_Poke/status/2070454848525570122/photo/1",
+     "ext_master_playlist_only": [],
+     "ext_media_availability": {
+      "status": "Available"
+     },
+     "ext_playlists": [],
+     "features": {
+      "all": {
+       "tags": [
+        {
+         "name": "ZETA まく(アライケイト)",
+         "screen_name": "sokesokesoke200",
+         "type": "user",
+         "user_id": "1194286264721129473"
+        },
+        {
+         "name": "あさき",
+         "screen_name": "poke_asaki",
+         "type": "user",
+         "user_id": "1905985368396275712"
+        }
+       ]
+      },
+      "large": {
+       "faces": [
+        {
+         "h": 62,
+         "w": 62,
+         "x": 78,
+         "y": 325
+        },
+        {
+         "h": 70,
+         "w": 70,
+         "x": 263,
+         "y": 336
+        },
+        {
+         "h": 324,
+         "w": 324,
+         "x": 166,
+         "y": 215
+        }
+       ]
+      },
+      "orig": {
+       "faces": [
+        {
+         "h": 62,
+         "w": 62,
+         "x": 78,
+         "y": 325
+        },
+        {
+         "h": 70,
+         "w": 70,
+         "x": 263,
+         "y": 336
+        },
+        {
+         "h": 324,
+         "w": 324,
+         "x": 166,
+         "y": 215
+        }
+       ]
+      }
+     },
+     "id_str": "2070454142926274560",
+     "indices": [
+      187,
+      210
+     ],
+     "media_key": "3_2070454142926274560",
+     "media_results": {
+      "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARy7uxLA20AACgACHLu7twnaEEoAAA==",
+      "result": {
+       "__typename": "ApiMedia",
+       "id": "QXBpTWVkaWE6DAABCgABHLu7EsDbQAAKAAIcu7u3CdoQSgAA",
+       "media_key": "3_2070454142926274560"
+      }
+     },
+     "media_url_https": "https://pbs.twimg.com/media/HLu7EsDbQAAUid8.jpg",
+     "original_info": {
+      "focus_rects": [
+       {
+        "h": 334,
+        "w": 596,
+        "x": 0,
+        "y": 0
+       },
+       {
+        "h": 596,
+        "w": 596,
+        "x": 0,
+        "y": 0
+       },
+       {
+        "h": 679,
+        "w": 596,
+        "x": 0,
+        "y": 0
+       },
+       {
+        "h": 843,
+        "w": 422,
+        "x": 0,
+        "y": 0
+       },
+       {
+        "h": 843,
+        "w": 596,
+        "x": 0,
+        "y": 0
+       }
+      ],
+      "height": 843,
+      "width": 596
+     },
+     "sizes": {
+      "large": {
+       "h": 843,
+       "w": 596
+      }
+     },
+     "type": "photo",
+     "url": "https://t.co/keoSkSMyov"
+    }
+   ]
+  },
+  "card": null,
+  "place": {},
+  "entities": {
+   "hashtags": [
+    {
+     "indices": [
+      187,
+      195
+     ],
+     "text": "ポケカ自主大会"
+    }
+   ],
+   "symbols": [],
+   "timestamps": [],
+   "urls": [
+    {
+     "display_url": "tonamel.com/competition/uC…",
+     "expanded_url": "https://tonamel.com/competition/uCRGe",
+     "indices": [
+      163,
+      186
+     ],
+     "url": "https://t.co/43yPaj6xdg"
+    }
+   ],
+   "user_mentions": [
+    {
+     "id_str": "1194286264721129473",
+     "indices": [
+      63,
+      79
+     ],
+     "name": "ZETA まく(アライケイト)",
+     "screen_name": "sokesokesoke200"
+    },
+    {
+     "id_str": "4011752599",
+     "indices": [
+      87,
+      97
+     ],
+     "name": "あめれ/Reiji.N",
+     "screen_name": "Amere0817"
+    },
+    {
+     "id_str": "1905985368396275712",
+     "indices": [
+      106,
+      117
+     ],
+     "name": "あさき",
+     "screen_name": "poke_asaki"
+    }
+   ]
+  },
+  "quoted_tweet": null,
+  "retweeted_tweet": null,
+  "isLimitedReply": false,
+  "communityInfo": null,
+  "article": null
+ },
+ "XCtZO": {
+  "type": "tweet",
+  "id": "2082711795215770064",
+  "url": "https://x.com/Machi_chibaeki/status/2082711795215770064",
+  "twitterUrl": "https://twitter.com/Machi_chibaeki/status/2082711795215770064",
+  "text": "7/31　14：00～　ポケカ小学生以下非公認大会\nhttps://t.co/gozSKD0HTb\n\n7/31　17：00～　ガンダムカード非公認大会\nhttps://t.co/NJ2T9YcDYI\n\n明日以降の大会のリンクです！\n\n8月非公認大会は少々お待ちください。",
+  "source": "Twitter for iPhone",
+  "retweetCount": 1,
+  "replyCount": 0,
+  "likeCount": 4,
+  "quoteCount": 0,
+  "viewCount": 9989,
+  "createdAt": "Thu Jul 30 06:16:01 +0000 2026",
+  "lang": "ja",
+  "bookmarkCount": 1,
+  "isReply": false,
+  "inReplyToId": null,
+  "conversationId": "2082711795215770064",
+  "displayTextRange": [
+   0,
+   135
+  ],
+  "inReplyToUserId": null,
+  "inReplyToUsername": null,
+  "author": {
+   "type": "user",
+   "userName": "Machi_chibaeki",
+   "url": "https://x.com/Machi_chibaeki",
+   "twitterUrl": "https://twitter.com/Machi_chibaeki",
+   "id": "1662028786681122817",
+   "name": "まちキャラ千葉駅前店",
+   "isVerified": false,
+   "isBlueVerified": false,
+   "verifiedType": null,
+   "profilePicture": "https://pbs.twimg.com/profile_images/2072125260963721216/J4Eet_Mw_normal.jpg",
+   "coverPicture": "https://pbs.twimg.com/profile_banners/1662028786681122817/1784817341",
+   "description": "",
+   "location": "千葉県千葉市中央区富士見2丁目3-1 ４階",
+   "followers": 17908,
+   "following": 55,
+   "status": "",
+   "canDm": true,
+   "canMediaTag": true,
+   "createdAt": "Fri May 26 09:32:37 +0000 2023",
+   "entities": {
+    "description": {
+     "urls": []
+    },
+    "url": {}
+   },
+   "fastFollowersCount": 0,
+   "favouritesCount": 199,
+   "hasCustomTimelines": true,
+   "isTranslator": false,
+   "mediaCount": 10648,
+   "statusesCount": 15939,
+   "withheldInCountries": [],
+   "affiliatesHighlightedLabel": {},
+   "possiblySensitive": false,
+   "pinnedTweetIds": [
+    "2084125637825171953"
+   ],
+   "profile_bio": {
+    "description": "【7/25グランドオープン！！】\nガンプラ・フィギュア・グッズ・トレカ・くじをお取り扱いしております！\n平日:12時〜20時\n土日祝:10時〜20時\nXでのお問い合わせは受け付けておりませんので、当店へお問い合わせ下さいませ→090-4762-3253",
+    "entities": {
+     "description": {},
+     "url": {
+      "urls": [
+       {
+        "display_url": "machi-chara.store",
+        "expanded_url": "https://machi-chara.store/",
+        "indices": [
+         0,
+         23
+        ],
+        "url": "https://t.co/UCWGvNKdoG"
+       }
+      ]
+     }
+    }
+   },
+   "isAutomated": false,
+   "automatedBy": null
+  },
+  "extendedEntities": {},
+  "card": {
+   "binding_values": [
+    {
+     "key": "description",
+     "value": {
+      "string_value": "【参加条件】・ポケモンカードゲームの対戦ルールを知っている方・小学生以下であること・必ず保護者と一緒に参加すること（大会中は席を外しても構いません）【必要なもの】・スタンダードレギュレーション 60枚デッキ・バトルに必要なもの（ダメカン、コイン、各種マーカー等）【大会ルール】・スイスドロー３回戦・制限時間25分・プロキシ（コピーカード）なし・デッキ変更なし【景品】テラスタルフェス・MEGAド..."
+     }
+    },
+    {
+     "key": "domain",
+     "value": {
+      "string_value": "tonamel.com"
+     }
+    },
+    {
+     "key": "site",
+     "value": {
+      "scribe_key": "publisher_id",
+      "user_value": {
+       "id_str": "892648343016316928",
+       "path": []
+      }
+     }
+    },
+    {
+     "key": "vanity_url",
+     "value": {
+      "scribe_key": "vanity_url",
+      "string_value": "tonamel.com"
+     }
+    },
+    {
+     "key": "title",
+     "value": {
+      "string_value": "ポケモンカード　小学生以下 非公認大会 - Tonamel"
+     }
+    },
+    {
+     "key": "card_url",
+     "value": {
+      "scribe_key": "card_url",
+      "string_value": "https://t.co/gozSKD0HTb"
+     }
+    }
+   ],
+   "card_platform": {
+    "platform": {
+     "audience": {
+      "name": "production"
+     },
+     "device": {
+      "name": "iPhone",
+      "version": "13"
+     }
+    }
+   },
+   "name": "summary_large_image",
+   "url": "https://t.co/gozSKD0HTb",
+   "user_refs_results": [
+    {
+     "rest_id": "892648343016316928",
+     "result": {
+      "__typename": "User",
+      "action_counts": {
+       "favorites_count": 1981
+      },
+      "avatar": {
+       "image_url": "https://pbs.twimg.com/profile_images/892653332002557952/FZG98Ok6_normal.jpg"
+      },
+      "banner": {
+       "image_url": "https://pbs.twimg.com/profile_banners/892648343016316928/1585718520"
+      },
+      "core": {
+       "created_at": "Wed Aug 02 07:28:44 +0000 2017",
+       "name": "【公式】Tonamel（トナメル）",
+       "screen_name": "TonamelJP"
+      },
+      "dm_permissions": {
+       "can_dm": true
+      },
+      "exclusive_tweet_following": false,
+      "follow_request_sent": false,
+      "identity_profile_labels_highlighted_label": {},
+      "location": {
+       "location": ""
+      },
+      "media_permissions": {
+       "can_media_tag": true
+      },
+      "notifications_settings": {
+       "notifications_enabled": false
+      },
+      "pinned_items": {
+       "tweet_ids_str": [
+        "1930489975436656702"
+       ]
+      },
+      "privacy": {
+       "protected": false,
+       "suspended": false
+      },
+      "private_super_following": false,
+      "profile_bio": {
+       "description": "Tonamelは「主催者の力になる」がコンセプトの日本最大級のイベント運営支援プラットフォームです。\n中の人が新機能/仕様変更のお知らせ中心に色々呟きます。\nご意見ご要望はこちらからお気軽にどうぞ。→https://t.co/VlaX0SqNX9\n※DMでの返信は原則行っておりません。",
+       "entities": {
+        "description": {
+         "urls": [
+          {
+           "display_url": "tonamel.com/contact",
+           "expanded_url": "https://tonamel.com/contact",
+           "indices": [
+            100,
+            123
+           ],
+           "url": "https://t.co/VlaX0SqNX9"
+          }
+         ]
+        },
+        "url": {
+         "urls": [
+          {
+           "display_url": "tonamel.com",
+           "expanded_url": "https://tonamel.com/",
+           "indices": [
+            0,
+            23
+           ],
+           "url": "https://t.co/aWComY9nVc"
+          }
+         ]
+        }
+       }
+      },
+      "profile_image_shape": "Circle",
+      "profile_metadata": {
+       "profile_interstitial_type": "",
+       "profile_link_color": "29CB44"
+      },
+      "profile_translation": {
+       "translator_type_enum": "None"
+      },
+      "properties": {
+       "has_extended_profile": false,
+       "has_no_screen_name": false
+      },
+      "relationship_counts": {
+       "followers": 12002,
+       "following": 507
+      },
+      "relationship_perspectives": {
+       "blocked_by": false,
+       "blocking": false,
+       "followed_by": false,
+       "following": false,
+       "live_following": false,
+       "muting": false
+      },
+      "rest_id": "892648343016316928",
+      "smart_blocked_by": false,
+      "smart_blocking": false,
+      "super_follow_eligible": false,
+      "super_followed_by": false,
+      "super_following": false,
+      "tweet_counts": {
+       "media_tweets": 1318,
+       "tweets": 5189
+      },
+      "verification": {
+       "is_blue_verified": false,
+       "verified": false
+      },
+      "website": {
+       "url": "https://t.co/aWComY9nVc"
+      }
+     }
+    }
+   ]
+  },
+  "place": {},
+  "entities": {
+   "urls": [
+    {
+     "display_url": "tonamel.com/competition/XC…",
+     "expanded_url": "https://tonamel.com/competition/XCtZO",
+     "indices": [
+      26,
+      49
+     ],
+     "url": "https://t.co/gozSKD0HTb"
+    },
+    {
+     "display_url": "tonamel.com/competition/ay…",
+     "expanded_url": "https://tonamel.com/competition/ayNAn",
+     "indices": [
+      76,
+      99
+     ],
+     "url": "https://t.co/NJ2T9YcDYI"
+    }
+   ]
+  },
+  "quoted_tweet": null,
+  "retweeted_tweet": null,
+  "isLimitedReply": false,
+  "communityInfo": null,
+  "article": null
+ },
+ "ayNAn": {
+  "type": "tweet",
+  "id": "2082711795215770064",
+  "url": "https://x.com/Machi_chibaeki/status/2082711795215770064",
+  "twitterUrl": "https://twitter.com/Machi_chibaeki/status/2082711795215770064",
+  "text": "7/31　14：00～　ポケカ小学生以下非公認大会\nhttps://t.co/gozSKD0HTb\n\n7/31　17：00～　ガンダムカード非公認大会\nhttps://t.co/NJ2T9YcDYI\n\n明日以降の大会のリンクです！\n\n8月非公認大会は少々お待ちください。",
+  "source": "Twitter for iPhone",
+  "retweetCount": 1,
+  "replyCount": 0,
+  "likeCount": 4,
+  "quoteCount": 0,
+  "viewCount": 9989,
+  "createdAt": "Thu Jul 30 06:16:01 +0000 2026",
+  "lang": "ja",
+  "bookmarkCount": 1,
+  "isReply": false,
+  "inReplyToId": null,
+  "conversationId": "2082711795215770064",
+  "displayTextRange": [
+   0,
+   135
+  ],
+  "inReplyToUserId": null,
+  "inReplyToUsername": null,
+  "author": {
+   "type": "user",
+   "userName": "Machi_chibaeki",
+   "url": "https://x.com/Machi_chibaeki",
+   "twitterUrl": "https://twitter.com/Machi_chibaeki",
+   "id": "1662028786681122817",
+   "name": "まちキャラ千葉駅前店",
+   "isVerified": false,
+   "isBlueVerified": false,
+   "verifiedType": null,
+   "profilePicture": "https://pbs.twimg.com/profile_images/2072125260963721216/J4Eet_Mw_normal.jpg",
+   "coverPicture": "https://pbs.twimg.com/profile_banners/1662028786681122817/1784817341",
+   "description": "",
+   "location": "千葉県千葉市中央区富士見2丁目3-1 ４階",
+   "followers": 17908,
+   "following": 55,
+   "status": "",
+   "canDm": true,
+   "canMediaTag": true,
+   "createdAt": "Fri May 26 09:32:37 +0000 2023",
+   "entities": {
+    "description": {
+     "urls": []
+    },
+    "url": {}
+   },
+   "fastFollowersCount": 0,
+   "favouritesCount": 199,
+   "hasCustomTimelines": true,
+   "isTranslator": false,
+   "mediaCount": 10648,
+   "statusesCount": 15939,
+   "withheldInCountries": [],
+   "affiliatesHighlightedLabel": {},
+   "possiblySensitive": false,
+   "pinnedTweetIds": [
+    "2084125637825171953"
+   ],
+   "profile_bio": {
+    "description": "【7/25グランドオープン！！】\nガンプラ・フィギュア・グッズ・トレカ・くじをお取り扱いしております！\n平日:12時〜20時\n土日祝:10時〜20時\nXでのお問い合わせは受け付けておりませんので、当店へお問い合わせ下さいませ→090-4762-3253",
+    "entities": {
+     "description": {},
+     "url": {
+      "urls": [
+       {
+        "display_url": "machi-chara.store",
+        "expanded_url": "https://machi-chara.store/",
+        "indices": [
+         0,
+         23
+        ],
+        "url": "https://t.co/UCWGvNKdoG"
+       }
+      ]
+     }
+    }
+   },
+   "isAutomated": false,
+   "automatedBy": null
+  },
+  "extendedEntities": {},
+  "card": {
+   "binding_values": [
+    {
+     "key": "description",
+     "value": {
+      "string_value": "【参加条件】・ポケモンカードゲームの対戦ルールを知っている方・小学生以下であること・必ず保護者と一緒に参加すること（大会中は席を外しても構いません）【必要なもの】・スタンダードレギュレーション 60枚デッキ・バトルに必要なもの（ダメカン、コイン、各種マーカー等）【大会ルール】・スイスドロー３回戦・制限時間25分・プロキシ（コピーカード）なし・デッキ変更なし【景品】テラスタルフェス・MEGAド..."
+     }
+    },
+    {
+     "key": "domain",
+     "value": {
+      "string_value": "tonamel.com"
+     }
+    },
+    {
+     "key": "site",
+     "value": {
+      "scribe_key": "publisher_id",
+      "user_value": {
+       "id_str": "892648343016316928",
+       "path": []
+      }
+     }
+    },
+    {
+     "key": "vanity_url",
+     "value": {
+      "scribe_key": "vanity_url",
+      "string_value": "tonamel.com"
+     }
+    },
+    {
+     "key": "title",
+     "value": {
+      "string_value": "ポケモンカード　小学生以下 非公認大会 - Tonamel"
+     }
+    },
+    {
+     "key": "card_url",
+     "value": {
+      "scribe_key": "card_url",
+      "string_value": "https://t.co/gozSKD0HTb"
+     }
+    }
+   ],
+   "card_platform": {
+    "platform": {
+     "audience": {
+      "name": "production"
+     },
+     "device": {
+      "name": "iPhone",
+      "version": "13"
+     }
+    }
+   },
+   "name": "summary_large_image",
+   "url": "https://t.co/gozSKD0HTb",
+   "user_refs_results": [
+    {
+     "rest_id": "892648343016316928",
+     "result": {
+      "__typename": "User",
+      "action_counts": {
+       "favorites_count": 1981
+      },
+      "avatar": {
+       "image_url": "https://pbs.twimg.com/profile_images/892653332002557952/FZG98Ok6_normal.jpg"
+      },
+      "banner": {
+       "image_url": "https://pbs.twimg.com/profile_banners/892648343016316928/1585718520"
+      },
+      "core": {
+       "created_at": "Wed Aug 02 07:28:44 +0000 2017",
+       "name": "【公式】Tonamel（トナメル）",
+       "screen_name": "TonamelJP"
+      },
+      "dm_permissions": {
+       "can_dm": true
+      },
+      "exclusive_tweet_following": false,
+      "follow_request_sent": false,
+      "identity_profile_labels_highlighted_label": {},
+      "location": {
+       "location": ""
+      },
+      "media_permissions": {
+       "can_media_tag": true
+      },
+      "notifications_settings": {
+       "notifications_enabled": false
+      },
+      "pinned_items": {
+       "tweet_ids_str": [
+        "1930489975436656702"
+       ]
+      },
+      "privacy": {
+       "protected": false,
+       "suspended": false
+      },
+      "private_super_following": false,
+      "profile_bio": {
+       "description": "Tonamelは「主催者の力になる」がコンセプトの日本最大級のイベント運営支援プラットフォームです。\n中の人が新機能/仕様変更のお知らせ中心に色々呟きます。\nご意見ご要望はこちらからお気軽にどうぞ。→https://t.co/VlaX0SqNX9\n※DMでの返信は原則行っておりません。",
+       "entities": {
+        "description": {
+         "urls": [
+          {
+           "display_url": "tonamel.com/contact",
+           "expanded_url": "https://tonamel.com/contact",
+           "indices": [
+            100,
+            123
+           ],
+           "url": "https://t.co/VlaX0SqNX9"
+          }
+         ]
+        },
+        "url": {
+         "urls": [
+          {
+           "display_url": "tonamel.com",
+           "expanded_url": "https://tonamel.com/",
+           "indices": [
+            0,
+            23
+           ],
+           "url": "https://t.co/aWComY9nVc"
+          }
+         ]
+        }
+       }
+      },
+      "profile_image_shape": "Circle",
+      "profile_metadata": {
+       "profile_interstitial_type": "",
+       "profile_link_color": "29CB44"
+      },
+      "profile_translation": {
+       "translator_type_enum": "None"
+      },
+      "properties": {
+       "has_extended_profile": false,
+       "has_no_screen_name": false
+      },
+      "relationship_counts": {
+       "followers": 12002,
+       "following": 507
+      },
+      "relationship_perspectives": {
+       "blocked_by": false,
+       "blocking": false,
+       "followed_by": false,
+       "following": false,
+       "live_following": false,
+       "muting": false
+      },
+      "rest_id": "892648343016316928",
+      "smart_blocked_by": false,
+      "smart_blocking": false,
+      "super_follow_eligible": false,
+      "super_followed_by": false,
+      "super_following": false,
+      "tweet_counts": {
+       "media_tweets": 1318,
+       "tweets": 5189
+      },
+      "verification": {
+       "is_blue_verified": false,
+       "verified": false
+      },
+      "website": {
+       "url": "https://t.co/aWComY9nVc"
+      }
+     }
+    }
+   ]
+  },
+  "place": {},
+  "entities": {
+   "urls": [
+    {
+     "display_url": "tonamel.com/competition/XC…",
+     "expanded_url": "https://tonamel.com/competition/XCtZO",
+     "indices": [
+      26,
+      49
+     ],
+     "url": "https://t.co/gozSKD0HTb"
+    },
+    {
+     "display_url": "tonamel.com/competition/ay…",
+     "expanded_url": "https://tonamel.com/competition/ayNAn",
+     "indices": [
+      76,
+      99
+     ],
+     "url": "https://t.co/NJ2T9YcDYI"
+    }
+   ]
+  },
+  "quoted_tweet": null,
+  "retweeted_tweet": null,
+  "isLimitedReply": false,
+  "communityInfo": null,
+  "article": null
+ }
+}
