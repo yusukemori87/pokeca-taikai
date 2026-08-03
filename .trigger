@@ -1,1 +1,1 @@
-run: full-collection-2 (LOOKBACK=45, PAGES=8) — commit step hardened
+run: reparse-all with json-ld parser (FORCE_REFETCH)
