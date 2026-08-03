@@ -67,7 +67,9 @@ SEARCH_QUERIES = [
 # ポケカ以外(ポケポケ/ユニアリ等)を弾くためのネガティブ語
 NEGATIVE_WORDS = ["ポケポケ", "ポケモンカードアプリ", "ポケモンTCGポケット", "Pocket"]
 
-TONAMEL_RE = re.compile(r"https?://tonamel\.com/competition/([A-Za-z0-9_-]+)")
+# Tonamelの大会IDは5文字。ツイート本文が途中で切れて「…/competition/5t」のような
+# 断片が混ざることがあるので、長さで弾く（短いIDを拾うと取得失敗が積み上がる）。
+TONAMEL_RE = re.compile(r"tonamel\.com/competition/([A-Za-z0-9_-]{5,12})")
 TCO_RE = re.compile(r"https?://t\.co/[A-Za-z0-9]+")
 
 PREFECTURES = [

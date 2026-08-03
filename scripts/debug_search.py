@@ -25,15 +25,18 @@ API = "https://api.twitterapi.io/twitter/tweet/advanced_search"
 KEY = os.environ.get("TWITTERAPI_IO_KEY", "").strip()
 UA = {"User-Agent": "Mozilla/5.0 (compatible; PokecaJishuBot/1.0; +pokeca-taikai)"}
 
+# collect.py が実際に投げている形（10人をORでまとめる）が効いているかを検証する。
+# 単体の from: は効くのに、ORでまとめると壊れる、という可能性を潰す。
+CHUNK10 = ("(from:deregmu_og OR from:deregmu_hobby OR from:tomoshibi_cup OR "
+           "from:ISHIKAWAPOKECA OR from:kajipoke OR from:koshigym0428 OR "
+           "from:Toreca_connect OR from:ohara_las_0123 OR from:kayu_key_gx OR "
+           "from:nanase_cup)")
+CHUNK3 = "(from:deregmu_og OR from:deregmu_hobby OR from:tomoshibi_cup)"
+
 QUERIES = [
     "from:deregmu_og",
-    "from:deregmu_hobby",
-    "ディレグム",
-    "ディレグム 大会",
-    "富山 ポケカ 大会",
-    "富山 ポケカ 自主大会",
-    "tonamel.com 富山",
-    "url:tonamel.com 富山",
+    CHUNK3,
+    CHUNK10,
 ]
 
 
@@ -69,7 +72,9 @@ def main() -> int:
         for q in QUERIES:
             tws = search(q, since)
             blob = json.dumps(tws, ensure_ascii=False)
-            ids = sorted(set(re.findall(r"tonamel\.com/competition/([A-Za-z0-9_-]+)", blob)))
+            # 短縮表示(display_url)由来の切れたIDを拾わないよう5文字以上に限定
+            ids = sorted({i for i in re.findall(
+                r"tonamel\.com\\?/competition\\?/([A-Za-z0-9_-]+)", blob) if len(i) >= 5})
             report["twitter"][q] = {
                 "tweets": len([t for t in tws if t.get("id")]),
                 "tonamel_ids": ids[:40],
