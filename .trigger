@@ -1,1 +1,1 @@
-run: full-collection-1 (LOOKBACK=45, PAGES=8)
+run: full-collection-2 (LOOKBACK=45, PAGES=8) — commit step hardened

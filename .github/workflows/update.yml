@@ -52,11 +52,42 @@ jobs:
 
       - name: 結果をコミット
         run: |
+          set -e
+          BR="${GITHUB_REF_NAME}"
           git config user.name  "pokeca-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/events.json docs/index.html
-          git diff --staged --quiet || git commit -m "自動更新: $(date -u -d '+9 hours' '+%Y-%m-%d %H:%M') JST"
-          git push
+
+          # 生成物を退避しておく。
+          # 収集中に他のコミットが main に入っていても、リモートの最新に生成物を
+          # 上書きし直して push するので、コンフリクトで結果を失うことがない。
+          mkdir -p /tmp/out
+          for f in data/events.json data/pending.json docs/index.html; do
+            [ -f "$f" ] && cp "$f" "/tmp/out/$(basename "$f")"
+          done
+
+          for i in 1 2 3 4 5; do
+            git fetch origin "$BR"
+            git reset --hard "origin/$BR"
+
+            [ -f /tmp/out/events.json ]  && cp /tmp/out/events.json  data/events.json
+            [ -f /tmp/out/pending.json ] && cp /tmp/out/pending.json data/pending.json
+            [ -f /tmp/out/index.html ]   && cp /tmp/out/index.html   docs/index.html
+
+            git add data/events.json data/pending.json docs/index.html 2>/dev/null || true
+            if git diff --staged --quiet; then
+              echo "変更なし。コミットをスキップします。"
+              exit 0
+            fi
+            git commit -m "自動更新: $(date -u -d '+9 hours' '+%Y-%m-%d %H:%M') JST"
+            if git push origin "HEAD:$BR"; then
+              echo "push 成功"
+              exit 0
+            fi
+            echo "push が競合しました。15秒後に再試行します ($i/5)"
+            sleep 15
+          done
+          echo "5回試しても push できませんでした"
+          exit 1
 
       - uses: actions/upload-pages-artifact@v3
         with:
