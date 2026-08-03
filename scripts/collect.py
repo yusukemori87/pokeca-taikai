@@ -66,6 +66,11 @@ SEARCH_QUERIES = [
     'tonamel.com (ポケカ OR ポケモンカード) 大会 -filter:retweets',
     '(ポケカ OR ポケモンカード) 自主大会 (エントリー OR 募集 OR 参加者募集) -filter:retweets',
     '(ポケカ OR ポケモンカード) 非公認大会 (募集 OR 開催) -filter:retweets',
+    # 大型・シリーズ物のイベント。個人主催より規模が大きく、
+    # 「自主大会」という語を使わずに告知されることが多いので別枠で拾う。
+    '(トレカフェス OR トレカアライブ OR トレフェス) (ポケカ OR ポケモンカード) -filter:retweets',
+    'url:tonamel.com (ポケカ OR ポケモンカード) (CS OR 選手権 OR カップ OR 杯) -filter:retweets',
+    '(ポケカ OR ポケモンカード) (オープン大会 OR 大型大会 OR 争奪戦) (エントリー OR 募集) -filter:retweets',
 ]
 
 # ポケカ以外(ポケポケ/ユニアリ等)を弾くためのネガティブ語

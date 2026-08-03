@@ -35,6 +35,9 @@ jobs:
       - name: TonamelのGraphQLを調べる
         run: python scripts/debug_graphql.py
 
+      - name: GraphQLスキーマから大会検索クエリを特定する
+        run: python scripts/debug_schema.py
+
       - name: 結果をコミット
         run: |
           set -e

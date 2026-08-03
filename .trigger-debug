@@ -1,1 +1,1 @@
-debug: probe tonamel graphql for public competition search
+debug: introspect PlayerQuery to find public competition search
