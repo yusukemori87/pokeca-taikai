@@ -1,0 +1,71 @@
+{
+  "candidates": [
+    {
+      "url": "https://tonamel.com/api/competition/mEavl",
+      "status": 404,
+      "bytes": 5285,
+      "ctype": "text/html"
+    },
+    {
+      "url": "https://tonamel.com/api/competitions/mEavl",
+      "status": 404,
+      "bytes": 5285,
+      "ctype": "text/html"
+    },
+    {
+      "url": "https://tonamel.com/api/v1/competition/mEavl",
+      "status": 404,
+      "bytes": 5285,
+      "ctype": "text/html"
+    },
+    {
+      "url": "https://tonamel.com/api/organization/rnQK9/competitions",
+      "status": 404,
+      "bytes": 5285,
+      "ctype": "text/html"
+    },
+    {
+      "url": "https://tonamel.com/api/competitions?game=pokemon_card&region=JP",
+      "status": 404,
+      "bytes": 5285,
+      "ctype": "text/html"
+    },
+    {
+      "url": "https://tonamel.com/api/search/competitions?game=pokemon_card",
+      "status": 404,
+      "bytes": 5285,
+      "ctype": "text/html"
+    },
+    {
+      "url": "https://api.tonamel.com/competition/mEavl",
+      "error": "HTTPSConnectionPool(host='api.tonamel.com', port=443): Max retries exceeded with url: /competition/mEavl (Caused by Name"
+    },
+    {
+      "url": "https://api.tonamel.com/v1/competitions?game=pokemon_card",
+      "error": "HTTPSConnectionPool(host='api.tonamel.com', port=443): Max retries exceeded with url: /v1/competitions?game=pokemon_card"
+    }
+  ],
+  "discovered": [
+    "/api/csrf_token",
+    "/api/upload_image/"
+  ],
+  "graphql": [
+    " (see https://github.com/apollographql/invariant-packages)",
+    " already exists.\\ngraphql-tag enforces all fragment names across your application to be unique; read more about\\nthis in the docs: http://dev.apollodata.com/core/fragments.html#unique-names",
+    ",{value:!0}),t.graphql=void 0;var r=n(159),o=n(5),c=n(758);function l(e,t,n){return r.__awaiter(this,void 0,void 0,(function(){var h,f,m,v,y,_=this;return r.__generator(this,(function(w){switch(w.label){case 0:return h=n.fragmentMap,f=n.contextValue,m=n.variableValues,v={},y=function(e){return r.__awaiter(_,void 0,void 0,(function(){var y,_,w,S,k;return r.__generator(this,(function(r){switch(r.label){case 0:return(0,o.shouldInclude)(e,m)?(0,o.isField)(e)?[4,d(e,t,n)]:[3,2]:[2];case 1:return y=r.sent(),_=(0,o.resultKeyNameFromField)(e),void 0!==y&&(void 0===v[_]?v[_]=y:(0,c.merge)(v[_],y)),[2];case 2:if((0,o.isInlineFragment)(e))w=e;else if(!(w=h[e.name.value]))throw new Error(",
+    ",{value:!0}),t.merge=t.graphql=void 0;var r=n(5);function o(e,t,n){var c=n.fragmentMap,d=n.contextValue,h=n.variableValues,f={};return e.selections.forEach((function(e){if(!h||(0,r.shouldInclude)(e,h))if((0,r.isField)(e)){var m=function(e,t,n){var c=n.variableValues,l=n.contextValue,d=n.resolver,h=e.name.value,f=(0,r.argumentsObjectFromField)(e,c),m={isLeaf:!e.selectionSet,resultKey:(0,r.resultKeyNameFromField)(e),directives:(0,r.getDirectiveInfoFromField)(e,c),field:e},v=d(h,t,f,l,m);if(!e.selectionSet)return v;if(null==v)return v;if(Array.isArray(v))return function e(t,n,r){return n.map((function(n){return null===n?null:Array.isArray(n)?e(t,n,r):o(t.selectionSet,n,r)}))}(e,v,n);return o(e.selectionSet,v,n)}(e,t,n),v=(0,r.resultKeyNameFromField)(e);void 0!==m&&(void 0===f[v]?f[v]=m:l(f[v],m))}else{var y=void 0;if((0,r.isInlineFragment)(e))y=e;else if(!(y=c[e.name.value]))throw new Error(",
+    ".concat(e.name.value));return S=w.typeCondition.name.value,n.fragmentMatcher(t,S,f)?[4,l(w.selectionSet,t,n)]:[3,4];case 3:k=r.sent(),(0,c.merge)(v,k),r.label=4;case 4:return[2]}}))}))},[4,Promise.all(e.selections.map(y))];case 1:return w.sent(),n.resultMapper?[2,n.resultMapper(v,t)]:[2,v]}}))}))}function d(e,t,n){return r.__awaiter(this,void 0,void 0,(function(){var c,d,f,m,v,y,_;return r.__generator(this,(function(r){switch(r.label){case 0:return c=n.variableValues,d=n.contextValue,f=n.resolver,m=e.name.value,v=(0,o.argumentsObjectFromField)(e,c),y={isLeaf:!e.selectionSet,resultKey:(0,o.resultKeyNameFromField)(e),directives:(0,o.getDirectiveInfoFromField)(e,c),field:e},[4,f(m,t,v,d,y)];case 1:return _=r.sent(),e.selectionSet?null==_?[2,_]:Array.isArray(_)?[2,h(e,_,n)]:[2,l(e.selectionSet,_,n)]:[2,_]}}))}))}function h(e,t,n){return Promise.all(t.map((function(t){return null===t?null:Array.isArray(t)?h(e,t,n):l(e.selectionSet,t,n)})))}t.graphql=function(e,t,n,r,c,d){void 0===d&&(d={});var h=(0,o.getMainDefinition)(t),f=(0,o.getFragmentDefinitions)(t),m={fragmentMap:(0,o.createFragmentMap)(f),contextValue:r,variableValues:c,resultMapper:d.resultMapper,resolver:e,fragmentMatcher:d.fragmentMatcher||function(){return!0}};return l(h.selectionSet,n,m)}},,function(e,t,n){",
+    ".concat(e.name.value));var _=y.typeCondition.name.value;if(n.fragmentMatcher(t,_,d)){var w=o(y.selectionSet,t,n);l(f,w)}}})),n.resultMapper?n.resultMapper(f,t):f}t.graphql=function(e,t,n,c,l,d){void 0===l&&(l={}),void 0===d&&(d={});var h=(0,r.getMainDefinition)(t),f=(0,r.getFragmentDefinitions)(t),m={fragmentMap:(0,r.createFragmentMap)(f),contextValue:c,variableValues:l,resultMapper:d.resultMapper,resolver:e,fragmentMatcher:d.fragmentMatcher||function(){return!0}};return o(h.selectionSet,n,m)};var c=Object.prototype.hasOwnProperty;function l(e,t){null!==t&&",
+    "/graphql",
+    "/graphql/competition/",
+    "/graphql/competition_management",
+    "/graphql/payment",
+    "/graphql/sponsor",
+    "/organize/graphql",
+    "===e.name.value},remove:!0},f=new Map;var m,v=(m=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,b){e.__proto__=b}||function(e,b){for(var p in b)b.hasOwnProperty(p)&&(e[p]=b[p])},function(e,b){function t(){this.constructor=e}m(e,b),e.prototype=null===b?Object.create(b):(t.prototype=b.prototype,new t)}),y=l.graphql,_=function(e){void 0===e&&(e={resolvers:{},defaults:{}});var t=e.defaults,n=e.cache,l=e.typeDefs,m=e.fragmentMatcher;return n&&t&&n.writeData({data:t}),new(function(o){function _(){return null!==o&&o.apply(this,arguments)||this}return v(_,o),_.prototype.writeDefaults=function(){n&&t&&n.writeData({data:t})},_.prototype.request=function(n,o){if(void 0===o&&(o=function(){return r.a.of({data:{}})}),l){var v=function(e){return(Array.isArray(e)?e:[e]).map((function(e){return",
+    "apollographql-client-name",
+    "apollographql-client-version",
+    "graphql-subscriptions",
+    "graphql-ws"
+  ]
+}

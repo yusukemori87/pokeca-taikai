@@ -84,25 +84,6 @@
       "error": null
     }
   },
-  "tonamel_org": {
-    "https://tonamel.com/organization/1f1ak": {
-      "status": 200,
-      "bytes": 5565,
-      "competition_ids_in_html": [],
-      "has_ld_json": true
-    },
-    "https://tonamel.com/organization/1yj5K": {
-      "status": 200,
-      "bytes": 5313,
-      "competition_ids_in_html": [],
-      "has_ld_json": true
-    },
-    "https://tonamel.com/organization/26fxb": {
-      "status": 200,
-      "bytes": 5313,
-      "competition_ids_in_html": [],
-      "has_ld_json": true
-    }
-  },
-  "organizer_url_count": 78
+  "tonamel_org": {},
+  "organizer_url_count": 0
 }
