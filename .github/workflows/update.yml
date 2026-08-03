@@ -31,9 +31,13 @@ jobs:
       - name: Twitter から大会情報を集める
         env:
           TWITTERAPI_IO_KEY: ${{ secrets.TWITTERAPI_IO_KEY }}
-          LOOKBACK_DAYS: "45"     # 何日前までの告知ツイートを探すか
+          # 毎日回すので、2回目以降は7日ぶんさかのぼれば十分（APIコストが1/6になる）。
+          # 初回や取りこぼしを取り戻したい時は、手動実行のとき LOOKBACK_DAYS を大きくする。
+          LOOKBACK_DAYS: ${{ vars.LOOKBACK_DAYS || '7' }}
           HORIZON_DAYS: "95"      # 何日先までの大会を載せるか（約3ヶ月）
           FOLLOW_ORGANIZERS: "1"  # キーマンの投稿も直接追う
+          MAX_PAGES_PER_QUERY: ${{ vars.MAX_PAGES_PER_QUERY || '4' }}
+          SKIP_TWITTER: ${{ vars.SKIP_TWITTER || '0' }}
         run: python scripts/collect.py
 
       - name: サイトを組み立てる

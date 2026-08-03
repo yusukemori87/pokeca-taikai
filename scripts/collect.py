@@ -103,7 +103,8 @@ FORMAT_WORDS = {
     "その他": [],
 }
 
-UA = {"User-Agent": "Mozilla/5.0 (compatible; PokecaJishuBot/1.0; +自主大会情報の集約)"}
+# HTTPヘッダは latin-1 しか通らない。日本語を入れると全リクエストが落ちるので ASCII のみ。
+UA = {"User-Agent": "Mozilla/5.0 (compatible; PokecaJishuBot/1.0; +pokeca-taikai)"}
 
 
 # ---------------------------------------------------------------- ユーティリティ
@@ -544,21 +545,47 @@ def build_organizers(events: list[dict]) -> list[dict]:
     return sorted(seeds.values(), key=lambda o: (o.get("region", ""), o.get("name") or ""))
 
 
+PENDING_PATH = DATA_DIR / "pending.json"
+
+
+def load_pending() -> dict[str, dict]:
+    """Twitterで見つけたがTonamel取得がまだ/失敗している大会IDの控え。"""
+    if not PENDING_PATH.exists():
+        return {}
+    try:
+        return json.loads(PENDING_PATH.read_text("utf-8"))
+    except Exception:  # noqa: BLE001
+        return {}
+
+
+def save_pending(pending: dict[str, dict]) -> None:
+    PENDING_PATH.write_text(
+        json.dumps(pending, ensure_ascii=False, indent=1), "utf-8"
+    )
+
+
 def main() -> int:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     since = datetime.now(JST) - timedelta(days=LOOKBACK_DAYS)
 
-    log(f"■ Twitter を検索します（{since:%Y-%m-%d} 以降 / {len(SEARCH_QUERIES)}クエリ）")
+    # SKIP_TWITTER=1 なら検索を丸ごと飛ばし、前回見つけた大会IDの取得だけをやり直す。
+    # クレジットを1も使わずにリトライできるので、取得失敗した時の再実行用。
+    skip_twitter = os.environ.get("SKIP_TWITTER") == "1"
+
     all_tweets: dict[str, dict] = {}
-    for q in SEARCH_QUERIES:
-        for tw in search_twitter(q, since):
-            if tw.get("id"):
-                all_tweets[tw["id"]] = tw
+    if skip_twitter:
+        log("■ SKIP_TWITTER=1: 検索は行わず、前回の未取得分だけ処理します")
+    else:
+        log(f"■ Twitter を検索します（{since:%Y-%m-%d} 以降 / {len(SEARCH_QUERIES)}クエリ）")
+        for q in SEARCH_QUERIES:
+            for tw in search_twitter(q, since):
+                if tw.get("id"):
+                    all_tweets[tw["id"]] = tw
 
     # 第2パス: 既知のキーマンの投稿を直接追う。
     # 「ポケカ」「自主大会」と書かずに告知する主催者を取りこぼさないための保険で、
     # これが件数と精度に一番効く。
-    if FOLLOW_ORGANIZERS:
+    if FOLLOW_ORGANIZERS and not skip_twitter:
         handles = [o["handle"] for o in load_seed_organizers() if o.get("handle")]
         handles += [o["alt_handle"] for o in load_seed_organizers() if o.get("alt_handle")]
         log(f"■ キーマン {len(handles)}アカウントの投稿を追跡します")
@@ -582,7 +609,16 @@ def main() -> int:
             prev = id_to_tweet.get(comp_id)
             if prev is None or (tw.get("createdAt", "") < prev.get("createdAt", "")):
                 id_to_tweet[comp_id] = tw
-    log(f"■ 見つかった Tonamel 大会: {len(id_to_tweet)}件")
+    log(f"■ 今回の検索で見つかった Tonamel 大会: {len(id_to_tweet)}件")
+
+    # 前回やり残した分と合流させ、すぐ控えに保存する。
+    # ここで保存しておけば、この先で落ちても Twitter を叩き直さずに再開できる。
+    pending = load_pending()
+    for comp_id, tw in id_to_tweet.items():
+        pending.setdefault(comp_id, tw)
+    save_pending(pending)
+    id_to_tweet = pending
+    log(f"■ 未取得ぶんと合わせた処理対象: {len(id_to_tweet)}件")
 
     # 既存データを読み、取得済みの大会は再取得をスキップ（APIとサーバへの負荷を減らす）
     existing: dict[str, dict] = {}
@@ -598,19 +634,28 @@ def main() -> int:
         RAW_DIR.mkdir(parents=True, exist_ok=True)
 
     log("■ Tonamel の大会ページから詳細を取得します")
-    for i, (comp_id, tw) in enumerate(id_to_tweet.items(), 1):
+    ok = miss = 0
+    for i, (comp_id, tw) in enumerate(list(id_to_tweet.items()), 1):
         if comp_id in existing and existing[comp_id].get("date"):
+            pending.pop(comp_id, None)
             continue
         got = fetch_tonamel(comp_id)
         if not got:
+            miss += 1
             continue
         html, url = got
         if save_raw:
             (RAW_DIR / f"{comp_id}.html").write_text(html, "utf-8")
         ev = build_event(comp_id, html, url, tw)
         events[comp_id] = ev
-        log(f"  {i:>3}. {ev['date'] or '日付不明'} {ev['prefecture'] or '?'} {ev['title'][:34]}")
+        pending.pop(comp_id, None)     # 取れたので控えから外す
+        ok += 1
+        log(f"  {i:>3}/{len(id_to_tweet)}. {ev['date'] or '日付不明'} "
+            f"{ev['prefecture'] or '?'} {ev['title'][:34]}")
         time.sleep(1.0)  # 相手サーバに優しく
+
+    save_pending(pending)
+    log(f"■ 取得成功 {ok}件 / 失敗・スキップ {miss}件 / 未処理の控え {len(pending)}件")
 
     # 終わった大会を落とし、掲載範囲（今日〜HORIZON_DAYS先）に絞る
     today = datetime.now(JST).strftime("%Y-%m-%d")
