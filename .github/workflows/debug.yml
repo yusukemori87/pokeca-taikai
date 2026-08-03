@@ -1,0 +1,35 @@
+name: Tonamelの生HTMLを調査
+
+# .trigger-debug を更新してpushすると走る。数秒で終わり、APIクレジットは使わない。
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".trigger-debug"
+
+permissions:
+  contents: write
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+
+      - name: 大会ページを数件取得して構造を書き出す
+        run: python scripts/debug_fetch.py
+
+      - name: 結果をコミット
+        run: |
+          set -e
+          BR="${GITHUB_REF_NAME}"
+          git config user.name  "pokeca-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -f debug/
+          git diff --staged --quiet && { echo "変更なし"; exit 0; }
+          git commit -m "調査: Tonamelの生HTMLを取得"
+          git push origin "HEAD:$BR"
