@@ -29,6 +29,8 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
+from collections import Counter
+
 import requests
 
 # ---------------------------------------------------------------- 設定
@@ -71,7 +73,7 @@ DEEP_ORG_PAGES = int(os.environ.get("DEEP_ORG_PAGES", "3"))
 # 次回の実行で自動的に取り直して再解析される。
 # 「解析を直したのに、既に取得済みの大会には反映されない」という事故を防ぐための仕組み。
 # ★解析ロジックを変えたら必ずこの数字を上げること。
-PARSER_VERSION = 3
+PARSER_VERSION = 4
 
 # 検索クエリ。Twitter の検索演算子がそのまま使える。
 # 「tonamel の URL を含む」×「ポケカ語彙」の掛け算で、余計なゲームの大会を弾く。
@@ -711,9 +713,12 @@ def build_event(comp_id: str, html: str, url: str, tweet: dict) -> dict:
     # オンライン判定は「会場の都道府県が取れなかったとき」だけ採用する。
     # 説明文に「オンライン対戦の練習に」等が混ざるだけでオンライン扱いされ、
     # 実在の会場(福井県)がオンラインに化けた事故があったため。
+    # 会場から都道府県が特定できたなら、それが現地開催の何よりの証拠。
+    # Tonamel側の開催形式(eventAttendanceMode)が Online のままになっている
+    # 大会が実在する（設定し忘れ）ので、住所・会場名の判定を優先する。
     is_online = ld.get("online", is_online)
     if pref and pref != "オンライン":
-        is_online = bool(ld.get("online"))     # JSON-LDが明示している場合のみ信用
+        is_online = False
     if is_online and not pref:
         pref = "オンライン"
 
@@ -1044,6 +1049,26 @@ def main() -> int:
         if not e.get("date") or (today <= e["date"] <= horizon)
     ]
     upcoming.sort(key=lambda e: (e.get("date") or "9999-99-99", e.get("start_time") or "99:99"))
+
+    # 会場情報からどうしても都道府県が分からない大会は、
+    # 同じ主催者の他の大会から推定して埋める（主催者はたいてい同じ地域で開催する）。
+    infer_src: dict[str, Counter] = {}
+    for e in upcoming:
+        key = e.get("organizer_url") or e.get("organizer_name")
+        if key and e.get("prefecture") and e["prefecture"] != "オンライン":
+            infer_src.setdefault(key, Counter())[e["prefecture"]] += 1
+    inferred = 0
+    for e in upcoming:
+        if e.get("prefecture"):
+            continue
+        key = e.get("organizer_url") or e.get("organizer_name")
+        c = infer_src.get(key)
+        if c:
+            e["prefecture"] = c.most_common(1)[0][0]
+            e["prefecture_inferred"] = True    # 推定であることを残す
+            inferred += 1
+    if inferred:
+        log(f"■ 主催者の他大会から地域を推定: {inferred}件")
 
     organizers = build_organizers(upcoming)
     by_pref: dict[str, int] = {}
