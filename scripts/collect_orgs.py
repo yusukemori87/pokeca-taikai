@@ -24,6 +24,7 @@ import json
 import os
 import re
 import sys
+import time
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -37,6 +38,8 @@ MAX_ORGS = int(os.environ.get("ORG_PAGE_LIMIT", "120"))
 # 1ページあたりのスクロール回数。主催者ページは件数が少ないので浅くてよい。
 # 100人以上を巡回するので、1人あたりの時間がそのまま実行時間に効く。
 MAX_SCROLL = int(os.environ.get("ORG_MAX_SCROLL", "5"))
+# 巡回全体の時間予算（秒）。毎日走るので、途中で切り上げても翌日続きが回る。
+TIME_BUDGET_SEC = int(os.environ.get("ORG_TIME_BUDGET", "900"))
 # Tonamelのページ内リンクに現れる「大会IDではない語」。ゴミIDとして積むと
 # 取得失敗が積み上がるので弾く（実際に "index" や "_competitionId" が混入した）。
 NOT_AN_ID = {"index", "create", "search", "detail", "edit", "admin", "login",
@@ -68,7 +71,7 @@ def org_urls() -> list[str]:
 def collect(page, url: str) -> set[str]:
     ids: set[str] = set()
     try:
-        page.goto(url, timeout=45000, wait_until="domcontentloaded")
+        page.goto(url, timeout=20000, wait_until="domcontentloaded")
     except Exception as e:  # noqa: BLE001
         log(f"  読み込み失敗 {url}: {str(e)[:70]}")
         return ids
@@ -119,14 +122,24 @@ def main() -> int:
             viewport={"width": 1280, "height": 2000},
         )
         page = ctx.new_page()
+        started = time.monotonic()
+        done = 0
         for n, u in enumerate(urls, 1):
+            # 全体の時間予算。1人あたりが遅いと全体が何時間にもなりうるので、
+            # 決めた時間で必ず切り上げる。残りは翌日の実行に回る（毎日走るので問題ない）。
+            if time.monotonic() - started > TIME_BUDGET_SEC:
+                log(f"  時間の上限({TIME_BUDGET_SEC}秒)に達したので"
+                    f"{n - 1}/{len(urls)}人で切り上げます。残りは次回に回します。")
+                break
             got = collect(page, u)
+            done = n
             if not got:
                 empty += 1
             all_ids |= got
             if n % 20 == 0:
                 log(f"  {n}/{len(urls)}件 巡回 … 累計 大会ID {len(all_ids)}件")
         browser.close()
+    urls = urls[:done] if done else urls
 
     log(f"■ 主催者ページから回収した大会ID: {len(all_ids)}件"
         f"（1件も取れなかった主催者 {empty}/{len(urls)}）")
