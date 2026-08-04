@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-04T06:30:59.594792+09:00",
-  "events": 148,
+  "generated_at": "2026-08-04T11:56:27.268430+09:00",
+  "events": 206,
   "organizers": 29,
   "by_region": {
-    "北海道・東北": 3,
-    "関東": 63,
+    "北海道・東北": 10,
+    "関東": 83,
     "甲信越": 0,
-    "北陸": 6,
-    "東海": 11,
-    "近畿": 31,
-    "中国": 8,
-    "四国": 1,
-    "九州・沖縄": 9
+    "北陸": 13,
+    "東海": 12,
+    "近畿": 36,
+    "中国": 12,
+    "四国": 3,
+    "九州・沖縄": 12
   },
   "findings": [
     {
       "level": "warn",
       "kind": "地域未判定",
-      "message": "10件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
+      "message": "17件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
       "ids": [
         "346NR",
         "DwqTu",
@@ -25,61 +25,33 @@
         "9LKk1",
         "8VS1L",
         "D6qmj",
+        "MmKyZ",
+        "QZpxA",
+        "YkUPY",
+        "fWxMz",
+        "tXJWh",
+        "DtQdd",
+        "NPsEQ",
         "99O64",
         "qN5VB",
         "vjZaF",
         "0ECrI"
       ],
-      "count": 10
-    },
-    {
-      "level": "warn",
-      "kind": "取得に失敗し続けている",
-      "message": "6件がTonamelから取得できないまま残っています。削除済み・IDの誤抽出・アクセス制限のいずれかです。",
-      "ids": [
-        "uCRGe",
-        "XCtZO",
-        "ayNAn",
-        "_compet",
-        "_competiti",
-        "index"
-      ],
-      "count": 6
+      "count": 17
     },
     {
       "level": "info",
       "kind": "登録キーマンの成果ゼロ",
-      "message": "13人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
+      "message": "6人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
       "ids": [
-        "tomoshibi_cup",
         "kajipoke",
-        "koshigym0428",
-        "nanase_cup",
         "miracle_twin",
         "hokkaidoPTCG",
         "torepoinfo",
-        "OP01_soda",
-        "nrissgn913",
-        "team__wassyoi",
         "SakePokes",
-        "moukahai",
         "consomme_pokeca"
       ],
-      "count": 13
-    },
-    {
-      "level": "error",
-      "kind": "検索が全滅",
-      "message": "すべての検索クエリが0件です。API側の仕様変更や障害を疑ってください。",
-      "ids": [],
-      "count": 0
-    },
-    {
-      "level": "error",
-      "kind": "主催者追跡が全滅",
-      "message": "31アカウントすべてから投稿を取得できていません。",
-      "ids": [],
-      "count": 0
+      "count": 6
     },
     {
       "level": "warn",
