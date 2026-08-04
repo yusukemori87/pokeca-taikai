@@ -22,7 +22,10 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  # 収集が異常に長引いたとき（主催者ページ巡回で1時間半を超えた事故があった）、
+  # 新しい実行で古い実行を打ち切れるようにしておく。
+  # 収集途中で打ち切られても、pushしていないので既存データは壊れない。
+  cancel-in-progress: true
 
 jobs:
   update:
