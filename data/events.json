@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-08-04T15:11:53.215009+09:00",
-  "count": 969,
+  "generated_at": "2026-08-04T16:33:51.861576+09:00",
+  "count": 1014,
   "horizon": "2026-11-07",
   "by_prefecture": {
-    "東京都": 253,
-    "不明": 152,
+    "東京都": 344,
     "大阪府": 87,
-    "オンライン": 61,
+    "福岡県": 68,
+    "オンライン": 65,
+    "愛知県": 59,
     "兵庫県": 47,
     "岡山県": 46,
     "京都府": 46,
     "宮城県": 46,
-    "福岡県": 35,
+    "埼玉県": 35,
     "福島県": 34,
-    "埼玉県": 28,
     "神奈川県": 26,
     "茨城県": 20,
-    "愛知県": 14,
+    "不明": 15,
     "沖縄県": 13,
     "静岡県": 12,
     "滋賀県": 7,
     "石川県": 6,
     "北海道": 5,
     "福井県": 5,
+    "山口県": 4,
     "熊本県": 3,
     "鹿児島県": 3,
-    "山口県": 2,
     "千葉県": 2,
     "鳥取県": 2,
     "富山県": 2,
@@ -46,7 +46,7 @@
       "url": "https://tonamel.com/competition/346NR",
       "date": "2026-08-04",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -63,7 +63,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T06:27:29.628088+09:00",
-      "collected_at": "2026-08-04T06:27:29.628483+09:00"
+      "collected_at": "2026-08-04T06:27:29.628483+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "38RM1",
@@ -146,7 +147,7 @@
       "url": "https://tonamel.com/competition/DwqTu",
       "date": "2026-08-04",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -163,7 +164,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T06:27:35.383298+09:00",
-      "collected_at": "2026-08-04T06:27:35.383673+09:00"
+      "collected_at": "2026-08-04T06:27:35.383673+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "PChEn",
@@ -171,7 +173,7 @@
       "url": "https://tonamel.com/competition/PChEn",
       "date": "2026-08-04",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -188,7 +190,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T06:27:36.881746+09:00",
-      "collected_at": "2026-08-04T06:27:36.882503+09:00"
+      "collected_at": "2026-08-04T06:27:36.882503+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "RG4Kv",
@@ -421,7 +424,7 @@
       "url": "https://tonamel.com/competition/9LKk1",
       "date": "2026-08-04",
       "start_time": "14:30",
-      "prefecture": null,
+      "prefecture": "埼玉県",
       "venue": null,
       "address": null,
       "online": false,
@@ -438,7 +441,8 @@
       "organizer_name": "晴れる屋2 大宮店",
       "pv": 7,
       "tweeted_at": "2026-08-04T06:27:49.562985+09:00",
-      "collected_at": "2026-08-04T06:27:49.563533+09:00"
+      "collected_at": "2026-08-04T06:27:49.563533+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "DTAep",
@@ -514,6 +518,31 @@
       "pv": 7,
       "tweeted_at": "2026-08-04T06:27:54.071353+09:00",
       "collected_at": "2026-08-04T06:27:54.071890+09:00"
+    },
+    {
+      "id": "Ob7eW",
+      "title": "吉良組のイベント",
+      "url": "https://tonamel.com/competition/Ob7eW",
+      "date": "2026-08-04",
+      "start_time": "15:00",
+      "prefecture": null,
+      "venue": null,
+      "address": null,
+      "online": false,
+      "fee": null,
+      "capacity": 16,
+      "prize": null,
+      "format": "その他",
+      "kind": "自主大会",
+      "organizer_url": "https://tonamel.com/organization/gpzGK",
+      "summary": "吉良組のイベント - Tonamel",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "吉良組",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T15:46:43.062846+09:00",
+      "collected_at": "2026-08-04T15:46:43.063066+09:00"
     },
     {
       "id": "78D6O",
@@ -596,7 +625,7 @@
       "url": "https://tonamel.com/competition/8VS1L",
       "date": "2026-08-04",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -613,7 +642,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T06:27:59.485461+09:00",
-      "collected_at": "2026-08-04T06:27:59.485962+09:00"
+      "collected_at": "2026-08-04T06:27:59.485962+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "D6qmj",
@@ -621,7 +651,7 @@
       "url": "https://tonamel.com/competition/D6qmj",
       "date": "2026-08-04",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -638,7 +668,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T06:28:00.685549+09:00",
-      "collected_at": "2026-08-04T06:28:00.685919+09:00"
+      "collected_at": "2026-08-04T06:28:00.685919+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "W3iRc",
@@ -696,7 +727,7 @@
       "url": "https://tonamel.com/competition/3H1W0",
       "date": "2026-08-04",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -713,7 +744,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:15:04.984657+09:00",
-      "collected_at": "2026-08-04T14:15:04.986036+09:00"
+      "collected_at": "2026-08-04T14:15:04.986036+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "8GwR0",
@@ -771,7 +803,7 @@
       "url": "https://tonamel.com/competition/MmKyZ",
       "date": "2026-08-04",
       "start_time": "16:30",
-      "prefecture": null,
+      "prefecture": "埼玉県",
       "venue": null,
       "address": null,
       "online": false,
@@ -788,7 +820,8 @@
       "organizer_name": "晴れる屋2 大宮店",
       "pv": 7,
       "tweeted_at": "2026-08-04T11:52:14.043662+09:00",
-      "collected_at": "2026-08-04T11:52:14.044279+09:00"
+      "collected_at": "2026-08-04T11:52:14.044279+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "ksGBb",
@@ -1196,7 +1229,7 @@
       "url": "https://tonamel.com/competition/QZpxA",
       "date": "2026-08-04",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -1213,7 +1246,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T11:52:18.446536+09:00",
-      "collected_at": "2026-08-04T11:52:18.446949+09:00"
+      "collected_at": "2026-08-04T11:52:18.446949+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "YkUPY",
@@ -1221,7 +1255,7 @@
       "url": "https://tonamel.com/competition/YkUPY",
       "date": "2026-08-04",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -1238,7 +1272,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T11:52:23.958712+09:00",
-      "collected_at": "2026-08-04T11:52:23.959081+09:00"
+      "collected_at": "2026-08-04T11:52:23.959081+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "cnIZe",
@@ -1446,7 +1481,7 @@
       "url": "https://tonamel.com/competition/GZEC5",
       "date": "2026-08-04",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "埼玉県",
       "venue": null,
       "address": null,
       "online": false,
@@ -1463,7 +1498,8 @@
       "organizer_name": "晴れる屋2 大宮店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:15:14.947246+09:00",
-      "collected_at": "2026-08-04T14:15:14.947943+09:00"
+      "collected_at": "2026-08-04T14:15:14.947943+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "L9EMZ",
@@ -1521,7 +1557,7 @@
       "url": "https://tonamel.com/competition/vzoFq",
       "date": "2026-08-04",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -1538,7 +1574,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:15:39.089646+09:00",
-      "collected_at": "2026-08-04T14:15:39.090751+09:00"
+      "collected_at": "2026-08-04T14:15:39.090751+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "qJbeo",
@@ -1896,7 +1933,7 @@
       "url": "https://tonamel.com/competition/fWxMz",
       "date": "2026-08-05",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -1913,7 +1950,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T11:52:28.865637+09:00",
-      "collected_at": "2026-08-04T11:52:28.866332+09:00"
+      "collected_at": "2026-08-04T11:52:28.866332+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "tXJWh",
@@ -1921,7 +1959,7 @@
       "url": "https://tonamel.com/competition/tXJWh",
       "date": "2026-08-05",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -1938,7 +1976,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T11:52:42.214945+09:00",
-      "collected_at": "2026-08-04T11:52:42.215707+09:00"
+      "collected_at": "2026-08-04T11:52:42.215707+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "xdSTy",
@@ -1996,7 +2035,7 @@
       "url": "https://tonamel.com/competition/bz2Wc",
       "date": "2026-08-05",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -2013,7 +2052,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:15:28.515938+09:00",
-      "collected_at": "2026-08-04T14:15:28.516341+09:00"
+      "collected_at": "2026-08-04T14:15:28.516341+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "ZvrVb",
@@ -2321,7 +2361,7 @@
       "url": "https://tonamel.com/competition/DtQdd",
       "date": "2026-08-05",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -2338,7 +2378,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T11:52:07.400913+09:00",
-      "collected_at": "2026-08-04T11:52:07.401602+09:00"
+      "collected_at": "2026-08-04T11:52:07.401602+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "2BSIh",
@@ -2396,7 +2437,7 @@
       "url": "https://tonamel.com/competition/a7Fgd",
       "date": "2026-08-05",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -2413,7 +2454,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:15:27.137266+09:00",
-      "collected_at": "2026-08-04T14:15:27.137921+09:00"
+      "collected_at": "2026-08-04T14:15:27.137921+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "hUnV9",
@@ -2421,7 +2463,7 @@
       "url": "https://tonamel.com/competition/hUnV9",
       "date": "2026-08-05",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -2438,7 +2480,33 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:15:32.646588+09:00",
-      "collected_at": "2026-08-04T14:15:32.647918+09:00"
+      "collected_at": "2026-08-04T14:15:32.647918+09:00",
+      "prefecture_inferred": true
+    },
+    {
+      "id": "JDX92",
+      "title": "8/5(水)16:00 ジムバトル トレコレ周南久米店",
+      "url": "https://tonamel.com/competition/JDX92",
+      "date": "2026-08-05",
+      "start_time": "16:00",
+      "prefecture": "山口県",
+      "venue": "トレジャーコレクションイオンタウン周南久米店",
+      "address": "745-0809 山口県周南市久米中央５丁目8番1号",
+      "online": false,
+      "fee": "無料",
+      "capacity": 32,
+      "prize": null,
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/j1y36",
+      "summary": "■参加費☆無料☆■レギュレーションスタンダードレギュレーション【大会形式】スイスドローで全勝者が出るまで対戦を行います。【対戦時間】1試合：25分【勝敗について】対戦終了のコールがあった時点で決着がついていない対戦は下記の通りとなります。・先行プレイヤーの番の場合、後攻プレイヤーの番の終了まで行います。・後攻プレイヤーの番の場合、その番の終了まで行います。・既定の番を終えても決着がつかなかった場合",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "トレジャーコレクションイオンタウン周南久米店",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T15:46:41.548249+09:00",
+      "collected_at": "2026-08-04T15:46:41.548912+09:00"
     },
     {
       "id": "wuERt",
@@ -2866,6 +2934,56 @@
       "collected_at": "2026-08-04T15:02:28.952792+09:00"
     },
     {
+      "id": "LO5A7",
+      "title": "The トレカ公認 エクストラバトルの日",
+      "url": "https://tonamel.com/competition/LO5A7",
+      "date": "2026-08-05",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：プロモパック 1パックじゃんけん賞:優勝者1名1パック",
+      "format": "エクストラ",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件 オープンレギュレーションエクストラ60枚参加費100円定員64人参加賞プロモカード1枚＋プロモパック1パック1位プロモパック 1パックじゃんけん賞：優勝者1名1パック※但し、9名以上参加の場合のみ実施■エクストラレギュレーション レギュレーションの詳細はトレーナーズウェブサイトをご確認下さい。※エクストラレギュレーションでは、一部使用が制限されているカードがあります。※「デッキに入れるこ",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:01:41.951123+09:00",
+      "collected_at": "2026-08-04T16:01:41.951684+09:00"
+    },
+    {
+      "id": "SLWud",
+      "title": "8/5(水)19:00 ジムバトル トレコレ周南久米店",
+      "url": "https://tonamel.com/competition/SLWud",
+      "date": "2026-08-05",
+      "start_time": "19:00",
+      "prefecture": "山口県",
+      "venue": "トレジャーコレクションイオンタウン周南久米店",
+      "address": "745-0809 山口県周南市久米中央５丁目8番1号",
+      "online": false,
+      "fee": "無料",
+      "capacity": 32,
+      "prize": null,
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/j1y36",
+      "summary": "■参加費☆無料☆■レギュレーションスタンダードレギュレーション【大会形式】スイスドローで全勝者が出るまで対戦を行います。【対戦時間】1試合：25分【勝敗について】対戦終了のコールがあった時点で決着がついていない対戦は下記の通りとなります。・先行プレイヤーの番の場合、後攻プレイヤーの番の終了まで行います。・後攻プレイヤーの番の場合、その番の終了まで行います。・既定の番を終えても決着がつかなかった場合",
+      "source_tweet_url": "https://x.com/torekore_kudama/status/2084513257986175345",
+      "organizer_handle": null,
+      "announced_by": "torekore_kudama",
+      "organizer_name": "トレジャーコレクションイオンタウン周南久米店",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T14:34:23+09:00",
+      "collected_at": "2026-08-04T16:32:12.230043+09:00"
+    },
+    {
       "id": "Yu19a",
       "title": "『夜のBOX争奪戦！Vol.12』",
       "url": "https://tonamel.com/competition/Yu19a",
@@ -3218,6 +3336,31 @@
       "collected_at": "2026-08-04T15:11:52.209337+09:00"
     },
     {
+      "id": "gAMQa",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/gAMQa",
+      "date": "2026-08-06",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:17:37.442188+09:00",
+      "collected_at": "2026-08-04T16:17:37.442625+09:00"
+    },
+    {
       "id": "qG4ys",
       "title": "福生deNight-対戦会",
       "url": "https://tonamel.com/competition/qG4ys",
@@ -3568,6 +3711,31 @@
       "collected_at": "2026-08-04T14:31:30.690875+09:00"
     },
     {
+      "id": "xP0A4",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/xP0A4",
+      "date": "2026-08-07",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:30:38.294216+09:00",
+      "collected_at": "2026-08-04T16:30:38.294676+09:00"
+    },
+    {
       "id": "SiUnz",
       "title": "第14回 すてみタックル杯",
       "url": "https://tonamel.com/competition/SiUnz",
@@ -3868,6 +4036,31 @@
       "collected_at": "2026-08-04T14:54:27.601327+09:00"
     },
     {
+      "id": "Jz0Fe",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/Jz0Fe",
+      "date": "2026-08-08",
+      "start_time": "11:30",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:00:49.644132+09:00",
+      "collected_at": "2026-08-04T16:00:49.644590+09:00"
+    },
+    {
       "id": "jtcRC",
       "title": "ビックホーン非公認CS　ストームエメラルダ争奪戦！",
       "url": "https://tonamel.com/competition/jtcRC",
@@ -4093,6 +4286,56 @@
       "collected_at": "2026-08-04T15:04:24.862171+09:00"
     },
     {
+      "id": "ZKEIz",
+      "title": "kolo屋のイベント",
+      "url": "https://tonamel.com/competition/ZKEIz",
+      "date": "2026-08-08",
+      "start_time": "13:00",
+      "prefecture": "オンライン",
+      "venue": null,
+      "address": null,
+      "online": true,
+      "fee": null,
+      "capacity": 16,
+      "prize": null,
+      "format": "その他",
+      "kind": "自主大会",
+      "organizer_url": "https://tonamel.com/organization/Vrikt",
+      "summary": "kolo屋のイベント - Tonamel",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "kolo屋",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:12:17.689930+09:00",
+      "collected_at": "2026-08-04T16:12:17.690123+09:00"
+    },
+    {
+      "id": "VvXty",
+      "title": "8/8(土)　土曜日海外レギュレーションBO3大会",
+      "url": "https://tonamel.com/competition/VvXty",
+      "date": "2026-08-08",
+      "start_time": "13:00",
+      "prefecture": null,
+      "venue": null,
+      "address": null,
+      "online": false,
+      "fee": "1,000円",
+      "capacity": 24,
+      "prize": "オーガナイザープロモーションパック1個下記画像のスリーブから1個以下から1つ・SRトレーナ…",
+      "format": "スタンダード",
+      "kind": "自主大会",
+      "organizer_url": "https://tonamel.com/organization/csmr1",
+      "summary": "大会情報 8/8(土)受付時間:12:00～13:00開始時間:13:00(予定)BO3大会(2名から開催)レギュレーション:レギュレーションマーク H・I・J・スタンダード・日本版 「アビスアイ」まで※レギュレーションはWCSに準拠いたします。開催までにWCSのレギュレーションが確定した場合、レギュレーションが変更になる場合がございます。※レギュレーションにつきましては『Pitch Black』",
+      "source_tweet_url": "https://x.com/RagnarokGaming_/status/2084508614052778398",
+      "organizer_handle": null,
+      "announced_by": "RagnarokGaming_",
+      "organizer_name": "らぐなろっくゲーミング",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T14:15:56+09:00",
+      "collected_at": "2026-08-04T16:32:13.609014+09:00"
+    },
+    {
       "id": "akqs8",
       "title": "第３回 生田出張所 ポケカ交流会＠主催そわらに",
       "url": "https://tonamel.com/competition/akqs8",
@@ -4166,6 +4409,31 @@
       "pv": 7,
       "tweeted_at": "2026-08-04T15:02:54.175344+09:00",
       "collected_at": "2026-08-04T15:02:54.176253+09:00"
+    },
+    {
+      "id": "1f0C2",
+      "title": "第２回　ヒメグマ会",
+      "url": "https://tonamel.com/competition/1f0C2",
+      "date": "2026-08-08",
+      "start_time": "15:00",
+      "prefecture": "オンライン",
+      "venue": null,
+      "address": null,
+      "online": true,
+      "fee": "500円",
+      "capacity": 32,
+      "prize": "100円商品券初心者からシティリーグトナメに上がりたい君へ!!AKI(オーナー)&piyo…",
+      "format": "その他",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "ジュニア・シニア参加費無料マスター 参加費500円参加賞 100円商品券初心者からシティリーグトナメに上がりたい君へ！！AKI（オーナー）&piyoによるティーチングイベント🎵ルール覚えたい！強くなりたい！上手くなりたい！デッキ組めるようになりたい！そんな要望全てお答えします！！是非一度足を運んでみてください🎵",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T15:47:52.323592+09:00",
+      "collected_at": "2026-08-04T15:47:52.324009+09:00"
     },
     {
       "id": "6SBtI",
@@ -4316,6 +4584,31 @@
       "pv": 7,
       "tweeted_at": "2026-08-02T11:12:50+09:00",
       "collected_at": "2026-08-04T06:28:42.227768+09:00"
+    },
+    {
+      "id": "JRHEV",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/JRHEV",
+      "date": "2026-08-08",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:00:26.070342+09:00",
+      "collected_at": "2026-08-04T16:00:26.070806+09:00"
     },
     {
       "id": "VoGmp",
@@ -4541,6 +4834,31 @@
       "pv": 7,
       "tweeted_at": "2026-08-04T14:16:35.536367+09:00",
       "collected_at": "2026-08-04T14:16:35.537589+09:00"
+    },
+    {
+      "id": "BqPiB",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/BqPiB",
+      "date": "2026-08-09",
+      "start_time": "11:30",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T15:55:00.367142+09:00",
+      "collected_at": "2026-08-04T15:55:00.367592+09:00"
     },
     {
       "id": "biK3K",
@@ -4818,6 +5136,31 @@
       "collected_at": "2026-08-04T14:56:58.681131+09:00"
     },
     {
+      "id": "4UiE2",
+      "title": "ミント親子杯 in ASSEMBLE下松店",
+      "url": "https://tonamel.com/competition/4UiE2",
+      "date": "2026-08-09",
+      "start_time": "13:00",
+      "prefecture": "オンライン",
+      "venue": "TORECA ASSEMBLE 下松店日時:8月9日(日) 13:00バトル開始予定エントリー方法:トナメル参加費:大人",
+      "address": null,
+      "online": true,
+      "fee": "500円",
+      "capacity": 32,
+      "prize": "優勝：ストームエメラルダ 15パック",
+      "format": "その他",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/hi17X",
+      "summary": "場所：TORECA ASSEMBLE 下松店日時：8月9日(日) 13:00バトル開始予定エントリー方法：トナメル参加費：大人500円、中学生以下無料レギュレーション：H以降デッキ構築：60枚 サイド6枚スイスドロー形式のソロバトル【ルール】対戦時間25分25分経過時に試合が続いている場合は、後攻の番まで実施する。サイド枚数に差がある場合は少ないほうの勝利。サイド枚数が同数の場合、先行に戻り続行。",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "TORECA ASSEMBLE 下松店",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T15:49:43.730388+09:00",
+      "collected_at": "2026-08-04T15:49:43.731129+09:00"
+    },
+    {
       "id": "0ECrI",
       "title": "ブックラ杯　ポケモンカード　BOX争奪戦",
       "url": "https://tonamel.com/competition/0ECrI",
@@ -4898,7 +5241,7 @@
       "url": "https://tonamel.com/competition/zd5BX",
       "date": "2026-08-09",
       "start_time": "15:00",
-      "prefecture": null,
+      "prefecture": "埼玉県",
       "venue": null,
       "address": null,
       "online": false,
@@ -4915,7 +5258,33 @@
       "organizer_name": "晴れる屋2 大宮店",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:09:42.662624+09:00",
-      "collected_at": "2026-08-04T15:09:42.663836+09:00"
+      "collected_at": "2026-08-04T15:09:42.663836+09:00",
+      "prefecture_inferred": true
+    },
+    {
+      "id": "VtplK",
+      "title": "ジュニア・シニア限定無料BOX争奪戦",
+      "url": "https://tonamel.com/competition/VtplK",
+      "date": "2026-08-09",
+      "start_time": "15:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 32,
+      "prize": "優勝：景品  拡張パック1BOX",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "※この大会は高校生以下の方のみ参加できます。対戦形式スタンダードレギュレーション 60枚参加費 無料参加賞 100円商品券&オーガナイザープロモ定員32人優勝景品 拡張パック１BOX",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:10:01.619107+09:00",
+      "collected_at": "2026-08-04T16:10:01.619430+09:00"
     },
     {
       "id": "oX8GQ",
@@ -5069,6 +5438,31 @@
       "collected_at": "2026-08-04T14:53:53.547347+09:00"
     },
     {
+      "id": "suPxG",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/suPxG",
+      "date": "2026-08-09",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:27:48.029063+09:00",
+      "collected_at": "2026-08-04T16:27:48.029514+09:00"
+    },
+    {
       "id": "5t60v",
       "title": "🔥🔥ニャースSR争奪戦🔥🔥",
       "url": "https://tonamel.com/competition/5t60v",
@@ -5092,6 +5486,31 @@
       "pv": 7,
       "tweeted_at": "2026-08-02T06:42:10+09:00",
       "collected_at": "2026-08-04T06:29:06.649984+09:00"
+    },
+    {
+      "id": "mVMAw",
+      "title": "kolo屋のイベント",
+      "url": "https://tonamel.com/competition/mVMAw",
+      "date": "2026-08-10",
+      "start_time": "13:00",
+      "prefecture": "オンライン",
+      "venue": null,
+      "address": null,
+      "online": true,
+      "fee": null,
+      "capacity": 6,
+      "prize": null,
+      "format": "その他",
+      "kind": "自主大会",
+      "organizer_url": "https://tonamel.com/organization/Vrikt",
+      "summary": "kolo屋のイベント - Tonamel",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "kolo屋",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:22:27.675030+09:00",
+      "collected_at": "2026-08-04T16:22:27.675219+09:00"
     },
     {
       "id": "YwAe2",
@@ -5369,6 +5788,32 @@
       "collected_at": "2026-08-04T06:29:07.855326+09:00"
     },
     {
+      "id": "SUoFM",
+      "title": "モーリーの夏休みポケカ強化塾 午前の部",
+      "url": "https://tonamel.com/competition/SUoFM",
+      "date": "2026-08-11",
+      "start_time": "11:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": null,
+      "online": false,
+      "fee": "500円",
+      "capacity": 32,
+      "prize": "Theトレカ100円商品券",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "夏休みの今がチャンス！新シーズンに向けたポケカ強化塾！講師にTheトレカプロモリシンジ選手とTheトレカアンバサダーのいっちー選手をお招きしております♪参加費 500円参加賞 Theトレカ100円商品券 ３連勝された方に限定キーホルダー進呈参加人数 32人スタンダードレギュレーションガンスリンガー形式※マッチングにはTAIARIを使用します。イベントスケジュール11：00〜受付11：30〜開会式1",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:07:41.561492+09:00",
+      "collected_at": "2026-08-04T16:07:41.562042+09:00",
+      "prefecture_inferred": true
+    },
+    {
       "id": "eZXGS",
       "title": "トレスタ宇宿　ポケモンカードBOX争奪戦",
       "url": "https://tonamel.com/competition/eZXGS",
@@ -5644,6 +6089,31 @@
       "collected_at": "2026-08-04T14:39:23.458672+09:00"
     },
     {
+      "id": "EnTaN",
+      "title": "カードピースのイベント",
+      "url": "https://tonamel.com/competition/EnTaN",
+      "date": "2026-08-11",
+      "start_time": "14:00",
+      "prefecture": null,
+      "venue": null,
+      "address": null,
+      "online": false,
+      "fee": null,
+      "capacity": 16,
+      "prize": null,
+      "format": "その他",
+      "kind": "自主大会",
+      "organizer_url": "https://tonamel.com/organization/nsaRt",
+      "summary": "カードピースのイベント - Tonamel",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "カードピース",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T15:57:01.658955+09:00",
+      "collected_at": "2026-08-04T15:57:01.659178+09:00"
+    },
+    {
       "id": "Z8gav",
       "title": "ストームエメラルダBOX争奪戦DX　inカーキン溝の口",
       "url": "https://tonamel.com/competition/Z8gav",
@@ -5767,6 +6237,32 @@
       "pv": 7,
       "tweeted_at": "2026-08-04T14:43:01.327629+09:00",
       "collected_at": "2026-08-04T14:43:01.328510+09:00"
+    },
+    {
+      "id": "bl7aZ",
+      "title": "モーリーの夏休みポケカ強化塾　午後の部",
+      "url": "https://tonamel.com/competition/bl7aZ",
+      "date": "2026-08-11",
+      "start_time": "17:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": null,
+      "online": false,
+      "fee": "500円",
+      "capacity": 64,
+      "prize": "優勝：景品 拡張パック1BOX",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "夏休みの今がチャンス！新シーズンに向けたポケカ強化塾！午前の部で教わった知識を活かしてBOX争奪戦で実践タイム！参加費 500円参加賞 Theトレカ100円商品券優勝景品 拡張パック１BOX 参加人数 64人(講師を含む)スタンダードレギュレーションスイスドロー制イベントスケジュール17：00〜受付17：30〜開会式17：45〜対戦（最大５回戦）20：15〜表彰・閉会※上記スケジュールはあくまで目",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:14:11.279976+09:00",
+      "collected_at": "2026-08-04T16:14:11.280553+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "Bz05U",
@@ -6167,6 +6663,31 @@
       "pv": 7,
       "tweeted_at": "2026-08-04T14:40:59.397679+09:00",
       "collected_at": "2026-08-04T14:40:59.398116+09:00"
+    },
+    {
+      "id": "8AjE3",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/8AjE3",
+      "date": "2026-08-12",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T15:52:21.135106+09:00",
+      "collected_at": "2026-08-04T15:52:21.135566+09:00"
     },
     {
       "id": "3oruJ",
@@ -6643,6 +7164,31 @@
       "pv": 7,
       "tweeted_at": "2026-08-04T14:51:31.261544+09:00",
       "collected_at": "2026-08-04T14:51:31.262087+09:00"
+    },
+    {
+      "id": "irxiy",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/irxiy",
+      "date": "2026-08-13",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:19:49.333840+09:00",
+      "collected_at": "2026-08-04T16:19:49.334330+09:00"
     },
     {
       "id": "MA7PX",
@@ -7195,6 +7741,31 @@
       "collected_at": "2026-08-04T14:35:53.552788+09:00"
     },
     {
+      "id": "sn2Ky",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/sn2Ky",
+      "date": "2026-08-14",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:27:39.176587+09:00",
+      "collected_at": "2026-08-04T16:27:39.177018+09:00"
+    },
+    {
       "id": "S5uwY",
       "title": "ジムバトル8/14",
       "url": "https://tonamel.com/competition/S5uwY",
@@ -7445,6 +8016,31 @@
       "collected_at": "2026-08-04T11:54:18.921800+09:00"
     },
     {
+      "id": "LftlZ",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/LftlZ",
+      "date": "2026-08-15",
+      "start_time": "11:30",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:01:54.467191+09:00",
+      "collected_at": "2026-08-04T16:01:54.467637+09:00"
+    },
+    {
       "id": "O1VdV",
       "title": "ハレツーバトル「エクストラ」",
       "url": "https://tonamel.com/competition/O1VdV",
@@ -7518,6 +8114,56 @@
       "pv": 7,
       "tweeted_at": "2026-08-04T15:06:04.982616+09:00",
       "collected_at": "2026-08-04T15:06:04.983050+09:00"
+    },
+    {
+      "id": "9c0HE",
+      "title": "第8回Koloyacup",
+      "url": "https://tonamel.com/competition/9c0HE",
+      "date": "2026-08-15",
+      "start_time": "13:00",
+      "prefecture": "東京都",
+      "venue": "東京都立産業貿易センター 台東館　９Ｆ　ホール",
+      "address": " 〒111-0033 東京都台東区花川戸２丁目６−５",
+      "online": false,
+      "fee": "7,500円",
+      "capacity": 84,
+      "prize": "優勝：5万円相当のシングルカード",
+      "format": "スタンダード",
+      "kind": "自主大会",
+      "organizer_url": "https://tonamel.com/organization/Vrikt",
+      "summary": "【参加キャンセルについて】キャンセルは必ず大会前日21時までに行って下さい。それ以降の連絡無しのキャンセルは当日キャンセル扱いとします。当日の無断キャンセルは、今後のKoloya cup及び関連イベントへの参加をお断りさせて頂きます。…………【大会ルール】・スタンダードレギュレーション・プロキシ使用不可・途中のデッキ変更不可大会当日までに発売したカード全て使用可能。裁定やルール等は公式に準ずる。※",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "kolo屋",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T15:53:28.300086+09:00",
+      "collected_at": "2026-08-04T15:53:28.301603+09:00"
+    },
+    {
+      "id": "P7MwV",
+      "title": "8/15(Day1)E.F.G限定レギュレーション",
+      "url": "https://tonamel.com/competition/P7MwV",
+      "date": "2026-08-15",
+      "start_time": "13:00",
+      "prefecture": null,
+      "venue": "トレカアセンブル防府店",
+      "address": "防府市岸津1-17-12",
+      "online": false,
+      "fee": "500円",
+      "capacity": 64,
+      "prize": null,
+      "format": "その他",
+      "kind": "自主大会",
+      "organizer_url": "https://tonamel.com/organization/DUJ2V",
+      "summary": "E.F.G限定レギュレーション大会【開催日時】8/15 13:00~(受付開始12:30~)【参加費】￥500(高校生以下無料)【フォーマット】E.F.Gレギュレーションのみ【景品】なにかしらBOX【大会形式】全勝者が1人になるまでスイスドロー形式で対戦を行う参加人数により上位者でトーナメント開催1試合30分制限時間が過ぎた場合は後攻の番が終わるまで行い、サイド枚数の少ないプレイヤーの勝利とする。",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "TORECA ASSEMBLE",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:04:36.545662+09:00",
+      "collected_at": "2026-08-04T16:04:36.546405+09:00"
     },
     {
       "id": "DAbsu",
@@ -7668,6 +8314,31 @@
       "pv": 7,
       "tweeted_at": "2026-08-04T14:51:50.969988+09:00",
       "collected_at": "2026-08-04T14:51:50.970371+09:00"
+    },
+    {
+      "id": "T8YxF",
+      "title": "The トレカ公認トレーナーズリーグ オープン",
+      "url": "https://tonamel.com/competition/T8YxF",
+      "date": "2026-08-15",
+      "start_time": "15:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": null,
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント「トレーナーズリーグ」は、一定条件の下、ジム店舗で開催可能な公式大会です。成績上位者は、ポケモンWCSの出場権や限定アイテムとの交換が可能なポイント「チャンピオンシップポイント」を獲得することが可能です。また、参加者数に応じて、順位によりチャンピオンシップポイント",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:08:14.425077+09:00",
+      "collected_at": "2026-08-04T16:08:14.425534+09:00"
     },
     {
       "id": "UJKiC",
@@ -7921,6 +8592,31 @@
       "collected_at": "2026-08-04T06:29:44.123040+09:00"
     },
     {
+      "id": "fpBvu",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/fpBvu",
+      "date": "2026-08-15",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:17:18.935303+09:00",
+      "collected_at": "2026-08-04T16:17:18.935725+09:00"
+    },
+    {
       "id": "KYpP5",
       "title": "【第４回】トレコネポケカフェス＠南浦和",
       "url": "https://tonamel.com/competition/KYpP5",
@@ -7969,6 +8665,32 @@
       "pv": 7,
       "tweeted_at": "2026-08-04T14:50:51.487741+09:00",
       "collected_at": "2026-08-04T14:50:51.489163+09:00"
+    },
+    {
+      "id": "GdFYR",
+      "title": "第3回　Thetoreca Champion League",
+      "url": "https://tonamel.com/competition/GdFYR",
+      "date": "2026-08-16",
+      "start_time": "10:30",
+      "prefecture": "福岡県",
+      "venue": null,
+      "address": null,
+      "online": false,
+      "fee": null,
+      "capacity": 64,
+      "prize": null,
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "優勝賞品 メガブレイブポケモンセンタージムセットその他上位賞あり※エントリーの際は必ず各大会同じエントリー名の使用をお願いいたします。大会毎にエントリー名の異なる方はポイントランキングの反映がそれぞれのプレイヤー名毎の集計となります。大会ルール* レギュレーション 60枚デッキ／サイド6枚戦 スタンダードレギュレーション BO3 （WCSレギュレーション）* 大会形式 * 予選：スイスドロー形式",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T15:58:24.742506+09:00",
+      "collected_at": "2026-08-04T15:58:24.744121+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "IRbHd",
@@ -8271,6 +8993,31 @@
       "collected_at": "2026-08-04T14:57:59.907887+09:00"
     },
     {
+      "id": "5NskF",
+      "title": "8/16(Day2)E.F.G限定レギュレーション",
+      "url": "https://tonamel.com/competition/5NskF",
+      "date": "2026-08-16",
+      "start_time": "13:00",
+      "prefecture": null,
+      "venue": "トレカアセンブル防府店",
+      "address": "防府市岸津1-17-12",
+      "online": false,
+      "fee": "500円",
+      "capacity": 64,
+      "prize": null,
+      "format": "その他",
+      "kind": "自主大会",
+      "organizer_url": "https://tonamel.com/organization/DUJ2V",
+      "summary": "E.F.G限定レギュレーション大会【開催日時】8/16 13:00~(受付開始12:30~)【参加費】￥500(高校生以下無料)【フォーマット】E.F.Gレギュレーションのみ【景品】なにかしらBOX【大会形式】全勝者が1人になるまでスイスドロー形式で対戦を行う参加人数により上位者でトーナメント開催1試合30分制限時間が過ぎた場合は後攻の番が終わるまで行い、サイド枚数の少ないプレイヤーの勝利とする。",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "TORECA ASSEMBLE",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T15:50:29.741566+09:00",
+      "collected_at": "2026-08-04T15:50:29.742312+09:00"
+    },
+    {
       "id": "V39HK",
       "title": "ふらっとポケカ交流会",
       "url": "https://tonamel.com/competition/V39HK",
@@ -8426,7 +9173,7 @@
       "url": "https://tonamel.com/competition/aSz5J",
       "date": "2026-08-16",
       "start_time": "15:00",
-      "prefecture": null,
+      "prefecture": "埼玉県",
       "venue": null,
       "address": null,
       "online": false,
@@ -8443,7 +9190,8 @@
       "organizer_name": "晴れる屋2 大宮店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:47:32.686423+09:00",
-      "collected_at": "2026-08-04T14:47:32.687631+09:00"
+      "collected_at": "2026-08-04T14:47:32.687631+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "psAvj",
@@ -8626,7 +9374,7 @@
       "url": "https://tonamel.com/competition/Go89B",
       "date": "2026-08-16",
       "start_time": "18:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -8643,7 +9391,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:30:17.026827+09:00",
-      "collected_at": "2026-08-04T14:30:17.027335+09:00"
+      "collected_at": "2026-08-04T14:30:17.027335+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "JyXdA",
@@ -8851,7 +9600,7 @@
       "url": "https://tonamel.com/competition/9VLWF",
       "date": "2026-08-17",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -8868,7 +9617,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:23:45.687670+09:00",
-      "collected_at": "2026-08-04T14:23:45.688058+09:00"
+      "collected_at": "2026-08-04T14:23:45.688058+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "NqZPP",
@@ -9126,7 +9876,7 @@
       "url": "https://tonamel.com/competition/UU9kr",
       "date": "2026-08-17",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -9143,7 +9893,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:42:53.521242+09:00",
-      "collected_at": "2026-08-04T14:42:53.521752+09:00"
+      "collected_at": "2026-08-04T14:42:53.521752+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "x4Ljs",
@@ -9151,7 +9902,7 @@
       "url": "https://tonamel.com/competition/x4Ljs",
       "date": "2026-08-17",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -9168,7 +9919,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:07:38.005383+09:00",
-      "collected_at": "2026-08-04T15:07:38.006077+09:00"
+      "collected_at": "2026-08-04T15:07:38.006077+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "rq5no",
@@ -9426,7 +10178,7 @@
       "url": "https://tonamel.com/competition/5Q2B7",
       "date": "2026-08-17",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -9443,7 +10195,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:20:11.483920+09:00",
-      "collected_at": "2026-08-04T14:20:11.484625+09:00"
+      "collected_at": "2026-08-04T14:20:11.484625+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "QVIWL",
@@ -9476,7 +10229,7 @@
       "url": "https://tonamel.com/competition/Qmtfn",
       "date": "2026-08-17",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -9493,7 +10246,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:39:14.891139+09:00",
-      "collected_at": "2026-08-04T14:39:14.891627+09:00"
+      "collected_at": "2026-08-04T14:39:14.891627+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "xl7qF",
@@ -9701,7 +10455,7 @@
       "url": "https://tonamel.com/competition/OFc68",
       "date": "2026-08-18",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -9718,7 +10472,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:37:00.217010+09:00",
-      "collected_at": "2026-08-04T14:37:00.217408+09:00"
+      "collected_at": "2026-08-04T14:37:00.217408+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "dBgVG",
@@ -9726,7 +10481,7 @@
       "url": "https://tonamel.com/competition/dBgVG",
       "date": "2026-08-18",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -9743,7 +10498,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:49:54.736469+09:00",
-      "collected_at": "2026-08-04T14:49:54.736895+09:00"
+      "collected_at": "2026-08-04T14:49:54.736895+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "nacR9",
@@ -9776,7 +10532,7 @@
       "url": "https://tonamel.com/competition/qcSDD",
       "date": "2026-08-18",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -9793,7 +10549,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:01:34.986256+09:00",
-      "collected_at": "2026-08-04T15:01:34.986994+09:00"
+      "collected_at": "2026-08-04T15:01:34.986994+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "VvtaR",
@@ -9926,7 +10683,7 @@
       "url": "https://tonamel.com/competition/2CuLs",
       "date": "2026-08-18",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -9943,7 +10700,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:17:40.550309+09:00",
-      "collected_at": "2026-08-04T14:17:40.550814+09:00"
+      "collected_at": "2026-08-04T14:17:40.550814+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "CnPUp",
@@ -10001,7 +10759,7 @@
       "url": "https://tonamel.com/competition/K5NrV",
       "date": "2026-08-18",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -10018,7 +10776,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:33:06.474377+09:00",
-      "collected_at": "2026-08-04T14:33:06.475721+09:00"
+      "collected_at": "2026-08-04T14:33:06.475721+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "U2yAV",
@@ -10051,7 +10810,7 @@
       "url": "https://tonamel.com/competition/nu45p",
       "date": "2026-08-18",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -10068,7 +10827,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:59:22.780102+09:00",
-      "collected_at": "2026-08-04T14:59:22.780522+09:00"
+      "collected_at": "2026-08-04T14:59:22.780522+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "fnW4i",
@@ -10301,7 +11061,7 @@
       "url": "https://tonamel.com/competition/19b70",
       "date": "2026-08-18",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -10318,7 +11078,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:16:40.628145+09:00",
-      "collected_at": "2026-08-04T14:16:40.628608+09:00"
+      "collected_at": "2026-08-04T14:16:40.628608+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "Agksq",
@@ -10326,7 +11087,7 @@
       "url": "https://tonamel.com/competition/Agksq",
       "date": "2026-08-18",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -10343,7 +11104,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:24:52.818187+09:00",
-      "collected_at": "2026-08-04T14:24:52.819237+09:00"
+      "collected_at": "2026-08-04T14:24:52.819237+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "XCWwu",
@@ -10426,7 +11188,7 @@
       "url": "https://tonamel.com/competition/pNyeb",
       "date": "2026-08-18",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -10443,7 +11205,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:00:39.917410+09:00",
-      "collected_at": "2026-08-04T15:00:39.917869+09:00"
+      "collected_at": "2026-08-04T15:00:39.917869+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "tgvqF",
@@ -10469,6 +11232,31 @@
       "pv": 7,
       "tweeted_at": "2026-08-04T15:04:39.255715+09:00",
       "collected_at": "2026-08-04T15:04:39.256224+09:00"
+    },
+    {
+      "id": "txJoz",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/txJoz",
+      "date": "2026-08-18",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:28:23.054489+09:00",
+      "collected_at": "2026-08-04T16:28:23.054919+09:00"
     },
     {
       "id": "g9iae",
@@ -10551,7 +11339,7 @@
       "url": "https://tonamel.com/competition/1kUX0",
       "date": "2026-08-19",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -10568,7 +11356,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:17:15.111112+09:00",
-      "collected_at": "2026-08-04T14:17:15.111923+09:00"
+      "collected_at": "2026-08-04T14:17:15.111923+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "AuEW2",
@@ -10676,7 +11465,7 @@
       "url": "https://tonamel.com/competition/v7kwe",
       "date": "2026-08-19",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -10693,7 +11482,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:05:39.188657+09:00",
-      "collected_at": "2026-08-04T15:05:39.189411+09:00"
+      "collected_at": "2026-08-04T15:05:39.189411+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "vZzUz",
@@ -10751,7 +11541,7 @@
       "url": "https://tonamel.com/competition/zFjGE",
       "date": "2026-08-19",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -10768,7 +11558,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:09:17.269968+09:00",
-      "collected_at": "2026-08-04T15:09:17.270398+09:00"
+      "collected_at": "2026-08-04T15:09:17.270398+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "wbJK3",
@@ -10951,7 +11742,7 @@
       "url": "https://tonamel.com/competition/AjsVz",
       "date": "2026-08-19",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -10968,7 +11759,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:24:55.355662+09:00",
-      "collected_at": "2026-08-04T14:24:55.356451+09:00"
+      "collected_at": "2026-08-04T14:24:55.356451+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "JqISQ",
@@ -11001,7 +11793,7 @@
       "url": "https://tonamel.com/competition/WiMGe",
       "date": "2026-08-19",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -11018,7 +11810,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:44:43.026716+09:00",
-      "collected_at": "2026-08-04T14:44:43.028073+09:00"
+      "collected_at": "2026-08-04T14:44:43.028073+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "iq3Ji",
@@ -11051,7 +11844,7 @@
       "url": "https://tonamel.com/competition/ruyvy",
       "date": "2026-08-19",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -11068,7 +11861,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:02:59.252445+09:00",
-      "collected_at": "2026-08-04T15:02:59.252962+09:00"
+      "collected_at": "2026-08-04T15:02:59.252962+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "vurzh",
@@ -11326,7 +12120,7 @@
       "url": "https://tonamel.com/competition/GWAMx",
       "date": "2026-08-19",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -11343,7 +12137,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:30:03.103977+09:00",
-      "collected_at": "2026-08-04T14:30:03.104433+09:00"
+      "collected_at": "2026-08-04T14:30:03.104433+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "KHxmA",
@@ -11351,7 +12146,7 @@
       "url": "https://tonamel.com/competition/KHxmA",
       "date": "2026-08-19",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -11368,7 +12163,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:33:19.491392+09:00",
-      "collected_at": "2026-08-04T14:33:19.491828+09:00"
+      "collected_at": "2026-08-04T14:33:19.491828+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "NhKMO",
@@ -11451,7 +12247,7 @@
       "url": "https://tonamel.com/competition/jumrS",
       "date": "2026-08-19",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -11468,7 +12264,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:55:58.462837+09:00",
-      "collected_at": "2026-08-04T14:55:58.463545+09:00"
+      "collected_at": "2026-08-04T14:55:58.463545+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "vv9nb",
@@ -11494,6 +12291,31 @@
       "pv": 7,
       "tweeted_at": "2026-08-04T15:06:40.807662+09:00",
       "collected_at": "2026-08-04T15:06:40.808569+09:00"
+    },
+    {
+      "id": "7f5jm",
+      "title": "The トレカ公認 エクストラバトルの日",
+      "url": "https://tonamel.com/competition/7f5jm",
+      "date": "2026-08-19",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：プロモパック 1パックじゃんけん賞:優勝者1名1パック",
+      "format": "エクストラ",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件 オープンレギュレーションエクストラ60枚参加費100円定員64人参加賞プロモカード1枚＋プロモパック1パック1位プロモパック 1パックじゃんけん賞：優勝者1名1パック※但し、9名以上参加の場合のみ実施■エクストラレギュレーション レギュレーションの詳細はトレーナーズウェブサイトをご確認下さい。※エクストラレギュレーションでは、一部使用が制限されているカードがあります。※「デッキに入れるこ",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T15:51:51.112689+09:00",
+      "collected_at": "2026-08-04T15:51:51.113238+09:00"
     },
     {
       "id": "G6kb4",
@@ -11652,7 +12474,7 @@
       "url": "https://tonamel.com/competition/gzvJ2",
       "date": "2026-08-20",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -11669,7 +12491,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:53:18.101342+09:00",
-      "collected_at": "2026-08-04T14:53:18.101735+09:00"
+      "collected_at": "2026-08-04T14:53:18.101735+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "jQbHi",
@@ -11677,7 +12500,7 @@
       "url": "https://tonamel.com/competition/jQbHi",
       "date": "2026-08-20",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -11694,7 +12517,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:55:30.476116+09:00",
-      "collected_at": "2026-08-04T14:55:30.476576+09:00"
+      "collected_at": "2026-08-04T14:55:30.476576+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "mWcPS",
@@ -11752,7 +12576,7 @@
       "url": "https://tonamel.com/competition/s129A",
       "date": "2026-08-20",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -11769,7 +12593,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:03:08.029997+09:00",
-      "collected_at": "2026-08-04T15:03:08.030406+09:00"
+      "collected_at": "2026-08-04T15:03:08.030406+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "wySvE",
@@ -11902,7 +12727,7 @@
       "url": "https://tonamel.com/competition/8g9yR",
       "date": "2026-08-20",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -11919,7 +12744,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:22:59.774188+09:00",
-      "collected_at": "2026-08-04T14:22:59.774632+09:00"
+      "collected_at": "2026-08-04T14:22:59.774632+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "Jz26Y",
@@ -11927,7 +12753,7 @@
       "url": "https://tonamel.com/competition/Jz26Y",
       "date": "2026-08-20",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -11944,7 +12770,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:32:57.594449+09:00",
-      "collected_at": "2026-08-04T14:32:57.595022+09:00"
+      "collected_at": "2026-08-04T14:32:57.595022+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "f1zWL",
@@ -11977,7 +12804,7 @@
       "url": "https://tonamel.com/competition/qHC1H",
       "date": "2026-08-20",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -11994,7 +12821,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:01:21.401621+09:00",
-      "collected_at": "2026-08-04T15:01:21.402101+09:00"
+      "collected_at": "2026-08-04T15:01:21.402101+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "rEN0H",
@@ -12427,7 +13255,7 @@
       "url": "https://tonamel.com/competition/g3Jav",
       "date": "2026-08-20",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -12444,7 +13272,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:52:38.294358+09:00",
-      "collected_at": "2026-08-04T14:52:38.295069+09:00"
+      "collected_at": "2026-08-04T14:52:38.295069+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "h840x",
@@ -12452,7 +13281,7 @@
       "url": "https://tonamel.com/competition/h840x",
       "date": "2026-08-20",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -12469,7 +13298,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:53:25.947937+09:00",
-      "collected_at": "2026-08-04T14:53:25.948356+09:00"
+      "collected_at": "2026-08-04T14:53:25.948356+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "riBmJ",
@@ -12502,7 +13332,7 @@
       "url": "https://tonamel.com/competition/zth0q",
       "date": "2026-08-20",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -12519,7 +13349,33 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:09:56.094330+09:00",
-      "collected_at": "2026-08-04T15:09:56.094793+09:00"
+      "collected_at": "2026-08-04T15:09:56.094793+09:00",
+      "prefecture_inferred": true
+    },
+    {
+      "id": "e9ki5",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/e9ki5",
+      "date": "2026-08-20",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:16:11.894972+09:00",
+      "collected_at": "2026-08-04T16:16:11.895421+09:00"
     },
     {
       "id": "7URho",
@@ -12552,7 +13408,7 @@
       "url": "https://tonamel.com/competition/td2NP",
       "date": "2026-08-21",
       "start_time": "12:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -12569,7 +13425,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:04:29.947416+09:00",
-      "collected_at": "2026-08-04T15:04:29.947806+09:00"
+      "collected_at": "2026-08-04T15:04:29.947806+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "1GqfD",
@@ -12602,7 +13459,7 @@
       "url": "https://tonamel.com/competition/1j5Ao",
       "date": "2026-08-21",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -12619,7 +13476,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:17:12.575939+09:00",
-      "collected_at": "2026-08-04T14:17:12.576365+09:00"
+      "collected_at": "2026-08-04T14:17:12.576365+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "FkJ0p",
@@ -12652,7 +13510,7 @@
       "url": "https://tonamel.com/competition/Lyap8",
       "date": "2026-08-21",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -12669,7 +13527,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:34:48.177347+09:00",
-      "collected_at": "2026-08-04T14:34:48.178066+09:00"
+      "collected_at": "2026-08-04T14:34:48.178066+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "QJgDB",
@@ -12777,7 +13636,7 @@
       "url": "https://tonamel.com/competition/J6NnL",
       "date": "2026-08-21",
       "start_time": "14:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -12794,7 +13653,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:31:58.437090+09:00",
-      "collected_at": "2026-08-04T14:31:58.437601+09:00"
+      "collected_at": "2026-08-04T14:31:58.437601+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "7bafG",
@@ -12952,7 +13812,7 @@
       "url": "https://tonamel.com/competition/WCbsJ",
       "date": "2026-08-21",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -12969,7 +13829,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:44:09.497756+09:00",
-      "collected_at": "2026-08-04T14:44:09.498305+09:00"
+      "collected_at": "2026-08-04T14:44:09.498305+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "gqnhn",
@@ -13027,7 +13888,7 @@
       "url": "https://tonamel.com/competition/r9iio",
       "date": "2026-08-21",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -13044,7 +13905,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:02:07.833523+09:00",
-      "collected_at": "2026-08-04T15:02:07.834255+09:00"
+      "collected_at": "2026-08-04T15:02:07.834255+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "ua3Rp",
@@ -13052,7 +13914,7 @@
       "url": "https://tonamel.com/competition/ua3Rp",
       "date": "2026-08-21",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -13069,7 +13931,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:05:22.141121+09:00",
-      "collected_at": "2026-08-04T15:05:22.141675+09:00"
+      "collected_at": "2026-08-04T15:05:22.141675+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "x6ALr",
@@ -13277,7 +14140,7 @@
       "url": "https://tonamel.com/competition/01YOT",
       "date": "2026-08-21",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -13294,7 +14157,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:15:45.561036+09:00",
-      "collected_at": "2026-08-04T14:15:45.561766+09:00"
+      "collected_at": "2026-08-04T14:15:45.561766+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "CEWiz",
@@ -13402,7 +14266,7 @@
       "url": "https://tonamel.com/competition/RdytL",
       "date": "2026-08-21",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -13419,7 +14283,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:40:15.651273+09:00",
-      "collected_at": "2026-08-04T14:40:15.652018+09:00"
+      "collected_at": "2026-08-04T14:40:15.652018+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "fjxF3",
@@ -13427,7 +14292,7 @@
       "url": "https://tonamel.com/competition/fjxF3",
       "date": "2026-08-21",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -13444,7 +14309,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:52:16.999490+09:00",
-      "collected_at": "2026-08-04T14:52:16.999936+09:00"
+      "collected_at": "2026-08-04T14:52:16.999936+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "iL0oy",
@@ -13495,6 +14361,31 @@
       "pv": 7,
       "tweeted_at": "2026-08-04T15:01:03.457196+09:00",
       "collected_at": "2026-08-04T15:01:03.458084+09:00"
+    },
+    {
+      "id": "p1G6h",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/p1G6h",
+      "date": "2026-08-21",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:24:36.878366+09:00",
+      "collected_at": "2026-08-04T16:24:36.878803+09:00"
     },
     {
       "id": "8wf2x",
@@ -13722,12 +14613,37 @@
       "collected_at": "2026-08-04T06:30:02.673063+09:00"
     },
     {
+      "id": "RRxhD",
+      "title": "第２回 Theトレカ TAG TEAM",
+      "url": "https://tonamel.com/competition/RRxhD",
+      "date": "2026-08-22",
+      "start_time": "11:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "4,000円",
+      "capacity": 32,
+      "prize": "優勝：賞品 拡張パック3BOXその他上位賞あり",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "招待選手 アライヨシユキ（Aよし）選手 ミズノノブヒコ（ノブ）選手参加費 4000円（一人2000円）参加賞 200円分商品券（一人100円） 参加人数 2人チーム戦・最大32チーム※１チームあたり１エントリーをお願いします。※チームの代表者は当日決定します。優勝賞品 拡張パック3BOXその他上位賞あり【チーム賞】予選1位のチームメンバーに一人ずつに、2500円分の商品券をプレゼント！！⭐︎クイズ",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:06:51.680069+09:00",
+      "collected_at": "2026-08-04T16:06:51.681871+09:00"
+    },
+    {
       "id": "f8fpU",
       "title": "デッキビルド選手権~ストレージを使って最強デッキを作ろう！",
       "url": "https://tonamel.com/competition/f8fpU",
       "date": "2026-08-22",
       "start_time": "12:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -13744,7 +14660,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:51:43.563264+09:00",
-      "collected_at": "2026-08-04T14:51:43.564072+09:00"
+      "collected_at": "2026-08-04T14:51:43.564072+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "MX76Z",
@@ -13902,7 +14819,7 @@
       "url": "https://tonamel.com/competition/oaaEC",
       "date": "2026-08-22",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -13919,7 +14836,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:59:58.615468+09:00",
-      "collected_at": "2026-08-04T14:59:58.616625+09:00"
+      "collected_at": "2026-08-04T14:59:58.616625+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "tAORk",
@@ -13927,7 +14845,7 @@
       "url": "https://tonamel.com/competition/tAORk",
       "date": "2026-08-22",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -13944,7 +14862,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:04:10.077310+09:00",
-      "collected_at": "2026-08-04T15:04:10.078062+09:00"
+      "collected_at": "2026-08-04T15:04:10.078062+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "tQZxR",
@@ -14102,7 +15021,7 @@
       "url": "https://tonamel.com/competition/ErtQj",
       "date": "2026-08-22",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -14119,7 +15038,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:28:42.599448+09:00",
-      "collected_at": "2026-08-04T14:28:42.599901+09:00"
+      "collected_at": "2026-08-04T14:28:42.599901+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "EtVyC",
@@ -14152,7 +15072,7 @@
       "url": "https://tonamel.com/competition/h9huD",
       "date": "2026-08-22",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -14169,7 +15089,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:53:27.105506+09:00",
-      "collected_at": "2026-08-04T14:53:27.106754+09:00"
+      "collected_at": "2026-08-04T14:53:27.106754+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "jjhhD",
@@ -14502,7 +15423,7 @@
       "url": "https://tonamel.com/competition/4C6nj",
       "date": "2026-08-22",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -14519,7 +15440,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:19:09.094758+09:00",
-      "collected_at": "2026-08-04T14:19:09.095200+09:00"
+      "collected_at": "2026-08-04T14:19:09.095200+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "McuJk",
@@ -14527,7 +15449,7 @@
       "url": "https://tonamel.com/competition/McuJk",
       "date": "2026-08-22",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -14544,7 +15466,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:35:16.553483+09:00",
-      "collected_at": "2026-08-04T14:35:16.553981+09:00"
+      "collected_at": "2026-08-04T14:35:16.553981+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "PoMHi",
@@ -14647,12 +15570,37 @@
       "collected_at": "2026-08-04T14:30:51.585822+09:00"
     },
     {
+      "id": "tELRJ",
+      "title": "第26回Theトレカ杯",
+      "url": "https://tonamel.com/competition/tELRJ",
+      "date": "2026-08-23",
+      "start_time": "11:30",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "2,000円",
+      "capacity": 64,
+      "prize": "100円商品券参加人数 64人優勝賞品優勝 『ストームエメラルダ』『ニンジャスピナー』『ア…",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加費 2000円(中学生以下1000円)参加賞 100円商品券参加人数 64人優勝賞品優勝 『ストームエメラルダ』『ニンジャスピナー』『アビスアイ』 各１BOX準優勝 拡張パック1BOXベスト4 拡張パック15パック＋デッキシールドベスト8 拡張パック5パック＋デッキシールド※エントリーの際は必ず各大会同じエントリー名の使用をお願いいたします。大会毎にエントリー名の異なる方はポイントランキングの",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:27:59.974457+09:00",
+      "collected_at": "2026-08-04T16:27:59.975967+09:00"
+    },
+    {
       "id": "G5W3E",
       "title": "推しポケ交流会【12時の部】",
       "url": "https://tonamel.com/competition/G5W3E",
       "date": "2026-08-23",
       "start_time": "12:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -14669,7 +15617,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:29:37.365910+09:00",
-      "collected_at": "2026-08-04T14:29:37.366491+09:00"
+      "collected_at": "2026-08-04T14:29:37.366491+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "BzgMV",
@@ -14827,7 +15776,7 @@
       "url": "https://tonamel.com/competition/V7VLn",
       "date": "2026-08-23",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -14844,7 +15793,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:43:23.637958+09:00",
-      "collected_at": "2026-08-04T14:43:23.638700+09:00"
+      "collected_at": "2026-08-04T14:43:23.638700+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "VCmxC",
@@ -15052,7 +16002,7 @@
       "url": "https://tonamel.com/competition/Ey7HJ",
       "date": "2026-08-23",
       "start_time": "15:00",
-      "prefecture": null,
+      "prefecture": "埼玉県",
       "venue": null,
       "address": null,
       "online": false,
@@ -15069,7 +16019,8 @@
       "organizer_name": "晴れる屋2 大宮店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:28:51.205580+09:00",
-      "collected_at": "2026-08-04T14:28:51.206811+09:00"
+      "collected_at": "2026-08-04T14:28:51.206811+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "QAbqV",
@@ -15127,7 +16078,7 @@
       "url": "https://tonamel.com/competition/ubmEz",
       "date": "2026-08-23",
       "start_time": "15:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -15144,7 +16095,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:05:24.682067+09:00",
-      "collected_at": "2026-08-04T15:05:24.682942+09:00"
+      "collected_at": "2026-08-04T15:05:24.682942+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "ze009",
@@ -15152,7 +16104,7 @@
       "url": "https://tonamel.com/competition/ze009",
       "date": "2026-08-23",
       "start_time": "15:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -15169,7 +16121,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:09:43.824929+09:00",
-      "collected_at": "2026-08-04T15:09:43.825370+09:00"
+      "collected_at": "2026-08-04T15:09:43.825370+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "l6wbH",
@@ -15427,7 +16380,7 @@
       "url": "https://tonamel.com/competition/oJmoa",
       "date": "2026-08-23",
       "start_time": "18:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -15444,7 +16397,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:59:53.156519+09:00",
-      "collected_at": "2026-08-04T14:59:53.156950+09:00"
+      "collected_at": "2026-08-04T14:59:53.156950+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "Dw4TX",
@@ -15577,7 +16531,7 @@
       "url": "https://tonamel.com/competition/FqXWw",
       "date": "2026-08-24",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -15594,7 +16548,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:29:27.356031+09:00",
-      "collected_at": "2026-08-04T14:29:27.356467+09:00"
+      "collected_at": "2026-08-04T14:29:27.356467+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "MyOLl",
@@ -15602,7 +16557,7 @@
       "url": "https://tonamel.com/competition/MyOLl",
       "date": "2026-08-24",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -15619,7 +16574,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:35:48.469793+09:00",
-      "collected_at": "2026-08-04T14:35:48.470510+09:00"
+      "collected_at": "2026-08-04T14:35:48.470510+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "UlaRO",
@@ -15627,7 +16583,7 @@
       "url": "https://tonamel.com/competition/UlaRO",
       "date": "2026-08-24",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -15644,7 +16600,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:43:12.677171+09:00",
-      "collected_at": "2026-08-04T14:43:12.677930+09:00"
+      "collected_at": "2026-08-04T14:43:12.677930+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "YjPpU",
@@ -15852,7 +16809,7 @@
       "url": "https://tonamel.com/competition/2lZMT",
       "date": "2026-08-24",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -15869,7 +16826,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:17:56.947788+09:00",
-      "collected_at": "2026-08-04T14:17:56.948312+09:00"
+      "collected_at": "2026-08-04T14:17:56.948312+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "5DhlQ",
@@ -15877,7 +16835,7 @@
       "url": "https://tonamel.com/competition/5DhlQ",
       "date": "2026-08-24",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -15894,7 +16852,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:20:02.439299+09:00",
-      "collected_at": "2026-08-04T14:20:02.439991+09:00"
+      "collected_at": "2026-08-04T14:20:02.439991+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "GIxgr",
@@ -15927,7 +16886,7 @@
       "url": "https://tonamel.com/competition/JnKyp",
       "date": "2026-08-24",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -15944,7 +16903,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:32:48.409209+09:00",
-      "collected_at": "2026-08-04T14:32:48.410558+09:00"
+      "collected_at": "2026-08-04T14:32:48.410558+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "jVAnu",
@@ -16302,7 +17262,7 @@
       "url": "https://tonamel.com/competition/9C6JX",
       "date": "2026-08-24",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -16319,7 +17279,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:23:32.032657+09:00",
-      "collected_at": "2026-08-04T14:23:32.033106+09:00"
+      "collected_at": "2026-08-04T14:23:32.033106+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "Dv8Do",
@@ -16327,7 +17288,7 @@
       "url": "https://tonamel.com/competition/Dv8Do",
       "date": "2026-08-24",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -16344,7 +17305,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:27:58.389354+09:00",
-      "collected_at": "2026-08-04T14:27:58.390079+09:00"
+      "collected_at": "2026-08-04T14:27:58.390079+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "cAiYZ",
@@ -16402,7 +17364,7 @@
       "url": "https://tonamel.com/competition/kbtxi",
       "date": "2026-08-24",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -16419,7 +17381,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:56:30.387774+09:00",
-      "collected_at": "2026-08-04T14:56:30.388192+09:00"
+      "collected_at": "2026-08-04T14:56:30.388192+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "mvp4G",
@@ -16477,7 +17440,7 @@
       "url": "https://tonamel.com/competition/7hgcX",
       "date": "2026-08-25",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -16494,7 +17457,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:21:59.981042+09:00",
-      "collected_at": "2026-08-04T14:21:59.981486+09:00"
+      "collected_at": "2026-08-04T14:21:59.981486+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "BOw5e",
@@ -16552,7 +17516,7 @@
       "url": "https://tonamel.com/competition/X5aYx",
       "date": "2026-08-25",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -16569,7 +17533,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:44:57.487059+09:00",
-      "collected_at": "2026-08-04T14:44:57.487875+09:00"
+      "collected_at": "2026-08-04T14:44:57.487875+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "jG8U3",
@@ -16602,7 +17567,7 @@
       "url": "https://tonamel.com/competition/jrwrN",
       "date": "2026-08-25",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -16619,7 +17584,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:55:54.813820+09:00",
-      "collected_at": "2026-08-04T14:55:54.814202+09:00"
+      "collected_at": "2026-08-04T14:55:54.814202+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "kBGPD",
@@ -16852,7 +17818,7 @@
       "url": "https://tonamel.com/competition/AzrQX",
       "date": "2026-08-25",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -16869,7 +17835,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:25:06.688854+09:00",
-      "collected_at": "2026-08-04T14:25:06.689236+09:00"
+      "collected_at": "2026-08-04T14:25:06.689236+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "BxnLD",
@@ -16877,7 +17844,7 @@
       "url": "https://tonamel.com/competition/BxnLD",
       "date": "2026-08-25",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -16894,7 +17861,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:25:58.866872+09:00",
-      "collected_at": "2026-08-04T14:25:58.867423+09:00"
+      "collected_at": "2026-08-04T14:25:58.867423+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "e30EU",
@@ -16952,7 +17920,7 @@
       "url": "https://tonamel.com/competition/tgD7S",
       "date": "2026-08-25",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -16969,7 +17937,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:04:36.462750+09:00",
-      "collected_at": "2026-08-04T15:04:36.464076+09:00"
+      "collected_at": "2026-08-04T15:04:36.464076+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "f1z1H",
@@ -17227,7 +18196,7 @@
       "url": "https://tonamel.com/competition/DXnUA",
       "date": "2026-08-25",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -17244,7 +18213,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:27:32.405547+09:00",
-      "collected_at": "2026-08-04T14:27:32.405970+09:00"
+      "collected_at": "2026-08-04T14:27:32.405970+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "EMfl0",
@@ -17252,7 +18222,7 @@
       "url": "https://tonamel.com/competition/EMfl0",
       "date": "2026-08-25",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -17269,7 +18239,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:28:21.287070+09:00",
-      "collected_at": "2026-08-04T14:28:21.288131+09:00"
+      "collected_at": "2026-08-04T14:28:21.288131+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "PVBvy",
@@ -17277,7 +18248,7 @@
       "url": "https://tonamel.com/competition/PVBvy",
       "date": "2026-08-25",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -17294,7 +18265,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:38:00.184997+09:00",
-      "collected_at": "2026-08-04T14:38:00.185488+09:00"
+      "collected_at": "2026-08-04T14:38:00.185488+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "Tellp",
@@ -17370,6 +18342,31 @@
       "pv": 7,
       "tweeted_at": "2026-08-04T15:01:23.951965+09:00",
       "collected_at": "2026-08-04T15:01:23.952766+09:00"
+    },
+    {
+      "id": "RsxH7",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/RsxH7",
+      "date": "2026-08-25",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:07:17.406718+09:00",
+      "collected_at": "2026-08-04T16:07:17.407168+09:00"
     },
     {
       "id": "3EBa1",
@@ -17527,7 +18524,7 @@
       "url": "https://tonamel.com/competition/G3kD4",
       "date": "2026-08-26",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -17544,7 +18541,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:29:35.041704+09:00",
-      "collected_at": "2026-08-04T14:29:35.042424+09:00"
+      "collected_at": "2026-08-04T14:29:35.042424+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "JEIdA",
@@ -17627,7 +18625,7 @@
       "url": "https://tonamel.com/competition/m4jf8",
       "date": "2026-08-26",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -17644,7 +18642,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:57:50.916425+09:00",
-      "collected_at": "2026-08-04T14:57:50.916817+09:00"
+      "collected_at": "2026-08-04T14:57:50.916817+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "odIyH",
@@ -17677,7 +18676,7 @@
       "url": "https://tonamel.com/competition/s0e0u",
       "date": "2026-08-26",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -17694,7 +18693,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:03:06.846269+09:00",
-      "collected_at": "2026-08-04T15:03:06.846996+09:00"
+      "collected_at": "2026-08-04T15:03:06.846996+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "M7Fzs",
@@ -17927,7 +18927,7 @@
       "url": "https://tonamel.com/competition/SQvy0",
       "date": "2026-08-26",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -17944,7 +18944,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:40:51.784536+09:00",
-      "collected_at": "2026-08-04T14:40:51.785034+09:00"
+      "collected_at": "2026-08-04T14:40:51.785034+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "ljmCj",
@@ -17977,7 +18978,7 @@
       "url": "https://tonamel.com/competition/o5SWs",
       "date": "2026-08-26",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -17994,7 +18995,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:59:35.177297+09:00",
-      "collected_at": "2026-08-04T14:59:35.177997+09:00"
+      "collected_at": "2026-08-04T14:59:35.177997+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "znnle",
@@ -18002,7 +19004,7 @@
       "url": "https://tonamel.com/competition/znnle",
       "date": "2026-08-26",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -18019,7 +19021,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:09:52.331730+09:00",
-      "collected_at": "2026-08-04T15:09:52.332446+09:00"
+      "collected_at": "2026-08-04T15:09:52.332446+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "WR5g4",
@@ -18352,7 +19355,7 @@
       "url": "https://tonamel.com/competition/T9GgL",
       "date": "2026-08-26",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -18369,7 +19372,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:41:41.791728+09:00",
-      "collected_at": "2026-08-04T14:41:41.793055+09:00"
+      "collected_at": "2026-08-04T14:41:41.793055+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "jPyZN",
@@ -18377,7 +19381,7 @@
       "url": "https://tonamel.com/competition/jPyZN",
       "date": "2026-08-26",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -18394,7 +19398,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:55:29.101660+09:00",
-      "collected_at": "2026-08-04T14:55:29.102367+09:00"
+      "collected_at": "2026-08-04T14:55:29.102367+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "tSZ3v",
@@ -18402,7 +19407,7 @@
       "url": "https://tonamel.com/competition/tSZ3v",
       "date": "2026-08-26",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -18419,7 +19424,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:04:23.534924+09:00",
-      "collected_at": "2026-08-04T15:04:23.535391+09:00"
+      "collected_at": "2026-08-04T15:04:23.535391+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "xgeMj",
@@ -18445,6 +19451,31 @@
       "pv": 7,
       "tweeted_at": "2026-08-04T15:08:09.140483+09:00",
       "collected_at": "2026-08-04T15:08:09.140976+09:00"
+    },
+    {
+      "id": "kq1Ng",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/kq1Ng",
+      "date": "2026-08-26",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:21:11.978056+09:00",
+      "collected_at": "2026-08-04T16:21:11.978506+09:00"
     },
     {
       "id": "uj0li",
@@ -18553,7 +19584,7 @@
       "url": "https://tonamel.com/competition/AuRf8",
       "date": "2026-08-27",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -18570,7 +19601,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:25:01.815832+09:00",
-      "collected_at": "2026-08-04T14:25:01.816202+09:00"
+      "collected_at": "2026-08-04T14:25:01.816202+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "LLABf",
@@ -18603,7 +19635,7 @@
       "url": "https://tonamel.com/competition/Pyk0y",
       "date": "2026-08-27",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -18620,7 +19652,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:38:35.557148+09:00",
-      "collected_at": "2026-08-04T14:38:35.557778+09:00"
+      "collected_at": "2026-08-04T14:38:35.557778+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "TkD8K",
@@ -18678,7 +19711,7 @@
       "url": "https://tonamel.com/competition/wUDn4",
       "date": "2026-08-27",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -18695,7 +19728,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:07:04.399482+09:00",
-      "collected_at": "2026-08-04T15:07:04.399872+09:00"
+      "collected_at": "2026-08-04T15:07:04.399872+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "yULef",
@@ -18878,7 +19912,7 @@
       "url": "https://tonamel.com/competition/1bYZ5",
       "date": "2026-08-27",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -18895,7 +19929,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:17:01.715601+09:00",
-      "collected_at": "2026-08-04T14:17:01.716103+09:00"
+      "collected_at": "2026-08-04T14:17:01.716103+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "DcPDZ",
@@ -18953,7 +19988,7 @@
       "url": "https://tonamel.com/competition/NrgHG",
       "date": "2026-08-27",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -18970,7 +20005,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:36:45.685850+09:00",
-      "collected_at": "2026-08-04T14:36:45.686230+09:00"
+      "collected_at": "2026-08-04T14:36:45.686230+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "OoMMA",
@@ -18978,7 +20014,7 @@
       "url": "https://tonamel.com/competition/OoMMA",
       "date": "2026-08-27",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -18995,7 +20031,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:37:34.132327+09:00",
-      "collected_at": "2026-08-04T14:37:34.132785+09:00"
+      "collected_at": "2026-08-04T14:37:34.132785+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "dNsLu",
@@ -19328,7 +20365,7 @@
       "url": "https://tonamel.com/competition/Ke2vA",
       "date": "2026-08-27",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -19345,7 +20382,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:33:40.539996+09:00",
-      "collected_at": "2026-08-04T14:33:40.540481+09:00"
+      "collected_at": "2026-08-04T14:33:40.540481+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "NICe7",
@@ -19428,7 +20466,7 @@
       "url": "https://tonamel.com/competition/Y9C4H",
       "date": "2026-08-27",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -19445,7 +20483,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:45:52.092232+09:00",
-      "collected_at": "2026-08-04T14:45:52.092960+09:00"
+      "collected_at": "2026-08-04T14:45:52.092960+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "x5FVW",
@@ -19453,7 +20492,7 @@
       "url": "https://tonamel.com/competition/x5FVW",
       "date": "2026-08-27",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -19470,7 +20509,33 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:07:39.384813+09:00",
-      "collected_at": "2026-08-04T15:07:39.385246+09:00"
+      "collected_at": "2026-08-04T15:07:39.385246+09:00",
+      "prefecture_inferred": true
+    },
+    {
+      "id": "aHcK6",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/aHcK6",
+      "date": "2026-08-27",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:13:08.495293+09:00",
+      "collected_at": "2026-08-04T16:13:08.495745+09:00"
     },
     {
       "id": "wnRul",
@@ -19478,7 +20543,7 @@
       "url": "https://tonamel.com/competition/wnRul",
       "date": "2026-08-28",
       "start_time": "12:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -19495,7 +20560,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:07:17.468493+09:00",
-      "collected_at": "2026-08-04T15:07:17.468940+09:00"
+      "collected_at": "2026-08-04T15:07:17.468940+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "Ik0Rk",
@@ -19528,7 +20594,7 @@
       "url": "https://tonamel.com/competition/cGPyh",
       "date": "2026-08-28",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -19545,7 +20611,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:48:59.441164+09:00",
-      "collected_at": "2026-08-04T14:48:59.441889+09:00"
+      "collected_at": "2026-08-04T14:48:59.441889+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "fwsjR",
@@ -19553,7 +20620,7 @@
       "url": "https://tonamel.com/competition/fwsjR",
       "date": "2026-08-28",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -19570,7 +20637,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:52:31.822921+09:00",
-      "collected_at": "2026-08-04T14:52:31.823361+09:00"
+      "collected_at": "2026-08-04T14:52:31.823361+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "mD0Kz",
@@ -19728,7 +20796,7 @@
       "url": "https://tonamel.com/competition/XMOqK",
       "date": "2026-08-28",
       "start_time": "14:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -19745,7 +20813,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:45:09.580832+09:00",
-      "collected_at": "2026-08-04T14:45:09.581307+09:00"
+      "collected_at": "2026-08-04T14:45:09.581307+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "eKp3G",
@@ -19878,7 +20947,7 @@
       "url": "https://tonamel.com/competition/F9L1n",
       "date": "2026-08-28",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -19895,7 +20964,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:28:58.780851+09:00",
-      "collected_at": "2026-08-04T14:28:58.781320+09:00"
+      "collected_at": "2026-08-04T14:28:58.781320+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "P7qLR",
@@ -19928,7 +20998,7 @@
       "url": "https://tonamel.com/competition/SSnxa",
       "date": "2026-08-28",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -19945,7 +21015,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:40:52.950093+09:00",
-      "collected_at": "2026-08-04T14:40:52.950803+09:00"
+      "collected_at": "2026-08-04T14:40:52.950803+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "aaZrf",
@@ -19978,7 +21049,7 @@
       "url": "https://tonamel.com/competition/xJNLY",
       "date": "2026-08-28",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -19995,7 +21066,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:07:54.007925+09:00",
-      "collected_at": "2026-08-04T15:07:54.008467+09:00"
+      "collected_at": "2026-08-04T15:07:54.008467+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "yYOjY",
@@ -20328,7 +21400,7 @@
       "url": "https://tonamel.com/competition/C1y8i",
       "date": "2026-08-28",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -20345,7 +21417,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:26:10.480640+09:00",
-      "collected_at": "2026-08-04T14:26:10.481349+09:00"
+      "collected_at": "2026-08-04T14:26:10.481349+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "KD0wU",
@@ -20353,7 +21426,7 @@
       "url": "https://tonamel.com/competition/KD0wU",
       "date": "2026-08-28",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -20370,7 +21443,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:33:16.792702+09:00",
-      "collected_at": "2026-08-04T14:33:16.793436+09:00"
+      "collected_at": "2026-08-04T14:33:16.793436+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "KVZE6",
@@ -20428,7 +21502,7 @@
       "url": "https://tonamel.com/competition/bKhtS",
       "date": "2026-08-28",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -20445,7 +21519,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:48:19.253241+09:00",
-      "collected_at": "2026-08-04T14:48:19.253691+09:00"
+      "collected_at": "2026-08-04T14:48:19.253691+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "lH2yV",
@@ -20496,6 +21571,31 @@
       "pv": 7,
       "tweeted_at": "2026-08-04T15:06:38.243926+09:00",
       "collected_at": "2026-08-04T15:06:38.244373+09:00"
+    },
+    {
+      "id": "RaqHQ",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/RaqHQ",
+      "date": "2026-08-28",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:07:00.448518+09:00",
+      "collected_at": "2026-08-04T16:07:00.448973+09:00"
     },
     {
       "id": "znDs0",
@@ -20648,6 +21748,31 @@
       "collected_at": "2026-08-04T11:54:31.487638+09:00"
     },
     {
+      "id": "G8PCg",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/G8PCg",
+      "date": "2026-08-29",
+      "start_time": "11:30",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T15:57:58.770956+09:00",
+      "collected_at": "2026-08-04T15:57:58.771410+09:00"
+    },
+    {
       "id": "qU8XH",
       "title": "【竜のしっぽNU茶屋町店】DM荒木のしっぽ杯　2nd",
       "url": "https://tonamel.com/competition/qU8XH",
@@ -20678,7 +21803,7 @@
       "url": "https://tonamel.com/competition/L9QfA",
       "date": "2026-08-29",
       "start_time": "12:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -20695,7 +21820,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:34:01.882562+09:00",
-      "collected_at": "2026-08-04T14:34:01.883438+09:00"
+      "collected_at": "2026-08-04T14:34:01.883438+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "r67Qb",
@@ -20828,7 +21954,7 @@
       "url": "https://tonamel.com/competition/WZhXa",
       "date": "2026-08-29",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -20845,7 +21971,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:44:35.185238+09:00",
-      "collected_at": "2026-08-04T14:44:35.185990+09:00"
+      "collected_at": "2026-08-04T14:44:35.185990+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "dTql2",
@@ -20878,7 +22005,7 @@
       "url": "https://tonamel.com/competition/hUi5z",
       "date": "2026-08-29",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -20895,7 +22022,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:53:54.710031+09:00",
-      "collected_at": "2026-08-04T14:53:54.711164+09:00"
+      "collected_at": "2026-08-04T14:53:54.711164+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "wQL5c",
@@ -21098,6 +22226,32 @@
       "collected_at": "2026-08-04T14:56:39.858168+09:00"
     },
     {
+      "id": "ierEp",
+      "title": "The トレカ公認トレーナーズリーグ マスター",
+      "url": "https://tonamel.com/competition/ierEp",
+      "date": "2026-08-29",
+      "start_time": "15:00",
+      "prefecture": "福岡県",
+      "venue": null,
+      "address": null,
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": null,
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件マスターリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント「トレーナーズリーグ」は、一定条件の下、ジム店舗で開催可能な公式大会です。成績上位者は、ポケモンWCSの出場権や限定アイテムとの交換が可能なポイント「チャンピオンシップポイント」を獲得することが可能です。また、参加者数に応じて、順位によりチャンピオンシップポイント",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:19:37.597273+09:00",
+      "collected_at": "2026-08-04T16:19:37.597572+09:00",
+      "prefecture_inferred": true
+    },
+    {
       "id": "ksDCP",
       "title": "サブイベ",
       "url": "https://tonamel.com/competition/ksDCP",
@@ -21178,7 +22332,7 @@
       "url": "https://tonamel.com/competition/Zo2L8",
       "date": "2026-08-29",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -21195,7 +22349,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:46:58.809569+09:00",
-      "collected_at": "2026-08-04T14:46:58.810687+09:00"
+      "collected_at": "2026-08-04T14:46:58.810687+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "vSyDe",
@@ -21428,7 +22583,7 @@
       "url": "https://tonamel.com/competition/Ckd9Z",
       "date": "2026-08-29",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -21445,7 +22600,33 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:26:50.659826+09:00",
-      "collected_at": "2026-08-04T14:26:50.660379+09:00"
+      "collected_at": "2026-08-04T14:26:50.660379+09:00",
+      "prefecture_inferred": true
+    },
+    {
+      "id": "YsYG8",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/YsYG8",
+      "date": "2026-08-29",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:12:03.328910+09:00",
+      "collected_at": "2026-08-04T16:12:03.329388+09:00"
     },
     {
       "id": "L1N9h",
@@ -21548,12 +22729,37 @@
       "collected_at": "2026-08-04T14:23:05.085179+09:00"
     },
     {
+      "id": "YU0KY",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/YU0KY",
+      "date": "2026-08-30",
+      "start_time": "11:30",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:11:46.716197+09:00",
+      "collected_at": "2026-08-04T16:11:46.716660+09:00"
+    },
+    {
       "id": "WWQ47",
       "title": "ハレツーCS",
       "url": "https://tonamel.com/competition/WWQ47",
       "date": "2026-08-30",
       "start_time": "12:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -21570,7 +22776,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:44:33.805959+09:00",
-      "collected_at": "2026-08-04T14:44:33.806946+09:00"
+      "collected_at": "2026-08-04T14:44:33.806946+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "qzslR",
@@ -21828,7 +23035,7 @@
       "url": "https://tonamel.com/competition/MJ6tz",
       "date": "2026-08-30",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -21845,7 +23052,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:35:05.425981+09:00",
-      "collected_at": "2026-08-04T14:35:05.426720+09:00"
+      "collected_at": "2026-08-04T14:35:05.426720+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "fdq2d",
@@ -21953,7 +23161,7 @@
       "url": "https://tonamel.com/competition/4alF0",
       "date": "2026-08-30",
       "start_time": "15:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -21970,7 +23178,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:19:19.013188+09:00",
-      "collected_at": "2026-08-04T14:19:19.013635+09:00"
+      "collected_at": "2026-08-04T14:19:19.013635+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "T3Eu3",
@@ -22003,7 +23212,7 @@
       "url": "https://tonamel.com/competition/Xi6bi",
       "date": "2026-08-30",
       "start_time": "15:00",
-      "prefecture": null,
+      "prefecture": "埼玉県",
       "venue": null,
       "address": null,
       "online": false,
@@ -22020,7 +23229,33 @@
       "organizer_name": "晴れる屋2 大宮店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:45:31.739029+09:00",
-      "collected_at": "2026-08-04T14:45:31.740262+09:00"
+      "collected_at": "2026-08-04T14:45:31.740262+09:00",
+      "prefecture_inferred": true
+    },
+    {
+      "id": "Ms5Na",
+      "title": "Theトレカ　公認いっしょにフレンドバトル",
+      "url": "https://tonamel.com/competition/Ms5Na",
+      "date": "2026-08-30",
+      "start_time": "15:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "エネルギーカード(キラ仕様・8種ランダム) 2枚ともだちや家族と一緒に来た人は追加で「ジム…",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件・オープン本大会では、上記を満たしたデッキであれば、1対戦ごとにデッキの交換（違うデッキの使用）が可能です。対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞エネルギーカード（キラ仕様・8種ランダム） 2枚ともだちや家族と一緒に来た人は追加で「ジムプロモパック」をそれぞれ1パックプレゼント！※賞品は、数に限りがございます",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:02:51.527168+09:00",
+      "collected_at": "2026-08-04T16:02:51.527672+09:00"
     },
     {
       "id": "0Jzjl",
@@ -22203,7 +23438,7 @@
       "url": "https://tonamel.com/competition/rabCh",
       "date": "2026-08-30",
       "start_time": "17:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -22220,7 +23455,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:02:34.050730+09:00",
-      "collected_at": "2026-08-04T15:02:34.051658+09:00"
+      "collected_at": "2026-08-04T15:02:34.051658+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "jFReN",
@@ -22253,7 +23489,7 @@
       "url": "https://tonamel.com/competition/2Ixxx",
       "date": "2026-08-30",
       "start_time": "18:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -22270,7 +23506,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:17:45.842556+09:00",
-      "collected_at": "2026-08-04T14:17:45.843008+09:00"
+      "collected_at": "2026-08-04T14:17:45.843008+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "T38Jv",
@@ -22398,6 +23635,31 @@
       "collected_at": "2026-08-04T15:02:27.568685+09:00"
     },
     {
+      "id": "YJv2M",
+      "title": "The トレカ公認ジムバトル",
+      "url": "https://tonamel.com/competition/YJv2M",
+      "date": "2026-08-30",
+      "start_time": "19:00",
+      "prefecture": "福岡県",
+      "venue": "Theトレカ",
+      "address": "〒802-0001 福岡県北九州市小倉北区浅野２丁目１３−２３ 北口幹線ビル 401",
+      "online": false,
+      "fee": "100円",
+      "capacity": 64,
+      "prize": "優勝：追加でプロモカードパック1つじゃんけん大会優勝賞 (",
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/4oeBQ",
+      "summary": "参加条件オープンリーグ対戦形式レギュレーションスタンダード60枚参加費100円(当日限定100円商品券が付きます。)定員64人プレゼント参加賞：プロモカードパック 1パック(2枚入り)1位：追加でプロモカードパック1つじゃんけん大会優勝賞 （※参加者が9名以上の場合のみ実施）：プロモカードパック 1パック※賞品は、数に限りがございます。なくなり次第終了となりますので、あらかじめご了承ください。※賞",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "The トレカ",
+      "pv": 7,
+      "tweeted_at": "2026-08-04T16:11:41.273932+09:00",
+      "collected_at": "2026-08-04T16:11:41.274398+09:00"
+    },
+    {
       "id": "CBH00",
       "title": "第11回Bambi杯season3",
       "url": "https://tonamel.com/competition/CBH00",
@@ -22428,7 +23690,7 @@
       "url": "https://tonamel.com/competition/6cDWB",
       "date": "2026-08-31",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -22445,7 +23707,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:20:52.005656+09:00",
-      "collected_at": "2026-08-04T14:20:52.006090+09:00"
+      "collected_at": "2026-08-04T14:20:52.006090+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "SAvYD",
@@ -22478,7 +23741,7 @@
       "url": "https://tonamel.com/competition/TnY55",
       "date": "2026-08-31",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -22495,7 +23758,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:42:09.235230+09:00",
-      "collected_at": "2026-08-04T14:42:09.235943+09:00"
+      "collected_at": "2026-08-04T14:42:09.235943+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "dT2PM",
@@ -22578,7 +23842,7 @@
       "url": "https://tonamel.com/competition/o00du",
       "date": "2026-08-31",
       "start_time": "13:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -22595,7 +23859,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:59:32.416811+09:00",
-      "collected_at": "2026-08-04T14:59:32.417531+09:00"
+      "collected_at": "2026-08-04T14:59:32.417531+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "vFJ1P",
@@ -22803,7 +24068,7 @@
       "url": "https://tonamel.com/competition/XafUd",
       "date": "2026-08-31",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -22820,7 +24085,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:45:23.911325+09:00",
-      "collected_at": "2026-08-04T14:45:23.912051+09:00"
+      "collected_at": "2026-08-04T14:45:23.912051+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "bEgtt",
@@ -22828,7 +24094,7 @@
       "url": "https://tonamel.com/competition/bEgtt",
       "date": "2026-08-31",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -22845,7 +24111,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:48:12.785778+09:00",
-      "collected_at": "2026-08-04T14:48:12.787088+09:00"
+      "collected_at": "2026-08-04T14:48:12.787088+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "hY0On",
@@ -22878,7 +24145,7 @@
       "url": "https://tonamel.com/competition/uTyOw",
       "date": "2026-08-31",
       "start_time": "16:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -22895,7 +24162,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T15:05:15.684035+09:00",
-      "collected_at": "2026-08-04T15:05:15.684592+09:00"
+      "collected_at": "2026-08-04T15:05:15.684592+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "vKKot",
@@ -23278,7 +24546,7 @@
       "url": "https://tonamel.com/competition/Aphu6",
       "date": "2026-08-31",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "愛知県",
       "venue": null,
       "address": null,
       "online": false,
@@ -23295,7 +24563,8 @@
       "organizer_name": "晴れる屋2 大須店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:24:58.108012+09:00",
-      "collected_at": "2026-08-04T14:24:58.108474+09:00"
+      "collected_at": "2026-08-04T14:24:58.108474+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "QceqC",
@@ -23303,7 +24572,7 @@
       "url": "https://tonamel.com/competition/QceqC",
       "date": "2026-08-31",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -23320,7 +24589,8 @@
       "organizer_name": "晴れる屋2 秋葉原タワー店　",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:39:08.654341+09:00",
-      "collected_at": "2026-08-04T14:39:08.654787+09:00"
+      "collected_at": "2026-08-04T14:39:08.654787+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "Rof0J",
@@ -23328,7 +24598,7 @@
       "url": "https://tonamel.com/competition/Rof0J",
       "date": "2026-08-31",
       "start_time": "19:00",
-      "prefecture": null,
+      "prefecture": "東京都",
       "venue": null,
       "address": null,
       "online": false,
@@ -23345,7 +24615,8 @@
       "organizer_name": "晴れる屋2 高田馬場店",
       "pv": 7,
       "tweeted_at": "2026-08-04T14:40:25.802358+09:00",
-      "collected_at": "2026-08-04T14:40:25.803053+09:00"
+      "collected_at": "2026-08-04T14:40:25.803053+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "dWUKK",
