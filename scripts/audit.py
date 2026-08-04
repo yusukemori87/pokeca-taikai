@@ -128,6 +128,13 @@ def main() -> int:
         if st.get("org_no_result") and not st.get("org_via_timeline"):
             add("error", "主催者追跡が全滅",
                 f"{st['org_no_result']}アカウントすべてから投稿を取得できていません。")
+        # 「ポケカ以外」として弾いた数。多すぎるときは判定が厳しすぎる疑い。
+        # （実際、判定が厳しすぎてコンソメリーグを取りこぼした事故があった）
+        ng = st.get("ポケカ以外として除外") or 0
+        if ng >= 10:
+            add("warn", "除外しすぎの疑い",
+                f"{ng}件を「ポケカ以外」として除外しました。"
+                f"本物の大会まで弾いていないか、除外ログを確認してください。")
     except Exception:  # noqa: BLE001
         pass
 

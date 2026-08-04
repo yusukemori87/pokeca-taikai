@@ -104,6 +104,11 @@ NEGATIVE_WORDS = ["ポケポケ", "ポケモンカードアプリ", "ポケモ�
 # の形になり、これを見落としていた（実際にコンソメリーグを取りこぼしていた）。
 TONAMEL_RE = re.compile(
     r"tonamel\.com/(?:organize/[A-Za-z0-9_-]+/)?competition/([A-Za-z0-9]{5,12})")
+# Tonamelのページ内リンクに現れる「大会IDではない語」。ゴミIDとして積むと
+# 取得失敗が積み上がるので弾く（実際に "index" や "_competitionId" が混入した）。
+NOT_AN_ID = {"index", "create", "search", "detail", "edit", "admin", "login",
+             "entry", "result", "results", "about", "terms", "privacy",
+             "organize", "organization", "competition", "competitions"}
 TCO_RE = re.compile(r"https?://t\.co/[A-Za-z0-9]+")
 
 PREFECTURES = [
@@ -718,24 +723,54 @@ def parse_prize(text: str) -> str | None:
     return None
 
 
-def is_pokeca_event(title: str, desc: str) -> bool:
+# Tonamel自身が持つゲーム種別のスラッグ。ページHTMLに現れるので、これが最も確実。
+GAME_SLUG_RE = re.compile(r"pokemon_card(?![A-Za-z_])")
+OTHER_GAME_SLUG_RE = re.compile(
+    r"pokemon_trading_card_game_pocket|one_piece_card|duel_masters|yu_?gi_?oh|"
+    r"shadowverse|union_arena|weiss_schwarz|dragon_ball|digimon_card|"
+    r"gundam_card|valorant|apex_legends|splatoon|street_fighter")
+# 本文から他ゲームを見分けるための語（ポケカ語彙が無いときだけ効かせる）
+OTHER_GAME_WORD_RE = re.compile(
+    r"(ARK|Apex|VALORANT|スプラトゥーン|スマブラ|ストリートファイター|"
+    r"デュエマ|デュエル・?マスターズ|遊戯王|ワンピースカード|ヴァイス|ヴァンガード|"
+    r"ユニオンアリーナ|ガンダムカード|ドラゴンボール|デジモンカード|"
+    r"シャドウバース|MTG|マジック:?ザ|ポケポケ|ポケモンカードゲーム\s*ポケット)", re.I)
+POCKET_RE = re.compile(r"ポケポケ|ポケモンカードゲーム\s*ポケット|Pokemon\s*TCG\s*Pocket", re.I)
+POKECA_WORD_RE = re.compile(r"ポケカ|ポケモンカード|ポケモンTCG|PTCG|Pokemon\s*Card", re.I)
+
+
+def is_pokeca_event(title: str, desc: str, html: str = "") -> bool:
     """
     その大会が本当にポケカかを判定する。
     Tonamelの公開一覧には他ゲームの大会も混ざる（実際にARKの大会が紛れ込んだ）。
-    Twitter経由は検索時点でポケカ語彙で絞れているが、公開一覧経由は無防備なのでここで弾く。
+
+    ★方針: 「ポケカだと言い切れないものを落とす」のではなく
+      「他ゲームだと言い切れるものだけを落とす」。
+      取りこぼしが最大の問題なので、判断がつかないものは載せる側に倒す。
+      （実際、タイトルにも説明にも「ポケモン」が無い大会——コンソメリーグ——を
+        以前の判定で取りこぼした。同じ事故を繰り返さないための設計。）
     """
-    t = norm(f"{title}\n{desc}")[:1500]
-    if not re.search(r"ポケカ|ポケモンカード|ポケモンTCG|PTCG|Pokemon Card|ポケモン", t, re.I):
+    # 1. Tonamelのページ自身がゲーム種別を持っているなら、それを最優先で信じる
+    if html:
+        if GAME_SLUG_RE.search(html):
+            return True
+        if OTHER_GAME_SLUG_RE.search(html):
+            return False
+
+    t = norm(f"{title}\n{desc}")[:2000]
+
+    # 2. ポケポケ（アプリ版）は「ポケモンカードゲーム ポケット」という表記なので、
+    #    ポケカ語彙の判定より先に弾く必要がある。
+    if POCKET_RE.search(t) and not re.search(r"ポケカ", t):
         return False
-    # 明らかに別ゲーム
-    if re.search(r"(ARK|Apex|VALORANT|スプラトゥーン|スマブラ|ストリートファイター|"
-                 r"デュエマ|デュエル・?マスターズ|遊戯王|ワンピースカード|ヴァイス|"
-                 r"シャドウバース|MTG|マジック:?ザ)", t, re.I) and \
-            not re.search(r"ポケカ|ポケモンカード", t):
-        return False
-    # ポケポケ（ポケモンカードゲーム ポケット）は別ゲーム。紙のポケカ大会ではない。
-    if re.search(r"ポケポケ|ポケモンカードゲーム\s*ポケット|Pokemon\s*TCG\s*Pocket", t, re.I) and \
-            not re.search(r"(?<!ゲーム)ポケモンカード(?!ゲーム\s*ポケット)|ポケカ", t):
+
+    # 3. 本文で判断する。ポケカ語彙があれば即採用。
+    if POKECA_WORD_RE.search(t):
+        return True
+
+    # 4. ポケカ語彙が無い場合、他ゲームだと分かるものだけ落とす。
+    #    どちらとも言えないものは載せる（取りこぼしを防ぐため）。
+    if OTHER_GAME_WORD_RE.search(t):
         return False
     return True
 
@@ -1129,8 +1164,9 @@ def main() -> int:
         # ポケカ以外の大会が混ざるのでここで弾く。
         if tw.get("_source") in ("tonamel_public", "tonamel_org", "web_search") \
                 and not is_pokeca_event(
-                ev.get("title") or "", ev.get("summary") or ""):
+                ev.get("title") or "", ev.get("summary") or "", html):
             pending.pop(comp_id, None)
+            STATS["ポケカ以外として除外"] = STATS.get("ポケカ以外として除外", 0) + 1
             log(f"     ポケカ以外のためスキップ: {ev.get('title','')[:30]}")
             continue
         events[comp_id] = ev

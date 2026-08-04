@@ -36,7 +36,12 @@ JST = timezone(timedelta(hours=9))
 MAX_ORGS = int(os.environ.get("ORG_PAGE_LIMIT", "120"))
 # 1ページあたりのスクロール回数。主催者ページは件数が少ないので浅くてよい。
 MAX_SCROLL = int(os.environ.get("ORG_MAX_SCROLL", "12"))
-# Nuxtの動的ルート名 "/competition/_competitionId" を大会IDと誤認しないよう英数字のみに限定する
+# Tonamelのページ内リンクに現れる「大会IDではない語」。ゴミIDとして積むと
+# 取得失敗が積み上がるので弾く（実際に "index" や "_competitionId" が混入した）。
+NOT_AN_ID = {"index", "create", "search", "detail", "edit", "admin", "login",
+             "entry", "result", "results", "about", "terms", "privacy",
+             "organize", "organization", "competition", "competitions"}
+# Nuxtの動的ルート名 "/competition/_competitionId" を拾わないよう英数字のみに限定する
 COMP_RE = re.compile(r"/competition/([A-Za-z0-9]{5,12})")
 ORG_RE = re.compile(r"tonamel\.com/organization/([A-Za-z0-9]{4,12})")
 
@@ -70,7 +75,7 @@ def collect(page, url: str) -> set[str]:
 
     last = -1
     for i in range(MAX_SCROLL):
-        ids |= set(COMP_RE.findall(page.content()))
+        ids |= {c for c in COMP_RE.findall(page.content()) if c.lower() not in NOT_AN_ID}
         for label in ("もっと見る", "さらに表示", "Load more", "More"):
             try:
                 b = page.get_by_text(label, exact=False).first
@@ -84,7 +89,7 @@ def collect(page, url: str) -> set[str]:
         if len(ids) == last and i > 2:
             break
         last = len(ids)
-    ids |= set(COMP_RE.findall(page.content()))
+    ids |= {c for c in COMP_RE.findall(page.content()) if c.lower() not in NOT_AN_ID}
     return ids
 
 
