@@ -95,7 +95,7 @@ jobs:
           # 収集中に他のコミットが main に入っていても、リモートの最新に生成物を
           # 上書きし直して push するので、コンフリクトで結果を失うことがない。
           mkdir -p /tmp/out
-          for f in data/events.json data/pending.json data/audit.json docs/index.html; do
+          for f in data/events.json data/pending.json data/audit.json data/collect_stats.json docs/index.html; do
             [ -f "$f" ] && cp "$f" "/tmp/out/$(basename "$f")"
           done
 
@@ -106,9 +106,10 @@ jobs:
             [ -f /tmp/out/events.json ]  && cp /tmp/out/events.json  data/events.json
             [ -f /tmp/out/pending.json ] && cp /tmp/out/pending.json data/pending.json
             [ -f /tmp/out/audit.json ]   && cp /tmp/out/audit.json   data/audit.json
+            [ -f /tmp/out/collect_stats.json ] && cp /tmp/out/collect_stats.json data/collect_stats.json
             [ -f /tmp/out/index.html ]   && cp /tmp/out/index.html   docs/index.html
 
-            git add data/events.json data/pending.json data/audit.json docs/index.html 2>/dev/null || true
+            git add data/events.json data/pending.json data/audit.json data/collect_stats.json docs/index.html 2>/dev/null || true
             if git diff --staged --quiet; then
               echo "変更なし。コミットをスキップします。"
               exit 0

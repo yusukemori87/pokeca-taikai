@@ -120,6 +120,9 @@ python scripts/build_site.py
 | ファイル | 役割 |
 |---|---|
 | `scripts/collect.py` | Twitter検索 → Tonamel解析 → `data/events.json` |
+| `scripts/collect_public.py` | Tonamelの**公開一覧**を巡回してIDを集める（Twitter不要） |
+| `scripts/collect_orgs.py` | **掲載済み主催者のページ**を巡回して次の大会を拾う（Twitter不要） |
+| `scripts/api_check.py` | twitterapi.io が生きているかを1時間ごとに確認する |
 | `scripts/build_site.py` | `events.json` → `docs/index.html` を書き出す |
 | `scripts/template.html` | サイトの見た目。デザインを変えたいときはここ |
 | `data/organizers.seed.json` | **キーマン（主催者）リスト。手で足していくのはここ** |
@@ -201,6 +204,22 @@ GitHubの **Settings → Secrets and variables → Actions → Variables** で�
   次回 `SKIP_TWITTER=1` で再挑戦できるので、Twitterのクレジットを無駄にしません。
 - **コミット段階の競合に強くしてあります。** 収集中に誰かが main を更新しても、
   リモートの最新に生成物を上書きし直して push するので、収集結果が失われません。
+- **収集経路を3本に分けてあります。** ①Twitter検索 ②Tonamelの公開一覧 ③掲載済み主催者のページ。
+  ②③はTwitterのAPIを一切使わないので、API側が止まっても収集は続きます
+  （実際に twitterapi.io が「成功応答なのに中身が空」で止まる事故があり、①だけでは全滅した）。
+- **巡回には必ず時間の上限を置いています。** 無限スクロールは終わりが読めず、
+  上限が無いと1回の実行が1時間半を超えました。途中で切り上げても毎日走るので次回に続きます。
+- **「ポケカ以外」の判定は緩めにしてあります。** 厳しくすると本物を落とします
+  （タイトルにも説明にも「ポケモン」の語が無い大会を実際に取りこぼした）。
+  他ゲームだと言い切れるものだけを落とし、判断がつかないものは載せます。
+
+### 注意: GitHubの定時実行（cron）が動かないことがある
+
+このリポジトリでは、`schedule` による自動実行が一度も起動しない状態を確認しています
+（pushによる実行は正常）。GitHub側の混雑で定時実行が遅延・破棄されることがあるためです。
+毎朝の自動更新が止まっていると感じたら、Actionsタブを開いて
+ワークフローに「Enable workflow」ボタンが出ていないかを確認し、
+出ていれば押してください。すぐ更新したいときは「Run workflow」で手動実行できます。
 
 ---
 
