@@ -103,7 +103,7 @@ NEGATIVE_WORDS = ["ポケポケ", "ポケモンカードアプリ", "ポケモ�
 #   https://tonamel.com/organize/{主催者ID}/competition/{大会ID}
 # の形になり、これを見落としていた（実際にコンソメリーグを取りこぼしていた）。
 TONAMEL_RE = re.compile(
-    r"tonamel\.com/(?:organize/[A-Za-z0-9_-]+/)?competition/([A-Za-z0-9_-]{5,12})")
+    r"tonamel\.com/(?:organize/[A-Za-z0-9_-]+/)?competition/([A-Za-z0-9]{5,12})")
 TCO_RE = re.compile(r"https?://t\.co/[A-Za-z0-9]+")
 
 PREFECTURES = [
@@ -378,7 +378,7 @@ def extract_tonamel_ids(tweet: dict) -> set[str]:
     # JSON内では "/" が "\/" とエスケープされることがあるので両方を許す
     ids.update(
         i for i in re.findall(
-            r"tonamel\.com\\?/(?:organize\\?/[A-Za-z0-9_-]+\\?/)?competition\\?/([A-Za-z0-9_-]{5,12})", blob
+            r"tonamel\.com\\?/(?:organize\\?/[A-Za-z0-9_-]+\\?/)?competition\\?/([A-Za-z0-9]{5,12})", blob
         )
     )
 
@@ -732,6 +732,10 @@ def is_pokeca_event(title: str, desc: str) -> bool:
                  r"デュエマ|デュエル・?マスターズ|遊戯王|ワンピースカード|ヴァイス|"
                  r"シャドウバース|MTG|マジック:?ザ)", t, re.I) and \
             not re.search(r"ポケカ|ポケモンカード", t):
+        return False
+    # ポケポケ（ポケモンカードゲーム ポケット）は別ゲーム。紙のポケカ大会ではない。
+    if re.search(r"ポケポケ|ポケモンカードゲーム\s*ポケット|Pokemon\s*TCG\s*Pocket", t, re.I) and \
+            not re.search(r"(?<!ゲーム)ポケモンカード(?!ゲーム\s*ポケット)|ポケカ", t):
         return False
     return True
 
@@ -1121,8 +1125,9 @@ def main() -> int:
         if save_raw:
             (RAW_DIR / f"{comp_id}.html").write_text(html, "utf-8")
         ev = build_event(comp_id, html, url, tw)
-        # 公開一覧から拾ったものは、ポケカ以外が混ざるのでここで弾く
-        if tw.get("_source") == "tonamel_public" and not is_pokeca_event(
+        # Twitter以外（公開一覧・Web検索）から拾ったものは、
+        # ポケカ以外の大会が混ざるのでここで弾く。
+        if tw.get("_source") in ("tonamel_public", "web_search") and not is_pokeca_event(
                 ev.get("title") or "", ev.get("summary") or ""):
             pending.pop(comp_id, None)
             log(f"     ポケカ以外のためスキップ: {ev.get('title','')[:30]}")

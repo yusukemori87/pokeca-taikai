@@ -34,7 +34,8 @@ LIST_URLS = [
     "https://tonamel.com/competitions",
 ]
 MAX_SCROLL = int(os.environ.get("PUBLIC_MAX_SCROLL", "60"))
-COMP_RE = re.compile(r"/competition/([A-Za-z0-9_-]{5,12})")
+# Nuxtの動的ルート名 "/competition/_competitionId" を大会IDと誤認しないよう英数字のみに限定する
+COMP_RE = re.compile(r"/competition/([A-Za-z0-9]{5,12})")
 
 
 def log(m: str) -> None:

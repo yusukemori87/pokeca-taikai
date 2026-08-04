@@ -1,1 +1,1 @@
-run: organize-form URL fix (PARSER_VERSION=7)
+web検索から大会を追加: 08-04 11:27 JST
