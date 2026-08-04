@@ -842,6 +842,12 @@ def build_event(comp_id: str, html: str, url: str, tweet: dict) -> dict:
     author = (tweet.get("author") or {})
     org_name = ld.get("organizer_name") or author.get("name")
 
+    # 会場からどうしても都道府県が取れないとき、主催者名を最後の手がかりにする。
+    # 店舗主催のイベントは店名に地名が入っていることが多い
+    # （例:「晴れる屋2 高田馬場店」「ポケ堂仙台店」）。
+    if not pref and org_name:
+        pref = _pref_from(norm(org_name))
+
     return {
         "id": comp_id,
         "title": title,
@@ -1167,6 +1173,10 @@ def main() -> int:
                 ev.get("title") or "", ev.get("summary") or "", html):
             pending.pop(comp_id, None)
             STATS["ポケカ以外として除外"] = STATS.get("ポケカ以外として除外", 0) + 1
+            # 何を弾いたのかを残す。過去に判定が厳しすぎて本物を落とした事故があり、
+            # 件数だけでは「弾きすぎ」を後から確認できないため。
+            STATS.setdefault("除外したタイトル", []).append(
+                (ev.get("title") or "")[:40])
             log(f"     ポケカ以外のためスキップ: {ev.get('title','')[:30]}")
             continue
         events[comp_id] = ev
@@ -1187,6 +1197,21 @@ def main() -> int:
         if not e.get("date") or (today <= e["date"] <= horizon)
     ]
     upcoming.sort(key=lambda e: (e.get("date") or "9999-99-99", e.get("start_time") or "99:99"))
+
+    # 主催者名に地名が入っていることが多いので、まずそこから埋める。
+    # （例:「晴れる屋2 高田馬場店」「ポケ堂仙台店」）
+    # 既に取得済みの大会にも効くよう、取り直しではなくここで後から補う。
+    by_name = 0
+    for e in upcoming:
+        if e.get("prefecture") or not e.get("organizer_name"):
+            continue
+        p = _pref_from(norm(e["organizer_name"]))
+        if p and p != "オンライン":
+            e["prefecture"] = p
+            e["prefecture_inferred"] = True
+            by_name += 1
+    if by_name:
+        log(f"■ 主催者名から地域を補完: {by_name}件")
 
     # 会場情報からどうしても都道府県が分からない大会は、
     # 同じ主催者の他の大会から推定して埋める（主催者はたいてい同じ地域で開催する）。
