@@ -37,7 +37,10 @@ LIST_URLS = [
 MAX_SCROLL = int(os.environ.get("PUBLIC_MAX_SCROLL", "40"))
 # 一覧の巡回にかけてよい時間（秒）。無限スクロールは終わりが読めないので、
 # 必ず時間で区切る。毎日走るので途中で切り上げても翌日続きが取れる。
+# ★一覧URL1本ごとではなく「一覧の巡回ぜんぶ」の合計時間。
+#   1本ずつに上限を置くと、URLの数だけ時間が伸びて実行が1時間を超えた。
 TIME_BUDGET_SEC = int(os.environ.get("PUBLIC_TIME_BUDGET", "600"))
+STARTED = time.monotonic()
 # Tonamelのページ内リンクに現れる「大会IDではない語」。ゴミIDとして積むと
 # 取得失敗が積み上がるので弾く（実際に "index" や "_competitionId" が混入した）。
 NOT_AN_ID = {"index", "create", "search", "detail", "edit", "admin", "login",
@@ -61,9 +64,8 @@ def collect(page, url: str) -> set[str]:
     page.wait_for_timeout(4000)
 
     last = -1
-    started = time.monotonic()
     for i in range(MAX_SCROLL):
-        if time.monotonic() - started > TIME_BUDGET_SEC:
+        if time.monotonic() - STARTED > TIME_BUDGET_SEC:
             log(f"  時間の上限に達したので {url} の巡回を切り上げます")
             break
         found = {c for c in COMP_RE.findall(page.content()) if c.lower() not in NOT_AN_ID}
@@ -104,6 +106,9 @@ def main() -> int:
         )
         page = ctx.new_page()
         for u in LIST_URLS:
+            if time.monotonic() - STARTED > TIME_BUDGET_SEC:
+                log("  一覧巡回の時間の上限に達したので、残りのURLは次回に回します")
+                break
             all_ids |= collect(page, u)
             if len(all_ids) > 400:      # 十分取れたら残りのURLは省く
                 break
