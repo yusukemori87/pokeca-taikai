@@ -16,51 +16,51 @@
       "keys": [
         "data"
       ],
-      "data_head": "{\"__schema\": {\"queryType\": {\"name\": \"PlayerQuery\"}, \"types\": [{\"fields\": [{\"name\": \"content\", \"args\": []}, {\"name\": \"createdAt\", \"args\": []}, {\"args\": [], \"name\": \"id\"}], \"name\": \"AnnounceCard\", \"kind\": \"OBJECT\"}, {\"fields\": [{\"name\": \"edges\", \"args\": []}, {\"args\": [], \"name\": \"pageInfo\"}], \"name\": \"AnnounceCardConnection\", \"kind\": \"OBJECT\"}, {\"fields\": [{\"args\": [], \"name\": \"cursor\"}, {\"args\": []"
+      "data_head": "{\"__schema\": {\"queryType\": {\"name\": \"PlayerQuery\"}, \"types\": [{\"fields\": [{\"args\": [], \"name\": \"content\"}, {\"args\": [], \"name\": \"createdAt\"}, {\"args\": [], \"name\": \"id\"}], \"name\": \"AnnounceCard\", \"kind\": \"OBJECT\"}, {\"kind\": \"OBJECT\", \"name\": \"AnnounceCardConnection\", \"fields\": [{\"name\": \"edges\", \"args\": []}, {\"args\": [], \"name\": \"pageInfo\"}]}, {\"kind\": \"OBJECT\", \"name\": \"AnnounceCardEdge\", \"fields\""
     },
     {
       "ep": "/graphql/competition/",
-      "status": 200,
-      "bytes": 135,
-      "keys": [
-        "data",
-        "errors"
-      ],
-      "errors": [
-        "指定されたイベントはありません。"
-      ]
-    },
-    {
-      "ep": "/graphql/competition/",
-      "status": 200,
-      "bytes": 135,
-      "keys": [
-        "data",
-        "errors"
-      ],
-      "errors": [
-        "指定されたイベントはありません。"
-      ]
-    },
-    {
-      "ep": "/graphql/competition",
-      "status": 200,
-      "bytes": 135,
-      "keys": [
-        "data",
-        "errors"
-      ],
-      "errors": [
-        "指定されたイベントはありません。"
-      ]
-    },
-    {
-      "ep": "/graphql/competition",
       "status": 200,
       "bytes": 135,
       "keys": [
         "errors",
         "data"
+      ],
+      "errors": [
+        "指定されたイベントはありません。"
+      ]
+    },
+    {
+      "ep": "/graphql/competition/",
+      "status": 200,
+      "bytes": 135,
+      "keys": [
+        "data",
+        "errors"
+      ],
+      "errors": [
+        "指定されたイベントはありません。"
+      ]
+    },
+    {
+      "ep": "/graphql/competition",
+      "status": 200,
+      "bytes": 135,
+      "keys": [
+        "data",
+        "errors"
+      ],
+      "errors": [
+        "指定されたイベントはありません。"
+      ]
+    },
+    {
+      "ep": "/graphql/competition",
+      "status": 200,
+      "bytes": 135,
+      "keys": [
+        "data",
+        "errors"
       ],
       "errors": [
         "指定されたイベントはありません。"
@@ -95,7 +95,7 @@
   ],
   "csrf": {
     "status": 200,
-    "head": "{\"csrf_token\":\"0B8E6C2E-8F80-11F1-A340-EAE4A8CEB088\"}",
+    "head": "{\"csrf_token\":\"696EE6FC-9057-11F1-A9B8-B1C723F5694A\"}",
     "captured": true
   }
 }
