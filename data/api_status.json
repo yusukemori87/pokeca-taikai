@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-08-04T20:48:10.734841+09:00",
+  "search": {
+    "status": 200,
+    "n": 20
+  },
+  "timeline": {
+    "status": 200,
+    "n": 20
+  },
+  "by_id": {
+    "status": 200,
+    "n": 1
+  },
+  "ok": true,
+  "previous_ok": false,
+  "recovered": true
+}
