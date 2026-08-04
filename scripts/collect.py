@@ -1127,7 +1127,8 @@ def main() -> int:
         ev = build_event(comp_id, html, url, tw)
         # Twitter以外（公開一覧・Web検索）から拾ったものは、
         # ポケカ以外の大会が混ざるのでここで弾く。
-        if tw.get("_source") in ("tonamel_public", "web_search") and not is_pokeca_event(
+        if tw.get("_source") in ("tonamel_public", "tonamel_org", "web_search") \
+                and not is_pokeca_event(
                 ev.get("title") or "", ev.get("summary") or ""):
             pending.pop(comp_id, None)
             log(f"     ポケカ以外のためスキップ: {ev.get('title','')[:30]}")

@@ -46,6 +46,14 @@ jobs:
         run: python scripts/collect_public.py
         continue-on-error: true
 
+      - name: 掲載済み主催者のページから次の大会を拾う
+        # 一度掲載できた主催者は、その後の大会もこの経路で自動的に拾える。
+        # Twitterが使えない状態でも動く、独立した収集経路。
+        env:
+          ORG_PAGE_LIMIT: ${{ github.event.schedule == '0 20 * * 6' && '200' || '120' }}
+        run: python scripts/collect_orgs.py
+        continue-on-error: true
+
       - name: Twitter から大会情報を集める
         env:
           TWITTERAPI_IO_KEY: ${{ secrets.TWITTERAPI_IO_KEY }}
