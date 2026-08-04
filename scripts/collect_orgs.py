@@ -35,7 +35,8 @@ JST = timezone(timedelta(hours=9))
 # 巡回する主催者ページ数の上限（多すぎると1回の実行が長くなる）
 MAX_ORGS = int(os.environ.get("ORG_PAGE_LIMIT", "120"))
 # 1ページあたりのスクロール回数。主催者ページは件数が少ないので浅くてよい。
-MAX_SCROLL = int(os.environ.get("ORG_MAX_SCROLL", "12"))
+# 100人以上を巡回するので、1人あたりの時間がそのまま実行時間に効く。
+MAX_SCROLL = int(os.environ.get("ORG_MAX_SCROLL", "5"))
 # Tonamelのページ内リンクに現れる「大会IDではない語」。ゴミIDとして積むと
 # 取得失敗が積み上がるので弾く（実際に "index" や "_competitionId" が混入した）。
 NOT_AN_ID = {"index", "create", "search", "detail", "edit", "admin", "login",
@@ -76,17 +77,19 @@ def collect(page, url: str) -> set[str]:
     last = -1
     for i in range(MAX_SCROLL):
         ids |= {c for c in COMP_RE.findall(page.content()) if c.lower() not in NOT_AN_ID}
-        for label in ("もっと見る", "さらに表示", "Load more", "More"):
+        # 「もっと見る」を探す処理は当たらないと待ち時間だけ食う。
+        # 100人以上を巡回するので、増えなくなったときだけ試す。
+        if len(ids) == last:
             try:
-                b = page.get_by_text(label, exact=False).first
-                if b.is_visible(timeout=600):
-                    b.click(timeout=2000)
-                    page.wait_for_timeout(1500)
+                b = page.get_by_text("もっと見る", exact=False).first
+                if b.is_visible(timeout=400):
+                    b.click(timeout=1500)
+                    page.wait_for_timeout(1200)
             except Exception:  # noqa: BLE001
                 pass
         page.mouse.wheel(0, 16000)
-        page.wait_for_timeout(1000)
-        if len(ids) == last and i > 2:
+        page.wait_for_timeout(800)
+        if len(ids) == last and i > 1:
             break
         last = len(ids)
     ids |= {c for c in COMP_RE.findall(page.content()) if c.lower() not in NOT_AN_ID}
