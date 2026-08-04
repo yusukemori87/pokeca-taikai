@@ -1,0 +1,54 @@
+name: APIの復旧を1時間ごとに確認
+
+# twitterapi.io が「成功応答なのに中身が空」の状態になったため、
+# 1時間ごとに実際にデータが返るかを確認する。
+# 復旧を検出したら .trigger を更新し、収集ワークフローを自動的に再開させる。
+
+on:
+  schedule:
+    - cron: "5 * * * *"     # 毎時5分
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+
+      - name: APIが使えるか確認する
+        env:
+          TWITTERAPI_IO_KEY: ${{ secrets.TWITTERAPI_IO_KEY }}
+        run: python scripts/api_check.py
+
+      - name: 結果を記録（復旧時は収集も再開）
+        run: |
+          set -e
+          BR="${GITHUB_REF_NAME}"
+          git config user.name  "pokeca-bot"
+          git config user.email "bot@users.noreply.github.com"
+          cp data/api_status.json /tmp/api_status.json
+          RECOVERED=$(python -c "import json;print(json.load(open('/tmp/api_status.json')).get('recovered'))")
+          [ -f .trigger ] && cp .trigger /tmp/trigger || true
+
+          for i in 1 2 3; do
+            git fetch origin "$BR"
+            git reset --hard "origin/$BR"
+            cp /tmp/api_status.json data/api_status.json
+            if [ "$RECOVERED" = "True" ]; then cp /tmp/trigger .trigger; fi
+            git add data/api_status.json .trigger 2>/dev/null || true
+            if git diff --staged --quiet; then echo "変更なし"; exit 0; fi
+            if [ "$RECOVERED" = "True" ]; then
+              git commit -m "APIの復旧を検出したため収集を再開します"
+            else
+              git commit -m "API疎通確認: $(date -u -d '+9 hours' '+%m-%d %H:%M') JST"
+            fi
+            git push origin "HEAD:$BR" && exit 0
+            sleep 10
+          done
