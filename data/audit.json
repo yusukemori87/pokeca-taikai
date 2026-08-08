@@ -1,31 +1,24 @@
 {
-  "generated_at": "2026-08-08T10:01:03.442665+09:00",
-  "events": 1105,
+  "generated_at": "2026-08-09T08:33:07.567443+09:00",
+  "events": 1049,
   "organizers": 34,
   "by_region": {
-    "北海道・東北": 86,
-    "関東": 456,
-    "甲信越": 2,
-    "北陸": 11,
-    "東海": 93,
-    "近畿": 201,
-    "中国": 54,
+    "北海道・東北": 79,
+    "関東": 452,
+    "甲信越": 0,
+    "北陸": 10,
+    "東海": 87,
+    "近畿": 190,
+    "中国": 48,
     "四国": 6,
-    "九州・沖縄": 95
+    "九州・沖縄": 86
   },
   "findings": [
     {
       "level": "warn",
       "kind": "地域未判定",
-      "message": "40件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
+      "message": "34件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
       "ids": [
-        "NCHMh",
-        "VvXty",
-        "7cgp2",
-        "XpyyL",
-        "BXpFq",
-        "YFb9w",
-        "euioM",
         "qN5VB",
         "vjZaF",
         "0ECrI",
@@ -38,27 +31,35 @@
         "BCalX",
         "8j539",
         "wLK0j",
-        "OEAWU"
+        "OEAWU",
+        "P7MwV",
+        "YIgJL",
+        "XSNLd",
+        "Zxcd3",
+        "5NskF",
+        "62qUl",
+        "v70KK"
       ],
-      "count": 40
+      "count": 34
     },
     {
       "level": "warn",
       "kind": "参加費の抽出ミス",
-      "message": "2件の参加費が不自然です。",
+      "message": "1件の参加費が不自然です。",
       "ids": [
-        "NCHMh",
-        "Mbeky"
+        "HjYd4"
       ],
-      "count": 2
+      "count": 1
     },
     {
       "level": "info",
       "kind": "登録キーマンの成果ゼロ",
-      "message": "8人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
+      "message": "10人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
       "ids": [
+        "deregmu_og",
         "ISHIKAWAPOKECA",
         "kajipoke",
+        "Toreca_connect",
         "miracle_twin",
         "hokkaidoPTCG",
         "torepoinfo",
@@ -66,12 +67,19 @@
         "SakePokes",
         "consomme_pokeca"
       ],
-      "count": 8
+      "count": 10
     },
     {
       "level": "warn",
       "kind": "除外しすぎの疑い",
-      "message": "108件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
+      "message": "71件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
+      "ids": [],
+      "count": 0
+    },
+    {
+      "level": "warn",
+      "kind": "地域まるごとゼロ",
+      "message": "甲信越 の大会が0件です。実際に無いのか、取りこぼしかを確認してください。",
       "ids": [],
       "count": 0
     }
