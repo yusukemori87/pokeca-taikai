@@ -1,33 +1,27 @@
 {
-  "generated_at": "2026-08-11T08:58:33.096278+09:00",
-  "events": 1204,
+  "generated_at": "2026-08-12T08:48:13.730625+09:00",
+  "events": 1159,
   "organizers": 33,
   "by_region": {
-    "北海道・東北": 96,
-    "関東": 537,
-    "甲信越": 3,
-    "北陸": 13,
-    "東海": 98,
-    "近畿": 204,
-    "中国": 53,
-    "四国": 4,
-    "九州・沖縄": 93
+    "北海道・東北": 88,
+    "関東": 546,
+    "甲信越": 2,
+    "北陸": 10,
+    "東海": 93,
+    "近畿": 192,
+    "中国": 51,
+    "四国": 1,
+    "九州・沖縄": 84
   },
   "findings": [
     {
       "level": "warn",
       "kind": "地域未判定",
-      "message": "45件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
+      "message": "39件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
       "ids": [
-        "9NRzN",
-        "5b2jt",
-        "HZGqT",
-        "Phf1S",
-        "EnTaN",
-        "fUBNH",
-        "VoByK",
         "so4sb",
         "nwv17",
+        "XPic4",
         "SWCUM",
         "BCalX",
         "8j539",
@@ -38,30 +32,35 @@
         "XSNLd",
         "Zxcd3",
         "5NskF",
-        "62qUl"
+        "62qUl",
+        "v70KK",
+        "zW0jZ",
+        "moBaz",
+        "9G4Sw",
+        "Z7i3N",
+        "k5Ntu"
       ],
-      "count": 45
+      "count": 39
     },
     {
       "level": "warn",
       "kind": "参加費の抽出ミス",
-      "message": "2件の参加費が不自然です。",
+      "message": "1件の参加費が不自然です。",
       "ids": [
-        "pVYp9",
         "HjYd4"
       ],
-      "count": 2
+      "count": 1
     },
     {
       "level": "info",
       "kind": "登録キーマンの成果ゼロ",
       "message": "8人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
       "ids": [
-        "ISHIKAWAPOKECA",
         "kajipoke",
         "miracle_twin",
         "hokkaidoPTCG",
         "torepoinfo",
+        "nrissgn913",
         "team__wassyoi",
         "SakePokes",
         "consomme_pokeca"
@@ -71,7 +70,7 @@
     {
       "level": "warn",
       "kind": "除外しすぎの疑い",
-      "message": "64件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
+      "message": "147件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
       "ids": [],
       "count": 0
     }
