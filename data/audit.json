@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-14T08:55:10.438451+09:00",
-  "events": 1138,
+  "generated_at": "2026-08-15T08:25:27.616400+09:00",
+  "events": 1110,
   "organizers": 34,
   "by_region": {
-    "北海道・東北": 78,
-    "関東": 545,
+    "北海道・東北": 89,
+    "関東": 524,
     "甲信越": 3,
-    "北陸": 9,
-    "東海": 86,
-    "近畿": 186,
-    "中国": 49,
-    "四国": 2,
-    "九州・沖縄": 89
+    "北陸": 7,
+    "東海": 85,
+    "近畿": 179,
+    "中国": 47,
+    "四国": 3,
+    "九州・沖縄": 82
   },
   "findings": [
     {
@@ -19,16 +19,14 @@
       "kind": "地域未判定",
       "message": "40件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
       "ids": [
-        "8j539",
-        "iQsMt",
-        "wLK0j",
-        "Bjehs",
-        "qPVJY",
         "OEAWU",
         "P7MwV",
         "YIgJL",
         "XSNLd",
+        "pw81G",
         "Zxcd3",
+        "WbNiC",
+        "xMFkp",
         "q3bPd",
         "5NskF",
         "62qUl",
@@ -38,40 +36,42 @@
         "9G4Sw",
         "DN2G1",
         "Z7i3N",
-        "k5Ntu"
+        "k5Ntu",
+        "0Fzat",
+        "gaBbA"
       ],
       "count": 40
     },
     {
       "level": "warn",
       "kind": "参加費の抽出ミス",
-      "message": "2件の参加費が不自然です。",
+      "message": "1件の参加費が不自然です。",
       "ids": [
-        "EcrAR",
         "HjYd4"
       ],
-      "count": 2
+      "count": 1
     },
     {
       "level": "info",
       "kind": "登録キーマンの成果ゼロ",
-      "message": "8人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
+      "message": "9人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
       "ids": [
-        "kajipoke",
+        "deregmu_og",
         "miracle_twin",
         "hokkaidoPTCG",
         "torepoinfo",
         "nrissgn913",
         "team__wassyoi",
         "SakePokes",
+        "moukahai",
         "consomme_pokeca"
       ],
-      "count": 8
+      "count": 9
     },
     {
       "level": "warn",
       "kind": "除外しすぎの疑い",
-      "message": "51件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
+      "message": "44件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
       "ids": [],
       "count": 0
     }
