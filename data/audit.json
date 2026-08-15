@@ -1,34 +1,26 @@
 {
-  "generated_at": "2026-08-15T08:25:27.616400+09:00",
-  "events": 1110,
-  "organizers": 34,
+  "generated_at": "2026-08-16T08:35:11.102354+09:00",
+  "events": 1078,
+  "organizers": 33,
   "by_region": {
-    "北海道・東北": 89,
-    "関東": 524,
-    "甲信越": 3,
-    "北陸": 7,
-    "東海": 85,
-    "近畿": 179,
-    "中国": 47,
+    "北海道・東北": 100,
+    "関東": 507,
+    "甲信越": 4,
+    "北陸": 9,
+    "東海": 82,
+    "近畿": 174,
+    "中国": 45,
     "四国": 3,
-    "九州・沖縄": 82
+    "九州・沖縄": 72
   },
   "findings": [
     {
       "level": "warn",
       "kind": "地域未判定",
-      "message": "40件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
+      "message": "34件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
       "ids": [
-        "OEAWU",
-        "P7MwV",
-        "YIgJL",
-        "XSNLd",
-        "pw81G",
-        "Zxcd3",
-        "WbNiC",
-        "xMFkp",
-        "q3bPd",
         "5NskF",
+        "QKuW1",
         "62qUl",
         "v70KK",
         "zW0jZ",
@@ -38,9 +30,17 @@
         "Z7i3N",
         "k5Ntu",
         "0Fzat",
-        "gaBbA"
+        "gaBbA",
+        "PD7vt",
+        "kgpXY",
+        "xpP6w",
+        "cTFWM",
+        "YY0QF",
+        "eDNWo",
+        "37wQC",
+        "Mc1kQ"
       ],
-      "count": 40
+      "count": 34
     },
     {
       "level": "warn",
@@ -57,11 +57,11 @@
       "message": "9人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
       "ids": [
         "deregmu_og",
+        "kajipoke",
         "miracle_twin",
         "hokkaidoPTCG",
         "torepoinfo",
         "nrissgn913",
-        "team__wassyoi",
         "SakePokes",
         "moukahai",
         "consomme_pokeca"
@@ -71,7 +71,7 @@
     {
       "level": "warn",
       "kind": "除外しすぎの疑い",
-      "message": "44件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
+      "message": "38件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
       "ids": [],
       "count": 0
     }
