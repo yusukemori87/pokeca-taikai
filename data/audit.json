@@ -1,27 +1,24 @@
 {
-  "generated_at": "2026-08-25T08:36:10.146957+09:00",
-  "events": 1130,
+  "generated_at": "2026-08-26T08:27:28.870243+09:00",
+  "events": 1209,
   "organizers": 27,
   "by_region": {
-    "北海道・東北": 80,
-    "関東": 568,
+    "北海道・東北": 79,
+    "関東": 583,
     "甲信越": 5,
-    "北陸": 11,
-    "東海": 103,
-    "近畿": 136,
-    "中国": 80,
-    "四国": 2,
-    "九州・沖縄": 65
+    "北陸": 10,
+    "東海": 100,
+    "近畿": 204,
+    "中国": 77,
+    "四国": 1,
+    "九州・沖縄": 74
   },
   "findings": [
     {
       "level": "warn",
       "kind": "地域未判定",
-      "message": "36件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
+      "message": "34件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
       "ids": [
-        "zWqhl",
-        "TnbY3",
-        "uR8yv",
         "0Wxui",
         "WPlCG",
         "VOoXc",
@@ -38,9 +35,12 @@
         "KNxSz",
         "Azz5M",
         "rTwMP",
-        "gBxYT"
+        "FV34D",
+        "gBxYT",
+        "idEg7",
+        "LOFRY"
       ],
-      "count": 36
+      "count": 34
     },
     {
       "level": "warn",
@@ -74,36 +74,23 @@
       "count": 11
     },
     {
-      "level": "info",
-      "kind": "成果ゼロの検索",
-      "message": "19本のクエリが0件でした。",
-      "ids": [
-        "from:torepoinfo",
-        "from:SHIMA_PCG",
-        "from:OP01_soda",
-        "from:nrissgn913",
-        "from:team__wassyoi",
-        "from:SakePokes",
-        "from:moukahai",
-        "from:consomme_pokeca",
-        "from:deregmu_hobby",
-        "from:shure_poke",
-        "from:often330",
-        "from:youing_CMhakata",
-        "from:laughteria_TCG",
-        "from:Yuneko_ro",
-        "from:peisan_1004",
-        "from:pokeca_Gallery",
-        "from:TCG_ADVANTAGE",
-        "from:BOON0022198929",
-        "from:piroibk"
-      ],
-      "count": 19
+      "level": "error",
+      "kind": "検索が全滅",
+      "message": "すべての検索クエリが0件です。API側の仕様変更や障害を疑ってください。",
+      "ids": [],
+      "count": 0
+    },
+    {
+      "level": "error",
+      "kind": "主催者追跡が全滅",
+      "message": "31アカウントすべてから投稿を取得できていません。",
+      "ids": [],
+      "count": 0
     },
     {
       "level": "warn",
       "kind": "除外しすぎの疑い",
-      "message": "41件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
+      "message": "109件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
       "ids": [],
       "count": 0
     }
