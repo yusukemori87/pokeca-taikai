@@ -1,17 +1,16 @@
 name: 大会情報を更新してサイトを公開
 
+# 実行モードは3つ。cronの種類で自動的に切り替わる。
+#   hourly … 毎時17分。軽い巡回だけ。新しく公開された大会を早く反映するため
+#   full   … 毎日7:00(JST)。Twitter検索と主催者の全件巡回を含む
+#   deep   … 日曜5:00(JST)。長期間さかのぼって取りこぼしを回収する
 on:
   schedule:
-    # 毎日1回、日本時間の 7:00（UTCで書く必要があるので前日22:00）
-    - cron: "0 22 * * *"
-    # 週1回、日曜の朝5時(JST)に深掘り実行。
-    # 自主大会の告知は1〜3ヶ月前に出ることがあり、毎日の短い窓(7日)では届かない。
-    # ここで長期間さかのぼって取りこぼしを回収する。
-    - cron: "0 20 * * 6"
-  workflow_dispatch:        # 手動実行ボタン用
+    - cron: "17 * * * *"    # 毎時（軽量）。0〜10分は世界中の予約が集中するので避ける
+    - cron: "0 22 * * *"    # 毎日 7:00 JST（フル）
+    - cron: "0 20 * * 6"    # 日曜 5:00 JST（深掘り）
+  workflow_dispatch:
   push:
-    # .trigger ファイルを更新してpushすると、その場で1回走る。
-    # （ワークフロー自身のコミットは GITHUB_TOKEN 経由なので再帰しない）
     paths:
       - ".trigger"
 
@@ -21,11 +20,15 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
-  # 収集が異常に長引いたとき（主催者ページ巡回で1時間半を超えた事故があった）、
-  # 新しい実行で古い実行を打ち切れるようにしておく。
-  # 収集途中で打ち切られても、pushしていないので既存データは壊れない。
+  # 毎時実行と日次実行でグループを分ける。
+  # 同じグループにすると、毎時実行が走った瞬間に日次のフル実行が打ち切られてしまう。
+  # コミット段階は fetch→reset→再試行で競合に強くしてあるので、
+  # 両者が同時に走っても結果は失われない。
+  group: pages-${{ github.event.schedule == '17 * * * *' && 'hourly' || 'full' }}
   cancel-in-progress: true
+
+env:
+  MODE: ${{ github.event.schedule == '17 * * * *' && 'hourly' || (github.event.schedule == '0 20 * * 6' && 'deep' || 'full') }}
 
 jobs:
   update:
@@ -37,48 +40,57 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: 実行モードを表示
+        run: echo "MODE=$MODE"
+
       - name: 依存パッケージを入れる
         run: |
           pip install -r requirements.txt
           pip install playwright
           playwright install --with-deps chromium
 
-      - name: Tonamelの公開大会を一覧から全件拾う
+      - name: Tonamelの公開大会を一覧から拾う
         # JavaScript描画の一覧をヘッドレスブラウザで開いて回収する。
-        # Twitterのクレジットは使わない。ここが「公開分100%」の担保。
+        # Twitterのクレジットは使わない。毎時実行の主役はここ。
+        env:
+          PUBLIC_TIME_BUDGET: ${{ github.event.schedule == '17 * * * *' && '240' || '600' }}
         run: python scripts/collect_public.py
         continue-on-error: true
 
       - name: 掲載済み主催者のページから次の大会を拾う
-        # 一度掲載できた主催者は、その後の大会もこの経路で自動的に拾える。
-        # Twitterが使えない状態でも動く、独立した収集経路。
+        # 自主大会の多くは非公開なので、本命はこの経路。
+        # 毎時は30人ずつ、時刻で区画を変えて一巡させる（数時間で全員を回る）。
         env:
-          ORG_PAGE_LIMIT: ${{ github.event.schedule == '0 20 * * 6' && '200' || '120' }}
+          ORG_PAGE_LIMIT: ${{ github.event.schedule == '17 * * * *' && '40' || (github.event.schedule == '0 20 * * 6' && '200' || '120') }}
+          ORG_TIME_BUDGET: ${{ github.event.schedule == '17 * * * *' && '300' || '900' }}
+          ORG_POOL: ${{ github.event.schedule == '17 * * * *' && '120' || '0' }}
+          ORG_ROTATE_BY_HOUR: ${{ github.event.schedule == '17 * * * *' && '1' || '0' }}
         run: python scripts/collect_orgs.py
         continue-on-error: true
 
       - name: Twitter から大会情報を集める
+        # 毎時は SKIP_TWITTER=1。検索は1日1回で十分だし、
+        # 毎時投げるとAPIクレジットを無駄に溶かす。
+        # SKIP_TWITTER=1 でも「前回見つけたが未取得の大会」の取得は走る。
         env:
           TWITTERAPI_IO_KEY: ${{ secrets.TWITTERAPI_IO_KEY }}
-          # 毎日回すので、2回目以降は7日ぶんさかのぼれば十分（APIコストが1/6になる）。
-          # 初回や取りこぼしを取り戻したい時は、手動実行のとき LOOKBACK_DAYS を大きくする。
-          # 週次の深掘り実行(日曜)では長期間さかのぼる
           LOOKBACK_DAYS: ${{ github.event.schedule == '0 20 * * 6' && '120' || vars.LOOKBACK_DAYS || '7' }}
-          HORIZON_DAYS: "95"      # 何日先までの大会を載せるか（約3ヶ月）
-          FOLLOW_ORGANIZERS: "1"  # キーマンの投稿も直接追う
-          # 主催者追跡の深さ。毎日走らせるので最新20件で足りる（取り戻したいときだけ増やす）
+          HORIZON_DAYS: "95"
+          FOLLOW_ORGANIZERS: "1"
           ORG_LOOKBACK_DAYS: ${{ github.event.schedule == '0 20 * * 6' && '120' || vars.ORG_LOOKBACK_DAYS || '14' }}
           ORG_PAGES: ${{ github.event.schedule == '0 20 * * 6' && '3' || vars.ORG_PAGES || '1' }}
           ORG_MAX_HANDLES: ${{ vars.ORG_MAX_HANDLES || '40' }}
           ORG_ROTATE_DAYS: ${{ github.event.schedule == '0 20 * * 6' && '1' || vars.ORG_ROTATE_DAYS || '2' }}
           MAX_PAGES_PER_QUERY: ${{ github.event.schedule == '0 20 * * 6' && '8' || vars.MAX_PAGES_PER_QUERY || '4' }}
-          # 検索を飛ばして未取得ぶんだけ再挑戦したいときは SKIP_TWITTER=1
-          SKIP_TWITTER: ${{ vars.SKIP_TWITTER || '0' }}
-          # 解析ロジックを直したあと、全件をTonamelから取り直したいときは FORCE_REFETCH=1
+          SKIP_TWITTER: ${{ github.event.schedule == '17 * * * *' && '1' || vars.SKIP_TWITTER || '0' }}
           FORCE_REFETCH: ${{ vars.FORCE_REFETCH || '0' }}
         run: python scripts/collect.py
 
       - name: 収集結果を自己点検する
+        # 毎時は検索を飛ばしているので、点検しても意味のある比較にならない。
+        # それどころか audit.json を上書きして、日次実行が見つけた障害
+        # （例: twitterapi.io の402）を消してしまう。だから毎時は走らせない。
+        if: env.MODE != 'hourly'
         run: python scripts/audit.py
 
       - name: サイトを組み立てる
@@ -99,6 +111,26 @@ jobs:
             [ -f "$f" ] && cp "$f" "/tmp/out/$(basename "$f")"
           done
 
+          # 毎時実行では、大会の中身が変わっていないのにコミットしない。
+          # events.json には generated_at や collected_at が入っていて毎回必ず
+          # 差分が出るため、放っておくと「中身は同じなのに1.9MBの差分」が
+          # 1日24回積み上がり、リポジトリだけが太っていく。
+          # 日次・週次は監査結果も更新したいので、この判定はしない。
+          if [ "$MODE" = "hourly" ]; then
+            git fetch origin "$BR"
+            NEW_FP=$(python3 scripts/fingerprint.py /tmp/out/events.json)
+            if git show "origin/$BR:data/events.json" > /tmp/old_events.json 2>/dev/null; then
+              OLD_FP=$(python3 scripts/fingerprint.py /tmp/old_events.json)
+            else
+              OLD_FP="none"
+            fi
+            if [ "$NEW_FP" = "$OLD_FP" ]; then
+              echo "大会の中身に変化なし。コミットをスキップします。"
+              exit 0
+            fi
+            echo "大会の中身が変わったのでコミットします。"
+          fi
+
           for i in 1 2 3 4 5; do
             git fetch origin "$BR"
             git reset --hard "origin/$BR"
@@ -114,7 +146,7 @@ jobs:
               echo "変更なし。コミットをスキップします。"
               exit 0
             fi
-            git commit -m "自動更新: $(date -u -d '+9 hours' '+%Y-%m-%d %H:%M') JST"
+            git commit -m "自動更新[$MODE]: $(date -u -d '+9 hours' '+%Y-%m-%d %H:%M') JST"
             if git push origin "HEAD:$BR"; then
               echo "push 成功"
               exit 0
