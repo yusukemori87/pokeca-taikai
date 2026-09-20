@@ -40,6 +40,13 @@ MAX_ORGS = int(os.environ.get("ORG_PAGE_LIMIT", "120"))
 MAX_SCROLL = int(os.environ.get("ORG_MAX_SCROLL", "5"))
 # 巡回全体の時間予算（秒）。毎日走るので、途中で切り上げても翌日続きが回る。
 TIME_BUDGET_SEC = int(os.environ.get("ORG_TIME_BUDGET", "900"))
+# 1時間ごとの軽量実行では、毎回同じ上位N人を見ても意味がない。
+# 時刻で区画を切り替え、数時間で全員を一巡させる。
+ROTATE_BY_HOUR = os.environ.get("ORG_ROTATE_BY_HOUR") == "1"
+# ローテーションの対象にする上位何人までか。0なら全員。
+# 主催者は400人以上いるが、大半は過去に1回だけ開催した店。
+# 毎時の巡回では「よく開催する人」に絞ったほうが、新着を早く拾える。
+ORG_POOL = int(os.environ.get("ORG_POOL", "0"))
 # Tonamelのページ内リンクに現れる「大会IDではない語」。ゴミIDとして積むと
 # 取得失敗が積み上がるので弾く（実際に "index" や "_competitionId" が混入した）。
 NOT_AN_ID = {"index", "create", "search", "detail", "edit", "admin", "login",
@@ -65,7 +72,19 @@ def org_urls() -> list[str]:
         m = ORG_RE.search(e.get("organizer_url") or "")
         if m:
             ids[m.group(1)] += 1
-    return [f"https://tonamel.com/organization/{i}" for i, _ in ids.most_common(MAX_ORGS)]
+    ranked = [f"https://tonamel.com/organization/{i}" for i, _ in ids.most_common()]
+    if not ranked:
+        return []
+    if ROTATE_BY_HOUR and ORG_POOL:
+        ranked = ranked[:ORG_POOL]
+    if ROTATE_BY_HOUR and len(ranked) > MAX_ORGS:
+        # 全体を MAX_ORGS 人ずつの区画に割り、いまの時刻で区画を選ぶ。
+        # 例: 150人を30人ずつ→5区画。5時間で全員を一巡する。
+        blocks = (len(ranked) + MAX_ORGS - 1) // MAX_ORGS
+        b = datetime.now(JST).hour % blocks
+        log(f"  ローテーション: 全{len(ranked)}人を{blocks}区画に分割 → 第{b + 1}区画を巡回")
+        return ranked[b * MAX_ORGS:(b + 1) * MAX_ORGS]
+    return ranked[:MAX_ORGS]
 
 
 def collect(page, url: str) -> set[str]:
