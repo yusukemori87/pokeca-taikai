@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-20T17:59:28.120521+09:00",
-  "count": 1499,
+  "generated_at": "2026-09-20T19:21:58.644545+09:00",
+  "count": 1510,
   "horizon": "2026-12-24",
   "by_prefecture": {
-    "東京都": 493,
+    "東京都": 502,
     "大阪府": 111,
     "福岡県": 106,
     "茨城県": 80,
@@ -15,9 +15,9 @@
     "不明": 40,
     "埼玉県": 40,
     "宮城県": 39,
-    "千葉県": 36,
+    "千葉県": 37,
+    "滋賀県": 34,
     "神奈川県": 34,
-    "滋賀県": 33,
     "兵庫県": 31,
     "静岡県": 29,
     "沖縄県": 21,
@@ -348,8 +348,8 @@
       "announced_by": null,
       "organizer_name": "PLAYERSむく",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:43.480726+09:00",
-      "collected_at": "2026-09-20T16:26:43.482329+09:00"
+      "tweeted_at": "2026-09-20T16:40:00.171549+09:00",
+      "collected_at": "2026-09-20T16:40:00.173144+09:00"
     },
     {
       "id": "Ny2XI",
@@ -1274,8 +1274,8 @@
       "announced_by": null,
       "organizer_name": "TORECA ASSEMBLE 下松店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:40.248418+09:00",
-      "collected_at": "2026-09-20T16:25:40.248946+09:00"
+      "tweeted_at": "2026-09-20T16:38:56.154728+09:00",
+      "collected_at": "2026-09-20T16:38:56.155248+09:00"
     },
     {
       "id": "JAbjY",
@@ -1299,8 +1299,8 @@
       "announced_by": null,
       "organizer_name": "TSUTAYA鹿嶋南店　",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:54.633914+09:00",
-      "collected_at": "2026-09-20T16:25:54.634160+09:00"
+      "tweeted_at": "2026-09-20T16:39:09.932098+09:00",
+      "collected_at": "2026-09-20T16:39:09.932364+09:00"
     },
     {
       "id": "ptwWq",
@@ -1324,8 +1324,8 @@
       "announced_by": null,
       "organizer_name": "コーダック",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:54.712805+09:00",
-      "collected_at": "2026-09-20T16:26:54.713841+09:00"
+      "tweeted_at": "2026-09-20T16:40:14.457599+09:00",
+      "collected_at": "2026-09-20T16:40:14.458655+09:00"
     },
     {
       "id": "zML9g",
@@ -1349,8 +1349,8 @@
       "announced_by": null,
       "organizer_name": "トレカショップOceanうるま店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:27:09.153138+09:00",
-      "collected_at": "2026-09-20T16:27:09.153342+09:00"
+      "tweeted_at": "2026-09-20T16:40:30.206090+09:00",
+      "collected_at": "2026-09-20T16:40:30.206321+09:00"
     },
     {
       "id": "0BA1F",
@@ -1649,8 +1649,8 @@
       "announced_by": null,
       "organizer_name": "文教堂西野3条店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:34.277461+09:00",
-      "collected_at": "2026-09-20T16:25:34.278214+09:00"
+      "tweeted_at": "2026-09-20T16:38:50.944025+09:00",
+      "collected_at": "2026-09-20T16:38:50.944766+09:00"
     },
     {
       "id": "xJUyy",
@@ -2352,8 +2352,8 @@
       "announced_by": null,
       "organizer_name": "トレカショップOceanうるま店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:14.399965+09:00",
-      "collected_at": "2026-09-20T16:25:14.437263+09:00"
+      "tweeted_at": "2026-09-20T16:38:32.339928+09:00",
+      "collected_at": "2026-09-20T16:38:32.363914+09:00"
     },
     {
       "id": "ZSv5d",
@@ -2377,8 +2377,8 @@
       "announced_by": null,
       "organizer_name": "おもちゃのバンビ",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:26.446842+09:00",
-      "collected_at": "2026-09-20T16:26:26.447255+09:00"
+      "tweeted_at": "2026-09-20T16:39:44.015786+09:00",
+      "collected_at": "2026-09-20T16:39:44.016199+09:00"
     },
     {
       "id": "tjQ39",
@@ -2404,6 +2404,32 @@
       "pv": 7,
       "tweeted_at": "2026-09-08T09:18:44.741072+09:00",
       "collected_at": "2026-09-08T09:18:44.741495+09:00"
+    },
+    {
+      "id": "bTjiw",
+      "title": "ナガハマポケカフェス当日大会",
+      "url": "https://tonamel.com/competition/bTjiw",
+      "date": "2026-09-20",
+      "start_time": "16:30",
+      "prefecture": "滋賀県",
+      "venue": null,
+      "address": null,
+      "online": false,
+      "fee": null,
+      "capacity": 16,
+      "prize": null,
+      "format": "その他",
+      "kind": "自主大会",
+      "organizer_url": "https://tonamel.com/organization/Pro3N",
+      "summary": "ナガハマポケカフェス当日大会 - Tonamel",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "PLAYERSむく",
+      "pv": 7,
+      "tweeted_at": "2026-09-20T16:39:46.431744+09:00",
+      "collected_at": "2026-09-20T16:39:46.431953+09:00",
+      "prefecture_inferred": true
     },
     {
       "id": "wcD9T",
@@ -3104,8 +3130,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2 大宮店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:57.745119+09:00",
-      "collected_at": "2026-09-20T16:26:57.745801+09:00"
+      "tweeted_at": "2026-09-20T16:40:18.726344+09:00",
+      "collected_at": "2026-09-20T16:40:18.726992+09:00"
     },
     {
       "id": "QnAnY",
@@ -3355,8 +3381,8 @@
       "announced_by": null,
       "organizer_name": "とおせんぼ杯",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:59.041666+09:00",
-      "collected_at": "2026-09-20T16:26:59.044182+09:00"
+      "tweeted_at": "2026-09-20T16:40:20.102611+09:00",
+      "collected_at": "2026-09-20T16:40:20.105111+09:00"
     },
     {
       "id": "Q6TKr",
@@ -3480,8 +3506,8 @@
       "announced_by": null,
       "organizer_name": "ぐるぐるジム",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:17.039550+09:00",
-      "collected_at": "2026-09-20T16:26:17.040005+09:00"
+      "tweeted_at": "2026-09-20T16:39:33.878815+09:00",
+      "collected_at": "2026-09-20T16:39:33.879262+09:00"
     },
     {
       "id": "l9vqv",
@@ -3655,8 +3681,8 @@
       "announced_by": null,
       "organizer_name": "GIRAFULLオタロード",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:53.426921+09:00",
-      "collected_at": "2026-09-20T16:26:53.427425+09:00"
+      "tweeted_at": "2026-09-20T16:40:11.796712+09:00",
+      "collected_at": "2026-09-20T16:40:11.797187+09:00"
     },
     {
       "id": "TeGl5",
@@ -3705,8 +3731,8 @@
       "announced_by": null,
       "organizer_name": "チームおとうふ",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:22.228741+09:00",
-      "collected_at": "2026-09-20T16:25:22.230866+09:00"
+      "tweeted_at": "2026-09-20T16:38:38.978703+09:00",
+      "collected_at": "2026-09-20T16:38:38.980771+09:00"
     },
     {
       "id": "JoE0z",
@@ -4856,8 +4882,8 @@
       "announced_by": null,
       "organizer_name": "トレコネCS",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:50.211643+09:00",
-      "collected_at": "2026-09-20T16:25:50.212223+09:00"
+      "tweeted_at": "2026-09-20T16:39:04.725452+09:00",
+      "collected_at": "2026-09-20T16:39:04.726028+09:00"
     },
     {
       "id": "8cGDm",
@@ -5431,8 +5457,8 @@
       "announced_by": null,
       "organizer_name": "もーちー杯",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:40.652158+09:00",
-      "collected_at": "2026-09-20T16:26:40.653266+09:00"
+      "tweeted_at": "2026-09-20T16:39:57.604493+09:00",
+      "collected_at": "2026-09-20T16:39:57.605579+09:00"
     },
     {
       "id": "DM95R",
@@ -6381,8 +6407,8 @@
       "announced_by": null,
       "organizer_name": "燈桜",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:27:07.660664+09:00",
-      "collected_at": "2026-09-20T16:27:07.661090+09:00"
+      "tweeted_at": "2026-09-20T16:40:29.031323+09:00",
+      "collected_at": "2026-09-20T16:40:29.031742+09:00"
     },
     {
       "id": "5E24p",
@@ -7206,8 +7232,8 @@
       "announced_by": null,
       "organizer_name": "チェルモCS",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:59.143571+09:00",
-      "collected_at": "2026-09-20T16:25:59.144416+09:00"
+      "tweeted_at": "2026-09-20T16:39:15.146761+09:00",
+      "collected_at": "2026-09-20T16:39:15.147590+09:00"
     },
     {
       "id": "AtEp4",
@@ -8506,8 +8532,8 @@
       "announced_by": null,
       "organizer_name": "南予ポケカ",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:29.295435+09:00",
-      "collected_at": "2026-09-20T16:26:29.296466+09:00"
+      "tweeted_at": "2026-09-20T16:39:47.610623+09:00",
+      "collected_at": "2026-09-20T16:39:47.611637+09:00"
     },
     {
       "id": "9k4fM",
@@ -9282,8 +9308,8 @@
       "announced_by": null,
       "organizer_name": "トレコネCS",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:21.155487+09:00",
-      "collected_at": "2026-09-20T16:26:21.156130+09:00"
+      "tweeted_at": "2026-09-20T16:39:39.075606+09:00",
+      "collected_at": "2026-09-20T16:39:39.076246+09:00"
     },
     {
       "id": "Ji9qS",
@@ -9657,8 +9683,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　岡山店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:57.638493+09:00",
-      "collected_at": "2026-09-20T16:25:57.639129+09:00"
+      "tweeted_at": "2026-09-20T16:39:13.766459+09:00",
+      "collected_at": "2026-09-20T16:39:13.767078+09:00"
     },
     {
       "id": "gBvH6",
@@ -10007,8 +10033,8 @@
       "announced_by": null,
       "organizer_name": "TORECA　ASSEMBLE　宇部店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:27:10.468650+09:00",
-      "collected_at": "2026-09-20T16:27:10.469137+09:00"
+      "tweeted_at": "2026-09-20T16:40:31.576962+09:00",
+      "collected_at": "2026-09-20T16:40:31.577464+09:00"
     },
     {
       "id": "gLZxF",
@@ -16760,8 +16786,8 @@
       "announced_by": null,
       "organizer_name": "D-Cent game&amp;card",
       "pv": 7,
-      "tweeted_at": "2026-09-20T17:50:10.779789+09:00",
-      "collected_at": "2026-09-20T17:50:10.780910+09:00"
+      "tweeted_at": "2026-09-20T19:05:21.586188+09:00",
+      "collected_at": "2026-09-20T19:05:21.587349+09:00"
     },
     {
       "id": "61Buu",
@@ -17610,8 +17636,8 @@
       "announced_by": null,
       "organizer_name": "D-Cent game&amp;card",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:34:12.299323+09:00",
-      "collected_at": "2026-09-20T16:34:12.300754+09:00"
+      "tweeted_at": "2026-09-20T16:53:08.872815+09:00",
+      "collected_at": "2026-09-20T16:53:08.874241+09:00"
     },
     {
       "id": "vF5va",
@@ -17985,8 +18011,8 @@
       "announced_by": null,
       "organizer_name": "てつのこなCS",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:36.434101+09:00",
-      "collected_at": "2026-09-20T16:26:36.434279+09:00"
+      "tweeted_at": "2026-09-20T16:39:53.934556+09:00",
+      "collected_at": "2026-09-20T16:39:53.934734+09:00"
     },
     {
       "id": "lhyyA",
@@ -18010,8 +18036,8 @@
       "announced_by": null,
       "organizer_name": "TSUTAYA神立店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:46.548017+09:00",
-      "collected_at": "2026-09-20T16:26:46.548200+09:00"
+      "tweeted_at": "2026-09-20T16:40:05.497581+09:00",
+      "collected_at": "2026-09-20T16:40:05.497762+09:00"
     },
     {
       "id": "9ylft",
@@ -18212,6 +18238,31 @@
       "pv": 7,
       "tweeted_at": "2026-09-04T09:14:43.234482+09:00",
       "collected_at": "2026-09-04T09:14:43.234938+09:00"
+    },
+    {
+      "id": "rtonm",
+      "title": "GOODGAME@流山おおたかの森のイベント",
+      "url": "https://tonamel.com/competition/rtonm",
+      "date": "2026-09-27",
+      "start_time": "16:00",
+      "prefecture": "千葉県",
+      "venue": null,
+      "address": null,
+      "online": false,
+      "fee": null,
+      "capacity": 16,
+      "prize": null,
+      "format": "その他",
+      "kind": "自主大会",
+      "organizer_url": "https://tonamel.com/organization/nwQyF",
+      "summary": "GOODGAME@流山おおたかの森のイベント - Tonamel",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "GOODGAME@流山おおたかの森",
+      "pv": 7,
+      "tweeted_at": "2026-09-20T16:40:15.797766+09:00",
+      "collected_at": "2026-09-20T16:40:15.797905+09:00"
     },
     {
       "id": "UAusG",
@@ -18685,8 +18736,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　岡山店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:15.930813+09:00",
-      "collected_at": "2026-09-20T16:25:15.931656+09:00"
+      "tweeted_at": "2026-09-20T16:38:33.591728+09:00",
+      "collected_at": "2026-09-20T16:38:33.592579+09:00"
     },
     {
       "id": "GPhBu",
@@ -23261,8 +23312,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:15.529965+09:00",
-      "collected_at": "2026-09-20T16:26:15.530468+09:00"
+      "tweeted_at": "2026-09-20T16:39:32.417843+09:00",
+      "collected_at": "2026-09-20T16:39:32.418364+09:00"
     },
     {
       "id": "HR4o6",
@@ -23336,8 +23387,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:11.041284+09:00",
-      "collected_at": "2026-09-20T16:26:11.041820+09:00"
+      "tweeted_at": "2026-09-20T16:39:28.439591+09:00",
+      "collected_at": "2026-09-20T16:39:28.440115+09:00"
     },
     {
       "id": "TVijq",
@@ -23461,8 +23512,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:39.375131+09:00",
-      "collected_at": "2026-09-20T16:26:39.375736+09:00"
+      "tweeted_at": "2026-09-20T16:39:56.421058+09:00",
+      "collected_at": "2026-09-20T16:39:56.421679+09:00"
     },
     {
       "id": "gwehd",
@@ -23586,8 +23637,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:27.791694+09:00",
-      "collected_at": "2026-09-20T16:26:27.792217+09:00"
+      "tweeted_at": "2026-09-20T16:39:45.198124+09:00",
+      "collected_at": "2026-09-20T16:39:45.198657+09:00"
     },
     {
       "id": "SPLSP",
@@ -23636,8 +23687,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:51.779940+09:00",
-      "collected_at": "2026-09-20T16:25:51.780453+09:00"
+      "tweeted_at": "2026-09-20T16:39:06.107354+09:00",
+      "collected_at": "2026-09-20T16:39:06.107854+09:00"
     },
     {
       "id": "keKJ7",
@@ -23711,8 +23762,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:06.388454+09:00",
-      "collected_at": "2026-09-20T16:26:06.388990+09:00"
+      "tweeted_at": "2026-09-20T16:39:23.104931+09:00",
+      "collected_at": "2026-09-20T16:39:23.105467+09:00"
     },
     {
       "id": "Ov1un",
@@ -23786,8 +23837,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:12.344887+09:00",
-      "collected_at": "2026-09-20T16:26:12.345469+09:00"
+      "tweeted_at": "2026-09-20T16:39:29.823619+09:00",
+      "collected_at": "2026-09-20T16:39:29.824201+09:00"
     },
     {
       "id": "HAcBw",
@@ -23936,8 +23987,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:48.978876+09:00",
-      "collected_at": "2026-09-20T16:25:48.979391+09:00"
+      "tweeted_at": "2026-09-20T16:39:03.346825+09:00",
+      "collected_at": "2026-09-20T16:39:03.347366+09:00"
     },
     {
       "id": "kUenJ",
@@ -25161,8 +25212,8 @@
       "announced_by": null,
       "organizer_name": "あそビバイオンモール草津店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:24.930796+09:00",
-      "collected_at": "2026-09-20T16:26:24.931776+09:00"
+      "tweeted_at": "2026-09-20T16:39:42.829026+09:00",
+      "collected_at": "2026-09-20T16:39:42.830002+09:00"
     },
     {
       "id": "t2woG",
@@ -25611,8 +25662,8 @@
       "announced_by": null,
       "organizer_name": "あそビバイオンモール草津店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:51.947262+09:00",
-      "collected_at": "2026-09-20T16:26:51.948293+09:00"
+      "tweeted_at": "2026-09-20T16:40:10.428153+09:00",
+      "collected_at": "2026-09-20T16:40:10.429199+09:00"
     },
     {
       "id": "xU0sb",
@@ -25862,8 +25913,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:25.164556+09:00",
-      "collected_at": "2026-09-20T16:25:25.165120+09:00"
+      "tweeted_at": "2026-09-20T16:38:41.392627+09:00",
+      "collected_at": "2026-09-20T16:38:41.393146+09:00"
     },
     {
       "id": "Wk4ia",
@@ -25937,8 +25988,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:44.490720+09:00",
-      "collected_at": "2026-09-20T16:25:44.491223+09:00"
+      "tweeted_at": "2026-09-20T16:38:59.768158+09:00",
+      "collected_at": "2026-09-20T16:38:59.768688+09:00"
     },
     {
       "id": "OwnpE",
@@ -25987,8 +26038,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:27:06.163948+09:00",
-      "collected_at": "2026-09-20T16:27:06.164468+09:00"
+      "tweeted_at": "2026-09-20T16:40:27.846930+09:00",
+      "collected_at": "2026-09-20T16:40:27.847464+09:00"
     },
     {
       "id": "Ja68S",
@@ -26087,8 +26138,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:33.809408+09:00",
-      "collected_at": "2026-09-20T16:26:33.810007+09:00"
+      "tweeted_at": "2026-09-20T16:39:51.365683+09:00",
+      "collected_at": "2026-09-20T16:39:51.366291+09:00"
     },
     {
       "id": "A6sWM",
@@ -26137,8 +26188,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:07.974683+09:00",
-      "collected_at": "2026-09-20T16:26:07.975190+09:00"
+      "tweeted_at": "2026-09-20T16:39:25.644621+09:00",
+      "collected_at": "2026-09-20T16:39:25.645126+09:00"
     },
     {
       "id": "HL4MN",
@@ -26212,8 +26263,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:35.602152+09:00",
-      "collected_at": "2026-09-20T16:25:35.602670+09:00"
+      "tweeted_at": "2026-09-20T16:38:52.376436+09:00",
+      "collected_at": "2026-09-20T16:38:52.376939+09:00"
     },
     {
       "id": "Bj3zu",
@@ -26287,8 +26338,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:26.547760+09:00",
-      "collected_at": "2026-09-20T16:25:26.548280+09:00"
+      "tweeted_at": "2026-09-20T16:38:42.587279+09:00",
+      "collected_at": "2026-09-20T16:38:42.587790+09:00"
     },
     {
       "id": "EbWvm",
@@ -26312,8 +26363,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:43.182311+09:00",
-      "collected_at": "2026-09-20T16:25:43.182911+09:00"
+      "tweeted_at": "2026-09-20T16:38:58.587691+09:00",
+      "collected_at": "2026-09-20T16:38:58.588293+09:00"
     },
     {
       "id": "1CO7Z",
@@ -26387,8 +26438,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:29.439022+09:00",
-      "collected_at": "2026-09-20T16:25:29.439522+09:00"
+      "tweeted_at": "2026-09-20T16:38:45.252803+09:00",
+      "collected_at": "2026-09-20T16:38:45.253324+09:00"
     },
     {
       "id": "hvC8a",
@@ -26462,8 +26513,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:00.479833+09:00",
-      "collected_at": "2026-09-20T16:26:00.480308+09:00"
+      "tweeted_at": "2026-09-20T16:39:16.532053+09:00",
+      "collected_at": "2026-09-20T16:39:16.532578+09:00"
     },
     {
       "id": "XJsy5",
@@ -26537,8 +26588,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:46.055132+09:00",
-      "collected_at": "2026-09-20T16:25:46.055685+09:00"
+      "tweeted_at": "2026-09-20T16:39:00.944041+09:00",
+      "collected_at": "2026-09-20T16:39:00.944571+09:00"
     },
     {
       "id": "YzF5N",
@@ -26562,8 +26613,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:22.473821+09:00",
-      "collected_at": "2026-09-20T16:26:22.474406+09:00"
+      "tweeted_at": "2026-09-20T16:39:40.451668+09:00",
+      "collected_at": "2026-09-20T16:39:40.452263+09:00"
     },
     {
       "id": "Ccuqf",
@@ -26662,8 +26713,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:23.824681+09:00",
-      "collected_at": "2026-09-20T16:25:23.825181+09:00"
+      "tweeted_at": "2026-09-20T16:38:40.208807+09:00",
+      "collected_at": "2026-09-20T16:38:40.209530+09:00"
     },
     {
       "id": "1fUae",
@@ -26762,8 +26813,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:41.623871+09:00",
-      "collected_at": "2026-09-20T16:25:41.624374+09:00"
+      "tweeted_at": "2026-09-20T16:38:57.338321+09:00",
+      "collected_at": "2026-09-20T16:38:57.338819+09:00"
     },
     {
       "id": "w74SV",
@@ -26837,8 +26888,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:27:02.150997+09:00",
-      "collected_at": "2026-09-20T16:27:02.151509+09:00"
+      "tweeted_at": "2026-09-20T16:40:22.853424+09:00",
+      "collected_at": "2026-09-20T16:40:22.853940+09:00"
     },
     {
       "id": "QcOSf",
@@ -26912,8 +26963,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:03.577662+09:00",
-      "collected_at": "2026-09-20T16:26:03.578244+09:00"
+      "tweeted_at": "2026-09-20T16:39:20.550613+09:00",
+      "collected_at": "2026-09-20T16:39:20.551187+09:00"
     },
     {
       "id": "gZjVJ",
@@ -26987,8 +27038,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:20.592570+09:00",
-      "collected_at": "2026-09-20T16:25:20.593104+09:00"
+      "tweeted_at": "2026-09-20T16:38:37.532761+09:00",
+      "collected_at": "2026-09-20T16:38:37.533294+09:00"
     },
     {
       "id": "M83fc",
@@ -27062,8 +27113,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:13.967326+09:00",
-      "collected_at": "2026-09-20T16:26:13.967851+09:00"
+      "tweeted_at": "2026-09-20T16:39:31.004838+09:00",
+      "collected_at": "2026-09-20T16:39:31.005352+09:00"
     },
     {
       "id": "zA9bi",
@@ -27112,8 +27163,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:31.097747+09:00",
-      "collected_at": "2026-09-20T16:25:31.098269+09:00"
+      "tweeted_at": "2026-09-20T16:38:46.633776+09:00",
+      "collected_at": "2026-09-20T16:38:46.634319+09:00"
     },
     {
       "id": "f92LF",
@@ -27212,8 +27263,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:27:00.444385+09:00",
-      "collected_at": "2026-09-20T16:27:00.444987+09:00"
+      "tweeted_at": "2026-09-20T16:40:21.480042+09:00",
+      "collected_at": "2026-09-20T16:40:21.480644+09:00"
     },
     {
       "id": "RcPvE",
@@ -27287,8 +27338,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:37.351243+09:00",
-      "collected_at": "2026-09-20T16:25:37.351766+09:00"
+      "tweeted_at": "2026-09-20T16:38:53.593039+09:00",
+      "collected_at": "2026-09-20T16:38:53.593574+09:00"
     },
     {
       "id": "PAEQX",
@@ -28789,8 +28840,8 @@
       "announced_by": null,
       "organizer_name": "カードショップLight",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:39:40.192780+09:00",
-      "collected_at": "2026-09-20T16:39:40.193362+09:00"
+      "tweeted_at": "2026-09-20T17:01:59.399442+09:00",
+      "collected_at": "2026-09-20T17:01:59.400018+09:00"
     },
     {
       "id": "fkAyK",
@@ -29039,8 +29090,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:47.373729+09:00",
-      "collected_at": "2026-09-20T16:25:47.374255+09:00"
+      "tweeted_at": "2026-09-20T16:39:02.140043+09:00",
+      "collected_at": "2026-09-20T16:39:02.140585+09:00"
     },
     {
       "id": "Cziv1",
@@ -29965,8 +30016,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:19.243295+09:00",
-      "collected_at": "2026-09-20T16:25:19.244257+09:00"
+      "tweeted_at": "2026-09-20T16:38:36.298701+09:00",
+      "collected_at": "2026-09-20T16:38:36.299655+09:00"
     },
     {
       "id": "HMVVw",
@@ -30040,8 +30091,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:41.980313+09:00",
-      "collected_at": "2026-09-20T16:26:41.980848+09:00"
+      "tweeted_at": "2026-09-20T16:39:58.783639+09:00",
+      "collected_at": "2026-09-20T16:39:58.784153+09:00"
     },
     {
       "id": "CIvOS",
@@ -30065,8 +30116,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:38.687355+09:00",
-      "collected_at": "2026-09-20T16:25:38.687960+09:00"
+      "tweeted_at": "2026-09-20T16:38:54.969187+09:00",
+      "collected_at": "2026-09-20T16:38:54.969786+09:00"
     },
     {
       "id": "T98GC",
@@ -30140,8 +30191,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:53.342693+09:00",
-      "collected_at": "2026-09-20T16:25:53.343200+09:00"
+      "tweeted_at": "2026-09-20T16:39:08.754299+09:00",
+      "collected_at": "2026-09-20T16:39:08.754799+09:00"
     },
     {
       "id": "XbBnP",
@@ -30190,8 +30241,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2池袋店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T17:36:51.572657+09:00",
-      "collected_at": "2026-09-20T17:36:51.573169+09:00"
+      "tweeted_at": "2026-09-20T16:40:02.847359+09:00",
+      "collected_at": "2026-09-20T16:40:02.847856+09:00"
     },
     {
       "id": "5Wy6o",
@@ -30244,6 +30295,31 @@
       "collected_at": "2026-09-20T09:15:50.392282+09:00"
     },
     {
+      "id": "XiPCB",
+      "title": "ふらっとポケカ交流会 ポケカ30th記念Ver（16時の部）",
+      "url": "https://tonamel.com/competition/XiPCB",
+      "date": "2026-10-14",
+      "start_time": "16:00",
+      "prefecture": "東京都",
+      "venue": "晴れる屋池袋店",
+      "address": "〒170-0013 東京都豊島区東池袋1丁目41-6 菊邑91ビル 8F",
+      "online": false,
+      "fee": "300円",
+      "capacity": 40,
+      "prize": null,
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/bhjYb",
+      "summary": "勝敗は関係なし！みんなでワイワイ楽しむ交流イベントです！【参加費】300円【ルール】スタンダードレギュレーション300円で全2回戦に参加でき、拡張パック「30th CELEBRATION」1パックをお持ち帰りいただけます。【賞品】 2戦対戦して頂いた方全員に「30th CELEBRATION」1パック 【スケジュール】 チェックイン時間：15：00～エントリー・チェックイン締め切り時間：16：00",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "晴れる屋2池袋店",
+      "pv": 7,
+      "tweeted_at": "2026-09-20T16:39:36.521052+09:00",
+      "collected_at": "2026-09-20T16:39:36.521590+09:00"
+    },
+    {
       "id": "kiLoT",
       "title": "ふらっとポケカ交流会 ポケカ30th記念Ver",
       "url": "https://tonamel.com/competition/kiLoT",
@@ -30265,8 +30341,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:45.122367+09:00",
-      "collected_at": "2026-09-20T16:26:45.122981+09:00"
+      "tweeted_at": "2026-09-20T16:40:01.355352+09:00",
+      "collected_at": "2026-09-20T16:40:01.355962+09:00"
     },
     {
       "id": "YvKaL",
@@ -30344,6 +30420,31 @@
       "collected_at": "2026-09-20T09:16:56.562892+09:00"
     },
     {
+      "id": "7rc6P",
+      "title": "ハレツーバトル(19時の部)",
+      "url": "https://tonamel.com/competition/7rc6P",
+      "date": "2026-10-14",
+      "start_time": "19:00",
+      "prefecture": "東京都",
+      "venue": "晴れる屋2池袋店",
+      "address": "〒170-0013 東京都豊島区東池袋1丁目41-6 菊邑91ビル 8F",
+      "online": false,
+      "fee": "500円",
+      "capacity": 76,
+      "prize": null,
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/bhjYb",
+      "summary": "【参加費】500円【ルール】スタンダードレギュレーション【賞品】3勝：晴れる屋2ポイント 1,500 pt2勝：晴れる屋2ポイント500 pt参加賞：スタンダード環境のポケモンカードパック1パック参加賞はこちらでご用意させていただいたものとなります。変更はできません。【スケジュール】チェックイン時間：18:00～エントリー・チェックイン締め切り時間：19：00定員：76名全3回戦です。大会の運営に",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "晴れる屋2池袋店",
+      "pv": 7,
+      "tweeted_at": "2026-09-20T16:38:48.140694+09:00",
+      "collected_at": "2026-09-20T16:38:48.141197+09:00"
+    },
+    {
       "id": "W23J0",
       "title": "ハレツーバトル (13時の部)",
       "url": "https://tonamel.com/competition/W23J0",
@@ -30367,6 +30468,31 @@
       "pv": 7,
       "tweeted_at": "2026-09-20T09:15:29.847828+09:00",
       "collected_at": "2026-09-20T09:15:29.848256+09:00"
+    },
+    {
+      "id": "lRvol",
+      "title": "ハレツーバトル（13時の部）",
+      "url": "https://tonamel.com/competition/lRvol",
+      "date": "2026-10-15",
+      "start_time": "13:00",
+      "prefecture": "東京都",
+      "venue": "晴れる屋2池袋店",
+      "address": "〒170-0013 東京都豊島区東池袋1丁目41-6 菊邑91ビル 8F",
+      "online": false,
+      "fee": "500円",
+      "capacity": 76,
+      "prize": null,
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/bhjYb",
+      "summary": "【参加費】500円【ルール】スタンダードレギュレーション【賞品】3勝：晴れる屋2ポイント 1,500 pt2勝：晴れる屋2ポイント500 pt参加賞：スタンダード環境のポケモンカードパック1パック参加賞はこちらでご用意させていただいたものとなります。変更はできません。【スケジュール】チェックイン時間：12:00～エントリー・チェックイン締め切り時間：13：00定員：76名全3回戦です。大会の運営に",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "晴れる屋2池袋店",
+      "pv": 7,
+      "tweeted_at": "2026-09-20T16:40:04.310426+09:00",
+      "collected_at": "2026-09-20T16:40:04.310923+09:00"
     },
     {
       "id": "SnU7m",
@@ -30419,6 +30545,31 @@
       "collected_at": "2026-09-20T09:17:28.832826+09:00"
     },
     {
+      "id": "pb0qo",
+      "title": "ふらっとポケカ交流会 ポケカ30th記念Ver（16時の部）",
+      "url": "https://tonamel.com/competition/pb0qo",
+      "date": "2026-10-15",
+      "start_time": "16:00",
+      "prefecture": "東京都",
+      "venue": "晴れる屋池袋店",
+      "address": "〒170-0013 東京都豊島区東池袋1丁目41-6 菊邑91ビル 8F",
+      "online": false,
+      "fee": "300円",
+      "capacity": 40,
+      "prize": null,
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/bhjYb",
+      "summary": "勝敗は関係なし！みんなでワイワイ楽しむ交流イベントです！【参加費】300円【ルール】スタンダードレギュレーション300円で全2回戦に参加でき、拡張パック「30th CELEBRATION」1パックをお持ち帰りいただけます。【賞品】 2戦対戦して頂いた方全員に「30th CELEBRATION」1パック 【スケジュール】 チェックイン時間：15：00～エントリー・チェックイン締め切り時間：16：00",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "晴れる屋2池袋店",
+      "pv": 7,
+      "tweeted_at": "2026-09-20T16:40:13.275526+09:00",
+      "collected_at": "2026-09-20T16:40:13.276039+09:00"
+    },
+    {
       "id": "ifkhA",
       "title": "【MINT新宿/ポケカ】10/15(木) ジムバトル スタンダードレギュレーション",
       "url": "https://tonamel.com/competition/ifkhA",
@@ -30465,8 +30616,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:17.659868+09:00",
-      "collected_at": "2026-09-20T16:25:17.660463+09:00"
+      "tweeted_at": "2026-09-20T16:38:34.823858+09:00",
+      "collected_at": "2026-09-20T16:38:34.824461+09:00"
     },
     {
       "id": "Q29tw",
@@ -30519,6 +30670,31 @@
       "collected_at": "2026-09-20T09:13:55.291574+09:00"
     },
     {
+      "id": "xUgEY",
+      "title": "ハレツーバトル(19時の部)",
+      "url": "https://tonamel.com/competition/xUgEY",
+      "date": "2026-10-15",
+      "start_time": "19:00",
+      "prefecture": "東京都",
+      "venue": "晴れる屋2池袋店",
+      "address": "〒170-0013 東京都豊島区東池袋1丁目41-6 菊邑91ビル 8F",
+      "online": false,
+      "fee": "500円",
+      "capacity": 76,
+      "prize": null,
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/bhjYb",
+      "summary": "【参加費】500円【ルール】スタンダードレギュレーション【賞品】3勝：晴れる屋2ポイント 1,500 pt2勝：晴れる屋2ポイント500 pt参加賞：スタンダード環境のポケモンカードパック1パック参加賞はこちらでご用意させていただいたものとなります。変更はできません。【スケジュール】チェックイン時間：18:00～エントリー・チェックイン締め切り時間：19：00定員：76名全3回戦です。大会の運営に",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "晴れる屋2池袋店",
+      "pv": 7,
+      "tweeted_at": "2026-09-20T16:40:26.668021+09:00",
+      "collected_at": "2026-09-20T16:40:26.668541+09:00"
+    },
+    {
       "id": "Xoxap",
       "title": "ふらっとポケカ交流会 ポケカ30th記念Ver",
       "url": "https://tonamel.com/competition/Xoxap",
@@ -30542,6 +30718,31 @@
       "pv": 7,
       "tweeted_at": "2026-09-20T09:15:41.783834+09:00",
       "collected_at": "2026-09-20T09:15:41.783999+09:00"
+    },
+    {
+      "id": "JM3zV",
+      "title": "ハレツーバトル（13時の部）",
+      "url": "https://tonamel.com/competition/JM3zV",
+      "date": "2026-10-16",
+      "start_time": "13:00",
+      "prefecture": "東京都",
+      "venue": "晴れる屋2池袋店",
+      "address": "〒170-0013 東京都豊島区東池袋1丁目41-6 菊邑91ビル 8F",
+      "online": false,
+      "fee": "500円",
+      "capacity": 76,
+      "prize": null,
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/bhjYb",
+      "summary": "【参加費】500円【ルール】スタンダードレギュレーション【賞品】3勝：晴れる屋2ポイント 1,500 pt2勝：晴れる屋2ポイント500 pt参加賞：スタンダード環境のポケモンカードパック1パック参加賞はこちらでご用意させていただいたものとなります。変更はできません。【スケジュール】チェックイン時間：12:00～エントリー・チェックイン締め切り時間：13：00定員：76名全3回戦です。大会の運営に",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "晴れる屋2池袋店",
+      "pv": 7,
+      "tweeted_at": "2026-09-20T16:39:11.196737+09:00",
+      "collected_at": "2026-09-20T16:39:11.197255+09:00"
     },
     {
       "id": "F6mz6",
@@ -30592,6 +30793,31 @@
       "pv": 7,
       "tweeted_at": "2026-09-20T09:16:36.141962+09:00",
       "collected_at": "2026-09-20T09:16:36.142393+09:00"
+    },
+    {
+      "id": "QPGd0",
+      "title": "ふらっとポケカ交流会 ポケカ30th記念Ver（16時の部）",
+      "url": "https://tonamel.com/competition/QPGd0",
+      "date": "2026-10-16",
+      "start_time": "16:00",
+      "prefecture": "東京都",
+      "venue": "晴れる屋池袋店",
+      "address": "〒170-0013 東京都豊島区東池袋1丁目41-6 菊邑91ビル 8F",
+      "online": false,
+      "fee": "300円",
+      "capacity": 40,
+      "prize": null,
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/bhjYb",
+      "summary": "勝敗は関係なし！みんなでワイワイ楽しむ交流イベントです！【参加費】300円【ルール】スタンダードレギュレーション300円で全2回戦に参加でき、拡張パック「30th CELEBRATION」1パックをお持ち帰りいただけます。【賞品】 2戦対戦して頂いた方全員に「30th CELEBRATION」1パック 【スケジュール】 チェックイン時間：15：00～エントリー・チェックイン締め切り時間：16：00",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "晴れる屋2池袋店",
+      "pv": 7,
+      "tweeted_at": "2026-09-20T16:39:24.375423+09:00",
+      "collected_at": "2026-09-20T16:39:24.375940+09:00"
     },
     {
       "id": "3HKjY",
@@ -30665,8 +30891,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:47.855862+09:00",
-      "collected_at": "2026-09-20T16:26:47.856450+09:00"
+      "tweeted_at": "2026-09-20T16:40:06.677920+09:00",
+      "collected_at": "2026-09-20T16:40:06.678513+09:00"
     },
     {
       "id": "521Dc",
@@ -31665,8 +31891,8 @@
       "announced_by": null,
       "organizer_name": "TSUTAYA 田崎店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:37.664157+09:00",
-      "collected_at": "2026-09-20T16:26:37.665593+09:00"
+      "tweeted_at": "2026-09-20T16:39:55.181503+09:00",
+      "collected_at": "2026-09-20T16:39:55.182951+09:00"
     },
     {
       "id": "M0bKb",
@@ -32070,6 +32296,31 @@
       "collected_at": "2026-09-20T09:17:16.591498+09:00"
     },
     {
+      "id": "IZep7",
+      "title": "ふらっとポケカ交流会 ポケカ30th記念Ver（18時の部）",
+      "url": "https://tonamel.com/competition/IZep7",
+      "date": "2026-10-18",
+      "start_time": "18:00",
+      "prefecture": "東京都",
+      "venue": "晴れる屋池袋店",
+      "address": "〒170-0013 東京都豊島区東池袋1丁目41-6 菊邑91ビル 8F",
+      "online": false,
+      "fee": "300円",
+      "capacity": 40,
+      "prize": null,
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/bhjYb",
+      "summary": "勝敗は関係なし！みんなでワイワイ楽しむ交流イベントです！【参加費】300円【ルール】スタンダードレギュレーション300円で全2回戦に参加でき、拡張パック「30th CELEBRATION」1パックをお持ち帰りいただけます。【賞品】 2戦対戦して頂いた方全員に「30th CELEBRATION」1パック 【スケジュール】 チェックイン時間：17：00～エントリー・チェックイン締め切り時間：18：00",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "晴れる屋2池袋店",
+      "pv": 7,
+      "tweeted_at": "2026-09-20T16:39:07.572275+09:00",
+      "collected_at": "2026-09-20T16:39:07.572793+09:00"
+    },
+    {
       "id": "x6MIe",
       "title": "The トレカ公認ジムバトル",
       "url": "https://tonamel.com/competition/x6MIe",
@@ -32170,6 +32421,31 @@
       "collected_at": "2026-09-20T09:17:20.566842+09:00"
     },
     {
+      "id": "NdVVb",
+      "title": "ハレツーバトル（13時の部）",
+      "url": "https://tonamel.com/competition/NdVVb",
+      "date": "2026-10-19",
+      "start_time": "13:00",
+      "prefecture": "東京都",
+      "venue": "晴れる屋2池袋店",
+      "address": "〒170-0013 東京都豊島区東池袋1丁目41-6 菊邑91ビル 8F",
+      "online": false,
+      "fee": "500円",
+      "capacity": 76,
+      "prize": null,
+      "format": "スタンダード",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/bhjYb",
+      "summary": "【参加費】500円【ルール】スタンダードレギュレーション【賞品】3勝：晴れる屋2ポイント 1,500 pt2勝：晴れる屋2ポイント500 pt参加賞：スタンダード環境のポケモンカードパック1パック参加賞はこちらでご用意させていただいたものとなります。変更はできません。【スケジュール】チェックイン時間：12:00～エントリー・チェックイン締め切り時間：13：00定員：76名全3回戦です。大会の運営に",
+      "source_tweet_url": null,
+      "organizer_handle": null,
+      "announced_by": null,
+      "organizer_name": "晴れる屋2池袋店",
+      "pv": 7,
+      "tweeted_at": "2026-09-20T16:39:19.370570+09:00",
+      "collected_at": "2026-09-20T16:39:19.371070+09:00"
+    },
+    {
       "id": "WNKu3",
       "title": "ハレツーバトル (16時の部)",
       "url": "https://tonamel.com/competition/WNKu3",
@@ -32266,8 +32542,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:18.619096+09:00",
-      "collected_at": "2026-09-20T16:26:18.619697+09:00"
+      "tweeted_at": "2026-09-20T16:39:35.257969+09:00",
+      "collected_at": "2026-09-20T16:39:35.258571+09:00"
     },
     {
       "id": "eA9a0",
@@ -32416,8 +32692,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:05.036120+09:00",
-      "collected_at": "2026-09-20T16:26:05.036726+09:00"
+      "tweeted_at": "2026-09-20T16:39:21.730185+09:00",
+      "collected_at": "2026-09-20T16:39:21.730798+09:00"
     },
     {
       "id": "eqIaE",
@@ -32666,8 +32942,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:49.492035+09:00",
-      "collected_at": "2026-09-20T16:26:49.492636+09:00"
+      "tweeted_at": "2026-09-20T16:40:07.864172+09:00",
+      "collected_at": "2026-09-20T16:40:07.864776+09:00"
     },
     {
       "id": "OnkdG",
@@ -32841,8 +33117,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:32.720322+09:00",
-      "collected_at": "2026-09-20T16:25:32.720925+09:00"
+      "tweeted_at": "2026-09-20T16:38:49.571640+09:00",
+      "collected_at": "2026-09-20T16:38:49.572236+09:00"
     },
     {
       "id": "xbrYn",
@@ -33016,8 +33292,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:32.353522+09:00",
-      "collected_at": "2026-09-20T16:26:32.354167+09:00"
+      "tweeted_at": "2026-09-20T16:39:49.989618+09:00",
+      "collected_at": "2026-09-20T16:39:49.990197+09:00"
     },
     {
       "id": "LSh05",
@@ -34641,8 +34917,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:30.736732+09:00",
-      "collected_at": "2026-09-20T16:26:30.737321+09:00"
+      "tweeted_at": "2026-09-20T16:39:48.799097+09:00",
+      "collected_at": "2026-09-20T16:39:48.799716+09:00"
     },
     {
       "id": "k0SlS",
@@ -34791,8 +35067,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:25:27.881430+09:00",
-      "collected_at": "2026-09-20T16:25:27.882037+09:00"
+      "tweeted_at": "2026-09-20T16:38:43.829454+09:00",
+      "collected_at": "2026-09-20T16:38:43.830036+09:00"
     },
     {
       "id": "KdS4o",
@@ -34966,8 +35242,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:35.176077+09:00",
-      "collected_at": "2026-09-20T16:26:35.176677+09:00"
+      "tweeted_at": "2026-09-20T16:39:52.751428+09:00",
+      "collected_at": "2026-09-20T16:39:52.752004+09:00"
     },
     {
       "id": "aL1Ou",
@@ -35116,8 +35392,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:27:03.624985+09:00",
-      "collected_at": "2026-09-20T16:27:03.625575+09:00"
+      "tweeted_at": "2026-09-20T16:40:24.043294+09:00",
+      "collected_at": "2026-09-20T16:40:24.043878+09:00"
     },
     {
       "id": "G6mbS",
@@ -35316,8 +35592,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2　なんば店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:19.912930+09:00",
-      "collected_at": "2026-09-20T16:26:19.913527+09:00"
+      "tweeted_at": "2026-09-20T16:39:37.896378+09:00",
+      "collected_at": "2026-09-20T16:39:37.896971+09:00"
     },
     {
       "id": "luGUT",
@@ -36942,8 +37218,8 @@
       "announced_by": null,
       "organizer_name": "三洋堂トレカ館豊郷店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T16:26:01.993631+09:00",
-      "collected_at": "2026-09-20T16:26:01.996406+09:00"
+      "tweeted_at": "2026-09-20T16:39:17.932984+09:00",
+      "collected_at": "2026-09-20T16:39:17.935783+09:00"
     },
     {
       "id": "X1Jkw",
@@ -37067,8 +37343,8 @@
       "announced_by": null,
       "organizer_name": "トレカザウルス　京都店",
       "pv": 7,
-      "tweeted_at": "2026-09-20T17:47:48.561289+09:00",
-      "collected_at": "2026-09-20T17:47:48.562887+09:00"
+      "tweeted_at": "2026-09-20T19:01:18.466372+09:00",
+      "collected_at": "2026-09-20T19:01:18.468009+09:00"
     },
     {
       "id": "rdYmz",

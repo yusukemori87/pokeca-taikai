@@ -582,5 +582,13 @@
   "isLimitedReply": false,
   "communityInfo": null,
   "article": null
+ },
+ "spRA6": {
+  "id": null,
+  "text": "",
+  "createdAt": "",
+  "url": null,
+  "author": {},
+  "_source": "tonamel_public"
  }
 }
