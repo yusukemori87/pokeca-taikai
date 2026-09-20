@@ -117,6 +117,24 @@
   .quickrow.region{padding-bottom:0}
   .quickrow.region .chip{font-size:13px; padding:8px 13px; min-height:36px}
   .quickrow.region .chip .n{opacity:.65; font-weight:400; margin-left:4px; font-size:11.5px}
+  /* 地域を選ぶと、その地方の都道府県チップが下に出る */
+  .quickrow.pref{padding-top:6px; padding-bottom:0}
+  .quickrow.pref .chip, #prefRow .chip{font-size:12.5px; padding:6px 11px; min-height:32px; background:var(--bg-soft)}
+  .quickrow.pref .chip[aria-pressed="true"], #prefRow .chip[aria-pressed="true"]{background:var(--accent)}
+  .quickrow.pref .chip .n, #prefRow .chip .n{opacity:.65; font-weight:400; margin-left:3px; font-size:11px}
+  .quickrow[hidden]{display:none}
+  /* 上部の都道府県プルダウン（チップと同じ見た目）。16px未満だとiOSが拡大するので文字は16px */
+  .chipsel{
+    flex:0 0 auto; font:inherit; font-size:16px; color:var(--tx-mid); background:var(--card);
+    border:1px solid var(--line); border-radius:999px; padding:6px 12px; min-height:38px;
+    max-width:150px; outline:none;
+  }
+  .chipsel.on{background:var(--accent); border-color:var(--accent); color:#fff; font-weight:700}
+  .quickrow.qdates{align-items:center; padding-top:0; color:var(--tx-dim); font-size:13px}
+  .quickrow.qdates input[type=date]{
+    flex:1 1 0; min-width:0; font:inherit; font-size:16px; color:var(--tx); background:var(--card);
+    border:1px solid var(--line); border-radius:11px; padding:7px 10px; min-height:40px; outline:none;
+  }
   .chip{
     flex:0 0 auto; font-size:13.5px; cursor:pointer; white-space:nowrap;
     padding:9px 14px; border-radius:999px; border:1px solid var(--line);
@@ -351,12 +369,20 @@
 <div class="quick">
   <!-- 地域は一番よく使う絞り込みなので、シートを開かずに切り替えられる場所に置く -->
   <div class="quickrow region" id="quickRegionRow"></div>
+  <div class="quickrow pref" id="quickPrefRow" hidden></div>
   <div class="quickrow" id="quickRow">
+    <select class="chipsel prefsel" id="quickPref" aria-label="都道府県"><option value="">都道府県</option></select>
+    <button class="chip" data-range="custom" aria-pressed="false">📅 日付</button>
     <button class="chip" data-range="all" aria-pressed="true">すべて</button>
     <button class="chip" data-range="weekend" aria-pressed="false">今週末</button>
     <button class="chip" data-range="14" aria-pressed="false">2週間以内</button>
     <button class="chip" data-toggle="prize" aria-pressed="true">🎁 景品あり</button>
     <button class="chip" data-toggle="jishuOnly" aria-pressed="false">自主大会のみ</button>
+  </div>
+  <div class="quickrow qdates" id="quickDateRow" hidden>
+    <input type="date" class="dfrom" aria-label="開始日">
+    <span>〜</span>
+    <input type="date" class="dto" aria-label="終了日">
   </div>
 </div>
 
@@ -384,10 +410,11 @@
     <div class="fgroup">
       <div class="flabel">地域</div>
       <div class="fwrap" id="regionRow"></div>
+      <div class="fwrap" id="prefRow" hidden style="margin-top:8px"></div>
     </div>
     <div class="fgroup">
       <div class="flabel">都道府県</div>
-      <select id="pref" aria-label="都道府県"><option value="">全国</option></select>
+      <select id="pref" class="prefsel" aria-label="都道府県"><option value="">全国</option></select>
     </div>
     <div class="fgroup">
       <div class="flabel">期間</div>
@@ -395,12 +422,13 @@
         <button class="chip" data-range="all" aria-pressed="true">すべて</button>
         <button class="chip" data-range="weekend" aria-pressed="false">今週末</button>
         <button class="chip" data-range="14" aria-pressed="false">2週間以内</button>
-        <button class="chip" data-range="custom" aria-pressed="false">日付で指定</button>
+        <button class="chip" data-range="custom" aria-pressed="false">📅 日付で指定</button>
       </div>
-      <div class="dates" id="dateRow" hidden style="margin-top:9px">
-        <input type="date" id="dFrom" aria-label="開始日">
+      <!-- カレンダーは常に見せておく（チップを押さないと出ない、だと気づかれない） -->
+      <div class="dates" id="dateRow" style="margin-top:9px">
+        <input type="date" id="dFrom" class="dfrom" aria-label="開始日">
         <span>〜</span>
-        <input type="date" id="dTo" aria-label="終了日">
+        <input type="date" id="dTo" class="dto" aria-label="終了日">
       </div>
     </div>
     <div class="fgroup">
@@ -518,6 +546,9 @@ const PREF_REGION = {};
 for (const [r, ps] of Object.entries(REGIONS)) for (const p of ps) PREF_REGION[p] = r;
 const regionOf = e => e.online ? "オンライン" : (PREF_REGION[e.prefecture] || "地域未判定");
 
+const prefCount = {};
+for (const e of events) if (e.prefecture) prefCount[e.prefecture] = (prefCount[e.prefecture] || 0) + 1;
+
 const orgEventCount = {};
 for (const e of events){
   if (e.organizer_handle) orgEventCount[e.organizer_handle] = (orgEventCount[e.organizer_handle] || 0) + 1;
@@ -543,19 +574,21 @@ for (const e of events){
   // 都道府県セレクト（実在するものだけ・地方でグループ化）
   const have = new Set(events.map(e => e.prefecture).filter(Boolean));
   const sel = document.getElementById("pref");
-  if (have.has("オンライン")){
-    const o = document.createElement("option"); o.value="オンライン"; o.textContent="オンライン"; sel.appendChild(o);
-  }
-  for (const [region, prefs] of Object.entries(REGIONS)){
-    const list = prefs.filter(p => have.has(p));
-    if (!list.length) continue;
-    const g = document.createElement("optgroup"); g.label = region;
-    for (const p of list){
-      const n = events.filter(e => e.prefecture === p).length;
-      const o = document.createElement("option"); o.value = p; o.textContent = `${p}（${n}）`;
-      g.appendChild(o);
+  const prefSels = [...document.querySelectorAll(".prefsel")];
+  for (const s of prefSels){
+    if (have.has("オンライン")){
+      const o = document.createElement("option"); o.value="オンライン"; o.textContent="オンライン"; s.appendChild(o);
     }
-    sel.appendChild(g);
+    for (const [region, prefs] of Object.entries(REGIONS)){
+      const list = prefs.filter(p => have.has(p));
+      if (!list.length) continue;
+      const g = document.createElement("optgroup"); g.label = region;
+      for (const p of list){
+        const o = document.createElement("option"); o.value = p; o.textContent = `${p}（${prefCount[p] || 0}）`;
+        g.appendChild(o);
+      }
+      s.appendChild(g);
+    }
   }
 
   // 地域チップ。上部の常設タブと、絞り込みシートの中と、2か所に同じものを出す。
@@ -587,35 +620,36 @@ for (const e of events){
   });
   document.getElementById("q").addEventListener("input", e => { state.q = e.target.value.trim(); render(); });
 
-  sel.addEventListener("change", e => {
-    state.pref = e.target.value;
-    if (state.pref){
-      const keep = state.pref;
-      setRegion("");            // 地域タブは「全国」に戻す
-      state.pref = keep;
-    }
-    render();
-  });
+  prefSels.forEach(s => s.addEventListener("change", e => { setPref(e.target.value); render(); }));
   fsel.addEventListener("change", e => { state.fmt = e.target.value; render(); });
 
   // 期間チップ（上のクイック行とシート内、両方を同期させる）
   document.querySelectorAll(".chip[data-range]").forEach(b => b.addEventListener("click", () => {
     setRange(b.dataset.range); render();
+    if (b.dataset.range === "custom"){
+      // 押したらそのままカレンダーを開く（対応ブラウザのみ。非対応なら入力欄にフォーカス）
+      const scope = b.closest(".sheet") || document.getElementById("quickDateRow");
+      const inp = scope.querySelector(".dfrom");
+      if (inp && !inp.value){ try { inp.showPicker(); } catch(_){ inp.focus(); } }
+    }
   }));
   document.querySelectorAll(".chip[data-toggle]").forEach(b => b.addEventListener("click", () => {
     const k = b.dataset.toggle; state[k] = !state[k]; syncChips(); render();
   }));
 
   const dates = events.map(e => e.date).filter(Boolean).sort();
-  const dFrom = document.getElementById("dFrom"), dTo = document.getElementById("dTo");
-  if (dates.length){ dFrom.min = dTo.min = dates[0]; dFrom.max = dTo.max = dates[dates.length-1]; }
-  const onDate = () => {
-    state.from = dFrom.value || ""; state.to = dTo.value || "";
-    if (state.from || state.to) setRange("custom");
+  const dIns = [...document.querySelectorAll(".dfrom, .dto")];
+  if (dates.length) for (const i of dIns){ i.min = dates[0]; i.max = dates[dates.length-1]; }
+  dIns.forEach(i => i.addEventListener("change", () => {
+    const isFrom = i.classList.contains("dfrom");
+    if (isFrom) state.from = i.value || ""; else state.to = i.value || "";
+    // 開始日が終了日より後ろになったら、もう片方を合わせる（0件で迷わせない）
+    if (state.from && state.to && state.from > state.to){
+      if (isFrom) state.to = state.from; else state.from = state.to;
+    }
+    if (state.from || state.to) setRange("custom"); else syncDates();
     render();
-  };
-  dFrom.addEventListener("change", onDate);
-  dTo.addEventListener("change", onDate);
+  }));
 
   // シートの開閉
   const sheet = document.getElementById("sheet"), scrim = document.getElementById("scrim");
@@ -636,8 +670,8 @@ for (const e of events){
 
   document.getElementById("resetAll").addEventListener("click", () => {
     Object.assign(state, {q:"", pref:"", fmt:"", range:"all", jishuOnly:false, prize:true, org:null, region:"", from:"", to:""});
-    document.getElementById("q").value = ""; sel.value = ""; fsel.value = "";
-    dFrom.value = dTo.value = "";
+    document.getElementById("q").value = ""; fsel.value = "";
+    setRange("all");
     setRegion("");
     document.getElementById("orgFilterRow").hidden = true;
     syncChips(); render();
@@ -658,24 +692,51 @@ for (const e of events){
 
 function setRegion(r){
   state.region = r; state.pref = "";
-  const sel = document.getElementById("pref"); if (sel) sel.value = "";
-  // 上部タブとシート内、両方のボタンの見た目をそろえる
-  document.querySelectorAll(".chip[data-region]").forEach(x =>
-    x.setAttribute("aria-pressed", String(x.dataset.region === r)));
+  syncPlace();
   // 選んだタブを画面内に寄せる（横スクロールで隠れたままにしない）
   const active = document.querySelector("#quickRegionRow .chip[aria-pressed='true']");
   if (active && active.scrollIntoView) active.scrollIntoView({inline:"center", block:"nearest", behavior:"smooth"});
+}
+
+// 都道府県を選ぶ。プルダウン・県チップのどちらから来ても、地域タブを県に合わせる。
+function setPref(p){
+  state.pref = p || "";
+  if (state.pref) state.region = PREF_REGION[state.pref] || "";
+  syncPlace();
+}
+// 地域・都道府県まわりの見た目を state にそろえる（上部とシート内の両方）
+function syncPlace(){
+  document.querySelectorAll(".chip[data-region]").forEach(x =>
+    x.setAttribute("aria-pressed", String(x.dataset.region === state.region)));
+  document.querySelectorAll(".prefsel").forEach(s => {
+    s.value = state.pref; s.classList.toggle("on", !!state.pref && s.classList.contains("chipsel"));
+  });
+  const prefs = (REGIONS[state.region] || []).filter(p => prefCount[p]);
+  const total = prefs.reduce((a, p) => a + prefCount[p], 0);
+  const html = prefs.length < 2 ? "" :
+    `<button class="chip" data-pref="" aria-pressed="${!state.pref}">${esc(state.region)}すべて<span class="n">${total}</span></button>`
+    + prefs.map(p => `<button class="chip" data-pref="${esc(p)}" aria-pressed="${state.pref === p}">${esc(p)}<span class="n">${prefCount[p]}</span></button>`).join("");
+  for (const id of ["quickPrefRow", "prefRow"]){
+    const row = document.getElementById(id);
+    row.innerHTML = html; row.hidden = !html;
+    row.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
+      setPref(b.dataset.pref);   // 「〇〇すべて」は pref を空にするだけ（地域の絞り込みは残る）
+      render();
+    }));
+  }
+}
+function syncDates(){
+  document.querySelectorAll(".dfrom").forEach(i => i.value = state.from);
+  document.querySelectorAll(".dto").forEach(i => i.value = state.to);
 }
 
 function setRange(r){
   state.range = r;
   document.querySelectorAll(".chip[data-range]").forEach(x =>
     x.setAttribute("aria-pressed", String(x.dataset.range === r)));
-  document.getElementById("dateRow").hidden = (r !== "custom");
-  if (r !== "custom"){
-    state.from = state.to = "";
-    document.getElementById("dFrom").value = document.getElementById("dTo").value = "";
-  }
+  document.getElementById("quickDateRow").hidden = (r !== "custom");
+  if (r !== "custom") state.from = state.to = "";
+  syncDates();
 }
 function syncChips(){
   document.querySelectorAll(".chip[data-toggle]").forEach(x =>
