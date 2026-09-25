@@ -392,6 +392,9 @@ def expand_tco(url: str) -> str:
         return url
 
 
+_TCO_CACHE: dict[str, str] = {}
+
+
 def extract_tonamel_ids(tweet: dict) -> set[str]:
     """
     ツイートから Tonamel の大会IDを抜き出す。
@@ -412,11 +415,15 @@ def extract_tonamel_ids(tweet: dict) -> set[str]:
         )
     )
 
-    # まだ見つからず t.co が残っているなら展開してみる
-    if not ids:
+    # まだ見つからず t.co が残っているなら展開してみる。
+    # ただし API が展開済みURL(expanded_url)を返しているツイートは、上の検索で
+    # すでに Tonamel のURLを見ているので展開不要（画像の t.co まで1件ずつ展開すると、
+    # キーマン一括追跡で数千件になったとき何時間もかかる）。
+    if not ids and "expanded_url" not in blob:
         for tco in TCO_RE.findall(blob)[:3]:
-            expanded = expand_tco(tco)
-            ids.update(TONAMEL_RE.findall(expanded))
+            if tco not in _TCO_CACHE:
+                _TCO_CACHE[tco] = expand_tco(tco)
+            ids.update(TONAMEL_RE.findall(_TCO_CACHE[tco]))
 
     return ids
 
