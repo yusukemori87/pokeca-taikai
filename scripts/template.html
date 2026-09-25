@@ -210,6 +210,8 @@
   .secnote{margin:0 0 14px; font-size:12.5px; color:var(--tx-dim); line-height:1.6}
   .regionhead{margin:18px 0 8px; font-size:11.5px; font-weight:800; color:var(--tx-dim); letter-spacing:.08em}
   .orgrow{display:grid; gap:8px}
+  .regioncount{margin-left:8px; font-weight:600; letter-spacing:0}
+  .orgmore{margin-top:8px; width:100%; padding:9px; border:1px dashed var(--line); border-radius:10px; background:transparent; color:var(--accent); font-weight:700; font-size:12.5px; cursor:pointer}
   .orgcard{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:11px 13px}
   .orgtop{display:flex; align-items:center; gap:7px; flex-wrap:wrap; margin-bottom:4px}
   .orgname{font-weight:700; font-size:14px}
@@ -538,6 +540,7 @@ const PAGE = 40;                      // 1000件を一気に描くとスマホ�
 
 const events = (DATA.events || []).slice();
 const organizers = (DATA.organizers || []).slice();
+const KEYMEN_PREVIEW = 6;   // キーマン一覧で地域ごとに最初に見せる人数（残りは「表示」ボタンで開く）
 const state = {q:"", pref:"", fmt:"", range:"all", jishuOnly:false, prize:true, org:null, region:"", from:"", to:""};
 let shown = PAGE;
 let lastHits = [];
@@ -551,7 +554,7 @@ for (const e of events) if (e.prefecture) prefCount[e.prefecture] = (prefCount[e
 
 const orgEventCount = {};
 for (const e of events){
-  if (e.organizer_handle) orgEventCount[e.organizer_handle] = (orgEventCount[e.organizer_handle] || 0) + 1;
+  { const oh = e.organizer_handle || e.announced_by; if (oh) orgEventCount[oh] = (orgEventCount[oh] || 0) + 1; }
 }
 
 /* ---------- 初期化 ---------- */
@@ -749,7 +752,7 @@ function setOrg(handle){
   row.hidden = !handle;
   if (handle){
     const known = organizers.find(o => o.handle === handle);
-    const ev = events.find(e => e.organizer_handle === handle);
+    const ev = events.find(e => (e.organizer_handle || e.announced_by) === handle);
     document.getElementById("orgFilterName").textContent =
       (known && known.name) || (ev && ev.organizer_name) || "@" + handle;
     window.scrollTo({top:0, behavior:"smooth"});
@@ -789,7 +792,7 @@ function activeCount(){
 
 /* ---------- 絞り込み ---------- */
 function matches(e){
-  if (state.org && e.organizer_handle !== state.org) return false;
+  if (state.org && (e.organizer_handle || e.announced_by) !== state.org) return false;
   if (state.region && regionOf(e) !== state.region) return false;
   if (state.pref && e.prefecture !== state.pref) return false;
   if (state.fmt && e.format !== state.fmt) return false;
@@ -858,15 +861,15 @@ function renderKeymen(){
   for (const region of ORDER){
     const list = byRegion.get(region);
     if (!list || !list.length) continue;
-    html += `<div class="regionhead">${esc(region)}</div><div class="orgrow">`;
-    for (const o of list){
+    html += `<div class="regionhead">${esc(region)}<span class="regioncount">${list.length}人</span></div><div class="orgrow">`;
+    for (const [i, o] of list.entries()){
       const n = orgEventCount[o.handle] || 0;
       const alt = o.alt_handle
         ? `<a class="xlink" href="https://x.com/${esc(o.alt_handle)}" target="_blank" rel="noopener">@${esc(o.alt_handle)}</a>` : "";
       const jump = n
         ? `<button class="orgbtn orgcount" data-org="${esc(o.handle)}">掲載中 ${n}件 →</button>`
         : `<span class="orgcount">掲載中の予定なし</span>`;
-      html += `<div class="orgcard">
+      html += `<div class="orgcard"${i >= KEYMEN_PREVIEW ? " hidden" : ""}>
         <div class="orgtop"><span class="orgname">${esc(o.name)}</span><span class="orgarea">${esc(o.area)}</span></div>
         ${o.note ? `<p class="orgnote">${esc(o.note)}</p>` : ""}
         <div class="orglinks">
@@ -875,8 +878,14 @@ function renderKeymen(){
         </div></div>`;
     }
     html += `</div>`;
+    if (list.length > KEYMEN_PREVIEW)
+      html += `<button class="orgmore" type="button">${esc(region)}の残り${list.length - KEYMEN_PREVIEW}人を表示</button>`;
   }
   document.getElementById("orgGrid").innerHTML = html;
+  document.querySelectorAll("#orgGrid .orgmore").forEach(b => b.addEventListener("click", () => {
+    b.previousElementSibling.querySelectorAll(".orgcard[hidden]").forEach(c => c.hidden = false);
+    b.remove();
+  }));
 }
 
 /* ---------- 描画 ---------- */

@@ -69,6 +69,31 @@ ORG_ROTATE_DAYS = int(os.environ.get("ORG_ROTATE_DAYS", "2"))
 DEEP_ORG_LOOKBACK_DAYS = int(os.environ.get("DEEP_ORG_LOOKBACK_DAYS", "120"))
 DEEP_ORG_PAGES = int(os.environ.get("DEEP_ORG_PAGES", "3"))
 
+# ---- キーマン一括追跡（2026-09 追加） ----
+# 各地のキーマン（自主大会の主催者）は scripts/keymen.json に一覧を持つ（手動リサーチ分）。
+# さらに週1回の自動発見で見つかった人を events.json の keymen_meta.auto に積み増していく。
+# 1人ずつタイムラインを取ると 1人=最大300クレジットかかるので、
+# 「from:A OR from:B …」を大会キーワードで絞った検索にまとめ、ヒットした告知だけに課金させる。
+KEYMEN_PATH = Path(__file__).resolve().parent / "keymen.json"
+# 費用の考え方: 1ツイート15クレジット。検索1回は最大20件なので、
+#   1日の上限 = クエリ数 × ページ上限 × 20件 × 15クレジット
+# 既定値（約450人を2日で一巡・1クエリ3ページまで）だと上限 約$0.14/日（月$4程度）。
+KEYMAN_LOOKBACK_DAYS = int(os.environ.get("KEYMAN_LOOKBACK_DAYS", "2"))      # 毎回の追跡窓（日）
+KEYMAN_ROTATE_DAYS = int(os.environ.get("KEYMAN_ROTATE_DAYS", "2"))          # 何日で全員を一巡するか
+KEYMAN_PAGES = int(os.environ.get("KEYMAN_PAGES", "3"))                      # 通常時の1クエリのページ上限
+KEYMAN_BACKFILL_DAYS = int(os.environ.get("KEYMAN_BACKFILL_DAYS", "60"))    # 新規キーマンの初回さかのぼり
+KEYMAN_MAX_PAGES = int(os.environ.get("KEYMAN_MAX_PAGES", "15"))             # 初回さかのぼりのページ上限
+KEYMAN_QUERY_CHARS = int(os.environ.get("KEYMAN_QUERY_CHARS", "330"))       # from:部分の長さ上限
+KEYMAN_FALLBACK_MAX = int(os.environ.get("KEYMAN_FALLBACK_MAX", "30"))      # from:検索が死んだときの予備
+KEYMAN_DISCOVER_EVERY_DAYS = int(os.environ.get("KEYMAN_DISCOVER_EVERY_DAYS", "6"))
+KEYMAN_DISCOVER_MAX_NEW = int(os.environ.get("KEYMAN_DISCOVER_MAX_NEW", "150"))
+KEYMAN_KEYWORDS = ("(大会 OR 杯 OR CS OR 交流会 OR 争奪戦 OR エントリー OR 募集 OR 参加費 "
+                   "OR tonamel OR トナメル OR 対戦会)")
+# 大手チェーン・企業アカウントは告知以外の投稿が多く、費用だけかかるので自動追加しない
+KEYMAN_EXCLUDE_RE = re.compile(
+    r"(晴れる屋|カードラボ|TSUTAYA|ブックオフ|BOOKOFF|駿河屋|メルカリ|DMM|ポケモンセンター|"
+    r"ポケモン公式|Pokemon ?Center|pokemon_cojp|ポケポケ|TCG ?Pocket)", re.I)
+
 # 解析ロジックのバージョン。ここを上げると、古いバージョンで解析された大会は
 # 次回の実行で自動的に取り直して再解析される。
 # 「解析を直したのに、既に取得済みの大会には反映されない」という事故を防ぐための仕組み。
@@ -897,6 +922,243 @@ for _region, _prefs in {
         PREF_TO_REGION[_p] = _region
 
 
+def load_keymen_meta() -> dict:
+    """前回の events.json から、キーマン追跡の状態（初回取得済みか・自動発見ぶん）を読む。"""
+    try:
+        meta = json.loads(OUT_PATH.read_text("utf-8")).get("keymen_meta") or {}
+    except Exception:  # noqa: BLE001
+        meta = {}
+    meta.setdefault("state", {})      # handle(小文字) -> 初回さかのぼり済みの日付
+    meta.setdefault("auto", [])       # 自動発見したキーマン
+    meta.setdefault("last_discovery", "")
+    return meta
+
+
+def load_keymen(meta: dict | None = None) -> list[dict]:
+    """scripts/keymen.json（リサーチ済み）＋自動発見ぶん。seed と重複する人は除く。"""
+    seeds = {o.get("handle", "").lower() for o in load_seed_organizers()}
+    seeds |= {o.get("alt_handle", "").lower() for o in load_seed_organizers() if o.get("alt_handle")}
+    out: dict[str, dict] = {}
+    try:
+        static = json.loads(KEYMEN_PATH.read_text("utf-8"))
+    except Exception:  # noqa: BLE001
+        static = []
+    for o in static + list((meta or {}).get("auto", [])):
+        h = (o.get("handle") or "").strip().lstrip("@")
+        if not h or h.lower() in seeds or h.lower() in out:
+            continue
+        out[h.lower()] = dict(o, handle=h)
+    return list(out.values())
+
+
+def _keyman_queries(handles: list[str]) -> list[str]:
+    """from: を OR でつないだ検索式を、長さ上限ごとに分割して作る。"""
+    groups, cur = [], []
+    for h in handles:
+        trial = cur + [h]
+        if cur and len(" OR ".join(f"from:{x}" for x in trial)) > KEYMAN_QUERY_CHARS:
+            groups.append(cur)
+            cur = [h]
+        else:
+            cur = trial
+    if cur:
+        groups.append(cur)
+    return [f"({' OR '.join('from:' + x for x in g)}) {KEYMAN_KEYWORDS} -filter:retweets"
+            for g in groups]
+
+
+def run_keymen_pass(all_tweets: dict, meta: dict, deep: bool) -> None:
+    """キーマン全員の告知を、まとめ検索で拾う。新しく加わった人は初回だけ長めにさかのぼる。"""
+    keymen = load_keymen(meta)
+    if not keymen:
+        return
+    today = datetime.now(JST).strftime("%Y-%m-%d")
+    state = meta["state"]
+    new = [k["handle"] for k in keymen if k["handle"].lower() not in state]
+    old = [k["handle"] for k in keymen if k["handle"].lower() in state]
+    # 既存のキーマンは日替わりで一部ずつ（KEYMAN_ROTATE_DAYS日で全員を一巡）。
+    # 追跡窓も同じ日数にしてあるので、間の日の告知も取りこぼさない。
+    day = datetime.now(JST).timetuple().tm_yday % max(KEYMAN_ROTATE_DAYS, 1)
+    old = [h for h in old
+           if sum(map(ord, h.lower())) % max(KEYMAN_ROTATE_DAYS, 1) == day]
+    days = max(KEYMAN_LOOKBACK_DAYS, KEYMAN_ROTATE_DAYS)
+    log(f"■ キーマン一括追跡: 全{len(keymen)}人（初回さかのぼり {len(new)}人 / 今日の巡回 {len(old)}人・{days}日分）")
+    got = 0
+    plans = [(new, KEYMAN_BACKFILL_DAYS, KEYMAN_MAX_PAGES), (old, days, KEYMAN_PAGES)]
+    for handles, d, pages in plans:
+        if not handles:
+            continue
+        since = datetime.now(JST) - timedelta(days=d)
+        for q in _keyman_queries(handles):
+            for tw in search_twitter(q, since, pages=pages):
+                if tw.get("id"):
+                    tw["_trusted"] = True
+                    all_tweets[tw["id"]] = tw
+                    got += 1
+    STATS["keymen_total"] = len(keymen)
+    STATS["keymen_tweets"] = got
+    if got == 0 and len(keymen) > 20:
+        # from: 検索が効かなくなった可能性。日替わりで一部だけタイムラインから直接取る。
+        log("  !! キーマン検索が0件でした。タイムライン取得で一部を補います")
+        STATS["keymen_fallback"] = True
+        day = datetime.now(JST).timetuple().tm_yday
+        pool = sorted(k["handle"] for k in keymen)
+        start = (day * KEYMAN_FALLBACK_MAX) % max(len(pool), 1)
+        for h in (pool + pool)[start:start + KEYMAN_FALLBACK_MAX]:
+            for tw in fetch_user_tweets(h, pages=1):
+                if tw.get("id"):
+                    tw["_trusted"] = True
+                    all_tweets[tw["id"]] = tw
+        return  # 初回さかのぼり済みの印は付けない（次回やり直す）
+    for h in new:
+        state[h.lower()] = today
+
+
+# ---- キーマンの自動発見（週1回） ----
+POKEKAMESHI = "https://pokekameshi.com"
+_PKM_UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36"}
+_PKM_BLOCK = re.compile(
+    r"([^\s()（）]{1,40}?)[（(](\d+)名[)）] 開催日：(\d{4}/\d{1,2}/\d{1,2}) (\S+?) ")
+_PKM_HANDLE = re.compile(r"\(@([A-Za-z0-9_]{2,15})\)|\[\[@([A-Za-z0-9_]{2,15})\]\]")
+
+
+def _pkm_clean(t: str) -> str:
+    t = re.sub(r"<script[\s\S]*?</script>|<style[\s\S]*?</style>", " ", t)
+    t = re.sub(r"(?:twitter|x)\.com/([A-Za-z0-9_]{2,15})/status/\d+[^\"'\s<]*", r" [[@\1]] ", t)
+    t = re.sub(r"<[^>]+>", " ", t)
+    t = re.sub(r"https?://\S+", " ", t)
+    t = re.sub(r"&[a-z#0-9]+;", " ", t)
+    return re.sub(r"\s+", " ", t)
+
+
+def discover_from_pokekameshi(days: int = 21) -> dict[str, dict]:
+    """ポケカ飯の「自主大会まとめ」直近記事から、大会ごとの告知アカウントを拾う（無料）。"""
+    found: dict[str, dict] = {}
+    try:
+        idx = requests.get(f"{POKEKAMESHI}/sitemap.xml", headers=_PKM_UA, timeout=30).text
+        maps = [u for u in re.findall(r"<loc>([^<]+)</loc>", idx) if "post-sitemap" in u]
+        cutoff = (datetime.now(JST) - timedelta(days=days)).strftime("%Y-%m-%d")
+        arts = []
+        for m in maps[-2:]:
+            xml = requests.get(m, headers=_PKM_UA, timeout=30).text
+            for u, lm in re.findall(r"<loc>([^<]+)</loc>\s*<lastmod>([^<]+)</lastmod>", xml):
+                if re.search(r"taikairesult|pokemontaikaiwin", u) and lm[:10] >= cutoff:
+                    arts.append(u)
+    except Exception as e:  # noqa: BLE001
+        log(f"  ポケカ飯の記事一覧を取れませんでした: {e}")
+        return found
+    seen: set[str] = set()
+    for u in arts[:40]:
+        prev_body = ""
+        for p in range(1, 5):
+            url = u if p == 1 else f"{u.rstrip('/')}/{p}/"
+            try:
+                r = requests.get(url, headers=_PKM_UA, timeout=30)
+            except Exception:  # noqa: BLE001
+                break
+            if r.status_code != 200 or r.text == prev_body:
+                break
+            prev_body = r.text
+            s = _pkm_clean(r.text)
+            blocks = list(_PKM_BLOCK.finditer(s))
+            for i, m in enumerate(blocks):
+                end = blocks[i + 1].start() if i + 1 < len(blocks) else m.start() + 3000
+                hm = _PKM_HANDLE.search(s[m.start():end])
+                if not hm:
+                    continue
+                h = hm.group(1) or hm.group(2)
+                key = f"{h}|{m.group(1)}|{m.group(3)}"
+                if key in seen:
+                    continue
+                seen.add(key)
+                o = found.setdefault(h.lower(), {"handle": h, "name": m.group(1),
+                                                 "prefs": {}, "count": 0, "max": 0})
+                o["count"] += 1
+                o["max"] = max(o["max"], int(m.group(2)))
+                pref = PREF_ALIASES.get(m.group(4)) or (m.group(4) if m.group(4) in PREFECTURES else None)
+                if pref:
+                    o["prefs"][pref] = o["prefs"].get(pref, 0) + 1
+            time.sleep(1)
+    log(f"  ポケカ飯: {len(arts)}記事から {len(found)}アカウント")
+    return found
+
+
+_ANNOUNCE_RE = re.compile(r"(募集|エントリー|開催|参加費|定員|受付|tonamel|トナメル)", re.I)
+_BIO_RE = re.compile(r"(ポケカ|ポケモンカード|PTCG|PCG|自主大会|杯|CS|交流会|大会)", re.I)
+
+
+def discover_from_twitter() -> dict[str, dict]:
+    """都道府県ごとに「ポケカ×自主大会×県名」を検索し、告知を出している人を拾う。"""
+    found: dict[str, dict] = {}
+    since = datetime.now(JST) - timedelta(days=60)
+    for pref in PREFECTURES:
+        short = pref if pref == "北海道" else pref[:-1]
+        q = (f"(ポケカ OR ポケモンカード) (自主大会 OR 非公認大会 OR CS OR 交流会 OR 杯) "
+             f"{short} -filter:retweets")
+        for tw in search_twitter(q, since, pages=2):
+            a = tw.get("author") or {}
+            h = a.get("userName")
+            text = tw.get("text", "")
+            if not h or not looks_like_pokeca(text) or not _ANNOUNCE_RE.search(text):
+                continue
+            prof = f"{a.get('name', '')} {a.get('description', '')}"
+            if KEYMAN_EXCLUDE_RE.search(prof) or not _BIO_RE.search(prof):
+                continue
+            o = found.setdefault(h.lower(), {"handle": h, "name": a.get("name") or h,
+                                             "prefs": {}, "count": 0, "max": 0,
+                                             "tonamel": 0})
+            o["count"] += 1
+            o["prefs"][pref] = o["prefs"].get(pref, 0) + 1
+            if extract_tonamel_ids(tw):
+                o["tonamel"] += 1
+    # 1回だけの告知は「たまたま」が混ざるので、2回以上 or Tonamel付き告知のある人に絞る
+    return {k: v for k, v in found.items() if v["count"] >= 2 or v.get("tonamel")}
+
+
+def discover_keymen(meta: dict, allow_twitter: bool) -> int:
+    """週1回、新しいキーマンを見つけて meta['auto'] に積み増す。戻り値は追加人数。"""
+    last = meta.get("last_discovery") or ""
+    if last:
+        try:
+            if datetime.now(JST) - datetime.fromisoformat(last) < timedelta(days=KEYMAN_DISCOVER_EVERY_DAYS):
+                return 0
+        except Exception:  # noqa: BLE001
+            pass
+    log("■ キーマンの自動発見を実行します")
+    known = {k["handle"].lower() for k in load_keymen(meta)}
+    known |= {o.get("handle", "").lower() for o in load_seed_organizers()}
+    cands = discover_from_pokekameshi()
+    if allow_twitter:
+        for k, v in discover_from_twitter().items():
+            if k in cands:
+                cands[k]["count"] += v["count"]
+                for p, n in v["prefs"].items():
+                    cands[k]["prefs"][p] = cands[k]["prefs"].get(p, 0) + n
+            else:
+                cands[k] = v
+    today = datetime.now(JST).strftime("%Y-%m-%d")
+    added = 0
+    for k, v in sorted(cands.items(), key=lambda kv: -kv[1]["count"]):
+        if k in known or KEYMAN_EXCLUDE_RE.search(v.get("name") or ""):
+            continue
+        if added >= KEYMAN_DISCOVER_MAX_NEW:
+            break
+        pref = max(v["prefs"], key=v["prefs"].get) if v["prefs"] else None
+        note = f"{v['name']}を主催。" + (f"最大{v['max']}名規模。" if v.get("max") else "")
+        meta["auto"].append({
+            "handle": v["handle"], "name": v["name"], "area": pref or "不明",
+            "region": PREF_TO_REGION.get(pref or "", "全国"), "note": note,
+            "type": "shop" if re.search(SHOP_NAME_RE, norm(v["name"] or "")) else "individual",
+            "added": today, "sources": ["auto"],
+        })
+        known.add(k)
+        added += 1
+    meta["last_discovery"] = datetime.now(JST).isoformat()
+    STATS["keymen_discovered"] = added
+    log(f"  新しいキーマン: {added}人（累計 自動発見 {len(meta['auto'])}人）")
+    return added
+
+
 def load_seed_organizers() -> list[dict]:
     """手で育てるキーマンのリスト。data/organizers.seed.json を編集すれば増やせる。"""
     path = DATA_DIR / "organizers.seed.json"
@@ -954,11 +1216,27 @@ def build_organizers(events: list[dict]) -> list[dict]:
             "auto": True,
         }
 
+    # リサーチ済み・自動発見のキーマンも一覧に載せる（開催予定が無くても地域の主催者として紹介する）
+    for k in load_keymen(_KEYMEN_META):
+        if k["handle"] in seeds:
+            continue
+        seeds[k["handle"]] = {
+            "handle": k["handle"], "name": k.get("name") or "@" + k["handle"],
+            "area": k.get("area") or "不明", "region": k.get("region") or "全国",
+            "note": k.get("note") or "", "keyman": True,
+            "type": k.get("type") or "individual",
+        }
+
     for o in seeds.values():
         o.setdefault("region", PREF_TO_REGION.get(o.get("area", "")[:4], "全国"))
 
-    return sorted(seeds.values(), key=lambda o: (o.get("region", ""), o.get("name") or ""))
+    # 手動登録(seed)→よく開催している人→その他 の順に並べる
+    act = {k["handle"]: k.get("events_seen", 0) for k in load_keymen(_KEYMEN_META)}
+    return sorted(seeds.values(), key=lambda o: (o.get("region", ""), bool(o.get("keyman")),
+                                                 -act.get(o["handle"], 0), o.get("name") or ""))
 
+
+_KEYMEN_META: dict = {}
 
 PENDING_PATH = DATA_DIR / "pending.json"
 
@@ -986,6 +1264,8 @@ def main() -> int:
     # SKIP_TWITTER=1 なら検索を丸ごと飛ばし、前回見つけた大会IDの取得だけをやり直す。
     # クレジットを1も使わずにリトライできるので、取得失敗した時の再実行用。
     skip_twitter = os.environ.get("SKIP_TWITTER") == "1"
+    _KEYMEN_META.clear()
+    _KEYMEN_META.update(load_keymen_meta())
 
     all_tweets: dict[str, dict] = {}
     if skip_twitter:
@@ -1013,6 +1293,9 @@ def main() -> int:
                 handles += [e["announced_by"] for e in prev.get("events", []) if e.get("announced_by")]
             except Exception:  # noqa: BLE001
                 pass
+        # 一括追跡しているキーマンは、ここ（1人ずつのタイムライン取得）では追わない
+        _km = {k["handle"].lower() for k in load_keymen(_KEYMEN_META)}
+        handles = [h for h in handles if h and h.lower() not in _km]
         # 重複除去（seedを優先して先頭に残す）
         handles = list(dict.fromkeys(h for h in handles if h))
         # 追跡アカウントが増えるほどコストが上がるので上限を設ける。
@@ -1082,6 +1365,15 @@ def main() -> int:
                     # 既知の主催者の投稿は「ポケカ」表記が無くても通す
                     tw["_trusted"] = True
                     all_tweets[tw["id"]] = tw
+
+    # 第3パス: 各地のキーマンを一括追跡（＋週1回の自動発見）
+    if not skip_twitter:
+        deep = os.environ.get("MODE") == "deep"
+        try:
+            discover_keymen(_KEYMEN_META, allow_twitter=True)
+        except Exception as e:  # noqa: BLE001
+            log(f"  キーマン自動発見でエラー（続行します）: {e}")
+        run_keymen_pass(all_tweets, _KEYMEN_META, deep)
 
     log(f"■ 重複除去後のツイート数: {len(all_tweets)}")
     STATS["tweets_total"] = len(all_tweets)
@@ -1247,6 +1539,7 @@ def main() -> int:
                 "by_prefecture": dict(sorted(by_pref.items(), key=lambda kv: -kv[1])),
                 "events": upcoming,
                 "organizers": organizers,
+                "keymen_meta": _KEYMEN_META,
             },
             ensure_ascii=False,
             indent=2,

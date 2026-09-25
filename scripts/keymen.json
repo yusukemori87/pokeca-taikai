@@ -1,0 +1,6383 @@
+[
+ {
+  "handle": "7Ymrma",
+  "name": "わにCS",
+  "area": "山口県",
+  "type": "individual",
+  "note": "山口県で継続開催の自主大会、130名規模。",
+  "events_seen": 5,
+  "max_players": 130,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "storage0810",
+  "name": "ストポケ杯",
+  "area": "広島県",
+  "type": "individual",
+  "note": "ストポケ杯を主催。最大59名規模。",
+  "events_seen": 3,
+  "max_players": 59,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "B1ack_Cat_XIII",
+  "name": "@B1ack_Cat_XIII",
+  "area": "鳥取県",
+  "type": "individual",
+  "note": "自主大会を主催。最大84名規模。",
+  "events_seen": 2,
+  "max_players": 84,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "haru_sphere",
+  "name": "あわ祭り",
+  "area": "山口県",
+  "type": "individual",
+  "note": "山口県で継続開催される自主大会。",
+  "events_seen": 2,
+  "max_players": 46,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "150cm31_2kg",
+  "name": "マスカーニャ杯",
+  "area": "岡山県",
+  "type": "individual",
+  "note": "マスカーニャ杯を主催。最大72名規模。",
+  "events_seen": 1,
+  "max_players": 72,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "akito_kabi",
+  "name": "あきと杯",
+  "area": "岡山県",
+  "type": "individual",
+  "note": "あきと杯を主催。最大90名規模。",
+  "events_seen": 1,
+  "max_players": 90,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Assemble_kuda",
+  "name": "たまき杯",
+  "area": "山口県",
+  "type": "individual",
+  "note": "たまき杯を主催。最大41名規模。",
+  "events_seen": 1,
+  "max_players": 41,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "BasyaEru",
+  "name": "バシャエル杯",
+  "area": "岡山県",
+  "type": "individual",
+  "note": "バシャエル杯を主催。最大139名規模。",
+  "events_seen": 1,
+  "max_players": 139,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "cVRECNZoWoBZULe",
+  "name": "bee杯",
+  "area": "広島県",
+  "type": "individual",
+  "note": "bee杯を主催。最大26名規模。",
+  "events_seen": 1,
+  "max_players": 26,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "DragoonShunan",
+  "name": "ドラグーン周南バトル",
+  "area": "山口県",
+  "type": "individual",
+  "note": "ドラグーン周南バトルを主催。最大123名規模。",
+  "events_seen": 1,
+  "max_players": 123,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "hamuhamucs",
+  "name": "はむはむ杯",
+  "area": "島根県",
+  "type": "individual",
+  "note": "はむはむ杯を主催。最大48名規模。",
+  "events_seen": 1,
+  "max_players": 48,
+  "sources": [
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "haromarihai",
+  "name": "はろまり杯",
+  "area": "広島県",
+  "type": "individual",
+  "note": "はろまり杯を主催。最大64名規模。",
+  "events_seen": 1,
+  "max_players": 64,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kayuki0330",
+  "name": "@kayuki0330",
+  "area": "岡山県",
+  "type": "individual",
+  "note": "自主大会を主催。最大87名規模。",
+  "events_seen": 1,
+  "max_players": 87,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pcg_ru",
+  "name": "蒼空杯",
+  "area": "広島県",
+  "type": "individual",
+  "note": "蒼空杯を主催。最大70名規模。",
+  "events_seen": 1,
+  "max_players": 70,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "radclif99300037",
+  "name": "@radclif99300037",
+  "area": "広島県",
+  "type": "individual",
+  "note": "ら杯を主催。最大61名規模。",
+  "events_seen": 1,
+  "max_players": 61,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ragi_chanman",
+  "name": "白黒杯",
+  "area": "岡山県",
+  "type": "individual",
+  "note": "白黒杯を主催。最大59名規模。",
+  "events_seen": 1,
+  "max_players": 59,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "rszktkm",
+  "name": "マッドパーティカップ",
+  "area": "広島県",
+  "type": "individual",
+  "note": "マッドパーティカップを主催。最大47名規模。",
+  "events_seen": 1,
+  "max_players": 47,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "rugiaokayama",
+  "name": "岡山杯",
+  "area": "岡山県",
+  "type": "individual",
+  "note": "岡山杯を主催。最大70名規模。",
+  "events_seen": 1,
+  "max_players": 70,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "sg_2427",
+  "name": "チーム一条杯",
+  "area": "広島県",
+  "type": "individual",
+  "note": "チーム一条杯を主催。最大90名規模。",
+  "events_seen": 1,
+  "max_players": 90,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "torecagrandslam",
+  "name": "トレカグランドスラム",
+  "area": "岡山県",
+  "type": "individual",
+  "note": "トレカグランドスラムを主催。最大528名規模。",
+  "events_seen": 1,
+  "max_players": 528,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "torekore_hirosh",
+  "name": "トレコレバトルフェス",
+  "area": "広島県",
+  "type": "individual",
+  "note": "トレコレバトルフェスを主催。最大94名規模。",
+  "events_seen": 1,
+  "max_players": 94,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "utsushimi_event",
+  "name": "研究発表会",
+  "area": "広島県",
+  "type": "individual",
+  "note": "研究発表会を主催。最大35名規模。",
+  "events_seen": 1,
+  "max_players": 35,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Water__pokeca",
+  "name": "Water杯",
+  "area": "広島県",
+  "type": "individual",
+  "note": "Water杯を主催。最大56名規模。",
+  "events_seen": 1,
+  "max_players": 56,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Yap_poke",
+  "name": "やっぽ杯",
+  "area": "広島県",
+  "type": "individual",
+  "note": "やっぽ杯を主催。最大48名規模。",
+  "events_seen": 1,
+  "max_players": 48,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "YOU417Rayquaza",
+  "name": "ガリョウテンセイ杯",
+  "area": "岡山県",
+  "type": "individual",
+  "note": "ガリョウテンセイ杯を主催。最大96名規模。",
+  "events_seen": 1,
+  "max_players": 96,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "iwatoreTCG",
+  "name": "岩国CUP（岩国トレカファンズ）",
+  "area": "山口県岩国市",
+  "type": "individual",
+  "note": "岩国市の自主大会シリーズ。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "mooo_sha",
+  "name": "爆音杯",
+  "area": "岡山県",
+  "type": "individual",
+  "note": "岡山県の自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "narikawa1023133",
+  "name": "せいなるつるぎ杯",
+  "area": "広島県東広島市",
+  "type": "individual",
+  "note": "東広島市で開催する自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "osiosan777",
+  "name": "マスカーニャ杯(Sorty)",
+  "area": "岡山県",
+  "type": "individual",
+  "note": "オレタン岡山店等で開催される自主大会シリーズ。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "reo_tcg",
+  "name": "にゃんはる杯",
+  "area": "岡山県岡山市",
+  "type": "individual",
+  "note": "岡山市内で開催する自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "sana_bura",
+  "name": "サーナイト＆ブラッキーGX杯",
+  "area": "広島県",
+  "type": "individual",
+  "note": "サーナイト＆ブラッキーGX杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "shunya08zxc",
+  "name": "わたげ杯",
+  "area": "岡山県",
+  "type": "individual",
+  "note": "岡山県の自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "sixths_ptcg",
+  "name": "六等分のポケカ杯",
+  "area": "岡山県",
+  "type": "individual",
+  "note": "六等分のポケカ杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "techno_buster0",
+  "name": "テクノバスターカップ",
+  "area": "広島県",
+  "type": "individual",
+  "note": "テクノバスターカップを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tikuwafishy",
+  "name": "ASAGAERI",
+  "area": "広島県広島市",
+  "type": "team",
+  "note": "広島市中区で開催するチーム主催大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "中国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Thetoreca",
+  "name": "Theトレカ杯",
+  "area": "福岡県",
+  "type": "shop",
+  "note": "福岡のポケカ専門店Theトレカが主催、大型大会も。",
+  "events_seen": 7,
+  "max_players": 285,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "youing_kumakami",
+  "name": "遊INGチャンピオンシップ",
+  "area": "熊本県",
+  "type": "individual",
+  "note": "遊INGチャンピオンシップを主催。最大66名規模。",
+  "events_seen": 6,
+  "max_players": 66,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "AThome_kagosima",
+  "name": "トクサネ杯（@ほーむ）",
+  "area": "鹿児島県",
+  "type": "shop",
+  "note": "鹿児島のカードショップが39回以上継続開催。",
+  "events_seen": 5,
+  "max_players": 49,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Swarm_Tech_PCG",
+  "name": "むしのしらせストライク杯",
+  "area": "福岡県",
+  "type": "team",
+  "note": "福岡県で70回超継続する自主大会。",
+  "events_seen": 4,
+  "max_players": 126,
+  "sources": [
+   "web",
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "96imanazashi",
+  "name": "くろいまなざし杯",
+  "area": "福岡県",
+  "type": "individual",
+  "note": "福岡県で継続開催、140人規模。",
+  "events_seen": 3,
+  "max_players": 140,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "dendendenbodayo",
+  "name": "福岡バトルタワー",
+  "area": "福岡県",
+  "type": "individual",
+  "note": "福岡バトルタワーを主催。最大96名規模。",
+  "events_seen": 3,
+  "max_players": 96,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "wonderspace9495",
+  "name": "wonder space",
+  "area": "沖縄県",
+  "type": "individual",
+  "note": "wonder spaceを主催。最大75名規模。",
+  "events_seen": 3,
+  "max_players": 75,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ARUKANAcup",
+  "name": "アルカナ杯",
+  "area": "福岡県",
+  "type": "team",
+  "note": "福岡県の自主大会シリーズ。",
+  "events_seen": 2,
+  "max_players": 141,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "AThome_yanagima",
+  "name": "ヒワマキ杯（@ほーむ柳丸店）",
+  "area": "宮崎県",
+  "type": "shop",
+  "note": "宮崎の独立系カードショップが主催。",
+  "events_seen": 2,
+  "max_players": 64,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Leafeon_yuma79",
+  "name": "ねがいぼし杯",
+  "area": "宮崎県",
+  "type": "individual",
+  "note": "宮崎県の自主大会。",
+  "events_seen": 2,
+  "max_players": 64,
+  "sources": [
+   "web",
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "likey3156",
+  "name": "戦道九州",
+  "area": "福岡県",
+  "type": "team",
+  "note": "九州規模のチーム戦イベントを主催。",
+  "events_seen": 2,
+  "max_players": 64,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "mappichan2",
+  "name": "GT杯",
+  "area": "沖縄県",
+  "type": "individual",
+  "note": "GT杯を主催。最大24名規模。",
+  "events_seen": 2,
+  "max_players": 24,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "TLEAGUEkumamoto",
+  "name": "T-LEAGUE",
+  "area": "熊本県",
+  "type": "team",
+  "note": "熊本県の自主大会。",
+  "events_seen": 2,
+  "max_players": 58,
+  "sources": [
+   "web",
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "toreca_alive",
+  "name": "トレカアライブ",
+  "area": "福岡県",
+  "type": "individual",
+  "note": "トレカアライブを主催。最大252名規模。",
+  "events_seen": 2,
+  "max_players": 252,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Azcanine_pcg",
+  "name": "あずんでぃ杯",
+  "area": "沖縄県",
+  "type": "individual",
+  "note": "あずんでぃ杯を主催。最大32名規模。",
+  "events_seen": 1,
+  "max_players": 32,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "BattleChikuho",
+  "name": "筑豊バトルパレス",
+  "area": "福岡県筑豊",
+  "type": "team",
+  "note": "筑豊エリアの自主大会、200名規模。",
+  "events_seen": 1,
+  "max_players": 207,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "fukudaruma77",
+  "name": "ハッピーマウンテン",
+  "area": "鹿児島県",
+  "type": "individual",
+  "note": "ハッピーマウンテンを主催。最大22名規模。",
+  "events_seen": 1,
+  "max_players": 22,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "guranmezonsaga",
+  "name": "グランメゾン佐賀",
+  "area": "佐賀県",
+  "type": "individual",
+  "note": "グランメゾン佐賀を主催。最大43名規模。",
+  "events_seen": 1,
+  "max_players": 43,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "holyday_daisuki",
+  "name": "マタタビ杯",
+  "area": "宮崎県",
+  "type": "individual",
+  "note": "マタタビ杯を主催。最大41名規模。",
+  "events_seen": 1,
+  "max_players": 41,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ICKS670223",
+  "name": "KSIC",
+  "area": "福岡県",
+  "type": "individual",
+  "note": "KSICを主催。最大22名規模。",
+  "events_seen": 1,
+  "max_players": 22,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ikusa_kyusyu",
+  "name": "ドラグーン博多",
+  "area": "福岡県",
+  "type": "individual",
+  "note": "ドラグーン博多を主催。最大77名規模。",
+  "events_seen": 1,
+  "max_players": 77,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "info_crowncup",
+  "name": "かんむりカップ",
+  "area": "熊本県",
+  "type": "individual",
+  "note": "かんむりカップを主催。最大46名規模。",
+  "events_seen": 1,
+  "max_players": 46,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "J85DQh40J023730",
+  "name": "なら杯",
+  "area": "長崎県",
+  "type": "individual",
+  "note": "なら杯を主催。最大12名規模。",
+  "events_seen": 1,
+  "max_players": 12,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "jena2078",
+  "name": "あくうのうねり杯",
+  "area": "福岡県",
+  "type": "individual",
+  "note": "あくうのうねり杯を主催。最大58名規模。",
+  "events_seen": 1,
+  "max_players": 58,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kgsmPokekaFes",
+  "name": "鹿児島ポケカフェス",
+  "area": "鹿児島県",
+  "type": "individual",
+  "note": "鹿児島ポケカフェスを主催。最大300名規模。",
+  "events_seen": 1,
+  "max_players": 300,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kinakomochi0915",
+  "name": "八百万杯",
+  "area": "福岡県",
+  "type": "individual",
+  "note": "八百万杯を主催。最大60名規模。",
+  "events_seen": 1,
+  "max_players": 60,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kotokicup",
+  "name": "コトキカップ",
+  "area": "佐賀県",
+  "type": "individual",
+  "note": "コトキカップを主催。最大31名規模。",
+  "events_seen": 1,
+  "max_players": 31,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kueesaa48",
+  "name": "ハブとマングースカップ",
+  "area": "福岡県",
+  "type": "individual",
+  "note": "ハブとマングースカップを主催。最大52名規模。",
+  "events_seen": 1,
+  "max_players": 52,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "maroku0429",
+  "name": "ゴローニャ杯",
+  "area": "福岡県",
+  "type": "individual",
+  "note": "ゴローニャ杯を主催。最大49名規模。",
+  "events_seen": 1,
+  "max_players": 49,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "masakichi_pandp",
+  "name": "ちょすい杯",
+  "area": "宮崎県",
+  "type": "individual",
+  "note": "ちょすい杯を主催。最大72名規模。",
+  "events_seen": 1,
+  "max_players": 72,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "minamipokeca",
+  "name": "@minamipokeca",
+  "area": "宮崎県",
+  "type": "individual",
+  "note": "自主大会を主催。最大192名規模。",
+  "events_seen": 1,
+  "max_players": 192,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "neady_poke",
+  "name": "@neady_poke",
+  "area": "福岡県",
+  "type": "individual",
+  "note": "自主大会を主催。最大58名規模。",
+  "events_seen": 1,
+  "max_players": 58,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "OceanPkc",
+  "name": "プレミアムOcean",
+  "area": "沖縄県",
+  "type": "individual",
+  "note": "プレミアムOceanを主催。最大54名規模。",
+  "events_seen": 1,
+  "max_players": 54,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ogi_youkan",
+  "name": "小城ようかんカップ",
+  "area": "佐賀県",
+  "type": "individual",
+  "note": "小城ようかんカップを主催。最大54名規模。",
+  "events_seen": 1,
+  "max_players": 54,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "rnpu1936",
+  "name": "WOW杯",
+  "area": "鹿児島県",
+  "type": "individual",
+  "note": "WOW杯を主催。最大64名規模。",
+  "events_seen": 1,
+  "max_players": 64,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "saikinoinorihai",
+  "name": "さいきのいのり杯",
+  "area": "佐賀県佐賀市",
+  "type": "individual",
+  "note": "佐賀市の自主大会シリーズ、100名規模。",
+  "events_seen": 1,
+  "max_players": 106,
+  "sources": [
+   "web",
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "saisaikokubu",
+  "name": "彩々リーグ",
+  "area": "鹿児島県",
+  "type": "individual",
+  "note": "彩々リーグを主催。最大25名規模。",
+  "events_seen": 1,
+  "max_players": 25,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "shiroribon02",
+  "name": "くいだめ杯",
+  "area": "沖縄県",
+  "type": "individual",
+  "note": "くいだめ杯を主催。最大44名規模。",
+  "events_seen": 1,
+  "max_players": 44,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "spaco_vale",
+  "name": "トレコ杯",
+  "area": "宮崎県",
+  "type": "individual",
+  "note": "トレコ杯を主催。最大31名規模。",
+  "events_seen": 1,
+  "max_players": 31,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "treca_skeleton",
+  "name": "SKELETON",
+  "area": "熊本県",
+  "type": "individual",
+  "note": "SKELETONを主催。最大32名規模。",
+  "events_seen": 1,
+  "max_players": 32,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "u_cj1e5",
+  "name": "あいる杯",
+  "area": "福岡県",
+  "type": "individual",
+  "note": "あいる杯を主催。最大64名規模。",
+  "events_seen": 1,
+  "max_players": 64,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "XNiWppoeBG71980",
+  "name": "バブルこうせん杯",
+  "area": "福岡県",
+  "type": "individual",
+  "note": "バブルこうせん杯を主催。最大110名規模。",
+  "events_seen": 1,
+  "max_players": 110,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "yokatoko_pcg",
+  "name": "嬉ポケ / 嬉野よかとこ杯",
+  "area": "佐賀県",
+  "type": "individual",
+  "note": "嬉ポケ / 嬉野よかとこ杯を主催。最大60名規模。",
+  "events_seen": 1,
+  "max_players": 60,
+  "sources": [
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "yuyuyuyu392",
+  "name": "まよ杯",
+  "area": "佐賀県",
+  "type": "individual",
+  "note": "まよ杯を主催。最大48名規模。",
+  "events_seen": 1,
+  "max_players": 48,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "BattleTower_FUK",
+  "name": "福岡バトルタワー",
+  "area": "福岡県",
+  "type": "team",
+  "note": "福岡県の自主大会、約100名規模。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "bookoffnanbai",
+  "name": "南バイポケカCS",
+  "area": "佐賀県",
+  "type": "shop",
+  "note": "佐賀県の店舗発の自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "dora2fan",
+  "name": "PCG長崎",
+  "area": "長崎県",
+  "type": "individual",
+  "note": "PCG長崎を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "GAMECENTER_RX",
+  "name": "ゲームセンターRX",
+  "area": "長崎県",
+  "type": "individual",
+  "note": "ゲームセンターRXを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "hosi_min",
+  "name": "もりののろい杯",
+  "area": "福岡県",
+  "type": "individual",
+  "note": "福岡県で60回以上継続する大規模自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "HS_bokkemon",
+  "name": "ぼっけもんリーグ",
+  "area": "鹿児島県",
+  "type": "individual",
+  "note": "鹿児島県の自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "inoshika",
+  "name": "イノシカ@井下（キマワリの会）",
+  "area": "宮崎県",
+  "type": "individual",
+  "note": "イノシカ@井下（キマワリの会）を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "JAMBOREE_POKE",
+  "name": "ジャンボリー交流会",
+  "area": "熊本県熊本市",
+  "type": "individual",
+  "note": "熊本市で交流会を開催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kiki765go",
+  "name": "石垣島Coral Cup",
+  "area": "沖縄県",
+  "type": "individual",
+  "note": "石垣島Coral Cupを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "maru80191220",
+  "name": "パーモットカップ",
+  "area": "大分県",
+  "type": "individual",
+  "note": "大分県の自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "MiyazakiPTCG",
+  "name": "ヒムカのポケカ",
+  "area": "宮崎県",
+  "type": "individual",
+  "note": "ヒムカのポケカを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "oitapokeca_club",
+  "name": "大分ポケカ部",
+  "area": "大分県",
+  "type": "team",
+  "note": "大分県のポケカクラブによる自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "okpkhai",
+  "name": "沖ポケ杯",
+  "area": "沖縄県",
+  "type": "individual",
+  "note": "沖縄県で50回超継続する主要な自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "POKECONE_NGSK",
+  "name": "長崎ポケモンコネクト",
+  "area": "長崎県",
+  "type": "team",
+  "note": "長崎県内で月例の自主大会を開催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pokeka_kago",
+  "name": "かごポケ",
+  "area": "鹿児島県",
+  "type": "individual",
+  "note": "かごポケを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "rayzonn01poke",
+  "name": "SAGAPCGカップ",
+  "area": "佐賀県",
+  "type": "individual",
+  "note": "佐賀県の自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Slate_city_gthr",
+  "name": "カイナのつどい",
+  "area": "長崎県",
+  "type": "individual",
+  "note": "カイナのつどいを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tandem0504",
+  "name": "タンデムカップ",
+  "area": "熊本県",
+  "type": "individual",
+  "note": "熊本県の自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "TEAM_AA_4444",
+  "name": "ちーむだぶるえ〜（C2杯）",
+  "area": "宮崎県",
+  "type": "individual",
+  "note": "ちーむだぶるえ〜（C2杯）を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "team_ryumuso",
+  "name": "チームりゅうむそう",
+  "area": "長崎県",
+  "type": "individual",
+  "note": "チームりゅうむそうを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "toresutafs",
+  "name": "トレスタ杯",
+  "area": "福岡県",
+  "type": "shop",
+  "note": "福岡のトレカショップ主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "youing_k_pokeka",
+  "name": "遊ING上通り店（YCS）",
+  "area": "熊本県熊本市",
+  "type": "shop",
+  "note": "熊本市の遊ING上通り店が主催する大会シリーズ。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "九州・沖縄",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "fieldcup114514",
+  "name": "ふぃ〜るど杯",
+  "area": "不明",
+  "type": "individual",
+  "note": "ふぃ〜るど杯を主催。最大91名規模。",
+  "events_seen": 2,
+  "max_players": 91,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "全国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Ichipokecaevent",
+  "name": "デッキケース争奪戦",
+  "area": "不明",
+  "type": "individual",
+  "note": "デッキケース争奪戦を主催。最大16名規模。",
+  "events_seen": 1,
+  "max_players": 16,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "全国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kanazo0223",
+  "name": "広峰チャンピオンシップ",
+  "area": "不明",
+  "type": "individual",
+  "note": "広峰チャンピオンシップを主催。最大27名規模。",
+  "events_seen": 1,
+  "max_players": 27,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "全国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kobayashipokego",
+  "name": "おくのて×とおぼえ杯",
+  "area": "不明",
+  "type": "individual",
+  "note": "おくのて×とおぼえ杯を主催。最大43名規模。",
+  "events_seen": 1,
+  "max_players": 43,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "全国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "sm10c007",
+  "name": "なかよしポフィン杯",
+  "area": "不明",
+  "type": "individual",
+  "note": "なかよしポフィン杯を主催。最大64名規模。",
+  "events_seen": 1,
+  "max_players": 64,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "全国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pokemari1115",
+  "name": "ポケまり",
+  "area": "不明",
+  "type": "individual",
+  "note": "ポケまりを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "全国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "poseidon0422",
+  "name": "モリリン杯",
+  "area": "不明",
+  "type": "individual",
+  "note": "モリリン杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "全国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "V23571613",
+  "name": "東西ポケカ倶楽部",
+  "area": "不明",
+  "type": "individual",
+  "note": "東西ポケカ倶楽部を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "全国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "dondon_cup",
+  "name": "ドンドンだいこ杯",
+  "area": "北海道",
+  "type": "individual",
+  "note": "ドンドンだいこ杯を主催。最大40名規模。",
+  "events_seen": 2,
+  "max_players": 40,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Ducklett21",
+  "name": "福島チャンピオンズリーグ",
+  "area": "福島県郡山市",
+  "type": "individual",
+  "note": "郡山ビッグアイで100名超規模の非公認大会を主催。",
+  "events_seen": 2,
+  "max_players": 163,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "POWERSptcg",
+  "name": "POWERS",
+  "area": "北海道札幌市",
+  "type": "individual",
+  "note": "札幌で定期開催の個人戦自主大会シリーズ。",
+  "events_seen": 2,
+  "max_players": 128,
+  "sources": [
+   "web",
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "yomi_0980_",
+  "name": "よみりょー杯",
+  "area": "宮城県",
+  "type": "individual",
+  "note": "よみりょー杯を主催。最大50名規模。",
+  "events_seen": 2,
+  "max_players": 50,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "abc_sobe",
+  "name": "そー杯",
+  "area": "北海道",
+  "type": "individual",
+  "note": "そー杯を主催。最大48名規模。",
+  "events_seen": 1,
+  "max_players": 48,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "akipoke_24",
+  "name": "あきポケ杯",
+  "area": "秋田県",
+  "type": "individual",
+  "note": "あきポケ杯を主催。最大23名規模。",
+  "events_seen": 1,
+  "max_players": 23,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "BA_onahamaTA",
+  "name": "トレカエース杯",
+  "area": "福島県",
+  "type": "individual",
+  "note": "トレカエース杯を主催。最大81名規模。",
+  "events_seen": 1,
+  "max_players": 81,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Clodsire1206",
+  "name": "土王杯",
+  "area": "山形県",
+  "type": "individual",
+  "note": "土王杯を主催。最大56名規模。",
+  "events_seen": 1,
+  "max_players": 56,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "hanamarukai_pd",
+  "name": "PRIDE",
+  "area": "北海道",
+  "type": "individual",
+  "note": "PRIDEを主催。最大62名規模。",
+  "events_seen": 1,
+  "max_players": 62,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "hokkaidoCL",
+  "name": "北海道CL",
+  "area": "北海道",
+  "type": "individual",
+  "note": "北海道CLを主催。最大207名規模。",
+  "events_seen": 1,
+  "max_players": 207,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ichi5hai_hoseki",
+  "name": "いちご杯",
+  "area": "山形県",
+  "type": "individual",
+  "note": "いちご杯を主催。最大24名規模。",
+  "events_seen": 1,
+  "max_players": 24,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "JomonCup",
+  "name": "JomonCUP",
+  "area": "宮城県",
+  "type": "individual",
+  "note": "JomonCUPを主催。最大153名規模。",
+  "events_seen": 1,
+  "max_players": 153,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Kazunolab_Poke",
+  "name": "鹿角CS",
+  "area": "秋田県",
+  "type": "individual",
+  "note": "鹿角CSを主催。最大183名規模。",
+  "events_seen": 1,
+  "max_players": 183,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kokorodrop_380",
+  "name": "こころのしずく杯",
+  "area": "山形県",
+  "type": "individual",
+  "note": "山形県で開催される自主大会、80名規模。",
+  "events_seen": 1,
+  "max_players": 64,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "miCky86poke",
+  "name": "岩手ケルディオ杯",
+  "area": "岩手県",
+  "type": "individual",
+  "note": "岩手県で継続開催される自主大会。",
+  "events_seen": 1,
+  "max_players": 170,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "muratarhai0815",
+  "name": "ムラター杯",
+  "area": "山形県",
+  "type": "individual",
+  "note": "ムラター杯を主催。最大80名規模。",
+  "events_seen": 1,
+  "max_players": 80,
+  "sources": [
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "okuma_cs",
+  "name": "おおくまチャンピオンシップ",
+  "area": "福島県",
+  "type": "individual",
+  "note": "おおくまチャンピオンシップを主催。最大50名規模。",
+  "events_seen": 1,
+  "max_players": 50,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "otaniTRPG",
+  "name": "はなふぶき杯",
+  "area": "青森県",
+  "type": "individual",
+  "note": "はなふぶき杯を主催。最大32名規模。",
+  "events_seen": 1,
+  "max_players": 32,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pokecaKTL",
+  "name": "木の下に埋まれ",
+  "area": "福島県",
+  "type": "individual",
+  "note": "木の下に埋まれを主催。最大32名規模。",
+  "events_seen": 1,
+  "max_players": 32,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pokekahighway",
+  "name": "RAIフェス",
+  "area": "秋田県",
+  "type": "individual",
+  "note": "RAIフェスを主催。最大48名規模。",
+  "events_seen": 1,
+  "max_players": 48,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "POKEshu55",
+  "name": "@POKEshu55",
+  "area": "宮城県",
+  "type": "individual",
+  "note": "自主大会を主催。最大351名規模。",
+  "events_seen": 1,
+  "max_players": 351,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "suzuhayahai",
+  "name": "すずはや杯",
+  "area": "宮城県",
+  "type": "individual",
+  "note": "すずはや杯を主催。最大62名規模。",
+  "events_seen": 1,
+  "max_players": 62,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tamariba_pokeca",
+  "name": "たまり場",
+  "area": "北海道",
+  "type": "individual",
+  "note": "たまり場を主催。最大51名規模。",
+  "events_seen": 1,
+  "max_players": 51,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "teamMIYAPOKE",
+  "name": "ぬまおー杯",
+  "area": "宮城県",
+  "type": "individual",
+  "note": "ぬまおー杯を主催。最大48名規模。",
+  "events_seen": 1,
+  "max_players": 48,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "TeamPelipper279",
+  "name": "かぜのたより杯",
+  "area": "福島県",
+  "type": "individual",
+  "note": "かぜのたより杯を主催。最大60名規模。",
+  "events_seen": 1,
+  "max_players": 60,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tokachi_CL",
+  "name": "十勝CL",
+  "area": "北海道",
+  "type": "individual",
+  "note": "十勝CLを主催。最大52名規模。",
+  "events_seen": 1,
+  "max_players": 52,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tom09380",
+  "name": "秋田県招待制大会",
+  "area": "秋田県",
+  "type": "individual",
+  "note": "秋田県招待制大会を主催。最大24名規模。",
+  "events_seen": 1,
+  "max_players": 24,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "totty_hoge",
+  "name": "とってぃ杯",
+  "area": "秋田県",
+  "type": "individual",
+  "note": "秋田県で開催される個人戦自主大会。",
+  "events_seen": 1,
+  "max_players": 97,
+  "sources": [
+   "web",
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "yosugacity2109",
+  "name": "ヨスガシティカップ",
+  "area": "北海道",
+  "type": "individual",
+  "note": "ヨスガシティカップを主催。最大60名規模。",
+  "events_seen": 1,
+  "max_players": 60,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ZERO323339",
+  "name": "@ZERO323339",
+  "area": "山形県",
+  "type": "individual",
+  "note": "自主大会を主催。最大30名規模。",
+  "events_seen": 1,
+  "max_players": 30,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "aizgp",
+  "name": "あいづでポケカ",
+  "area": "福島県会津若松市",
+  "type": "individual",
+  "note": "会津若松で中学生以下対象の交流会を開催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "aizudepokeca",
+  "name": "会津白虎杯",
+  "area": "福島県会津",
+  "type": "individual",
+  "note": "会津地方で開催される自主大会、約45名規模。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "alex4053",
+  "name": "TCG.C.PokeBS",
+  "area": "山形県",
+  "type": "individual",
+  "note": "TCG.C.PokeBSを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "amai_pokeca",
+  "name": "ポケカであそぼう（山形ポケカ親子）",
+  "area": "山形県山形市",
+  "type": "individual",
+  "note": "山形市でジュニア向け交流会を定期開催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "fu_rinpokemon",
+  "name": "フーリン杯",
+  "area": "宮城県",
+  "type": "individual",
+  "note": "フーリン杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Kibana_cup",
+  "name": "KIBANA杯",
+  "area": "北海道",
+  "type": "individual",
+  "note": "北海道開催の個人戦自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "minivecap0928",
+  "name": "テンガン山杯",
+  "area": "北海道旭川市",
+  "type": "individual",
+  "note": "旭川エリアで開催される自主大会、約50名規模。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "nomosecitycs",
+  "name": "ノモセシティCS",
+  "area": "北海道",
+  "type": "individual",
+  "note": "北海道で開催される個人戦自主大会、50〜60名規模。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Pokeka0824",
+  "name": "シーガルチャレンジinポケカ塾",
+  "area": "福島県",
+  "type": "individual",
+  "note": "福島県で開催される自主大会、約59名規模。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "taku_kuidame",
+  "name": "どよるじゃないと！",
+  "area": "青森県",
+  "type": "individual",
+  "note": "青森県で開催される個人戦自主大会、約30名規模。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "team_houseki",
+  "name": "ヨルノズクカップ",
+  "area": "宮城県",
+  "type": "individual",
+  "note": "ヨルノズクカップを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "toya_poke14",
+  "name": "デデンネカップ",
+  "area": "宮城県",
+  "type": "individual",
+  "note": "デデンネカップを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "YTHtoreka",
+  "name": "セビエ杯",
+  "area": "宮城県",
+  "type": "individual",
+  "note": "宮城県で開催される個人戦自主大会、約64名規模。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "北海道・東北",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "SakeChampibuh3",
+  "name": "さけ杯",
+  "area": "石川県",
+  "type": "individual",
+  "note": "さけ杯を主催。最大161名規模。",
+  "events_seen": 1,
+  "max_players": 161,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北陸",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "SakeChampionS",
+  "name": "さけ杯",
+  "area": "石川県",
+  "type": "individual",
+  "note": "さけ杯を主催。最大66名規模。",
+  "events_seen": 1,
+  "max_players": 66,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "北陸",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "dww22220824game",
+  "name": "せせらぎ杯",
+  "area": "福井県",
+  "type": "individual",
+  "note": "福井県で開催されているポケカ自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "北陸",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kasyakisaki",
+  "name": "ともしび杯",
+  "area": "石川県",
+  "type": "individual",
+  "note": "ともしび杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "北陸",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "MIRIN3Quagsire",
+  "name": "てんねん杯",
+  "area": "富山県",
+  "type": "individual",
+  "note": "富山県で開催されているポケカ自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "北陸",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "8787cap",
+  "name": "おはなのかんむり杯",
+  "area": "香川県",
+  "type": "individual",
+  "note": "おはなのかんむり杯を主催。最大134名規模。",
+  "events_seen": 2,
+  "max_players": 134,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "maaaaatotcg",
+  "name": "@maaaaatotcg",
+  "area": "香川県",
+  "type": "individual",
+  "note": "自主大会を主催。最大116名規模。",
+  "events_seen": 2,
+  "max_players": 116,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "OretanMatsuyama",
+  "name": "銀天杯（オレタン松山）",
+  "area": "愛媛県松山市",
+  "type": "shop",
+  "note": "松山のカードショップオレタンが主催。",
+  "events_seen": 2,
+  "max_players": 64,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "COOLKID23504846",
+  "name": "阿波絆杯",
+  "area": "徳島県",
+  "type": "individual",
+  "note": "阿波絆杯を主催。最大94名規模。",
+  "events_seen": 1,
+  "max_players": 94,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "cs_yoshiii",
+  "name": "ワシが最強杯",
+  "area": "愛媛県",
+  "type": "individual",
+  "note": "ワシが最強杯を主催。最大18名規模。",
+  "events_seen": 1,
+  "max_players": 18,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Futokoro_cup",
+  "name": "ふところ杯",
+  "area": "愛媛県",
+  "type": "individual",
+  "note": "ふところ杯を主催。最大54名規模。",
+  "events_seen": 1,
+  "max_players": 54,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "mlpt_b",
+  "name": "マーノキ杯",
+  "area": "香川県",
+  "type": "individual",
+  "note": "マーノキ杯を主催。最大25名規模。",
+  "events_seen": 1,
+  "max_players": 25,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "shi_qing56274",
+  "name": "ポケカ部主催ストーム",
+  "area": "愛媛県",
+  "type": "individual",
+  "note": "ポケカ部主催ストームを主催。最大25名規模。",
+  "events_seen": 1,
+  "max_players": 25,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "spoon_snivy",
+  "name": "かがやくつる杯",
+  "area": "香川県",
+  "type": "individual",
+  "note": "かがやくつる杯を主催。最大107名規模。",
+  "events_seen": 1,
+  "max_players": 107,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tamasaburou3636",
+  "name": "レベニロッソNC杯",
+  "area": "愛媛県",
+  "type": "individual",
+  "note": "レベニロッソNC杯を主催。最大78名規模。",
+  "events_seen": 1,
+  "max_players": 78,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tosapoke_kochi",
+  "name": "土佐ポケ杯",
+  "area": "高知県",
+  "type": "individual",
+  "note": "土佐ポケ杯を主催。最大122名規模。",
+  "events_seen": 1,
+  "max_players": 122,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "totugeki33627",
+  "name": "とつげきランディーズ",
+  "area": "徳島県",
+  "type": "individual",
+  "note": "とつげきランディーズを主催。最大66名規模。",
+  "events_seen": 1,
+  "max_players": 66,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ysrn152403",
+  "name": "くろがねのつばさ杯",
+  "area": "香川県",
+  "type": "individual",
+  "note": "くろがねのつばさ杯を主催。最大32名規模。",
+  "events_seen": 1,
+  "max_players": 32,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "88round_kochi",
+  "name": "88杯",
+  "area": "高知県",
+  "type": "individual",
+  "note": "高知県で20回以上継続する自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "event_pokeca",
+  "name": "愛媛ポケカイベント",
+  "area": "愛媛県",
+  "type": "team",
+  "note": "愛媛県内のポケカイベント告知・主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kagawatcg",
+  "name": "シン・たつじんのいちげき杯",
+  "area": "香川県",
+  "type": "individual",
+  "note": "香川県の自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kaito_poke98_2",
+  "name": "きょだいれんげき杯",
+  "area": "愛媛県",
+  "type": "individual",
+  "note": "愛媛県の自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kyoumeisinka",
+  "name": "きょうめいしんか杯",
+  "area": "愛媛県",
+  "type": "individual",
+  "note": "愛媛県の自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "raoh_pokeca",
+  "name": "羅王杯",
+  "area": "愛媛県",
+  "type": "individual",
+  "note": "愛媛県の自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tkjs2023",
+  "name": "ヤドン女流杯",
+  "area": "香川県",
+  "type": "individual",
+  "note": "香川県の自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tsgrndngn",
+  "name": "ラピスト杯",
+  "area": "高知県",
+  "type": "individual",
+  "note": "ラピスト杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tsknt_kochi",
+  "name": "トサキント杯",
+  "area": "高知県",
+  "type": "individual",
+  "note": "トサキント杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "udongepoke",
+  "name": "うどんげ@愛媛ポケカ",
+  "area": "愛媛県",
+  "type": "individual",
+  "note": "愛媛のポケカ交流会・イベントを企画。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "update20230401",
+  "name": "updateチャンピオンシップ",
+  "area": "香川県高松市",
+  "type": "shop",
+  "note": "高松のトレカショップUP DATEが主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "四国",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "hhhh1174",
+  "name": "メガネ杯",
+  "area": "愛知県",
+  "type": "individual",
+  "note": "個人戦・3人チーム戦の自主大会シリーズ、約100名規模。",
+  "events_seen": 4,
+  "max_players": 101,
+  "sources": [
+   "web",
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "33CUPsenyou",
+  "name": "33CUP",
+  "area": "愛知県",
+  "type": "individual",
+  "note": "33CUPを主催。最大56名規模。",
+  "events_seen": 3,
+  "max_players": 56,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "alice_ichimon",
+  "name": "アリスの居酒屋",
+  "area": "静岡県",
+  "type": "individual",
+  "note": "アリスの居酒屋を主催。最大70名規模。",
+  "events_seen": 2,
+  "max_players": 70,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "mijumarucup",
+  "name": "ミジュマルカップ",
+  "area": "三重県",
+  "type": "individual",
+  "note": "ミジュマルカップを主催。最大96名規模。",
+  "events_seen": 2,
+  "max_players": 96,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "NOE_cup",
+  "name": "N.O.E.cup(のえかっぷ)",
+  "area": "三重県四日市市",
+  "type": "individual",
+  "note": "四日市市で不定期開催の自主大会。",
+  "events_seen": 2,
+  "max_players": 108,
+  "sources": [
+   "web",
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "p2320_pcg",
+  "name": "ワン杯",
+  "area": "静岡県",
+  "type": "individual",
+  "note": "ワン杯を主催。最大124名規模。",
+  "events_seen": 2,
+  "max_players": 124,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "poketokotoko",
+  "name": "さとCUP",
+  "area": "三重県",
+  "type": "individual",
+  "note": "さとCUPを主催。最大32名規模。",
+  "events_seen": 2,
+  "max_players": 32,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "TCGDungeon",
+  "name": "トレダンCS",
+  "area": "愛知県",
+  "type": "individual",
+  "note": "トレダンCSを主催。最大72名規模。",
+  "events_seen": 2,
+  "max_players": 72,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "advantage_fes",
+  "name": "アドフェス",
+  "area": "愛知県",
+  "type": "individual",
+  "note": "アドフェスを主催。最大384名規模。",
+  "events_seen": 1,
+  "max_players": 384,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ADVANTAGE_GIFU",
+  "name": "アドバンテージタッグ",
+  "area": "岐阜県",
+  "type": "individual",
+  "note": "アドバンテージタッグを主催。最大62名規模。",
+  "events_seen": 1,
+  "max_players": 62,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "clubmaron_event",
+  "name": "ニッシンシティ・ポケカ",
+  "area": "愛知県",
+  "type": "individual",
+  "note": "ニッシンシティ・ポケカを主催。最大32名規模。",
+  "events_seen": 1,
+  "max_players": 32,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "CS29596453",
+  "name": "@CS29596453",
+  "area": "岐阜県",
+  "type": "individual",
+  "note": "自主大会を主催。最大64名規模。",
+  "events_seen": 1,
+  "max_players": 64,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "HirabariNo1ptc",
+  "name": "平針ポケカNo1",
+  "area": "愛知県",
+  "type": "individual",
+  "note": "平針ポケカNo1を主催。最大66名規模。",
+  "events_seen": 1,
+  "max_players": 66,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Iy0cK",
+  "name": "ありぽけ杯",
+  "area": "愛知県",
+  "type": "individual",
+  "note": "ありぽけ杯を主催。最大128名規模。",
+  "events_seen": 1,
+  "max_players": 128,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kamishibacs",
+  "name": "かみシバCS",
+  "area": "三重県",
+  "type": "individual",
+  "note": "かみシバCSを主催。最大63名規模。",
+  "events_seen": 1,
+  "max_players": 63,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "maaateru_fuma",
+  "name": "エボリューションドリーム",
+  "area": "三重県",
+  "type": "individual",
+  "note": "エボリューションドリームを主催。最大54名規模。",
+  "events_seen": 1,
+  "max_players": 54,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "masaratowncup",
+  "name": "マサラタウンカップ",
+  "area": "静岡県",
+  "type": "individual",
+  "note": "マサラタウンカップを主催。最大64名規模。",
+  "events_seen": 1,
+  "max_players": 64,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "motosazae1",
+  "name": "マピオ杯",
+  "area": "愛知県",
+  "type": "individual",
+  "note": "数ヶ月に1回126人規模で開催、サイドイベントも充実。",
+  "events_seen": 1,
+  "max_players": 134,
+  "sources": [
+   "web",
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Mukka_Cup",
+  "name": "ライジングカップ",
+  "area": "愛知県",
+  "type": "individual",
+  "note": "ライジングカップを主催。最大50名規模。",
+  "events_seen": 1,
+  "max_players": 50,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "namahamulemon",
+  "name": "うみの日トリオ杯",
+  "area": "静岡県",
+  "type": "individual",
+  "note": "うみの日トリオ杯を主催。最大99名規模。",
+  "events_seen": 1,
+  "max_players": 99,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "omatsuvmax",
+  "name": "おまつ杯",
+  "area": "愛知県",
+  "type": "individual",
+  "note": "おまつ杯を主催。最大128名規模。",
+  "events_seen": 1,
+  "max_players": 128,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pokmon_nori",
+  "name": "ノリちゃん杯",
+  "area": "三重県",
+  "type": "individual",
+  "note": "ノリちゃん杯を主催。最大64名規模。",
+  "events_seen": 1,
+  "max_players": 64,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "saisa_strraw",
+  "name": "オブシディアン杯",
+  "area": "静岡県",
+  "type": "individual",
+  "note": "オブシディアン杯を主催。最大52名規模。",
+  "events_seen": 1,
+  "max_players": 52,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "siokanecup",
+  "name": "しおかね杯",
+  "area": "静岡県",
+  "type": "individual",
+  "note": "しおかね杯を主催。最大77名規模。",
+  "events_seen": 1,
+  "max_players": 77,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tanuki_no_poke",
+  "name": "@tanuki_no_poke",
+  "area": "愛知県",
+  "type": "individual",
+  "note": "自主大会を主催。最大88名規模。",
+  "events_seen": 1,
+  "max_players": 88,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tomeit0_15",
+  "name": "とまと杯",
+  "area": "静岡県",
+  "type": "individual",
+  "note": "とまと杯を主催。最大64名規模。",
+  "events_seen": 1,
+  "max_players": 64,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ua328_yy1120",
+  "name": "うあゆや杯",
+  "area": "愛知県",
+  "type": "individual",
+  "note": "うあゆや杯を主催。最大62名規模。",
+  "events_seen": 1,
+  "max_players": 62,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "yorukai_yoruhai",
+  "name": "俺達の夜杯",
+  "area": "岐阜県",
+  "type": "individual",
+  "note": "俺達の夜杯を主催。最大96名規模。",
+  "events_seen": 1,
+  "max_players": 96,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "cardshop_Starch",
+  "name": "カードショップ 海賊船-Starch-",
+  "area": "岐阜県",
+  "type": "shop",
+  "note": "岐阜の独立系カードショップが自主大会・CSを開催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "fleur_labo",
+  "name": "フラだりラボ",
+  "area": "静岡県",
+  "type": "individual",
+  "note": "月1回開催の無料イベント。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Gacchancup",
+  "name": "がっちゃん杯",
+  "area": "静岡県",
+  "type": "individual",
+  "note": "がっちゃん杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "HALA_SMASH",
+  "name": "ハラリキー＠ぎふポケ",
+  "area": "岐阜県",
+  "type": "individual",
+  "note": "「ぎふポケ」として岐阜で自主大会を運営。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "jackalldream",
+  "name": "ジャッカル杯",
+  "area": "愛知県",
+  "type": "individual",
+  "note": "ジャッカル杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kouhoutanaka",
+  "name": "こーほーたなカップ",
+  "area": "静岡県",
+  "type": "individual",
+  "note": "月1開催の静岡の自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "LemonadeCup_OA",
+  "name": "レモネード杯",
+  "area": "三重県",
+  "type": "individual",
+  "note": "レモネード杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "MetaGames_TCG",
+  "name": "カードショップMetaGames",
+  "area": "愛知県",
+  "type": "shop",
+  "note": "愛知の独立系カードショップが主催するCS。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "p23202",
+  "name": "みしまチャレンジコート",
+  "area": "静岡県三島市",
+  "type": "individual",
+  "note": "静岡東部で小中学生限定大会を開催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "poke_teacher",
+  "name": "ノーマライゼーション杯",
+  "area": "愛知県",
+  "type": "individual",
+  "note": "ノーマライゼーション杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "sagichan_pokeka",
+  "name": "サギちゃん同好会",
+  "area": "静岡県西部",
+  "type": "team",
+  "note": "静岡県西部地区で活動する交流会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "SHOW_CUP",
+  "name": "SHOW杯",
+  "area": "愛知県",
+  "type": "individual",
+  "note": "SHOW杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "T_Anon_Pokemon2",
+  "name": "ティー",
+  "area": "岐阜県",
+  "type": "individual",
+  "note": "岐阜でポケカの自主大会を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tammy02357",
+  "name": "たみポケ",
+  "area": "愛知県",
+  "type": "individual",
+  "note": "たみポケを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "uno_ena4444",
+  "name": "UNO～United.Number.Original～",
+  "area": "岐阜県",
+  "type": "individual",
+  "note": "参加無料を掟に開催する自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "yabu09",
+  "name": "ヤブキホーテン",
+  "area": "愛知県",
+  "type": "individual",
+  "note": "ヤブキホーテンを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "東海",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "toynity3",
+  "name": "トイニティチャンピオンシップ",
+  "area": "新潟県",
+  "type": "individual",
+  "note": "トイニティチャンピオンシップを主催。最大220名規模。",
+  "events_seen": 4,
+  "max_players": 220,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "poke07s",
+  "name": "田島屋杯",
+  "area": "長野県",
+  "type": "individual",
+  "note": "田島屋杯を主催。最大66名規模。",
+  "events_seen": 2,
+  "max_players": 66,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "BS_naganoekimae",
+  "name": "3周年感謝祭",
+  "area": "長野県",
+  "type": "individual",
+  "note": "3周年感謝祭を主催。最大68名規模。",
+  "events_seen": 1,
+  "max_players": 68,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "enya_poke",
+  "name": "@enya_poke",
+  "area": "新潟県",
+  "type": "individual",
+  "note": "自主大会を主催。最大39名規模。",
+  "events_seen": 1,
+  "max_players": 39,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "hatomune1001",
+  "name": "はとれもん杯",
+  "area": "新潟県",
+  "type": "individual",
+  "note": "はとれもん杯を主催。最大51名規模。",
+  "events_seen": 1,
+  "max_players": 51,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kkk3333kz",
+  "name": "火ノ嵐杯",
+  "area": "山梨県",
+  "type": "individual",
+  "note": "火ノ嵐杯を主催。最大32名規模。",
+  "events_seen": 1,
+  "max_players": 32,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "masara_niigata",
+  "name": "新潟CS",
+  "area": "新潟県",
+  "type": "individual",
+  "note": "新潟CSを主催。最大195名規模。",
+  "events_seen": 1,
+  "max_players": 195,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Miya1116376",
+  "name": "わななくれいき杯",
+  "area": "長野県",
+  "type": "individual",
+  "note": "わななくれいき杯を主催。最大26名規模。",
+  "events_seen": 1,
+  "max_players": 26,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "MP21E063",
+  "name": "タッチポケカ松本CS",
+  "area": "長野県",
+  "type": "individual",
+  "note": "タッチポケカ松本CSを主催。最大63名規模。",
+  "events_seen": 1,
+  "max_players": 63,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "OTOKOHAI",
+  "name": "オトコ杯",
+  "area": "新潟県",
+  "type": "individual",
+  "note": "オトコ杯を主催。最大15名規模。",
+  "events_seen": 1,
+  "max_players": 15,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ueda_hai_pokeca",
+  "name": "上田杯",
+  "area": "長野県上田市",
+  "type": "individual",
+  "note": "上田市で開催される自主大会、60名規模。",
+  "events_seen": 1,
+  "max_players": 56,
+  "sources": [
+   "web",
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "uonumapoke",
+  "name": "魚沼ポケカの遊び場",
+  "area": "新潟県",
+  "type": "individual",
+  "note": "魚沼ポケカの遊び場を主催。最大75名規模。",
+  "events_seen": 1,
+  "max_players": 75,
+  "sources": [
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "BTCL_NAGAOKA",
+  "name": "バトルコロシアム",
+  "area": "新潟県長岡市",
+  "type": "individual",
+  "note": "長岡で開催される自主大会シリーズ。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "eforum_staff",
+  "name": "ナガノタウン杯",
+  "area": "長野県",
+  "type": "individual",
+  "note": "長野県で開催される自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "mrgontahai",
+  "name": "ミスター権太杯",
+  "area": "新潟県",
+  "type": "individual",
+  "note": "新潟県で開催される自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "nagaokabasho",
+  "name": "長岡場所",
+  "area": "新潟県",
+  "type": "individual",
+  "note": "長岡場所を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "nashipoke_cup",
+  "name": "やまなしポケカ杯",
+  "area": "山梨県",
+  "type": "individual",
+  "note": "山梨県で開催される自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ngt_weekday_pcg",
+  "name": "新潟平日ポケカ",
+  "area": "新潟県",
+  "type": "individual",
+  "note": "平日開催のポケカ交流会・自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Nosuke_tiki",
+  "name": "オトコ杯",
+  "area": "新潟県",
+  "type": "individual",
+  "note": "オトコ杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pokemero_tcg",
+  "name": "カードショップmero 甲府店",
+  "area": "山梨県",
+  "type": "shop",
+  "note": "カードショップmero 甲府店を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "raika_hai",
+  "name": "らいか杯",
+  "area": "長野県",
+  "type": "individual",
+  "note": "らいか杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "saku_poke0629",
+  "name": "さくだいらカップ",
+  "area": "長野県",
+  "type": "individual",
+  "note": "長野県で開催される自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tcg_mero0529",
+  "name": "カードショップmero 山梨 富士吉",
+  "area": "山梨県",
+  "type": "shop",
+  "note": "カードショップmero 山梨 富士吉を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "touchxxKDT",
+  "name": "タッチ松本店（ポケカ松本CS）",
+  "area": "長野県松本市",
+  "type": "shop",
+  "note": "松本のトレカショップで自主大会を定期開催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tsubasan_cs",
+  "name": "つばさんCS（越後頂杯）",
+  "area": "新潟県",
+  "type": "individual",
+  "note": "YouTube配信付きの大型自主大会、200名規模。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "甲信越",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pokeca_Study_",
+  "name": "やさしいおやつ杯",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "やさしいおやつ杯を主催。最大125名規模。",
+  "events_seen": 11,
+  "max_players": 125,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "m__ster",
+  "name": "Master杯",
+  "area": "滋賀県",
+  "type": "individual",
+  "note": "Master杯を主催。最大109名規模。",
+  "events_seen": 4,
+  "max_players": 109,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ryuunoshippo_5",
+  "name": "竜のしっぽ布施店",
+  "area": "大阪府",
+  "type": "shop",
+  "note": "竜のしっぽ布施店を主催。最大99名規模。",
+  "events_seen": 4,
+  "max_players": 99,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "biribiri_league",
+  "name": "びりびりーぐ",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "びりびりーぐを主催。最大144名規模。",
+  "events_seen": 3,
+  "max_players": 144,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "houkou_cup",
+  "name": "いちげきのほうこう杯",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "いちげきのほうこう杯を主催。最大270名規模。",
+  "events_seen": 3,
+  "max_players": 270,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Kcs_Poke",
+  "name": "KCS杯",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "KCS杯を主催。最大100名規模。",
+  "events_seen": 3,
+  "max_players": 100,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "lotuspokke",
+  "name": "楽園杯",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "楽園杯を主催。最大32名規模。",
+  "events_seen": 3,
+  "max_players": 32,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "teamchallengcp",
+  "name": "チムチャレ杯",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "チムチャレ杯を主催。最大81名規模。",
+  "events_seen": 3,
+  "max_players": 81,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "the_awesome_777",
+  "name": "オーサムカップ",
+  "area": "奈良県",
+  "type": "individual",
+  "note": "オーサムカップを主催。最大27名規模。",
+  "events_seen": 3,
+  "max_players": 27,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ds_nipponbashi3",
+  "name": "ドラスタ日本橋",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "ドラスタ日本橋を主催。最大64名規模。",
+  "events_seen": 2,
+  "max_players": 64,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "hodohodopokeca",
+  "name": "VOW杯",
+  "area": "滋賀県",
+  "type": "individual",
+  "note": "VOW杯を主催。最大65名規模。",
+  "events_seen": 2,
+  "max_players": 65,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "KoganeCup",
+  "name": "コガネカップ",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "コガネカップを主催。最大192名規模。",
+  "events_seen": 2,
+  "max_players": 192,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "mizu0122omizu",
+  "name": "おみず杯",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "おみず杯を主催。最大126名規模。",
+  "events_seen": 2,
+  "max_players": 126,
+  "sources": [
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "mo_chiCAP",
+  "name": "もーちー杯",
+  "area": "滋賀県彦根市",
+  "type": "individual",
+  "note": "ハイパーブックス彦根店をホームに自主大会を開催。",
+  "events_seen": 2,
+  "max_players": 185,
+  "sources": [
+   "web",
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ryuunoshippo_4",
+  "name": "竜のしっぽ姫路店",
+  "area": "兵庫県",
+  "type": "shop",
+  "note": "竜のしっぽ姫路店を主催。最大61名規模。",
+  "events_seen": 2,
+  "max_players": 61,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "xrowgu",
+  "name": "バツメン杯",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "バツメン杯を主催。最大351名規模。",
+  "events_seen": 2,
+  "max_players": 351,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "yurupokecup",
+  "name": "ゆるポケ杯",
+  "area": "奈良県",
+  "type": "individual",
+  "note": "ゆるポケ杯を主催。最大89名規模。",
+  "events_seen": 2,
+  "max_players": 89,
+  "sources": [
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "1shot_ishibashi",
+  "name": "トレカショップワンショット",
+  "area": "大阪府",
+  "type": "shop",
+  "note": "トレカショップワンショットを主催。最大30名規模。",
+  "events_seen": 1,
+  "max_players": 30,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "CARDBOX_KYOTO",
+  "name": "SATOPON杯",
+  "area": "京都府",
+  "type": "individual",
+  "note": "SATOPON杯を主催。最大57名規模。",
+  "events_seen": 1,
+  "max_players": 57,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "CocoTyaVi",
+  "name": "楽園杯",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "楽園杯を主催。最大48名規模。",
+  "events_seen": 1,
+  "max_players": 48,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ds_izumisano",
+  "name": "佐野ドラ杯",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "佐野ドラ杯を主催。最大37名規模。",
+  "events_seen": 1,
+  "max_players": 37,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "duorapok",
+  "name": "烈歌杯",
+  "area": "和歌山県",
+  "type": "individual",
+  "note": "烈歌杯を主催。最大30名規模。",
+  "events_seen": 1,
+  "max_players": 30,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "FD_cup",
+  "name": "楽園杯",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "楽園杯を主催。最大29名規模。",
+  "events_seen": 1,
+  "max_players": 29,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "gekiryuhai",
+  "name": "激流杯",
+  "area": "和歌山県",
+  "type": "individual",
+  "note": "激流杯を主催。最大30名規模。",
+  "events_seen": 1,
+  "max_players": 30,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ginger_pokeca",
+  "name": "激流杯",
+  "area": "和歌山県",
+  "type": "individual",
+  "note": "激流杯を主催。最大51名規模。",
+  "events_seen": 1,
+  "max_players": 51,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "GIRAFULLOTARODO",
+  "name": "@GIRAFULLOTARODO",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "自主大会を主催。最大56名規模。",
+  "events_seen": 1,
+  "max_players": 56,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "hirocup",
+  "name": "ヒロ杯",
+  "area": "兵庫県",
+  "type": "individual",
+  "note": "ヒロ杯を主催。最大74名規模。",
+  "events_seen": 1,
+  "max_players": 74,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "laughteria_TCG",
+  "name": "ラフテリア杯",
+  "area": "兵庫県",
+  "type": "individual",
+  "note": "ラフテリア杯を主催。最大65名規模。",
+  "events_seen": 1,
+  "max_players": 65,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "mahorika_poke",
+  "name": "霊龍杯",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "霊龍杯を主催。最大48名規模。",
+  "events_seen": 1,
+  "max_players": 48,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "nekonotehai",
+  "name": "ねこのて杯",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "ねこのて杯を主催。最大120名規模。",
+  "events_seen": 1,
+  "max_players": 120,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pokecanoa",
+  "name": "サイコエンブレイス杯",
+  "area": "奈良県",
+  "type": "individual",
+  "note": "サイコエンブレイス杯を主催。最大33名規模。",
+  "events_seen": 1,
+  "max_players": 33,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pokeutane",
+  "name": "うたね×きりん杯",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "うたね×きりん杯を主催。最大26名規模。",
+  "events_seen": 1,
+  "max_players": 26,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "RRC1218",
+  "name": "@RRC1218",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "自主大会を主催。最大46名規模。",
+  "events_seen": 1,
+  "max_players": 46,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ryu_k_5884",
+  "name": "@ryu_k_5884",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "自主大会を主催。最大270名規模。",
+  "events_seen": 1,
+  "max_players": 270,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ryuunoshippo_nu",
+  "name": "竜のしっぽ",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "竜のしっぽを主催。最大51名規模。",
+  "events_seen": 1,
+  "max_players": 51,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "SAWAroushi",
+  "name": "さわろうし杯",
+  "area": "兵庫県",
+  "type": "individual",
+  "note": "さわろうし杯を主催。最大61名規模。",
+  "events_seen": 1,
+  "max_players": 61,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "shop_VOW",
+  "name": "バウくん杯",
+  "area": "滋賀県",
+  "type": "individual",
+  "note": "バウくん杯を主催。最大72名規模。",
+  "events_seen": 1,
+  "max_players": 72,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "sorutan28",
+  "name": "うのはな杯",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "個人戦からチーム戦まで幅広く開催。",
+  "events_seen": 1,
+  "max_players": 133,
+  "sources": [
+   "web",
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "spikecup_poke",
+  "name": "スパイクカップ",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "スパイクカップを主催。最大312名規模。",
+  "events_seen": 1,
+  "max_players": 312,
+  "sources": [
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "torecamcuposaka",
+  "name": "トレキャンカップ",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "トレキャンカップを主催。最大256名規模。",
+  "events_seen": 1,
+  "max_players": 256,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "toufukunhi",
+  "name": "とうふくん杯",
+  "area": "滋賀県",
+  "type": "individual",
+  "note": "とうふくん杯を主催。最大36名規模。",
+  "events_seen": 1,
+  "max_players": 36,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "toycomp5",
+  "name": "@toycomp5",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "プ王を主催。最大36名規模。",
+  "events_seen": 1,
+  "max_players": 36,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "TZ_kyoto",
+  "name": "トモキ杯",
+  "area": "京都府",
+  "type": "individual",
+  "note": "トモキ杯を主催。最大37名規模。",
+  "events_seen": 1,
+  "max_players": 37,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "wadedaze2",
+  "name": "ワデフェス",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "ワデフェスを主催。最大69名規模。",
+  "events_seen": 1,
+  "max_players": 69,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "y_cyclone_",
+  "name": "ミコンダード杯",
+  "area": "奈良県",
+  "type": "individual",
+  "note": "ミコンダード杯を主催。最大26名規模。",
+  "events_seen": 1,
+  "max_players": 26,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "yabouhai_poke",
+  "name": "果てなき野望杯",
+  "area": "京都府",
+  "type": "individual",
+  "note": "果てなき野望杯を主催。最大55名規模。",
+  "events_seen": 1,
+  "max_players": 55,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Ybrn_Das_BBC",
+  "name": "れっかばくしん杯",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "れっかばくしん杯を主催。最大15名規模。",
+  "events_seen": 1,
+  "max_players": 15,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "dksp_pskd",
+  "name": "大根杯",
+  "area": "兵庫県",
+  "type": "individual",
+  "note": "「気軽に、楽しく、にぎやかに」がテーマの自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "H_nekono",
+  "name": "なゆポケ交流会",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "老若男女向けの交流会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "marumouke_poke",
+  "name": "まるもうけ杯",
+  "area": "兵庫県",
+  "type": "individual",
+  "note": "個人戦、タッグ戦、女性限定大会など多彩に開催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "masuke_pechi",
+  "name": "ペチリンピック",
+  "area": "兵庫県",
+  "type": "individual",
+  "note": "初心者から熟練者まで参加しやすい大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pokecaSRC",
+  "name": "ShijoRegionalCup",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "ShijoRegionalCupを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ptcg_harima",
+  "name": "はりまポケカ交流会",
+  "area": "兵庫県播磨地域",
+  "type": "team",
+  "note": "播磨地域のポケカ交流会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ptcgmio",
+  "name": "MJ対面会",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "初心者歓迎の賑やかな対面交流会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ryotatopokeca",
+  "name": "りょーた",
+  "area": "兵庫県尼崎市",
+  "type": "individual",
+  "note": "尼崎市を中心に自主大会を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "SolarRevelation",
+  "name": "太陽の啓示杯",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "太陽の啓示杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "TaishiTownGL",
+  "name": "タイシタウンのポケカ交流会",
+  "area": "大阪府太子町",
+  "type": "individual",
+  "note": "太子町で毎月交流会を開催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "toradamon_poke",
+  "name": "だもん杯",
+  "area": "大阪府",
+  "type": "individual",
+  "note": "だもん杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tukapuoperation",
+  "name": "ツカップ",
+  "area": "和歌山県",
+  "type": "individual",
+  "note": "和歌山で小中規模の自主大会を運営。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "近畿",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "sokesokesoke200",
+  "name": "はるn杯",
+  "area": "東京都",
+  "type": "individual",
+  "note": "はるn杯を主催。最大250名規模。",
+  "events_seen": 5,
+  "max_players": 250,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "batolocobaba",
+  "name": "ババロコCS",
+  "area": "東京都",
+  "type": "individual",
+  "note": "ババロコCSを主催。最大420名規模。",
+  "events_seen": 4,
+  "max_players": 420,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Chloechan_dayo",
+  "name": "Chloe CS",
+  "area": "東京都",
+  "type": "individual",
+  "note": "Chloe CSを主催。最大156名規模。",
+  "events_seen": 4,
+  "max_players": 156,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "fumotcg",
+  "name": "@fumotcg",
+  "area": "東京都",
+  "type": "individual",
+  "note": "自主大会を主催。最大58名規模。",
+  "events_seen": 4,
+  "max_players": 58,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "katsu_rati",
+  "name": "かつたCS",
+  "area": "東京都",
+  "type": "individual",
+  "note": "かつたCSを主催。最大103名規模。",
+  "events_seen": 4,
+  "max_players": 103,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "northportcup",
+  "name": "ノスポカップ",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "ノスポカップを主催。最大82名規模。",
+  "events_seen": 4,
+  "max_players": 82,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "rushmedia_cs_p",
+  "name": "カードラッシュCS",
+  "area": "東京都",
+  "type": "shop",
+  "note": "東京で開催される大型の自主大会、100名超規模。",
+  "events_seen": 4,
+  "max_players": 780,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Yuneko_ro",
+  "name": "まごころ杯",
+  "area": "東京都",
+  "type": "individual",
+  "note": "まごころ杯を主催。最大82名規模。",
+  "events_seen": 4,
+  "max_players": 82,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "cardshopsairyu",
+  "name": "ポケカ裁龍杯",
+  "area": "茨城県",
+  "type": "shop",
+  "note": "独立系カードショップ「裁龍」の自主大会シリーズ（第50回超）。",
+  "events_seen": 3,
+  "max_players": 112,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "PcgAceTourn",
+  "name": "エーストーナメント",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "エーストーナメントを主催。最大64名規模。",
+  "events_seen": 3,
+  "max_players": 64,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tariki03",
+  "name": "他力杯",
+  "area": "千葉県",
+  "type": "individual",
+  "note": "他力杯を主催。最大120名規模。",
+  "events_seen": 3,
+  "max_players": 120,
+  "sources": [
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Tokiwahai",
+  "name": "トキワ杯",
+  "area": "東京都",
+  "type": "individual",
+  "note": "トキワ杯を主催。最大76名規模。",
+  "events_seen": 3,
+  "max_players": 76,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Trubbishx3",
+  "name": "ガルシア杯",
+  "area": "東京都",
+  "type": "individual",
+  "note": "ガルシア杯を主催。最大128名規模。",
+  "events_seen": 3,
+  "max_players": 128,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "yuuri_hogetan",
+  "name": "宝石祭",
+  "area": "東京都",
+  "type": "individual",
+  "note": "宝石祭を主催。最大118名規模。",
+  "events_seen": 3,
+  "max_players": 118,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "AraiNobuPuni",
+  "name": "アライ塾模擬試験",
+  "area": "東京都",
+  "type": "individual",
+  "note": "アライ塾模擬試験を主催。最大100名規模。",
+  "events_seen": 2,
+  "max_players": 100,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "cherumo2010",
+  "name": "チェルモCS",
+  "area": "東京都秋葉原",
+  "type": "individual",
+  "note": "秋葉原で開催される個人戦自主大会。",
+  "events_seen": 2,
+  "max_players": 69,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "chocol8pokeca",
+  "name": "ちょこはち",
+  "area": "東京都",
+  "type": "individual",
+  "note": "ちょこはちを主催。最大168名規模。",
+  "events_seen": 2,
+  "max_players": 168,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "fukufuku_toreka",
+  "name": "@fukufuku_toreka",
+  "area": "東京都",
+  "type": "individual",
+  "note": "自主大会を主催。最大58名規模。",
+  "events_seen": 2,
+  "max_players": 58,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "gosankecup",
+  "name": "御三家CUP",
+  "area": "茨城県",
+  "type": "individual",
+  "note": "御三家CUPを主催。最大237名規模。",
+  "events_seen": 2,
+  "max_players": 237,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ibapoke2024",
+  "name": "茨城CS",
+  "area": "茨城県",
+  "type": "individual",
+  "note": "茨城県で開催される自主大会。",
+  "events_seen": 2,
+  "max_players": 63,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "KamoiHai",
+  "name": "鴨居杯",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "鴨居杯を主催。最大64名規模。",
+  "events_seen": 2,
+  "max_players": 64,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "KayZetto",
+  "name": "MTリーグ",
+  "area": "東京都",
+  "type": "individual",
+  "note": "MTリーグを主催。最大78名規模。",
+  "events_seen": 2,
+  "max_players": 78,
+  "sources": [
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kerottoCUP",
+  "name": "けろっとCUP",
+  "area": "東京都",
+  "type": "individual",
+  "note": "けろっとCUPを主催。最大57名規模。",
+  "events_seen": 2,
+  "max_players": 57,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kirikapokeca",
+  "name": "課外授業杯",
+  "area": "茨城県",
+  "type": "individual",
+  "note": "課外授業杯を主催。最大243名規模。",
+  "events_seen": 2,
+  "max_players": 243,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Nukeninhai",
+  "name": "ヌケニン杯",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "ヌケニン杯を主催。最大64名規模。",
+  "events_seen": 2,
+  "max_players": 64,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Pokeguild_FLOW",
+  "name": "FLOWカップ（ポケギルドFLOW）",
+  "area": "神奈川県",
+  "type": "team",
+  "note": "128名規模の個人戦・チーム戦を開催。",
+  "events_seen": 2,
+  "max_players": 126,
+  "sources": [
+   "web",
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "sekitikuhai",
+  "name": "セキチクシティ杯",
+  "area": "千葉県",
+  "type": "individual",
+  "note": "セキチクシティ杯を主催。最大128名規模。",
+  "events_seen": 2,
+  "max_players": 128,
+  "sources": [
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Tcghizakura",
+  "name": "燈桜CS",
+  "area": "茨城県",
+  "type": "individual",
+  "note": "燈桜CSを主催。最大81名規模。",
+  "events_seen": 2,
+  "max_players": 81,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "team_luckybonus",
+  "name": "チームラッキーボーナス",
+  "area": "東京都",
+  "type": "individual",
+  "note": "チームラッキーボーナスを主催。最大58名規模。",
+  "events_seen": 2,
+  "max_players": 58,
+  "sources": [
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "teamGA_PTCG",
+  "name": "GA団杯",
+  "area": "東京都",
+  "type": "team",
+  "note": "東京で開催されるチーム主催の自主大会。",
+  "events_seen": 2,
+  "max_players": 60,
+  "sources": [
+   "web",
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "trstrssksk",
+  "name": "ムキムキ杯",
+  "area": "東京都",
+  "type": "individual",
+  "note": "ムキムキ杯を主催。最大56名規模。",
+  "events_seen": 2,
+  "max_players": 56,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tst_tsunashima",
+  "name": "yoshiha杯",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "yoshiha杯を主催。最大48名規模。",
+  "events_seen": 2,
+  "max_players": 48,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "acecup_pokeca",
+  "name": "ACEカップ",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "128名規模の自主大会。",
+  "events_seen": 1,
+  "max_players": 128,
+  "sources": [
+   "web",
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "batoloco_K_Fuji",
+  "name": "BOX争奪3ON3",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "BOX争奪3ON3を主催。最大57名規模。",
+  "events_seen": 1,
+  "max_players": 57,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "bokurano_card",
+  "name": "ぼくらのカード",
+  "area": "東京都",
+  "type": "individual",
+  "note": "ぼくらのカードを主催。最大127名規模。",
+  "events_seen": 1,
+  "max_players": 127,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "carderia_ikb",
+  "name": "カーデリアフェス",
+  "area": "東京都",
+  "type": "individual",
+  "note": "カーデリアフェスを主催。最大31名規模。",
+  "events_seen": 1,
+  "max_players": 31,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "chocol8band",
+  "name": "ちょこはち",
+  "area": "東京都",
+  "type": "individual",
+  "note": "ちょこはちを主催。最大330名規模。",
+  "events_seen": 1,
+  "max_players": 330,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "duelsalon_taiyo",
+  "name": "たいようのすがた杯",
+  "area": "東京都",
+  "type": "individual",
+  "note": "たいようのすがた杯を主催。最大56名規模。",
+  "events_seen": 1,
+  "max_players": 56,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "firepokeka",
+  "name": "熱血杯",
+  "area": "東京都",
+  "type": "individual",
+  "note": "熱血杯を主催。最大192名規模。",
+  "events_seen": 1,
+  "max_players": 192,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "friend_call_cup",
+  "name": "@friend_call_cup",
+  "area": "茨城県",
+  "type": "individual",
+  "note": "自主大会を主催。最大14名規模。",
+  "events_seen": 1,
+  "max_players": 14,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "GEKIRIN_CS",
+  "name": "GEKIRIN CS",
+  "area": "神奈川県平塚市",
+  "type": "individual",
+  "note": "平塚で開催される個人戦自主大会、100名超規模。",
+  "events_seen": 1,
+  "max_players": 116,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "hana87pokemon",
+  "name": "@hana87pokemon",
+  "area": "東京都",
+  "type": "individual",
+  "note": "自主大会を主催。最大64名規模。",
+  "events_seen": 1,
+  "max_players": 64,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ikechin_pokeca",
+  "name": "いけちん",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "いけちんを主催。最大58名規模。",
+  "events_seen": 1,
+  "max_players": 58,
+  "sources": [
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ito_pcg",
+  "name": "あかいいと杯",
+  "area": "東京都",
+  "type": "individual",
+  "note": "あかいいと杯を主催。最大68名規模。",
+  "events_seen": 1,
+  "max_players": 68,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "JhBHHznpl0rNw3b",
+  "name": "へんすた杯",
+  "area": "東京都",
+  "type": "individual",
+  "note": "へんすた杯を主催。最大32名規模。",
+  "events_seen": 1,
+  "max_players": 32,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "jiiiiiiiimon",
+  "name": "バーニングチャージ杯",
+  "area": "茨城県",
+  "type": "individual",
+  "note": "バーニングチャージ杯を主催。最大16名規模。",
+  "events_seen": 1,
+  "max_players": 16,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "K2ge2509",
+  "name": "ヌオーのバ杯",
+  "area": "千葉県",
+  "type": "individual",
+  "note": "ヌオーのバ杯を主催。最大32名規模。",
+  "events_seen": 1,
+  "max_players": 32,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "keio_pokecabu",
+  "name": "京王線ポケカ部",
+  "area": "東京都",
+  "type": "team",
+  "note": "京王線沿線で定期開催の自主大会・交流会。",
+  "events_seen": 1,
+  "max_players": 37,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kentn26",
+  "name": "カナポケ杯",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "神奈川で開催される個人戦自主大会。",
+  "events_seen": 1,
+  "max_players": 64,
+  "sources": [
+   "web",
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "koloya_cardshop",
+  "name": "koloyacup",
+  "area": "東京都",
+  "type": "individual",
+  "note": "koloyacupを主催。最大198名規模。",
+  "events_seen": 1,
+  "max_players": 198,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Kotorinpics",
+  "name": "ことりんぴっく",
+  "area": "東京都",
+  "type": "individual",
+  "note": "ことりんぴっくを主催。最大64名規模。",
+  "events_seen": 1,
+  "max_players": 64,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kusaba_eru3",
+  "name": "アルトマーレカップ",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "アルトマーレカップを主催。最大96名規模。",
+  "events_seen": 1,
+  "max_players": 96,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "lance_TCGshop",
+  "name": "ポケカランスCS",
+  "area": "茨城県",
+  "type": "individual",
+  "note": "ポケカランスCSを主催。最大72名規模。",
+  "events_seen": 1,
+  "max_players": 72,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "latethannever7",
+  "name": "@latethannever7",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "自主大会を主催。最大64名規模。",
+  "events_seen": 1,
+  "max_players": 64,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Mackey_88",
+  "name": "ポテチ杯",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "ポテチ杯を主催。最大40名規模。",
+  "events_seen": 1,
+  "max_players": 40,
+  "sources": [
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "misawacup",
+  "name": "三沢杯",
+  "area": "栃木県",
+  "type": "individual",
+  "note": "三沢杯を主催。最大360名規模。",
+  "events_seen": 1,
+  "max_players": 360,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "miyashin0813",
+  "name": "パルテノンみやじ杯",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "パルテノンみやじ杯を主催。最大101名規模。",
+  "events_seen": 1,
+  "max_players": 101,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "MTakmin51",
+  "name": "みたポケ杯",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "みたポケ杯を主催。最大96名規模。",
+  "events_seen": 1,
+  "max_players": 96,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "naruhodo0605",
+  "name": "仲間と創る祭典",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "仲間と創る祭典を主催。最大90名規模。",
+  "events_seen": 1,
+  "max_players": 90,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ohagi_pokeka",
+  "name": "おはぎ杯",
+  "area": "東京都",
+  "type": "individual",
+  "note": "おはぎ杯を主催。最大180名規模。",
+  "events_seen": 1,
+  "max_players": 180,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "okapi_pokeca",
+  "name": "おかぴーカップ",
+  "area": "東京都",
+  "type": "individual",
+  "note": "おかぴーカップを主催。最大253名規模。",
+  "events_seen": 1,
+  "max_players": 253,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ON788CuAmCen7en",
+  "name": "よしなに杯",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "よしなに杯を主催。最大96名規模。",
+  "events_seen": 1,
+  "max_players": 96,
+  "sources": [
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pocket_fami025",
+  "name": "ぽっけのつどい",
+  "area": "東京都",
+  "type": "individual",
+  "note": "ぽっけのつどいを主催。最大35名規模。",
+  "events_seen": 1,
+  "max_players": 35,
+  "sources": [
+   "pokekameshi_list",
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pokecazamurai",
+  "name": "SAMURAI乱舞",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "SAMURAI乱舞を主催。最大90名規模。",
+  "events_seen": 1,
+  "max_players": 90,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pokepongkura",
+  "name": "くらぽんカップ",
+  "area": "東京都",
+  "type": "individual",
+  "note": "くらぽんカップを主催。最大31名規模。",
+  "events_seen": 1,
+  "max_players": 31,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pokepongkuracup",
+  "name": "くらぽんカップ",
+  "area": "東京都",
+  "type": "individual",
+  "note": "くらぽんカップを主催。最大500名規模。",
+  "events_seen": 1,
+  "max_players": 500,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "se1106poke",
+  "name": "狼煙杯",
+  "area": "東京都",
+  "type": "individual",
+  "note": "狼煙杯を主催。最大50名規模。",
+  "events_seen": 1,
+  "max_players": 50,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Seiha_ptcg2021",
+  "name": "大田区産業プラザ大会",
+  "area": "東京都",
+  "type": "individual",
+  "note": "大田区産業プラザ大会を主催。最大720名規模。",
+  "events_seen": 1,
+  "max_players": 720,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "shy0527",
+  "name": "@shy0527",
+  "area": "茨城県",
+  "type": "individual",
+  "note": "自主大会を主催。最大235名規模。",
+  "events_seen": 1,
+  "max_players": 235,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "StarAlchemy_hai",
+  "name": "スターアルケミー杯",
+  "area": "群馬県",
+  "type": "individual",
+  "note": "スターアルケミー杯を主催。最大100名規模。",
+  "events_seen": 1,
+  "max_players": 100,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "sugarfesta",
+  "name": "シュガーフェスタ",
+  "area": "群馬県",
+  "type": "individual",
+  "note": "シュガーフェスタを主催。最大63名規模。",
+  "events_seen": 1,
+  "max_players": 63,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tail_smash_400",
+  "name": "テールスマッシュ杯",
+  "area": "栃木県",
+  "type": "individual",
+  "note": "テールスマッシュ杯を主催。最大63名規模。",
+  "events_seen": 1,
+  "max_players": 63,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tc_6587",
+  "name": "ストームエメラルダ杯",
+  "area": "茨城県",
+  "type": "individual",
+  "note": "ストームエメラルダ杯を主催。最大78名規模。",
+  "events_seen": 1,
+  "max_players": 78,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "team_jijiron",
+  "name": "メガジジーロン杯",
+  "area": "東京都",
+  "type": "individual",
+  "note": "メガジジーロン杯を主催。最大102名規模。",
+  "events_seen": 1,
+  "max_players": 102,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tetunokonaCS",
+  "name": "てつのこなCS",
+  "area": "茨城県",
+  "type": "individual",
+  "note": "てつのこなCSを主催。最大46名規模。",
+  "events_seen": 1,
+  "max_players": 46,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tozyocap",
+  "name": "トージョウ杯",
+  "area": "東京都",
+  "type": "individual",
+  "note": "トージョウ杯を主催。最大42名規模。",
+  "events_seen": 1,
+  "max_players": 42,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "unsta_team",
+  "name": "unsta",
+  "area": "東京都",
+  "type": "individual",
+  "note": "unstaを主催。最大63名規模。",
+  "events_seen": 1,
+  "max_players": 63,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Y9km4blMoc7AogL",
+  "name": "まちでん杯",
+  "area": "群馬県",
+  "type": "individual",
+  "note": "まちでん杯を主催。最大28名規模。",
+  "events_seen": 1,
+  "max_players": 28,
+  "sources": [
+   "pokekameshi_results"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "altoteana",
+  "name": "さくらもち交流会",
+  "area": "東京都",
+  "type": "individual",
+  "note": "東京で交流会を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "aqua_pokeca",
+  "name": "せきれいのみち杯",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "せきれいのみち杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "batolocoYHst_E",
+  "name": "ベイロコポケカCS",
+  "area": "神奈川県横浜市",
+  "type": "shop",
+  "note": "横浜駅東口で開催される自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "benishougahai",
+  "name": "紅生姜杯",
+  "area": "群馬県",
+  "type": "individual",
+  "note": "群馬県で開催される自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "bukuro_PokeCS",
+  "name": "ポケカいけぶくろCS",
+  "area": "東京都池袋",
+  "type": "individual",
+  "note": "池袋で開催される個人戦自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Daikity0205",
+  "name": "ダニー杯",
+  "area": "群馬県",
+  "type": "individual",
+  "note": "群馬県で開催される個人戦自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "DaimonziCUP",
+  "name": "だいもんじCUP",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "神奈川で開催される個人戦自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "dorama_p9_cs",
+  "name": "ドラマ下北沢ポケカCS",
+  "area": "東京都",
+  "type": "individual",
+  "note": "ドラマ下北沢ポケカCSを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "DuraludonVMAX",
+  "name": "まてんろうカップ",
+  "area": "東京都",
+  "type": "individual",
+  "note": "まてんろうカップを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "f_pokeca",
+  "name": "新弾で遊ぶ会",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "新弾で遊ぶ会を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "gekirin_kanama",
+  "name": "GEKIRIN金町店",
+  "area": "東京都",
+  "type": "shop",
+  "note": "GEKIRIN金町店を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Generic_KIMIcup",
+  "name": "ジェネリックキミ杯",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "ジェネリックキミ杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "goldrushcup",
+  "name": "ゴールドラッシュ杯",
+  "area": "群馬県",
+  "type": "individual",
+  "note": "群馬県で開催される大規模自主大会、400名超規模。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Gori4lla",
+  "name": "あっくんのウホウホ対戦会",
+  "area": "千葉県",
+  "type": "individual",
+  "note": "あっくんのウホウホ対戦会を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "gozaru_pokeca",
+  "name": "ござるカップ",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "ござるカップを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "hilife72520826",
+  "name": "トレカhi-life 宇都宮店",
+  "area": "栃木県宇都宮市",
+  "type": "shop",
+  "note": "宇都宮の独立系トレカ店で自主大会を定期開催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "HimanutsCup",
+  "name": "ヒマナッツカップ",
+  "area": "千葉県",
+  "type": "individual",
+  "note": "ヒマナッツカップを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "hinatahai_",
+  "name": "日向杯",
+  "area": "東京都",
+  "type": "individual",
+  "note": "日向杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "houkago_pokeca",
+  "name": "西東京放課後ポケカ倶楽部",
+  "area": "東京都",
+  "type": "individual",
+  "note": "西東京放課後ポケカ倶楽部を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "hugepowercup",
+  "name": "ちからもち杯",
+  "area": "東京都高田馬場",
+  "type": "individual",
+  "note": "高田馬場で開催される3人チーム戦の自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kamitohito",
+  "name": "KAMITOHITO INVITATIONAL",
+  "area": "東京都",
+  "type": "individual",
+  "note": "招待制の1dayトーナメントを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Kaneyan_OM22",
+  "name": "かねやん(OMcat杯)",
+  "area": "東京都",
+  "type": "individual",
+  "note": "かねやん(OMcat杯)を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kasumiuta_ch",
+  "name": "みんなでころがる杯",
+  "area": "東京都",
+  "type": "individual",
+  "note": "東京で開催されるチーム戦自主大会、78名規模。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "katsuta_cup",
+  "name": "かつた杯（KATSUTA CHAMPIONSHIP）",
+  "area": "茨城県ひたちなか市",
+  "type": "team",
+  "note": "勝田発の大型自主大会、東京でもサテライト開催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kawasaki_full",
+  "name": "フルコンプ川崎店",
+  "area": "神奈川県川崎市",
+  "type": "shop",
+  "note": "川崎の独立系カードショップの大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Kubo_Acerola",
+  "name": "スカイレジェンド杯",
+  "area": "千葉県",
+  "type": "individual",
+  "note": "千葉県で開催される自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kuronekorao",
+  "name": "@kuronekorao",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "らおを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "kyoronico1017",
+  "name": "フワライドカップ",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "フワライドカップを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Laughca",
+  "name": "ラフカcs",
+  "area": "茨城県",
+  "type": "individual",
+  "note": "ラフカcsを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Lc7y_0324",
+  "name": "ルーカス",
+  "area": "東京都",
+  "type": "individual",
+  "note": "ルーカスを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Lpokecap",
+  "name": "リリカルツインカップ",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "リリカルツインカップを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "lqg_2",
+  "name": "シャバシャバCS",
+  "area": "東京都",
+  "type": "individual",
+  "note": "シャバシャバCSを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "miamiosawa",
+  "name": "きあいだめ杯",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "きあいだめ杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "mintkichijoji",
+  "name": "ミン吉CS",
+  "area": "東京都吉祥寺",
+  "type": "individual",
+  "note": "吉祥寺で開催される個人戦自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "misatoptcgc",
+  "name": "三郷ポケカ部",
+  "area": "埼玉県",
+  "type": "individual",
+  "note": "三郷ポケカ部を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "montaquta",
+  "name": "熱血ポケカ部",
+  "area": "東京都",
+  "type": "individual",
+  "note": "熱血ポケカ部を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Mtkms9957",
+  "name": "キュウ",
+  "area": "東京都",
+  "type": "individual",
+  "note": "キュウを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "myupapa3",
+  "name": "ゆるふわポケカ会",
+  "area": "東京都",
+  "type": "individual",
+  "note": "ゆるふわポケカ会を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ngrym_poke",
+  "name": "流山ポケカ部（NGR COLOSSEUM）",
+  "area": "千葉県流山市",
+  "type": "team",
+  "note": "千葉県で開催される自主大会シリーズ。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "OfficialFC__",
+  "name": "みちづれファイトクラブ",
+  "area": "東京都",
+  "type": "individual",
+  "note": "みちづれファイトクラブを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pari_pippi_cup",
+  "name": "パリピッピ杯",
+  "area": "東京都",
+  "type": "individual",
+  "note": "パリピッピ杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "PiPi_Mycalinks",
+  "name": "PiPi杯",
+  "area": "茨城県",
+  "type": "shop",
+  "note": "茨城県で開催される自主大会、約42名規模。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pocketuna_",
+  "name": "ポケつな会",
+  "area": "東京都",
+  "type": "individual",
+  "note": "ポケつな会を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pokebasecs",
+  "name": "POKE BASE 3on3BATTLE",
+  "area": "神奈川県",
+  "type": "team",
+  "note": "神奈川で開催される3人チーム戦の自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Pokedou_Mito",
+  "name": "ポケ堂水戸店",
+  "area": "茨城県水戸市",
+  "type": "shop",
+  "note": "水戸のポケカ専門店で大会を開催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pokeka__chef",
+  "name": "シェシム杯",
+  "area": "東京都",
+  "type": "individual",
+  "note": "シェシム杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pokekamanaka",
+  "name": "ましろ箱争奪戦",
+  "area": "東京都",
+  "type": "individual",
+  "note": "ましろ箱争奪戦を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pokemon_yu_",
+  "name": "立川ポケカCS",
+  "area": "東京都",
+  "type": "individual",
+  "note": "立川ポケカCSを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "pokeyuruch",
+  "name": "ポケゆる杯",
+  "area": "東京都",
+  "type": "individual",
+  "note": "ポケゆる杯を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "ryugasaki_card",
+  "name": "おたちゅう龍ケ崎店 非公認大会",
+  "area": "茨城県",
+  "type": "shop",
+  "note": "おたちゅう龍ケ崎店 非公認大会を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "snyrTCG",
+  "name": "しんゆりTCG交流会",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "しんゆりTCG交流会を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "syan19326",
+  "name": "しゃん杯",
+  "area": "埼玉県",
+  "type": "individual",
+  "note": "埼玉県で開催される個人戦自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Tachi_pcs",
+  "name": "立川ポケカCS",
+  "area": "東京都立川市",
+  "type": "individual",
+  "note": "立川で開催される個人戦自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "tasogaremegane",
+  "name": "ヒトモシのつどい",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "ヒトモシのつどいを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "TCG_Style_Event",
+  "name": "フロンティアカップ",
+  "area": "埼玉県",
+  "type": "individual",
+  "note": "フロンティアカップを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "TCGbar_kamikko",
+  "name": "TCG/ボドゲ Cafe＆Bar か",
+  "area": "東京都",
+  "type": "individual",
+  "note": "TCG/ボドゲ Cafe＆Bar かを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "TeamAquaGYM",
+  "name": "TeamAquaGYM",
+  "area": "東京都",
+  "type": "individual",
+  "note": "TeamAquaGYMを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "toreca_start",
+  "name": "トレカスタート杯",
+  "area": "栃木県",
+  "type": "shop",
+  "note": "栃木県で開催される自主大会シリーズ。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "Toremahai",
+  "name": "トレマ杯",
+  "area": "茨城県",
+  "type": "individual",
+  "note": "3人チーム戦含む100名超規模の自主大会。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "web",
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "UnFT8ZkttsWeU0G",
+  "name": "どうも",
+  "area": "千葉県",
+  "type": "individual",
+  "note": "どうもを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "YieuPcg",
+  "name": "ポケモンカード 湘南GrandP",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "ポケモンカード 湘南GrandPを主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ },
+ {
+  "handle": "yu19911084",
+  "name": "Moto交流会",
+  "area": "神奈川県",
+  "type": "individual",
+  "note": "Moto交流会を主催。",
+  "events_seen": 0,
+  "max_players": 0,
+  "sources": [
+   "pokekameshi_list"
+  ],
+  "region": "関東",
+  "added": "2026-09-25"
+ }
+]

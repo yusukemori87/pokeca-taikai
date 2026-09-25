@@ -38,9 +38,14 @@ PROBE_QUERY = "ポケモンカード"          # 一般的すぎて0件はあり
 PROBE_TWEET = "2081303514899456480"  # 実在が確実なツイート
 
 
-def probe() -> dict:
+def probe(light: bool = False) -> dict:
+    """
+    light=True（前回が正常）のときは「実在ツイート1件のID直引き」だけにする。
+    料金は最低の15クレジット/回（約$0.1/月）。検索とタイムラインは1回で最大600クレジット
+    かかり、毎時だと月$4以上になるため、異常が続いている間だけ使う。
+    """
     since = (datetime.now(JST) - timedelta(days=30)).strftime("%Y-%m-%d")
-    out: dict = {"checked_at": datetime.now(JST).isoformat()}
+    out: dict = {"checked_at": datetime.now(JST).isoformat(), "light": light}
 
     def get(url, params):
         try:
@@ -50,6 +55,13 @@ def probe() -> dict:
         except Exception as e:  # noqa: BLE001
             return None, {"_err": str(e)[:120]}
 
+    st, b = get(BY_ID, {"tweet_ids": PROBE_TWEET})
+    out["by_id"] = {"status": st, "n": len(b.get("tweets") or [])}
+    if light:
+        out["ok"] = bool(out["by_id"]["n"])
+        return out
+
+    time.sleep(6)
     st, b = get(SEARCH, {"query": f"{PROBE_QUERY} since:{since}", "queryType": "Latest"})
     out["search"] = {"status": st, "n": len(b.get("tweets") or [])}
     time.sleep(6)
@@ -57,10 +69,6 @@ def probe() -> dict:
     st, b = get(TIMELINE, {"userName": PROBE_HANDLE})
     tws = (b.get("data") or {}).get("tweets") if isinstance(b.get("data"), dict) else None
     out["timeline"] = {"status": st, "n": len(tws or b.get("tweets") or [])}
-    time.sleep(6)
-
-    st, b = get(BY_ID, {"tweet_ids": PROBE_TWEET})
-    out["by_id"] = {"status": st, "n": len(b.get("tweets") or [])}
 
     # 検索かタイムラインのどちらかが結果を返せば「使える」とみなす
     out["ok"] = bool(out["search"]["n"] or out["timeline"]["n"])
@@ -79,8 +87,9 @@ def main() -> int:
     except Exception:  # noqa: BLE001
         pass
 
-    cur = probe()
     was_ok = bool(prev.get("ok"))
+    # 前回正常なら軽い確認だけ。異常を検知したら次の回から詳しい確認に戻る
+    cur = probe(light=was_ok)
     cur["previous_ok"] = was_ok
     cur["recovered"] = (not was_ok) and cur["ok"]
     (DATA / "api_status.json").write_text(
@@ -88,7 +97,7 @@ def main() -> int:
 
     mark = "正常" if cur["ok"] else "異常（成功応答だが中身が空）"
     print(f"[{cur['checked_at'][:16]}] twitterapi.io: {mark}")
-    print(f"  検索={cur['search']} タイムライン={cur['timeline']} ID直引き={cur['by_id']}")
+    print(f"  検索={cur.get('search', '-')} タイムライン={cur.get('timeline', '-')} ID直引き={cur['by_id']}")
 
     if cur["recovered"]:
         print("★ 復旧を検出しました。収集を自動的に再開します。")
