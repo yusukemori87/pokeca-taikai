@@ -210,6 +210,7 @@
   .secnote{margin:0 0 14px; font-size:12.5px; color:var(--tx-dim); line-height:1.6}
   .regionhead{margin:18px 0 8px; font-size:11.5px; font-weight:800; color:var(--tx-dim); letter-spacing:.08em}
   .orgrow{display:grid; gap:8px}
+  .xtag{background:#111; color:#fff}
   .regioncount{margin-left:8px; font-weight:600; letter-spacing:0}
   .orgmore{margin-top:8px; width:100%; padding:9px; border:1px dashed var(--line); border-radius:10px; background:transparent; color:var(--accent); font-weight:700; font-size:12.5px; cursor:pointer}
   .orgcard{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:11px 13px}
@@ -472,7 +473,7 @@
 
   <footer>
     <p>本サイトはファンによる非公式の情報まとめです。株式会社ポケモン、クリーチャーズ、ゲームフリーク、および Tonamel とは関係ありません。</p>
-    <p>各大会の正確な情報・エントリーは必ずリンク先の Tonamel ページと主催者の告知をご確認ください。掲載の取り下げをご希望の主催者の方はご連絡ください。</p>
+    <p>各大会の正確な情報・エントリーは必ずリンク先の Tonamel ページと主催者の告知をご確認ください。「X告知」の大会は主催者のXの投稿から自動で読み取っているため、日時や会場が実際と異なる場合があります。掲載の取り下げをご希望の主催者の方はご連絡ください。</p>
     <p id="genfoot"></p>
     <p><a href="./privacy.html">プライバシーポリシー</a></p>
   </footer>
@@ -831,11 +832,13 @@ function card(e){
     ? `<button class="orgbtn" data-org="${esc(e.organizer_handle)}">この主催の大会</button>` : "";
 
   const summary = e.summary ? `<p class="summary">${esc(e.summary)}</p>` : "";
+  // Tonamelを使わずXの投稿だけで募集している大会。申込方法は告知ポストで確認してもらう
+  const xtag = e.x_only ? `<span class="kindtag xtag" title="Xの告知から自動で読み取った大会です。日時・申込方法は告知ポストで確認してください">X告知</span>` : "";
   return `<a class="card" href="${esc(e.url)}" target="_blank" rel="noopener">
     <h3 class="ctitle">${esc(e.title)}</h3>
     <div class="facts">${facts.join("")}</div>
     ${prize}${summary}
-    <div class="cfoot">${kind}${org ? `<span class="orgname-s">${org}</span>` : ""}${orgBtn}<span class="go">Tonamelで見る →</span></div>
+    <div class="cfoot">${xtag}${kind}${org ? `<span class="orgname-s">${org}</span>` : ""}${orgBtn}<span class="go">${e.x_only ? "Xの告知を見る →" : "Tonamelで見る →"}</span></div>
   </a>`;
 }
 

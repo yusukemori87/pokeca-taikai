@@ -75,6 +75,7 @@ DEEP_ORG_PAGES = int(os.environ.get("DEEP_ORG_PAGES", "3"))
 # 1人ずつタイムラインを取ると 1人=最大300クレジットかかるので、
 # 「from:A OR from:B …」を大会キーワードで絞った検索にまとめ、ヒットした告知だけに課金させる。
 KEYMEN_PATH = Path(__file__).resolve().parent / "keymen.json"
+KEYMAN_STATE_VERSION = 2
 # 費用の考え方: 1ツイート15クレジット。検索1回は最大20件なので、
 #   1日の上限 = クエリ数 × ページ上限 × 20件 × 15クレジット
 # 既定値（約450人を2日で一巡・1クエリ3ページまで）だと上限 約$0.14/日（月$4程度）。
@@ -92,7 +93,7 @@ KEYMAN_KEYWORDS = ("(大会 OR 杯 OR CS OR 交流会 OR 争奪戦 OR エント�
 # 大手チェーン・企業アカウントは告知以外の投稿が多く、費用だけかかるので自動追加しない
 KEYMAN_EXCLUDE_RE = re.compile(
     r"(晴れる屋|カードラボ|TSUTAYA|ブックオフ|BOOKOFF|駿河屋|メルカリ|DMM|ポケモンセンター|"
-    r"ポケモン公式|Pokemon ?Center|pokemon_cojp|ポケポケ|TCG ?Pocket)", re.I)
+    r"ポケモン公式|Pokemon ?Center|pokemon_cojp|ポケポケ|TCG ?Pocket|pokekameshi|ポケカ飯)", re.I)
 
 # 解析ロジックのバージョン。ここを上げると、古いバージョンで解析された大会は
 # 次回の実行で自動的に取り直して再解析される。
@@ -936,6 +937,11 @@ def load_keymen_meta() -> dict:
     except Exception:  # noqa: BLE001
         meta = {}
     meta.setdefault("state", {})      # handle(小文字) -> 初回さかのぼり済みの日付
+    # さかのぼりをやり直したいとき（取り込み方を増やしたとき）はこの番号を上げる。
+    # 2: Xの告知だけの大会も載せるようにしたので、過去60日分を読み直す（2026-09-26）
+    if meta.get("state_version") != KEYMAN_STATE_VERSION:
+        meta["state"] = {}
+        meta["state_version"] = KEYMAN_STATE_VERSION
     meta.setdefault("auto", [])       # 自動発見したキーマン
     meta.setdefault("last_discovery", "")
     return meta
@@ -953,6 +959,8 @@ def load_keymen(meta: dict | None = None) -> list[dict]:
     for o in static + list((meta or {}).get("auto", [])):
         h = (o.get("handle") or "").strip().lstrip("@")
         if not h or h.lower() in seeds or h.lower() in out:
+            continue
+        if KEYMAN_EXCLUDE_RE.search(f"{h} {o.get('name') or ''}"):
             continue
         out[h.lower()] = dict(o, handle=h)
     return list(out.values())
@@ -1264,6 +1272,149 @@ def save_pending(pending: dict[str, dict]) -> None:
     )
 
 
+# ---------------------------------------------------------------- Xの告知だけの大会
+# 自主大会の多くは Tonamel を使わず、Xの投稿だけで参加者を募集する。
+# キーマンの告知ツイートから日付・会場・参加費を読み取り、「X告知」として掲載する。
+X_ANNOUNCE_RE = re.compile(r"(募集|エントリー|参加費|受付中|受付開始|申し?込|開催(します|決定|いたします|予定)|参加者|DMにて|DMで|リプ(で|ライ)|フォーム)")
+X_TITLE_NOISE_RE = re.compile(r"(開催決定|開催します|参加者募集中?|募集開始(しました)?|募集中|エントリー(開始|受付中)|のお知らせ|告知|[!！?？]+)")
+X_EVENT_RE = re.compile(r"(大会|杯|カップ|CUP|Cup|CS|交流会|争奪戦|対戦会|選手権|リーグ|ジム)")
+X_RESULT_RE = re.compile(r"(優勝|準優勝|結果|ご参加(いただき)?ありがとう|ありがとうございました|レポート|入賞|デッキ分布|おめでとう)")
+X_CANCEL_RE = re.compile(r"(中止|延期|満員|満席|定員に達|締め切り?ました|締切ました|〆切ました|受付終了|お休み|休業)")
+X_URL_RE = re.compile(r"https?://\S+")
+
+
+def _tweet_posted_at(tw: dict) -> datetime:
+    raw = tw.get("createdAt") or ""
+    for fmt in ("%a %b %d %H:%M:%S %z %Y", "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%d %H:%M:%S"):
+        try:
+            return datetime.strptime(raw, fmt).astimezone(JST)
+        except Exception:  # noqa: BLE001
+            continue
+    return datetime.now(JST)
+
+
+def _clean_title(s: str) -> str:
+    s = "".join(ch for ch in s if ord(ch) < 0x2600 or 0x3000 <= ord(ch) < 0xFFF0)  # 絵文字を除く
+    s = X_TITLE_NOISE_RE.sub("", s)
+    # 1行に日付や参加費まで続けて書く人が多いので、そこで切る
+    head = re.split(r"\s*(?:20\d{2}[年/]|\d{1,2}[/月]\d{1,2}|参加費|会場|定員|日時|場所|\d+名)", s)[0]
+    if len(head.strip()) >= 2:
+        s = head
+    return re.sub(r"\s+", " ", s).strip(" 　・-—:：")[:40]
+
+
+def _x_title(text: str, name: str) -> str:
+    """告知文から大会名らしい部分を取り出す。見つからなければ主催者名で代用する。"""
+    lines = [re.sub(r"\s+", " ", ln).strip(" 　・-—=＝|｜") for ln in text.split("\n")]
+    lines = [ln for ln in lines if ln and not ln.startswith("#")]
+    for ln in lines:
+        m = re.search(r"【([^】]{2,40})】", ln)
+        if m and X_EVENT_RE.search(m.group(1)) and _clean_title(m.group(1)):
+            return _clean_title(m.group(1))
+    for ln in lines:
+        if (X_EVENT_RE.search(ln) or re.search(r"vol\.?\s*\d|第\s*\d+\s*回", ln, re.I)) \
+                and not X_RESULT_RE.search(ln) and _clean_title(ln):
+            return _clean_title(ln)
+    return f"{name}（X告知）"
+
+
+def build_x_event(tw: dict, keyman_area: dict[str, str], today: str, horizon: str,
+                  keyman_name: dict[str, str] | None = None) -> dict | None:
+    """キーマンの告知ツイート1件から大会レコードを作る。告知でなければ None。"""
+    raw = tw.get("text") or ""
+    text = X_URL_RE.sub(" ", raw)
+    t = norm(text)
+    if not X_ANNOUNCE_RE.search(t):
+        return None
+    if not (X_EVENT_RE.search(t) or re.search(r"(参加費|定員|vol\.?\s*\d|第\s*\d+\s*回)", t, re.I)):
+        return None
+    if X_RESULT_RE.search(t) and not re.search(r"(次回|募集|エントリー受付)", t):
+        return None
+    if X_CANCEL_RE.search(t):
+        return None
+    posted_at = _tweet_posted_at(tw)
+    # 結果報告の最後に「次回は10/17」と書くことが多いので、次回があればその後ろを優先
+    scope = text.split("次回", 1)[1] if "次回" in text else text
+    date_str, time_str = parse_datetime(scope, posted_at)
+    if not date_str or not (today <= date_str <= horizon):
+        return None
+    author = tw.get("author") or {}
+    h = author.get("userName") or ""
+    name = author.get("name") or h
+    venue, pref, is_online = parse_place(text)
+    inferred = False
+    if not pref:
+        area = keyman_area.get(h.lower()) or ""
+        pref = next((p for p in PREFECTURES if area.startswith(p)), None)
+        inferred = bool(pref)
+    if pref and pref != "オンライン":
+        is_online = False
+    title = _x_title(text, (keyman_name or {}).get(h.lower()) or name)
+    tid = str(tw.get("id"))
+    return {
+        "id": f"x{tid}",
+        "title": title,
+        "url": tw.get("url") or f"https://x.com/{h}/status/{tid}",
+        "date": date_str,
+        "start_time": time_str,
+        "prefecture": pref,
+        "prefecture_inferred": inferred or None,
+        "venue": venue,
+        "address": None,
+        "online": bool(is_online),
+        "fee": parse_money(text),
+        "capacity": parse_capacity(text),
+        "prize": parse_prize(text),
+        "format": parse_format(text),
+        "kind": parse_kind(title, text, name),
+        "organizer_url": f"https://x.com/{h}",
+        "summary": re.sub(r"\s+", " ", text)[:200].strip(),
+        "source_tweet_url": tw.get("url"),
+        "organizer_handle": h,
+        "announced_by": h,
+        "organizer_name": name,
+        "x_only": True,
+        "pv": PARSER_VERSION,
+        "tweeted_at": posted_at.isoformat(),
+        "collected_at": datetime.now(JST).isoformat(),
+    }
+
+
+def add_x_only_events(all_tweets: dict, events: dict, today: str, horizon: str) -> int:
+    """Tonamelリンクの無い告知ツイートを大会として追加する。同じ主催者・同じ日は1件にまとめる。"""
+    km_area = {k["handle"].lower(): k.get("area") or "" for k in load_keymen(_KEYMEN_META)}
+    km_name = {k["handle"].lower(): k.get("name") or "" for k in load_keymen(_KEYMEN_META)
+               if k.get("name") and not k["name"].startswith("@")}
+    for o in load_seed_organizers():
+        if o.get("handle"):
+            km_area.setdefault(o["handle"].lower(), o.get("area") or "")
+            km_name.setdefault(o["handle"].lower(), o.get("name") or "")
+    taken = {((e.get("announced_by") or e.get("organizer_handle") or "").lower(), e.get("date"))
+             for e in events.values() if e.get("date")}
+    # 古い告知を優先（一次告知が一番情報が揃っている）
+    tws = sorted(all_tweets.values(), key=lambda t: _tweet_posted_at(t))
+    added = 0
+    for tw in tws:
+        if not tw.get("_trusted"):
+            continue
+        if KEYMAN_EXCLUDE_RE.search((tw.get("author") or {}).get("userName") or ""):
+            continue
+        if extract_tonamel_ids(tw):
+            continue
+        ev = build_x_event(tw, km_area, today, horizon, km_name)
+        if not ev:
+            continue
+        key = (ev["announced_by"].lower(), ev["date"])
+        if key in taken or ev["id"] in events:
+            continue
+        events[ev["id"]] = ev
+        taken.add(key)
+        added += 1
+        log(f"  X告知 {ev['date']} {ev['prefecture'] or '?'} {ev['title'][:30]} (@{ev['announced_by']})")
+    STATS["x_only_events_added"] = added
+    return added
+
+
 def main() -> int:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     since = datetime.now(JST) - timedelta(days=LOOKBACK_DAYS)
@@ -1425,6 +1576,8 @@ def main() -> int:
     force_refetch = os.environ.get("FORCE_REFETCH") == "1"
     if force_refetch:
         for comp_id, ev in existing.items():
+            if ev.get("x_only"):
+                continue
             id_to_tweet.setdefault(comp_id, {
                 "url": ev.get("source_tweet_url"),
                 # 「8月23日」のような年なし表記の年推定に使うので、元の告知日時を引き継ぐ
@@ -1437,7 +1590,8 @@ def main() -> int:
         log(f"■ FORCE_REFETCH=1: 取得済みを含む {len(id_to_tweet)}件を再解析します")
 
     # 解析ロジックが更新されていたら、取得済みの大会も対象に戻す（自己修復）
-    stale_ids = [i for i, e in existing.items() if e.get("pv") != PARSER_VERSION]
+    stale_ids = [i for i, e in existing.items()
+                 if e.get("pv") != PARSER_VERSION and not e.get("x_only")]
     if stale_ids and not force_refetch:
         log(f"■ 解析バージョンが古い {len(stale_ids)}件を再解析対象にします")
         for comp_id in stale_ids:
@@ -1487,6 +1641,13 @@ def main() -> int:
 
     save_pending(pending)
     log(f"■ 取得成功 {ok}件 / 失敗・スキップ {miss}件 / 未処理の控え {len(pending)}件")
+
+    # Tonamel を使わず X だけで募集している大会も載せる
+    if all_tweets:
+        _today = datetime.now(JST).strftime("%Y-%m-%d")
+        _horizon = (datetime.now(JST) + timedelta(days=HORIZON_DAYS)).strftime("%Y-%m-%d")
+        n_x = add_x_only_events(all_tweets, events, _today, _horizon)
+        log(f"■ Xの告知だけの大会: {n_x}件 追加")
 
     # 終わった大会を落とし、掲載範囲（今日〜HORIZON_DAYS先）に絞る
     today = datetime.now(JST).strftime("%Y-%m-%d")
