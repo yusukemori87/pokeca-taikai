@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-25T09:46:06.924817+09:00",
+  "checked_at": "2026-09-25T15:33:38.078387+09:00",
   "search": {
     "status": 200,
     "n": 20
@@ -13,6 +13,6 @@
     "n": 1
   },
   "ok": true,
-  "previous_ok": false,
-  "recovered": true
+  "previous_ok": true,
+  "recovered": false
 }
