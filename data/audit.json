@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-26T02:33:12.898542+09:00",
-  "events": 1782,
+  "generated_at": "2026-09-26T08:46:06.143306+09:00",
+  "events": 1789,
   "organizers": 488,
   "by_region": {
-    "北海道・東北": 236,
-    "関東": 736,
+    "北海道・東北": 237,
+    "関東": 739,
     "甲信越": 15,
     "北陸": 10,
     "東海": 173,
     "近畿": 203,
-    "中国": 141,
+    "中国": 142,
     "四国": 5,
-    "九州・沖縄": 141
+    "九州・沖縄": 143
   },
   "findings": [
     {
@@ -58,17 +58,15 @@
     {
       "level": "info",
       "kind": "登録キーマンの成果ゼロ",
-      "message": "15人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
+      "message": "13人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
       "ids": [
         "tomoshibi_cup",
         "ISHIKAWAPOKECA",
         "Toreca_connect",
-        "kayu_key_gx",
         "nanase_cup",
         "miracle_twin",
         "hokkaidoPTCG",
         "torepoinfo",
-        "SHIMA_PCG",
         "OP01_soda",
         "nrissgn913",
         "team__wassyoi",
@@ -76,21 +74,21 @@
         "moukahai",
         "consomme_pokeca"
       ],
-      "count": 15
+      "count": 13
     },
     {
       "level": "info",
       "kind": "成果ゼロの検索",
       "message": "1本のクエリが0件でした。",
       "ids": [
-        "(ポケカ OR ポケモンカード) (自主大会 OR 非公認大会 OR CS OR 交流会 OR 杯)"
+        "(ポケカ OR ポケモンカード) 非公認大会 (募集 OR 開催) -filter:retweets"
       ],
       "count": 1
     },
     {
       "level": "warn",
       "kind": "除外しすぎの疑い",
-      "message": "115件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
+      "message": "159件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
       "ids": [],
       "count": 0
     }
