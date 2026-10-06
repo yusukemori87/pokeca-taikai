@@ -1,30 +1,32 @@
 {
-  "generated_at": "2026-10-05T11:46:32.819893+09:00",
-  "events": 2053,
+  "generated_at": "2026-10-06T13:27:30.260211+09:00",
+  "events": 2118,
   "organizers": 491,
   "by_region": {
-    "北海道・東北": 230,
-    "関東": 844,
-    "甲信越": 15,
-    "北陸": 16,
-    "東海": 207,
-    "近畿": 308,
-    "中国": 116,
+    "北海道・東北": 228,
+    "関東": 831,
+    "甲信越": 16,
+    "北陸": 17,
+    "東海": 203,
+    "近畿": 355,
+    "中国": 113,
     "四国": 11,
-    "九州・沖縄": 210
+    "九州・沖縄": 243
   },
   "findings": [
     {
       "level": "warn",
       "kind": "地域未判定",
-      "message": "34件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
+      "message": "41件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
       "ids": [
-        "Geu4b",
+        "4jemt",
         "LR9tI",
         "QcOSf",
         "XYp0e",
         "nFZRx",
         "PBJie",
+        "WGOiR",
+        "x2107084859248431577",
         "ZnfIs",
         "W11hm",
         "jtboR",
@@ -32,15 +34,13 @@
         "61IWh",
         "AYog4",
         "EcqNH",
+        "gTsty",
+        "nwPFv",
         "UTWo7",
         "ewUGi",
-        "kwVxY",
-        "oj3lo",
-        "XoGzS",
-        "M0bKb",
-        "U7db8"
+        "kwVxY"
       ],
-      "count": 34
+      "count": 41
     },
     {
       "level": "warn",
@@ -73,11 +73,10 @@
     {
       "level": "info",
       "kind": "登録キーマンの成果ゼロ",
-      "message": "12人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
+      "message": "10人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
       "ids": [
         "tomoshibi_cup",
         "ISHIKAWAPOKECA",
-        "kajipoke",
         "Toreca_connect",
         "nanase_cup",
         "miracle_twin",
@@ -85,15 +84,14 @@
         "torepoinfo",
         "OP01_soda",
         "nrissgn913",
-        "moukahai",
-        "consomme_pokeca"
+        "moukahai"
       ],
-      "count": 12
+      "count": 10
     },
     {
       "level": "warn",
       "kind": "除外しすぎの疑い",
-      "message": "344件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
+      "message": "352件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
       "ids": [],
       "count": 0
     }
