@@ -1,32 +1,24 @@
 {
-  "generated_at": "2026-10-10T12:59:24.910448+09:00",
-  "events": 2060,
-  "organizers": 493,
+  "generated_at": "2026-10-12T11:40:56.700534+09:00",
+  "events": 1903,
+  "organizers": 491,
   "by_region": {
-    "北海道・東北": 212,
-    "関東": 811,
-    "甲信越": 19,
-    "北陸": 19,
-    "東海": 181,
-    "近畿": 346,
-    "中国": 111,
-    "四国": 13,
-    "九州・沖縄": 243
+    "北海道・東北": 184,
+    "関東": 747,
+    "甲信越": 18,
+    "北陸": 18,
+    "東海": 174,
+    "近畿": 322,
+    "中国": 117,
+    "四国": 12,
+    "九州・沖縄": 215
   },
   "findings": [
     {
       "level": "warn",
       "kind": "地域未判定",
-      "message": "48件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
+      "message": "47件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
       "ids": [
-        "0oEaJ",
-        "PBJie",
-        "WGOiR",
-        "x2107084859248431577",
-        "ZnfIs",
-        "W11hm",
-        "jtboR",
-        "1Cv1F",
         "61IWh",
         "AYog4",
         "8YoYu",
@@ -35,30 +27,37 @@
         "gTsty",
         "nwPFv",
         "UTWo7",
+        "Qk2XR",
         "Jh6Fr",
         "NnPZ7",
         "UPICM",
-        "ewUGi"
+        "ewUGi",
+        "yTBA5",
+        "kwVxY",
+        "oj3lo",
+        "qe2MR",
+        "1hnqk",
+        "XtFlN",
+        "OQA0q"
       ],
-      "count": 48
+      "count": 47
     },
     {
       "level": "warn",
       "kind": "参加費の抽出ミス",
-      "message": "10件の参加費が不自然です。",
+      "message": "9件の参加費が不自然です。",
       "ids": [
-        "x2108701545264971837",
-        "w03G9",
-        "QWirk",
+        "x2109448969516376138",
         "qN9ca",
         "cCWCn",
+        "sWXmQ",
         "OWTwm",
         "JFy1c",
         "gafyy",
         "JgJ1R",
         "63Ip6"
       ],
-      "count": 10
+      "count": 9
     },
     {
       "level": "warn",
@@ -77,34 +76,28 @@
     {
       "level": "info",
       "kind": "登録キーマンの成果ゼロ",
-      "message": "10人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
+      "message": "13人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
       "ids": [
+        "deregmu_og",
         "tomoshibi_cup",
         "ISHIKAWAPOKECA",
+        "koshigym0428",
         "Toreca_connect",
         "nanase_cup",
         "miracle_twin",
         "hokkaidoPTCG",
         "torepoinfo",
+        "SHIMA_PCG",
         "OP01_soda",
         "nrissgn913",
         "moukahai"
       ],
-      "count": 10
-    },
-    {
-      "level": "info",
-      "kind": "成果ゼロの検索",
-      "message": "1本のクエリが0件でした。",
-      "ids": [
-        "(from:kanazo0223 OR from:sm10c007 OR from:poseidon"
-      ],
-      "count": 1
+      "count": 13
     },
     {
       "level": "warn",
       "kind": "除外しすぎの疑い",
-      "message": "324件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
+      "message": "323件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
       "ids": [],
       "count": 0
     }
