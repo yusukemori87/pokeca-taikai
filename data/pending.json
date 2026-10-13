@@ -1170,5 +1170,605 @@
   "isLimitedReply": false,
   "communityInfo": null,
   "article": null
+ },
+ "mlM4j": {
+  "type": "tweet",
+  "id": "2108361826966602058",
+  "url": "https://x.com/ds_kuzuhamall/status/2108361826966602058",
+  "twitterUrl": "https://twitter.com/ds_kuzuhamall/status/2108361826966602058",
+  "text": "【イベント情報】【ポケカ】\n\n10/12((月)・祝)13:00より、\nポケカ ティーパーティーを開催いたします🫖\n\nメインイベントの後はBOXをかけた\n『じゃんけん大会』を開催✨✨✨\n\n🔽詳細はトナメルをご確認ください🔽\nhttps://t.co/KXkE9Udo2v\nたくさんのご参加お待ちしております🔥\n\n※イベント参加にはトレーナーズIDが必要となります。\n大会当日のスタッフ対応は行いませんので事前にご準備をお願いいたします。\nポケモンカードゲームプレイヤーズクラブ新規会員登録方法\n( https://t.co/2HCBWJcp6R )\n\n※リアルなお茶会ではございませんので、\nペットボトル飲料以外の飲食物の持ち込みはご遠慮ください。\n\n＃ドラゴンスターくずはモール",
+  "source": "Twitter for iPhone",
+  "retweetCount": 0,
+  "replyCount": 0,
+  "likeCount": 0,
+  "quoteCount": 0,
+  "viewCount": 1259,
+  "createdAt": "Fri Oct 09 01:00:05 +0000 2026",
+  "lang": "ja",
+  "bookmarkCount": 0,
+  "isReply": false,
+  "inReplyToId": null,
+  "conversationId": "2108361826966602058",
+  "displayTextRange": [
+   0,
+   154
+  ],
+  "inReplyToUserId": null,
+  "inReplyToUsername": null,
+  "author": {
+   "type": "user",
+   "userName": "ds_kuzuhamall",
+   "url": "https://x.com/ds_kuzuhamall",
+   "twitterUrl": "https://twitter.com/ds_kuzuhamall",
+   "id": "1620966864573833219",
+   "name": "ドラゴンスターくずはモール",
+   "isVerified": false,
+   "isBlueVerified": true,
+   "verifiedType": null,
+   "profilePicture": "https://pbs.twimg.com/profile_images/1622185998242443265/xvKoWjD8_normal.jpg",
+   "coverPicture": "https://pbs.twimg.com/profile_banners/1620966864573833219/1708482793",
+   "description": "",
+   "location": "大阪府枚方市楠葉花園町10-85 くずはモール南館2F",
+   "followers": 13546,
+   "following": 27,
+   "status": "",
+   "canDm": false,
+   "canMediaTag": false,
+   "createdAt": "Thu Feb 02 02:07:50 +0000 2023",
+   "entities": {
+    "description": {
+     "urls": []
+    },
+    "url": {}
+   },
+   "fastFollowersCount": 0,
+   "favouritesCount": 239,
+   "hasCustomTimelines": true,
+   "isTranslator": false,
+   "mediaCount": 17618,
+   "statusesCount": 20688,
+   "withheldInCountries": [],
+   "affiliatesHighlightedLabel": {},
+   "possiblySensitive": false,
+   "pinnedTweetIds": [
+    "2105925496173162871"
+   ],
+   "profile_bio": {
+    "description": "ドラゴンスターくずはモールのアカウントです🐉 随時お知らせをツイートしていきます✨ お知らせ専用で運用しておりますため、DM・リプライは対応いたしかねます🙏 TEL:072-800-1533",
+    "entities": {
+     "description": {},
+     "url": {
+      "urls": [
+       {
+        "display_url": "dorasuta.jp",
+        "expanded_url": "https://dorasuta.jp/",
+        "indices": [
+         0,
+         23
+        ],
+        "url": "https://t.co/KEQU9eHA8l"
+       }
+      ]
+     }
+    }
+   },
+   "isAutomated": false,
+   "automatedBy": null
+  },
+  "extendedEntities": {},
+  "card": {
+   "binding_values": [
+    {
+     "key": "photo_image_full_size_large",
+     "value": {
+      "image_value": {
+       "height": 419,
+       "url": "https://pbs.twimg.com/card_img/2108813975387537408/TJukvafk?format=jpg&name=800x419",
+       "width": 800
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image",
+     "value": {
+      "image_value": {
+       "height": 150,
+       "url": "https://pbs.twimg.com/card_img/2108813975387537408/TJukvafk?format=jpg&name=280x150",
+       "width": 267
+      }
+     }
+    },
+    {
+     "key": "description",
+     "value": {
+      "string_value": "【主催者コメント】イベントを主催させて頂きます『まっちゃん』です🍵ティーパーティーという名前になっていますが、お茶会ではないので間違えても蓋がない飲み物は持ってこないようにしてください(ペットボトルや水筒なら大丈夫です！)今回の景品の概要としては、参加賞が、ストームエメラルダ 1パック、優勝景品はくずは特製詰め合わせ 1つ、２位～5位の方にはこのお店で販売しているシングルカードに使える金券..."
+     }
+    },
+    {
+     "key": "domain",
+     "value": {
+      "string_value": "tonamel.com"
+     }
+    },
+    {
+     "key": "thumbnail_image_large",
+     "value": {
+      "image_value": {
+       "height": 320,
+       "url": "https://pbs.twimg.com/card_img/2108813975387537408/TJukvafk?format=jpg&name=800x320_1",
+       "width": 569
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image_small",
+     "value": {
+      "image_value": {
+       "height": 202,
+       "url": "https://pbs.twimg.com/card_img/2108813975387537408/TJukvafk?format=jpg&name=386x202",
+       "width": 386
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_original",
+     "value": {
+      "image_value": {
+       "height": 720,
+       "url": "https://pbs.twimg.com/card_img/2108813975387537408/TJukvafk?format=jpg&name=orig",
+       "width": 1280
+      }
+     }
+    },
+    {
+     "key": "site",
+     "value": {
+      "scribe_key": "publisher_id",
+      "user_value": {
+       "id_str": "892648343016316928",
+       "path": []
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_small",
+     "value": {
+      "image_value": {
+       "height": 202,
+       "url": "https://pbs.twimg.com/card_img/2108813975387537408/TJukvafk?format=jpg&name=386x202",
+       "width": 386
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image_large",
+     "value": {
+      "image_value": {
+       "height": 419,
+       "url": "https://pbs.twimg.com/card_img/2108813975387537408/TJukvafk?format=jpg&name=800x419",
+       "width": 800
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_small",
+     "value": {
+      "image_value": {
+       "height": 81,
+       "url": "https://pbs.twimg.com/card_img/2108813975387537408/TJukvafk?format=jpg&name=144x144",
+       "width": 144
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_x_large",
+     "value": {
+      "image_value": {
+       "height": 720,
+       "url": "https://pbs.twimg.com/card_img/2108813975387537408/TJukvafk?format=png&name=2048x2048_2_exp",
+       "width": 1280
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_original",
+     "value": {
+      "image_value": {
+       "height": 720,
+       "url": "https://pbs.twimg.com/card_img/2108813975387537408/TJukvafk?format=jpg&name=orig",
+       "width": 1280
+      }
+     }
+    },
+    {
+     "key": "vanity_url",
+     "value": {
+      "scribe_key": "vanity_url",
+      "string_value": "tonamel.com"
+     }
+    },
+    {
+     "key": "photo_image_full_size",
+     "value": {
+      "image_value": {
+       "height": 314,
+       "url": "https://pbs.twimg.com/card_img/2108813975387537408/TJukvafk?format=jpg&name=600x314",
+       "width": 600
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 51.46,
+         "rgb": {
+          "blue": 203,
+          "green": 222,
+          "red": 234
+         }
+        },
+        {
+         "percentage": 14.24,
+         "rgb": {
+          "blue": 0,
+          "green": 0,
+          "red": 253
+         }
+        },
+        {
+         "percentage": 5.4,
+         "rgb": {
+          "blue": 119,
+          "green": 188,
+          "red": 198
+         }
+        },
+        {
+         "percentage": 5.2,
+         "rgb": {
+          "blue": 90,
+          "green": 90,
+          "red": 242
+         }
+        },
+        {
+         "percentage": 4.06,
+         "rgb": {
+          "blue": 150,
+          "green": 151,
+          "red": 238
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "title",
+     "value": {
+      "string_value": "【10月】ポケカ ティーパーティー ＠ドラゴンスターくずはモール - Tonamel"
+     }
+    },
+    {
+     "key": "summary_photo_image_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 51.46,
+         "rgb": {
+          "blue": 203,
+          "green": 222,
+          "red": 234
+         }
+        },
+        {
+         "percentage": 14.24,
+         "rgb": {
+          "blue": 0,
+          "green": 0,
+          "red": 253
+         }
+        },
+        {
+         "percentage": 5.4,
+         "rgb": {
+          "blue": 119,
+          "green": 188,
+          "red": 198
+         }
+        },
+        {
+         "percentage": 5.2,
+         "rgb": {
+          "blue": 90,
+          "green": 90,
+          "red": 242
+         }
+        },
+        {
+         "percentage": 4.06,
+         "rgb": {
+          "blue": 150,
+          "green": 151,
+          "red": 238
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image_x_large",
+     "value": {
+      "image_value": {
+       "height": 720,
+       "url": "https://pbs.twimg.com/card_img/2108813975387537408/TJukvafk?format=png&name=2048x2048_2_exp",
+       "width": 1280
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image",
+     "value": {
+      "image_value": {
+       "height": 314,
+       "url": "https://pbs.twimg.com/card_img/2108813975387537408/TJukvafk?format=jpg&name=600x314",
+       "width": 600
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 51.46,
+         "rgb": {
+          "blue": 203,
+          "green": 222,
+          "red": 234
+         }
+        },
+        {
+         "percentage": 14.24,
+         "rgb": {
+          "blue": 0,
+          "green": 0,
+          "red": 253
+         }
+        },
+        {
+         "percentage": 5.4,
+         "rgb": {
+          "blue": 119,
+          "green": 188,
+          "red": 198
+         }
+        },
+        {
+         "percentage": 5.2,
+         "rgb": {
+          "blue": 90,
+          "green": 90,
+          "red": 242
+         }
+        },
+        {
+         "percentage": 4.06,
+         "rgb": {
+          "blue": 150,
+          "green": 151,
+          "red": 238
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_x_large",
+     "value": {
+      "image_value": {
+       "height": 720,
+       "url": "https://pbs.twimg.com/card_img/2108813975387537408/TJukvafk?format=png&name=2048x2048_2_exp",
+       "width": 1280
+      }
+     }
+    },
+    {
+     "key": "card_url",
+     "value": {
+      "scribe_key": "card_url",
+      "string_value": "https://t.co/w8AbnKAgtg"
+     }
+    },
+    {
+     "key": "summary_photo_image_original",
+     "value": {
+      "image_value": {
+       "height": 720,
+       "url": "https://pbs.twimg.com/card_img/2108813975387537408/TJukvafk?format=jpg&name=orig",
+       "width": 1280
+      }
+     }
+    }
+   ],
+   "card_platform": {
+    "platform": {
+     "audience": {
+      "name": "production"
+     },
+     "device": {
+      "name": "iPhone",
+      "version": "13"
+     }
+    }
+   },
+   "name": "summary_large_image",
+   "url": "https://t.co/w8AbnKAgtg",
+   "user_refs_results": [
+    {
+     "rest_id": "892648343016316928",
+     "result": {
+      "__typename": "User",
+      "action_counts": {
+       "favorites_count": 1976
+      },
+      "avatar": {
+       "image_url": "https://pbs.twimg.com/profile_images/892653332002557952/FZG98Ok6_normal.jpg"
+      },
+      "banner": {
+       "image_url": "https://pbs.twimg.com/profile_banners/892648343016316928/1585718520"
+      },
+      "core": {
+       "created_at": "Wed Aug 02 07:28:44 +0000 2017",
+       "name": "【公式】Tonamel（トナメル）",
+       "screen_name": "TonamelJP"
+      },
+      "dm_permissions": {
+       "can_dm": true
+      },
+      "exclusive_tweet_following": false,
+      "follow_request_sent": false,
+      "identity_profile_labels_highlighted_label": {},
+      "location": {
+       "location": ""
+      },
+      "media_permissions": {
+       "can_media_tag": true
+      },
+      "notifications_settings": {
+       "notifications_enabled": false
+      },
+      "pinned_items": {
+       "tweet_ids_str": [
+        "1930489975436656702"
+       ]
+      },
+      "privacy": {
+       "protected": false,
+       "suspended": false
+      },
+      "private_super_following": false,
+      "profile_bio": {
+       "description": "Tonamelは「主催者の力になる」がコンセプトの日本最大級のイベント運営支援プラットフォームです。\n中の人が新機能/仕様変更のお知らせ中心に色々呟きます。\nご意見ご要望はこちらからお気軽にどうぞ。→https://t.co/VlaX0SqNX9\n※DMでの返信は原則行っておりません。",
+       "entities": {
+        "description": {
+         "urls": [
+          {
+           "display_url": "tonamel.com/contact",
+           "expanded_url": "https://tonamel.com/contact",
+           "indices": [
+            100,
+            123
+           ],
+           "url": "https://t.co/VlaX0SqNX9"
+          }
+         ]
+        },
+        "url": {
+         "urls": [
+          {
+           "display_url": "tonamel.com",
+           "expanded_url": "https://tonamel.com/",
+           "indices": [
+            0,
+            23
+           ],
+           "url": "https://t.co/aWComY9nVc"
+          }
+         ]
+        }
+       }
+      },
+      "profile_image_shape": "Circle",
+      "profile_metadata": {
+       "profile_interstitial_type": "",
+       "profile_link_color": "29CB44"
+      },
+      "profile_translation": {
+       "translator_type_enum": "None"
+      },
+      "properties": {
+       "has_extended_profile": false,
+       "has_no_screen_name": false
+      },
+      "relationship_counts": {
+       "followers": 12019,
+       "following": 506
+      },
+      "relationship_perspectives": {
+       "blocked_by": false,
+       "blocking": false,
+       "followed_by": false,
+       "following": false,
+       "live_following": false,
+       "muting": false
+      },
+      "rest_id": "892648343016316928",
+      "smart_blocked_by": false,
+      "smart_blocking": false,
+      "super_follow_eligible": false,
+      "super_followed_by": false,
+      "super_following": false,
+      "tweet_counts": {
+       "media_tweets": 1318,
+       "tweets": 5186
+      },
+      "verification": {
+       "is_blue_verified": false,
+       "verified": false
+      },
+      "website": {
+       "url": "https://t.co/aWComY9nVc"
+      }
+     }
+    }
+   ]
+  },
+  "place": {},
+  "entities": {
+   "hashtags": [
+    {
+     "indices": [
+      326,
+      340
+     ],
+     "text": "ドラゴンスターくずはモール"
+    }
+   ],
+   "symbols": [],
+   "urls": [
+    {
+     "display_url": "tonamel.com/competition/ml…",
+     "expanded_url": "https://tonamel.com/competition/mlM4j",
+     "indices": [
+      112,
+      135
+     ],
+     "url": "https://t.co/KXkE9Udo2v"
+    },
+    {
+     "display_url": "pokemon-card.com/event/players_…",
+     "expanded_url": "https://www.pokemon-card.com/event/players_register/",
+     "indices": [
+      249,
+      272
+     ],
+     "url": "https://t.co/2HCBWJcp6R"
+    }
+   ],
+   "user_mentions": []
+  },
+  "quoted_tweet": null,
+  "retweeted_tweet": null,
+  "isLimitedReply": false,
+  "communityInfo": null,
+  "article": null
  }
 }
