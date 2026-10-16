@@ -2664,5 +2664,627 @@
   "isLimitedReply": false,
   "communityInfo": null,
   "article": null
+ },
+ "c5OHM": {
+  "type": "tweet",
+  "id": "2110586360558162124",
+  "url": "https://x.com/laurier_akiba2/status/2110586360558162124",
+  "twitterUrl": "https://twitter.com/laurier_akiba2/status/2110586360558162124",
+  "text": "＼ 📣ポケカ大会情報📣 ／\n\n🔥🔥ローリエ本舗 #商品券争奪戦 開催 🔥🔥\n\n本日19時～開催‼️当日飛び入り参加OK👌✨️\nまだまだエントリー大大募集中です‼️\n\n🏆大会賞品🏆\n🥇優勝：店内商品3,000円割引券✨️\n🎖️3勝1敗：店内商品1,000円割引券✨️\n\nさらに・・・‼️\n✊ジャンケン大会✌️\n📖スタンプカード配布\nなど、みんなで楽しめる企画もご用意しております✨\n\n━━━━━━━━━━━━━━━\n✅開催日：10月13日(火) 19:00～\n✅会場：ローリエ本舗AKIHABARA2号店\n✅参加費：500円\n\n※8名以上のご参加で開催となります。\n━━━━━━━━━━━━━━━\n\n※7名以下での開催の場合\n\n・1名→不開催\n・2名→1回戦\n・3名→総当たり2回戦\n・4名以上→固定３回戦\n\n参加賞：店内商品500円割引券\n\nジャンケン賞（全員参加OK）\n店内商品200円割引券\n\n※参加人数に応じて賞品内容が変更となる場合がございます。\n\n大会詳細・エントリーは下記リンクをご確認ください✨\n皆さまのご参加お待ちしております🔥🔥\n\nhttps://t.co/f4cJRLzxrK\n\n#ポケモンカード\n#ポケカ大会\n#ローリエ本舗2号店",
+  "source": "Twitter for iPhone",
+  "retweetCount": 0,
+  "replyCount": 0,
+  "likeCount": 0,
+  "quoteCount": 0,
+  "viewCount": 223,
+  "createdAt": "Thu Oct 15 04:19:35 +0000 2026",
+  "lang": "ja",
+  "bookmarkCount": 0,
+  "isReply": false,
+  "inReplyToId": null,
+  "conversationId": "2110586360558162124",
+  "displayTextRange": [
+   0,
+   153
+  ],
+  "inReplyToUserId": null,
+  "inReplyToUsername": null,
+  "author": {
+   "type": "user",
+   "userName": "laurier_akiba2",
+   "url": "https://x.com/laurier_akiba2",
+   "twitterUrl": "https://twitter.com/laurier_akiba2",
+   "id": "2004055183526080512",
+   "name": "ローリエ本舗AKIHABARA 2号店",
+   "isVerified": false,
+   "isBlueVerified": true,
+   "verifiedType": "Business",
+   "profilePicture": "https://pbs.twimg.com/profile_images/2024818713485262848/YX48awmj_normal.jpg",
+   "coverPicture": "https://pbs.twimg.com/profile_banners/2004055183526080512/1771751296",
+   "description": "",
+   "location": "東京都千代田区外神田４丁目９−２ 千住ビル 6階",
+   "followers": 4530,
+   "following": 8,
+   "status": "",
+   "canDm": true,
+   "canMediaTag": true,
+   "createdAt": "Thu Dec 25 05:02:52 +0000 2025",
+   "entities": {
+    "description": {
+     "urls": []
+    },
+    "url": {}
+   },
+   "fastFollowersCount": 0,
+   "favouritesCount": 46,
+   "hasCustomTimelines": true,
+   "isTranslator": false,
+   "mediaCount": 10336,
+   "statusesCount": 10930,
+   "withheldInCountries": [],
+   "affiliatesHighlightedLabel": {
+    "label": {
+     "badge": {
+      "url": "https://pbs.twimg.com/profile_images/1809616999359893504/Qk7A9AlQ_bigger.jpg"
+     },
+     "description": "株式会社ウォース",
+     "url": {
+      "url": "https://twitter.com/woorth_io",
+      "url_type": "DeepLink"
+     },
+     "user_label_display_type": "Badge",
+     "user_label_type": "BusinessLabel"
+    }
+   },
+   "possiblySensitive": false,
+   "pinnedTweetIds": [],
+   "profile_bio": {
+    "description": "🚃JR秋葉原駅から徒歩5分！末広町駅から徒歩1分！【営業時間】全日13:00~20:00 🪑プレイスペース32席！✨3/14(土)グランドオープン✨ 本店→@laurier_akiba",
+    "entities": {
+     "description": {
+      "user_mentions": [
+       {
+        "id_str": "",
+        "indices": [
+         78,
+         92
+        ],
+        "name": "",
+        "screen_name": "laurier_akiba"
+       }
+      ]
+     }
+    }
+   },
+   "isAutomated": false,
+   "automatedBy": null
+  },
+  "extendedEntities": {},
+  "card": {
+   "binding_values": [
+    {
+     "key": "photo_image_full_size_large",
+     "value": {
+      "image_value": {
+       "height": 419,
+       "url": "https://pbs.twimg.com/card_img/2110274065915371520/6jWJuo5W?format=jpg&name=800x419",
+       "width": 800
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image",
+     "value": {
+      "image_value": {
+       "height": 147,
+       "url": "https://pbs.twimg.com/card_img/2110274065915371520/6jWJuo5W?format=jpg&name=240x240",
+       "width": 240
+      }
+     }
+    },
+    {
+     "key": "description",
+     "value": {
+      "string_value": "🚨重要事項🚨【遅刻、キャンセルについて】・本大会への途中参加は不可とさせていただきます。・遅刻、無断キャンセルをした方は次回以降大会エントリーが不可になる場合がありますのでご注意ください。※無断キャンセルが非常に多くなっております。たくさんの方に参加していただくため、参加不可になった場合は、その時点でキャンセル処理をしていただくようお願いいたします。🎫 大会参加スタンプカード配布中‼️..."
+     }
+    },
+    {
+     "key": "domain",
+     "value": {
+      "string_value": "tonamel.com"
+     }
+    },
+    {
+     "key": "thumbnail_image_large",
+     "value": {
+      "image_value": {
+       "height": 320,
+       "url": "https://pbs.twimg.com/card_img/2110274065915371520/6jWJuo5W?format=jpg&name=800x320_1",
+       "width": 521
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image_small",
+     "value": {
+      "image_value": {
+       "height": 202,
+       "url": "https://pbs.twimg.com/card_img/2110274065915371520/6jWJuo5W?format=jpg&name=386x202",
+       "width": 386
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_original",
+     "value": {
+      "image_value": {
+       "height": 737,
+       "url": "https://pbs.twimg.com/card_img/2110274065915371520/6jWJuo5W?format=jpg&name=orig",
+       "width": 1200
+      }
+     }
+    },
+    {
+     "key": "site",
+     "value": {
+      "scribe_key": "publisher_id",
+      "user_value": {
+       "id_str": "892648343016316928",
+       "path": []
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_small",
+     "value": {
+      "image_value": {
+       "height": 202,
+       "url": "https://pbs.twimg.com/card_img/2110274065915371520/6jWJuo5W?format=jpg&name=386x202",
+       "width": 386
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image_large",
+     "value": {
+      "image_value": {
+       "height": 419,
+       "url": "https://pbs.twimg.com/card_img/2110274065915371520/6jWJuo5W?format=jpg&name=800x419",
+       "width": 800
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_small",
+     "value": {
+      "image_value": {
+       "height": 61,
+       "url": "https://pbs.twimg.com/card_img/2110274065915371520/6jWJuo5W?format=jpg&name=100x100",
+       "width": 100
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_x_large",
+     "value": {
+      "image_value": {
+       "height": 737,
+       "url": "https://pbs.twimg.com/card_img/2110274065915371520/6jWJuo5W?format=png&name=2048x2048_2_exp",
+       "width": 1200
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_original",
+     "value": {
+      "image_value": {
+       "height": 737,
+       "url": "https://pbs.twimg.com/card_img/2110274065915371520/6jWJuo5W?format=jpg&name=orig",
+       "width": 1200
+      }
+     }
+    },
+    {
+     "key": "vanity_url",
+     "value": {
+      "scribe_key": "vanity_url",
+      "string_value": "tonamel.com"
+     }
+    },
+    {
+     "key": "photo_image_full_size",
+     "value": {
+      "image_value": {
+       "height": 314,
+       "url": "https://pbs.twimg.com/card_img/2110274065915371520/6jWJuo5W?format=jpg&name=600x314",
+       "width": 600
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 28.12,
+         "rgb": {
+          "blue": 52,
+          "green": 36,
+          "red": 28
+         }
+        },
+        {
+         "percentage": 14.12,
+         "rgb": {
+          "blue": 178,
+          "green": 142,
+          "red": 57
+         }
+        },
+        {
+         "percentage": 13.1,
+         "rgb": {
+          "blue": 218,
+          "green": 205,
+          "red": 186
+         }
+        },
+        {
+         "percentage": 6.04,
+         "rgb": {
+          "blue": 100,
+          "green": 59,
+          "red": 19
+         }
+        },
+        {
+         "percentage": 6.01,
+         "rgb": {
+          "blue": 145,
+          "green": 67,
+          "red": 133
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "title",
+     "value": {
+      "string_value": "【10/15開催】ローリエROYALE!! -商品券争奪戦-【ローリエ本舗AKIHABARA2号店】 - Tonamel"
+     }
+    },
+    {
+     "key": "summary_photo_image_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 28.12,
+         "rgb": {
+          "blue": 52,
+          "green": 36,
+          "red": 28
+         }
+        },
+        {
+         "percentage": 14.12,
+         "rgb": {
+          "blue": 178,
+          "green": 142,
+          "red": 57
+         }
+        },
+        {
+         "percentage": 13.1,
+         "rgb": {
+          "blue": 218,
+          "green": 205,
+          "red": 186
+         }
+        },
+        {
+         "percentage": 6.04,
+         "rgb": {
+          "blue": 100,
+          "green": 59,
+          "red": 19
+         }
+        },
+        {
+         "percentage": 6.01,
+         "rgb": {
+          "blue": 145,
+          "green": 67,
+          "red": 133
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image_x_large",
+     "value": {
+      "image_value": {
+       "height": 737,
+       "url": "https://pbs.twimg.com/card_img/2110274065915371520/6jWJuo5W?format=png&name=2048x2048_2_exp",
+       "width": 1200
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image",
+     "value": {
+      "image_value": {
+       "height": 314,
+       "url": "https://pbs.twimg.com/card_img/2110274065915371520/6jWJuo5W?format=jpg&name=600x314",
+       "width": 600
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 28.12,
+         "rgb": {
+          "blue": 52,
+          "green": 36,
+          "red": 28
+         }
+        },
+        {
+         "percentage": 14.12,
+         "rgb": {
+          "blue": 178,
+          "green": 142,
+          "red": 57
+         }
+        },
+        {
+         "percentage": 13.1,
+         "rgb": {
+          "blue": 218,
+          "green": 205,
+          "red": 186
+         }
+        },
+        {
+         "percentage": 6.04,
+         "rgb": {
+          "blue": 100,
+          "green": 59,
+          "red": 19
+         }
+        },
+        {
+         "percentage": 6.01,
+         "rgb": {
+          "blue": 145,
+          "green": 67,
+          "red": 133
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_x_large",
+     "value": {
+      "image_value": {
+       "height": 737,
+       "url": "https://pbs.twimg.com/card_img/2110274065915371520/6jWJuo5W?format=png&name=2048x2048_2_exp",
+       "width": 1200
+      }
+     }
+    },
+    {
+     "key": "card_url",
+     "value": {
+      "scribe_key": "card_url",
+      "string_value": "https://t.co/f4cJRLzxrK"
+     }
+    },
+    {
+     "key": "summary_photo_image_original",
+     "value": {
+      "image_value": {
+       "height": 737,
+       "url": "https://pbs.twimg.com/card_img/2110274065915371520/6jWJuo5W?format=jpg&name=orig",
+       "width": 1200
+      }
+     }
+    }
+   ],
+   "card_platform": {
+    "platform": {
+     "audience": {
+      "name": "production"
+     },
+     "device": {
+      "name": "iPhone",
+      "version": "13"
+     }
+    }
+   },
+   "name": "summary_large_image",
+   "url": "https://t.co/f4cJRLzxrK",
+   "user_refs_results": [
+    {
+     "rest_id": "892648343016316928",
+     "result": {
+      "__typename": "User",
+      "action_counts": {
+       "favorites_count": 1976
+      },
+      "avatar": {
+       "image_url": "https://pbs.twimg.com/profile_images/892653332002557952/FZG98Ok6_normal.jpg"
+      },
+      "banner": {
+       "image_url": "https://pbs.twimg.com/profile_banners/892648343016316928/1585718520"
+      },
+      "core": {
+       "created_at": "Wed Aug 02 07:28:44 +0000 2017",
+       "name": "【公式】Tonamel（トナメル）",
+       "screen_name": "TonamelJP"
+      },
+      "dm_permissions": {
+       "can_dm": true
+      },
+      "exclusive_tweet_following": false,
+      "follow_request_sent": false,
+      "identity_profile_labels_highlighted_label": {},
+      "location": {
+       "location": ""
+      },
+      "media_permissions": {
+       "can_media_tag": true
+      },
+      "notifications_settings": {
+       "notifications_enabled": false
+      },
+      "pinned_items": {
+       "tweet_ids_str": [
+        "1930489975436656702"
+       ]
+      },
+      "privacy": {
+       "protected": false,
+       "suspended": false
+      },
+      "private_super_following": false,
+      "profile_bio": {
+       "description": "Tonamelは「主催者の力になる」がコンセプトの日本最大級のイベント運営支援プラットフォームです。\n中の人が新機能/仕様変更のお知らせ中心に色々呟きます。\nご意見ご要望はこちらからお気軽にどうぞ。→https://t.co/VlaX0SqNX9\n※DMでの返信は原則行っておりません。",
+       "entities": {
+        "description": {
+         "urls": [
+          {
+           "display_url": "tonamel.com/contact",
+           "expanded_url": "https://tonamel.com/contact",
+           "indices": [
+            100,
+            123
+           ],
+           "url": "https://t.co/VlaX0SqNX9"
+          }
+         ]
+        },
+        "url": {
+         "urls": [
+          {
+           "display_url": "tonamel.com",
+           "expanded_url": "https://tonamel.com/",
+           "indices": [
+            0,
+            23
+           ],
+           "url": "https://t.co/aWComY9nVc"
+          }
+         ]
+        }
+       }
+      },
+      "profile_image_shape": "Circle",
+      "profile_metadata": {
+       "profile_interstitial_type": "",
+       "profile_link_color": "29CB44"
+      },
+      "profile_translation": {
+       "translator_type_enum": "None"
+      },
+      "properties": {
+       "has_extended_profile": false,
+       "has_no_screen_name": false
+      },
+      "relationship_counts": {
+       "followers": 12019,
+       "following": 506
+      },
+      "relationship_perspectives": {
+       "blocked_by": false,
+       "blocking": false,
+       "followed_by": false,
+       "following": false,
+       "live_following": false,
+       "muting": false
+      },
+      "rest_id": "892648343016316928",
+      "smart_blocked_by": false,
+      "smart_blocking": false,
+      "super_follow_eligible": false,
+      "super_followed_by": false,
+      "super_following": false,
+      "tweet_counts": {
+       "media_tweets": 1318,
+       "tweets": 5186
+      },
+      "verification": {
+       "is_blue_verified": false,
+       "verified": false
+      },
+      "website": {
+       "url": "https://t.co/aWComY9nVc"
+      }
+     }
+    }
+   ]
+  },
+  "place": {},
+  "entities": {
+   "hashtags": [
+    {
+     "indices": [
+      24,
+      31
+     ],
+     "text": "商品券争奪戦"
+    },
+    {
+     "indices": [
+      500,
+      508
+     ],
+     "text": "ポケモンカード"
+    },
+    {
+     "indices": [
+      509,
+      515
+     ],
+     "text": "ポケカ大会"
+    },
+    {
+     "indices": [
+      516,
+      526
+     ],
+     "text": "ローリエ本舗2号店"
+    }
+   ],
+   "symbols": [],
+   "urls": [
+    {
+     "display_url": "tonamel.com/competition/c5…",
+     "expanded_url": "https://tonamel.com/competition/c5OHM",
+     "indices": [
+      475,
+      498
+     ],
+     "url": "https://t.co/f4cJRLzxrK"
+    }
+   ],
+   "user_mentions": []
+  },
+  "quoted_tweet": null,
+  "retweeted_tweet": null,
+  "isLimitedReply": false,
+  "communityInfo": null,
+  "article": null
  }
 }
