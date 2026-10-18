@@ -3288,5 +3288,988 @@
   "isLimitedReply": false,
   "communityInfo": null,
   "article": null
+ },
+ "frCgp": {
+  "type": "tweet",
+  "id": "2109535249101172790",
+  "url": "https://x.com/Hokkai_poke2306/status/2109535249101172790",
+  "twitterUrl": "https://twitter.com/Hokkai_poke2306/status/2109535249101172790",
+  "text": "今週末の開催です‼️\nまだエントリー可能です‼️\n\n参加者が少数の場合はイベントを中止致します。\n前日の20時頃に判断致します🙇\n\n優勝景品は\nミュウツーex(SAR)です‼️\n\n#ホッカイポケカ\n#ホッカイポケカルト\n#ポケカ\n#自主大会\n#中野\n#はしもとdeポケカ\n#橋本\n#小作 https://t.co/G1OZ1YX8ao",
+  "source": "Twitter for iPhone",
+  "retweetCount": 1,
+  "replyCount": 1,
+  "likeCount": 1,
+  "quoteCount": 1,
+  "viewCount": 458,
+  "createdAt": "Mon Oct 12 06:42:51 +0000 2026",
+  "lang": "ja",
+  "bookmarkCount": 0,
+  "isReply": false,
+  "inReplyToId": null,
+  "conversationId": "2109535249101172790",
+  "displayTextRange": [
+   0,
+   143
+  ],
+  "inReplyToUserId": null,
+  "inReplyToUsername": null,
+  "author": {
+   "type": "user",
+   "userName": "Hokkai_poke2306",
+   "url": "https://x.com/Hokkai_poke2306",
+   "twitterUrl": "https://twitter.com/Hokkai_poke2306",
+   "id": "1771350631560986624",
+   "name": "ホッカイポケカ",
+   "isVerified": false,
+   "isBlueVerified": true,
+   "verifiedType": null,
+   "profilePicture": "https://pbs.twimg.com/profile_images/1965658618193477634/fvLtxACV_normal.jpg",
+   "coverPicture": "https://pbs.twimg.com/profile_banners/1771350631560986624/1716692854",
+   "description": "",
+   "location": "",
+   "followers": 185,
+   "following": 248,
+   "status": "",
+   "canDm": false,
+   "canMediaTag": false,
+   "createdAt": "Sat Mar 23 01:38:44 +0000 2024",
+   "entities": {
+    "description": {
+     "urls": []
+    },
+    "url": {}
+   },
+   "fastFollowersCount": 0,
+   "favouritesCount": 1066,
+   "hasCustomTimelines": true,
+   "isTranslator": false,
+   "mediaCount": 54,
+   "statusesCount": 731,
+   "withheldInCountries": [],
+   "affiliatesHighlightedLabel": {},
+   "possiblySensitive": false,
+   "pinnedTweetIds": [
+    "2105713109445062943"
+   ],
+   "profile_bio": {
+    "description": "ホッカイポケカ 、ホッカイポケカルトの情報を発信するXです！\n2026年8月からホッカイプラコロ(非公認)イベント開催します！\nリモートホッカイポケカは終了しました！！",
+    "entities": {
+     "description": {}
+    }
+   },
+   "isAutomated": false,
+   "automatedBy": null
+  },
+  "extendedEntities": {
+   "media": [
+    {
+     "display_url": "pic.x.com/G1OZ1YX8ao",
+     "expanded_url": "https://x.com/Hokkai_poke2306/status/2109535249101172790/photo/1",
+     "ext_master_playlist_only": [],
+     "ext_media_availability": {
+      "status": "Available"
+     },
+     "ext_playlists": [],
+     "features": {
+      "large": {
+       "faces": []
+      },
+      "orig": {
+       "faces": []
+      }
+     },
+     "id_str": "2109535239647424512",
+     "indices": [
+      144,
+      167
+     ],
+     "media_key": "3_2109535239647424512",
+     "media_results": {
+      "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAAR1Gkx+oWnAACgACHUaTIdvXMDYAAA==",
+      "result": {
+       "__typename": "ApiMedia",
+       "id": "QXBpTWVkaWE6DAABCgABHUaTH6hacAAKAAIdRpMh29cwNgAA",
+       "media_key": "3_2109535239647424512"
+      }
+     },
+     "media_url_https": "https://pbs.twimg.com/media/HUaTH6hacAAN7UF.jpg",
+     "original_info": {
+      "focus_rects": [
+       {
+        "h": 605,
+        "w": 1080,
+        "x": 0,
+        "y": 0
+       },
+       {
+        "h": 1080,
+        "w": 1080,
+        "x": 0,
+        "y": 0
+       },
+       {
+        "h": 1231,
+        "w": 1080,
+        "x": 0,
+        "y": 0
+       },
+       {
+        "h": 1549,
+        "w": 775,
+        "x": 0,
+        "y": 0
+       },
+       {
+        "h": 1549,
+        "w": 1080,
+        "x": 0,
+        "y": 0
+       }
+      ],
+      "height": 1549,
+      "width": 1080
+     },
+     "sizes": {
+      "large": {
+       "h": 1549,
+       "w": 1080
+      }
+     },
+     "type": "photo",
+     "url": "https://t.co/G1OZ1YX8ao"
+    }
+   ]
+  },
+  "card": null,
+  "place": {},
+  "entities": {
+   "hashtags": [
+    {
+     "indices": [
+      90,
+      98
+     ],
+     "text": "ホッカイポケカ"
+    },
+    {
+     "indices": [
+      99,
+      109
+     ],
+     "text": "ホッカイポケカルト"
+    },
+    {
+     "indices": [
+      110,
+      114
+     ],
+     "text": "ポケカ"
+    },
+    {
+     "indices": [
+      115,
+      120
+     ],
+     "text": "自主大会"
+    },
+    {
+     "indices": [
+      121,
+      124
+     ],
+     "text": "中野"
+    },
+    {
+     "indices": [
+      125,
+      135
+     ],
+     "text": "はしもとdeポケカ"
+    },
+    {
+     "indices": [
+      136,
+      139
+     ],
+     "text": "橋本"
+    },
+    {
+     "indices": [
+      140,
+      143
+     ],
+     "text": "小作"
+    }
+   ]
+  },
+  "quoted_tweet": {
+   "type": "tweet",
+   "id": "2105713113530319231",
+   "url": "https://x.com/Hokkai_poke2306/status/2105713113530319231",
+   "twitterUrl": "https://twitter.com/Hokkai_poke2306/status/2105713113530319231",
+   "text": "ホッカイポケカルト～小作でポケカ～\n17日\nhttps://t.co/j27ktr4hvH",
+   "source": "Twitter for iPhone",
+   "retweetCount": 0,
+   "replyCount": 1,
+   "likeCount": 0,
+   "quoteCount": 1,
+   "viewCount": 465,
+   "createdAt": "Thu Oct 01 17:35:03 +0000 2026",
+   "lang": "ja",
+   "bookmarkCount": 0,
+   "isReply": true,
+   "inReplyToId": "2105713111785406519",
+   "conversationId": "2105713109445062943",
+   "displayTextRange": [
+    0,
+    45
+   ],
+   "inReplyToUserId": null,
+   "inReplyToUsername": null,
+   "author": {
+    "type": "user",
+    "userName": "Hokkai_poke2306",
+    "url": "https://x.com/Hokkai_poke2306",
+    "twitterUrl": "https://twitter.com/Hokkai_poke2306",
+    "id": "1771350631560986624",
+    "name": "ホッカイポケカ",
+    "isVerified": false,
+    "isBlueVerified": true,
+    "verifiedType": null,
+    "profilePicture": "https://pbs.twimg.com/profile_images/1965658618193477634/fvLtxACV_normal.jpg",
+    "coverPicture": "https://pbs.twimg.com/profile_banners/1771350631560986624/1716692854",
+    "description": "",
+    "location": "",
+    "followers": 185,
+    "following": 248,
+    "status": "",
+    "canDm": false,
+    "canMediaTag": false,
+    "createdAt": "Sat Mar 23 01:38:44 +0000 2024",
+    "entities": {
+     "description": {
+      "urls": []
+     },
+     "url": {}
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 1066,
+    "hasCustomTimelines": true,
+    "isTranslator": false,
+    "mediaCount": 54,
+    "statusesCount": 731,
+    "withheldInCountries": [],
+    "affiliatesHighlightedLabel": {},
+    "possiblySensitive": false,
+    "pinnedTweetIds": [
+     "2105713109445062943"
+    ],
+    "profile_bio": {
+     "description": "ホッカイポケカ 、ホッカイポケカルトの情報を発信するXです！\n2026年8月からホッカイプラコロ(非公認)イベント開催します！\nリモートホッカイポケカは終了しました！！",
+     "entities": {
+      "description": {}
+     }
+    },
+    "isAutomated": false,
+    "automatedBy": null
+   },
+   "extendedEntities": {},
+   "card": {
+    "binding_values": [
+     {
+      "key": "photo_image_full_size_large",
+      "value": {
+       "image_value": {
+        "height": 168,
+        "url": "https://pbs.twimg.com/card_img/2110822476599246848/DIw3Ciz7?format=png&name=386x202",
+        "width": 321
+       }
+      }
+     },
+     {
+      "key": "thumbnail_image",
+      "value": {
+       "image_value": {
+        "height": 150,
+        "url": "https://pbs.twimg.com/card_img/2110822476599246848/DIw3Ciz7?format=png&name=280x150",
+        "width": 236
+       }
+      }
+     },
+     {
+      "key": "description",
+      "value": {
+       "string_value": "過去に悪質な対応が見受けられたプレイヤーにつきましては、エントリーをキャンセルさせて頂きます。（ホッカイポケカも含みます。）小作で初開催！2026年5月にオープンしたお店です！■オーガナイザーイベントの参加履歴について■オーガナイザーイベントについてもトレーナーズウェブサイトのイベント参加履歴に残す事が可能になりました！■参加資格■ポケカのルールを理解しているプレイヤーフロアルールを守れるプ..."
+      }
+     },
+     {
+      "key": "domain",
+      "value": {
+       "string_value": "tonamel.com"
+      }
+     },
+     {
+      "key": "thumbnail_image_large",
+      "value": {
+       "image_value": {
+        "height": 627,
+        "url": "https://pbs.twimg.com/card_img/2110822476599246848/DIw3Ciz7?format=png&name=1200x627",
+        "width": 1200
+       }
+      }
+     },
+     {
+      "key": "summary_photo_image_small",
+      "value": {
+       "image_value": {
+        "height": 168,
+        "url": "https://pbs.twimg.com/card_img/2110822476599246848/DIw3Ciz7?format=png&name=800x419",
+        "width": 321
+       }
+      }
+     },
+     {
+      "key": "thumbnail_image_original",
+      "value": {
+       "image_value": {
+        "height": 204,
+        "url": "https://pbs.twimg.com/card_img/2110822476599246848/DIw3Ciz7?format=png&name=orig",
+        "width": 321
+       }
+      }
+     },
+     {
+      "key": "site",
+      "value": {
+       "scribe_key": "publisher_id",
+       "user_value": {
+        "id_str": "892648343016316928",
+        "path": []
+       }
+      }
+     },
+     {
+      "key": "photo_image_full_size_small",
+      "value": {
+       "image_value": {
+        "height": 168,
+        "url": "https://pbs.twimg.com/card_img/2110822476599246848/DIw3Ciz7?format=png&name=800x419",
+        "width": 321
+       }
+      }
+     },
+     {
+      "key": "summary_photo_image_large",
+      "value": {
+       "image_value": {
+        "height": 168,
+        "url": "https://pbs.twimg.com/card_img/2110822476599246848/DIw3Ciz7?format=png&name=386x202",
+        "width": 321
+       }
+      }
+     },
+     {
+      "key": "thumbnail_image_small",
+      "value": {
+       "image_value": {
+        "height": 64,
+        "url": "https://pbs.twimg.com/card_img/2110822476599246848/DIw3Ciz7?format=png&name=100x100",
+        "width": 100
+       }
+      }
+     },
+     {
+      "key": "thumbnail_image_x_large",
+      "value": {
+       "image_value": {
+        "height": 204,
+        "url": "https://pbs.twimg.com/card_img/2110822476599246848/DIw3Ciz7?format=png&name=2048x2048_2_exp",
+        "width": 321
+       }
+      }
+     },
+     {
+      "key": "photo_image_full_size_original",
+      "value": {
+       "image_value": {
+        "height": 204,
+        "url": "https://pbs.twimg.com/card_img/2110822476599246848/DIw3Ciz7?format=png&name=orig",
+        "width": 321
+       }
+      }
+     },
+     {
+      "key": "vanity_url",
+      "value": {
+       "scribe_key": "vanity_url",
+       "string_value": "tonamel.com"
+      }
+     },
+     {
+      "key": "photo_image_full_size",
+      "value": {
+       "image_value": {
+        "height": 168,
+        "url": "https://pbs.twimg.com/card_img/2110822476599246848/DIw3Ciz7?format=png&name=386x202",
+        "width": 321
+       }
+      }
+     },
+     {
+      "key": "thumbnail_image_color",
+      "value": {
+       "image_color_value": {
+        "palette": [
+         {
+          "percentage": 55.81,
+          "rgb": {
+           "blue": 243,
+           "green": 243,
+           "red": 243
+          }
+         },
+         {
+          "percentage": 10.13,
+          "rgb": {
+           "blue": 166,
+           "green": 166,
+           "red": 255
+          }
+         },
+         {
+          "percentage": 5.25,
+          "rgb": {
+           "blue": 222,
+           "green": 183,
+           "red": 205
+          }
+         },
+         {
+          "percentage": 3.64,
+          "rgb": {
+           "blue": 171,
+           "green": 184,
+           "red": 201
+          }
+         },
+         {
+          "percentage": 3.52,
+          "rgb": {
+           "blue": 51,
+           "green": 126,
+           "red": 237
+          }
+         }
+        ]
+       }
+      }
+     },
+     {
+      "key": "title",
+      "value": {
+       "string_value": "ホッカイポケカルト64　～小作でポケカ～ - Tonamel"
+      }
+     },
+     {
+      "key": "summary_photo_image_color",
+      "value": {
+       "image_color_value": {
+        "palette": [
+         {
+          "percentage": 55.81,
+          "rgb": {
+           "blue": 243,
+           "green": 243,
+           "red": 243
+          }
+         },
+         {
+          "percentage": 10.13,
+          "rgb": {
+           "blue": 166,
+           "green": 166,
+           "red": 255
+          }
+         },
+         {
+          "percentage": 5.25,
+          "rgb": {
+           "blue": 222,
+           "green": 183,
+           "red": 205
+          }
+         },
+         {
+          "percentage": 3.64,
+          "rgb": {
+           "blue": 171,
+           "green": 184,
+           "red": 201
+          }
+         },
+         {
+          "percentage": 3.52,
+          "rgb": {
+           "blue": 51,
+           "green": 126,
+           "red": 237
+          }
+         }
+        ]
+       }
+      }
+     },
+     {
+      "key": "summary_photo_image_x_large",
+      "value": {
+       "image_value": {
+        "height": 204,
+        "url": "https://pbs.twimg.com/card_img/2110822476599246848/DIw3Ciz7?format=png&name=2048x2048_2_exp",
+        "width": 321
+       }
+      }
+     },
+     {
+      "key": "summary_photo_image",
+      "value": {
+       "image_value": {
+        "height": 168,
+        "url": "https://pbs.twimg.com/card_img/2110822476599246848/DIw3Ciz7?format=png&name=386x202",
+        "width": 321
+       }
+      }
+     },
+     {
+      "key": "photo_image_full_size_color",
+      "value": {
+       "image_color_value": {
+        "palette": [
+         {
+          "percentage": 55.81,
+          "rgb": {
+           "blue": 243,
+           "green": 243,
+           "red": 243
+          }
+         },
+         {
+          "percentage": 10.13,
+          "rgb": {
+           "blue": 166,
+           "green": 166,
+           "red": 255
+          }
+         },
+         {
+          "percentage": 5.25,
+          "rgb": {
+           "blue": 222,
+           "green": 183,
+           "red": 205
+          }
+         },
+         {
+          "percentage": 3.64,
+          "rgb": {
+           "blue": 171,
+           "green": 184,
+           "red": 201
+          }
+         },
+         {
+          "percentage": 3.52,
+          "rgb": {
+           "blue": 51,
+           "green": 126,
+           "red": 237
+          }
+         }
+        ]
+       }
+      }
+     },
+     {
+      "key": "photo_image_full_size_x_large",
+      "value": {
+       "image_value": {
+        "height": 204,
+        "url": "https://pbs.twimg.com/card_img/2110822476599246848/DIw3Ciz7?format=png&name=2048x2048_2_exp",
+        "width": 321
+       }
+      }
+     },
+     {
+      "key": "card_url",
+      "value": {
+       "scribe_key": "card_url",
+       "string_value": "https://t.co/j27ktr4hvH"
+      }
+     },
+     {
+      "key": "summary_photo_image_original",
+      "value": {
+       "image_value": {
+        "height": 204,
+        "url": "https://pbs.twimg.com/card_img/2110822476599246848/DIw3Ciz7?format=png&name=orig",
+        "width": 321
+       }
+      }
+     }
+    ],
+    "card_platform": {
+     "platform": {
+      "audience": {
+       "name": "production"
+      },
+      "device": {
+       "name": "iPhone",
+       "version": "13"
+      }
+     }
+    },
+    "name": "summary_large_image",
+    "url": "https://t.co/j27ktr4hvH",
+    "user_refs_results": [
+     {
+      "rest_id": "892648343016316928",
+      "result": {
+       "__typename": "User",
+       "action_counts": {
+        "favorites_count": 1976
+       },
+       "avatar": {
+        "image_url": "https://pbs.twimg.com/profile_images/892653332002557952/FZG98Ok6_normal.jpg"
+       },
+       "banner": {
+        "image_url": "https://pbs.twimg.com/profile_banners/892648343016316928/1585718520"
+       },
+       "core": {
+        "created_at": "Wed Aug 02 07:28:44 +0000 2017",
+        "name": "【公式】Tonamel（トナメル）",
+        "screen_name": "TonamelJP"
+       },
+       "dm_permissions": {
+        "can_dm": true
+       },
+       "exclusive_tweet_following": false,
+       "follow_request_sent": false,
+       "identity_profile_labels_highlighted_label": {},
+       "location": {
+        "location": ""
+       },
+       "media_permissions": {
+        "can_media_tag": true
+       },
+       "notifications_settings": {
+        "notifications_enabled": false
+       },
+       "pinned_items": {
+        "tweet_ids_str": [
+         "1930489975436656702"
+        ]
+       },
+       "privacy": {
+        "protected": false,
+        "suspended": false
+       },
+       "private_super_following": false,
+       "profile_bio": {
+        "description": "Tonamelは「主催者の力になる」がコンセプトの日本最大級のイベント運営支援プラットフォームです。\n中の人が新機能/仕様変更のお知らせ中心に色々呟きます。\nご意見ご要望はこちらからお気軽にどうぞ。→https://t.co/VlaX0SqNX9\n※DMでの返信は原則行っておりません。",
+        "entities": {
+         "description": {
+          "urls": [
+           {
+            "display_url": "tonamel.com/contact",
+            "expanded_url": "https://tonamel.com/contact",
+            "indices": [
+             100,
+             123
+            ],
+            "url": "https://t.co/VlaX0SqNX9"
+           }
+          ]
+         },
+         "url": {
+          "urls": [
+           {
+            "display_url": "tonamel.com",
+            "expanded_url": "https://tonamel.com/",
+            "indices": [
+             0,
+             23
+            ],
+            "url": "https://t.co/aWComY9nVc"
+           }
+          ]
+         }
+        }
+       },
+       "profile_image_shape": "Circle",
+       "profile_metadata": {
+        "profile_interstitial_type": "",
+        "profile_link_color": "29CB44"
+       },
+       "profile_translation": {
+        "translator_type_enum": "None"
+       },
+       "properties": {
+        "has_extended_profile": false,
+        "has_no_screen_name": false
+       },
+       "relationship_counts": {
+        "followers": 12021,
+        "following": 506
+       },
+       "relationship_perspectives": {
+        "blocked_by": false,
+        "blocking": false,
+        "followed_by": false,
+        "following": false,
+        "live_following": false,
+        "muting": false
+       },
+       "rest_id": "892648343016316928",
+       "smart_blocked_by": false,
+       "smart_blocking": false,
+       "super_follow_eligible": false,
+       "super_followed_by": false,
+       "super_following": false,
+       "tweet_counts": {
+        "media_tweets": 1318,
+        "tweets": 5186
+       },
+       "verification": {
+        "is_blue_verified": false,
+        "verified": false
+       },
+       "website": {
+        "url": "https://t.co/aWComY9nVc"
+       }
+      }
+     }
+    ]
+   },
+   "place": {},
+   "entities": {
+    "urls": [
+     {
+      "display_url": "tonamel.com/competition/fr…",
+      "expanded_url": "https://tonamel.com/competition/frCgp",
+      "indices": [
+       22,
+       45
+      ],
+      "url": "https://t.co/j27ktr4hvH"
+     }
+    ]
+   },
+   "quoted_tweet": null,
+   "retweeted_tweet": null,
+   "isLimitedReply": false,
+   "communityInfo": null,
+   "article": null
+  },
+  "retweeted_tweet": null,
+  "isLimitedReply": false,
+  "communityInfo": null,
+  "article": null
+ },
+ "NM2uT": {
+  "type": "tweet",
+  "id": "1815041737775296854",
+  "url": "https://x.com/hokkaidoPTCG/status/1815041737775296854",
+  "twitterUrl": "https://twitter.com/hokkaidoPTCG/status/1815041737775296854",
+  "text": "RT @abc_sobe: 第4回そー杯 8/18 開催‼️\n\n   エントリー 本日の21時より開始‼️\n\n開催場所 : 西区民センター第3.4集会室\n受付時間 : 11:00~\n参加枠 : 48名\n参加費: 1000円\n優勝賞品 :ステラミラクル2BOX\n\n※詳細はトナメル…",
+  "source": "Twitter for iPhone",
+  "retweetCount": 10,
+  "replyCount": 0,
+  "likeCount": 19,
+  "quoteCount": 7,
+  "viewCount": 15010,
+  "createdAt": "Sun Jul 21 15:10:46 +0000 2024",
+  "lang": "ja",
+  "bookmarkCount": 3,
+  "isReply": false,
+  "inReplyToId": null,
+  "conversationId": "1815041737775296854",
+  "displayTextRange": [
+   0,
+   140
+  ],
+  "inReplyToUserId": null,
+  "inReplyToUsername": null,
+  "author": {
+   "type": "user",
+   "userName": "hokkaidoPTCG",
+   "url": "https://x.com/hokkaidoPTCG",
+   "twitterUrl": "https://twitter.com/hokkaidoPTCG",
+   "id": "1794671762216771584",
+   "name": "北海道ポケカ自主大会まとめ",
+   "isVerified": false,
+   "isBlueVerified": false,
+   "verifiedType": null,
+   "profilePicture": "https://pbs.twimg.com/profile_images/1794672015326289920/PXWExAPO_normal.jpg",
+   "coverPicture": "",
+   "description": "",
+   "location": "",
+   "followers": 482,
+   "following": 34,
+   "status": "",
+   "canDm": true,
+   "canMediaTag": true,
+   "createdAt": "Sun May 26 10:08:01 +0000 2024",
+   "entities": {
+    "description": {
+     "urls": []
+    },
+    "url": {}
+   },
+   "fastFollowersCount": 0,
+   "favouritesCount": 2,
+   "hasCustomTimelines": true,
+   "isTranslator": false,
+   "mediaCount": 50,
+   "statusesCount": 163,
+   "withheldInCountries": [],
+   "affiliatesHighlightedLabel": {},
+   "possiblySensitive": false,
+   "pinnedTweetIds": [
+    "1845771006549586383"
+   ],
+   "profile_bio": {
+    "description": "北海道で開催されるポケモンカードの自主大会の情報をお届けします！",
+    "entities": {
+     "description": {}
+    }
+   },
+   "isAutomated": false,
+   "automatedBy": null
+  },
+  "extendedEntities": {},
+  "card": null,
+  "place": {},
+  "entities": {
+   "user_mentions": [
+    {
+     "id_str": "1398773624266366977",
+     "indices": [
+      3,
+      12
+     ],
+     "name": "そー杯#",
+     "screen_name": "abc_sobe"
+    }
+   ]
+  },
+  "quoted_tweet": null,
+  "retweeted_tweet": {
+   "type": "tweet",
+   "id": "1814988644475965567",
+   "url": "https://x.com/abc_sobe/status/1814988644475965567",
+   "twitterUrl": "https://twitter.com/abc_sobe/status/1814988644475965567",
+   "text": "第4回そー杯 8/18 開催‼️\n\n   エントリー 本日の21時より開始‼️\n\n開催場所 : 西区民センター第3.4集会室\n受付時間 : 11:00~\n参加枠 : 48名\n参加費: 1000円\n優勝賞品 :ステラミラクル2BOX\n\n※詳細はトナメルにて確認お願いします\n\n是非参加お待ちしておりますm(_ _)m\n\nhttps://t.co/oBaT1kkhUT",
+   "source": "Twitter for iPhone",
+   "retweetCount": 10,
+   "replyCount": 0,
+   "likeCount": 19,
+   "quoteCount": 7,
+   "viewCount": 15010,
+   "createdAt": "Sun Jul 21 11:39:48 +0000 2024",
+   "lang": "ja",
+   "bookmarkCount": 3,
+   "isReply": false,
+   "inReplyToId": null,
+   "conversationId": "1814988644475965567",
+   "displayTextRange": [
+    0,
+    182
+   ],
+   "inReplyToUserId": null,
+   "inReplyToUsername": null,
+   "author": {
+    "type": "user",
+    "userName": "abc_sobe",
+    "url": "https://x.com/abc_sobe",
+    "twitterUrl": "https://twitter.com/abc_sobe",
+    "id": "1398773624266366977",
+    "name": "そー杯#",
+    "isVerified": false,
+    "isBlueVerified": false,
+    "verifiedType": null,
+    "profilePicture": "https://pbs.twimg.com/profile_images/1809797112273764352/Sl_oYgtt_normal.jpg",
+    "coverPicture": "https://pbs.twimg.com/profile_banners/1398773624266366977/1720324243",
+    "description": "",
+    "location": "",
+    "followers": 157,
+    "following": 12,
+    "status": "",
+    "canDm": true,
+    "canMediaTag": false,
+    "createdAt": "Sat May 29 22:50:03 +0000 2021",
+    "entities": {
+     "description": {
+      "urls": []
+     },
+     "url": {}
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 111,
+    "hasCustomTimelines": true,
+    "isTranslator": false,
+    "mediaCount": 21,
+    "statusesCount": 83,
+    "withheldInCountries": [],
+    "affiliatesHighlightedLabel": {},
+    "possiblySensitive": false,
+    "pinnedTweetIds": [
+     "2072632097085517907"
+    ],
+    "profile_bio": {
+     "description": "そー杯運営アカウント/主催者 そー @sappolo123 …………主に札幌市で開催しています✨ 『プレイヤーのプレイヤーによるプレイヤーの為の大会』をコンセプトにしています。",
+     "entities": {
+      "description": {
+       "user_mentions": [
+        {
+         "id_str": "",
+         "indices": [
+          18,
+          29
+         ],
+         "name": "",
+         "screen_name": "sappolo123"
+        }
+       ]
+      }
+     }
+    },
+    "isAutomated": false,
+    "automatedBy": null
+   },
+   "extendedEntities": {},
+   "card": null,
+   "place": {},
+   "entities": {
+    "urls": [
+     {
+      "display_url": "tonamel.com/competition/NM…",
+      "expanded_url": "https://tonamel.com/competition/NM2uT",
+      "indices": [
+       159,
+       182
+      ],
+      "url": "https://t.co/oBaT1kkhUT"
+     }
+    ]
+   },
+   "quoted_tweet": null,
+   "retweeted_tweet": null,
+   "isLimitedReply": false,
+   "communityInfo": null,
+   "article": null
+  },
+  "isLimitedReply": false,
+  "communityInfo": null,
+  "article": null,
+  "_trusted": true
  }
 }
