@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-22T11:51:29.380028+09:00",
-  "events": 1924,
+  "generated_at": "2026-10-23T12:15:59.109230+09:00",
+  "events": 1935,
   "organizers": 496,
   "by_region": {
-    "北海道・東北": 218,
-    "関東": 849,
+    "北海道・東北": 235,
+    "関東": 842,
     "甲信越": 21,
-    "北陸": 18,
-    "東海": 132,
-    "近畿": 221,
-    "中国": 141,
+    "北陸": 36,
+    "東海": 129,
+    "近畿": 212,
+    "中国": 138,
     "四国": 20,
-    "九州・沖縄": 174
+    "九州・沖縄": 173
   },
   "findings": [
     {
@@ -19,8 +19,6 @@
       "kind": "地域未判定",
       "message": "54件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
       "ids": [
-        "mTxyt",
-        "Ba5hK",
         "VqIlE",
         "Mr5ll",
         "BK5EN",
@@ -38,7 +36,9 @@
         "XU8B6",
         "7lgbU",
         "u8Npw",
-        "reLZ6"
+        "reLZ6",
+        "k4Mbg",
+        "yHarw"
       ],
       "count": 54
     },
@@ -104,17 +104,17 @@
       "kind": "成果ゼロの検索",
       "message": "4本のクエリが0件でした。",
       "ids": [
-        "from:torepoinfo",
         "from:OP01_soda",
         "from:AkiPokemonLife",
-        "(ポケカ OR ポケモンカード) (自主大会 OR 非公認大会 OR CS OR 交流会 OR 杯)"
+        "(from:taku_kuidame OR from:team_houseki OR from:to",
+        "(from:taisai_tedasuke) (大会 OR 杯 OR CS OR 交流会 OR 争奪"
       ],
       "count": 4
     },
     {
       "level": "warn",
       "kind": "除外しすぎの疑い",
-      "message": "220件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
+      "message": "402件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
       "ids": [],
       "count": 0
     }
