@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-23T12:15:59.109230+09:00",
-  "events": 1935,
-  "organizers": 496,
+  "generated_at": "2026-10-24T11:53:20.861162+09:00",
+  "events": 2024,
+  "organizers": 495,
   "by_region": {
-    "北海道・東北": 235,
-    "関東": 842,
-    "甲信越": 21,
-    "北陸": 36,
-    "東海": 129,
-    "近畿": 212,
-    "中国": 138,
+    "北海道・東北": 232,
+    "関東": 923,
+    "甲信越": 22,
+    "北陸": 34,
+    "東海": 124,
+    "近畿": 198,
+    "中国": 171,
     "四国": 20,
     "九州・沖縄": 173
   },
@@ -19,10 +19,8 @@
       "kind": "地域未判定",
       "message": "54件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
       "ids": [
-        "VqIlE",
         "Mr5ll",
         "BK5EN",
-        "BXmZT",
         "FISG1",
         "sxUly",
         "nxgya",
@@ -38,15 +36,18 @@
         "u8Npw",
         "reLZ6",
         "k4Mbg",
-        "yHarw"
+        "yHarw",
+        "2NOTf",
+        "sKWI0"
       ],
       "count": 54
     },
     {
       "level": "warn",
       "kind": "参加費の抽出ミス",
-      "message": "8件の参加費が不自然です。",
+      "message": "9件の参加費が不自然です。",
       "ids": [
+        "x2113771198610034778",
         "cCWCn",
         "sWXmQ",
         "OWTwm",
@@ -56,7 +57,7 @@
         "eejjk",
         "63Ip6"
       ],
-      "count": 8
+      "count": 9
     },
     {
       "level": "warn",
@@ -102,19 +103,18 @@
     {
       "level": "info",
       "kind": "成果ゼロの検索",
-      "message": "4本のクエリが0件でした。",
+      "message": "3本のクエリが0件でした。",
       "ids": [
+        "from:torepoinfo",
         "from:OP01_soda",
-        "from:AkiPokemonLife",
-        "(from:taku_kuidame OR from:team_houseki OR from:to",
-        "(from:taisai_tedasuke) (大会 OR 杯 OR CS OR 交流会 OR 争奪"
+        "from:AkiPokemonLife"
       ],
-      "count": 4
+      "count": 3
     },
     {
       "level": "warn",
       "kind": "除外しすぎの疑い",
-      "message": "402件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
+      "message": "259件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
       "ids": [],
       "count": 0
     }
