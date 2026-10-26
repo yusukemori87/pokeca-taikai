@@ -1,30 +1,24 @@
 {
-  "generated_at": "2026-10-25T11:03:17.081040+09:00",
-  "events": 2048,
+  "generated_at": "2026-10-26T10:07:53.748793+09:00",
+  "events": 1998,
   "organizers": 495,
   "by_region": {
-    "北海道・東北": 257,
-    "関東": 870,
-    "甲信越": 19,
-    "北陸": 33,
-    "東海": 191,
-    "近畿": 207,
-    "中国": 169,
-    "四国": 16,
-    "九州・沖縄": 166
+    "北海道・東北": 249,
+    "関東": 857,
+    "甲信越": 18,
+    "北陸": 39,
+    "東海": 195,
+    "近畿": 198,
+    "中国": 162,
+    "四国": 13,
+    "九州・沖縄": 154
   },
   "findings": [
     {
       "level": "warn",
       "kind": "地域未判定",
-      "message": "47件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
+      "message": "42件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
       "ids": [
-        "6CI2G",
-        "TCKy8",
-        "veyQU",
-        "J0xbS",
-        "ZGU0E",
-        "XU8B6",
         "7lgbU",
         "u8Npw",
         "reLZ6",
@@ -38,23 +32,28 @@
         "tTRVE",
         "CeaFG",
         "5n9h1",
-        "x2102709252418912648"
+        "x2102709252418912648",
+        "DTiNn",
+        "Ib4Bj",
+        "tLA4C",
+        "z11Vw",
+        "x2107750188937007371",
+        "A7lqe"
       ],
-      "count": 47
+      "count": 42
     },
     {
       "level": "warn",
       "kind": "参加費の抽出ミス",
-      "message": "6件の参加費が不自然です。",
+      "message": "5件の参加費が不自然です。",
       "ids": [
-        "OWTwm",
         "JFy1c",
         "gafyy",
         "JgJ1R",
         "eejjk",
         "63Ip6"
       ],
-      "count": 6
+      "count": 5
     },
     {
       "level": "warn",
@@ -78,12 +77,11 @@
     {
       "level": "info",
       "kind": "登録キーマンの成果ゼロ",
-      "message": "14人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
+      "message": "13人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
       "ids": [
         "tomoshibi_cup",
         "ISHIKAWAPOKECA",
         "koshigym0428",
-        "Toreca_connect",
         "ohara_las_0123",
         "nanase_cup",
         "miracle_twin",
@@ -95,23 +93,21 @@
         "team__wassyoi",
         "moukahai"
       ],
-      "count": 14
+      "count": 13
     },
     {
       "level": "info",
       "kind": "成果ゼロの検索",
-      "message": "3本のクエリが0件でした。",
+      "message": "1本のクエリが0件でした。",
       "ids": [
-        "from:OP01_soda",
-        "from:AkiPokemonLife",
-        "(from:taisai_tedasuke) (大会 OR 杯 OR CS OR 交流会 OR 争奪"
+        "from:OP01_soda"
       ],
-      "count": 3
+      "count": 1
     },
     {
       "level": "warn",
       "kind": "除外しすぎの疑い",
-      "message": "261件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
+      "message": "182件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
       "ids": [],
       "count": 0
     }
