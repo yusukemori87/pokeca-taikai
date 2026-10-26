@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-10-26T17:05:10.302892+09:00",
+  "checked_at": "2026-10-27T00:26:17.984961+09:00",
   "light": true,
   "by_id": {
     "status": 200,
-    "n": 1
+    "n": 0
   },
-  "ok": true,
+  "ok": false,
   "previous_ok": true,
   "recovered": false
 }
