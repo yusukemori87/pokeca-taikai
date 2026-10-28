@@ -4271,5 +4271,123 @@
   "communityInfo": null,
   "article": null,
   "_trusted": true
+ },
+ "3mqIj": {
+  "type": "tweet",
+  "id": "2114694127619379403",
+  "url": "https://x.com/teamkatokenken/status/2114694127619379403",
+  "twitterUrl": "https://twitter.com/teamkatokenken/status/2114694127619379403",
+  "text": "🔥チームかとけん杯まであと6日！🔥\n\n今週日曜、11月1日開催です！🎉\n豪華景品や抽選会もご用意しています🎁\nポケカ好きの皆さま、ぜひ遊びに来てください！\nまだまだ参加者募集中です🙌\n\n📍TSUTAYA御領店\n\n#ポケカ #熊本 #チームかとけん杯",
+  "source": "",
+  "retweetCount": 3,
+  "replyCount": 0,
+  "likeCount": 3,
+  "quoteCount": 0,
+  "viewCount": 461,
+  "createdAt": "Mon Oct 26 12:22:23 +0000 2026",
+  "lang": "ja",
+  "bookmarkCount": 0,
+  "isReply": false,
+  "inReplyToId": null,
+  "conversationId": "2114694127619379403",
+  "displayTextRange": [
+   0,
+   124
+  ],
+  "inReplyToUserId": null,
+  "inReplyToUsername": null,
+  "author": {
+   "type": "user",
+   "userName": "teamkatokenken",
+   "url": "https://x.com/teamkatokenken",
+   "twitterUrl": "https://twitter.com/teamkatokenken",
+   "id": "2072272355741839360",
+   "name": "チームかとけん杯公式",
+   "isVerified": false,
+   "isBlueVerified": false,
+   "verifiedType": null,
+   "profilePicture": "https://pbs.twimg.com/profile_images/2072272908676907008/T_etUPZF_normal.jpg",
+   "coverPicture": "https://pbs.twimg.com/profile_banners/2072272355741839360/1782903528",
+   "description": "",
+   "location": "",
+   "followers": 45,
+   "following": 10,
+   "status": "",
+   "canDm": false,
+   "canMediaTag": true,
+   "createdAt": "Wed Jul 01 10:55:11 +0000 2026",
+   "entities": {
+    "description": {
+     "urls": []
+    },
+    "url": {}
+   },
+   "fastFollowersCount": 0,
+   "favouritesCount": 0,
+   "hasCustomTimelines": true,
+   "isTranslator": false,
+   "mediaCount": 0,
+   "statusesCount": 11,
+   "withheldInCountries": [],
+   "affiliatesHighlightedLabel": {},
+   "possiblySensitive": false,
+   "pinnedTweetIds": [],
+   "profile_bio": {
+    "description": "🎉 チームかとけん杯 公式アカウント\n熊本を中心にポケモンカード大会「チームかとけん杯」を開催！ 初心者から上級者まで楽しめるイベントを目指しています✨\n大会情報・開催告知・結果・お知らせを発信中！ ご参加お待ちしております！",
+    "entities": {
+     "description": {},
+     "url": {
+      "urls": [
+       {
+        "display_url": "tonamel.com/competition/3m…",
+        "expanded_url": "https://tonamel.com/competition/3mqIj",
+        "indices": [
+         0,
+         23
+        ],
+        "url": "https://t.co/7W59uKaQSo"
+       }
+      ]
+     }
+    }
+   },
+   "isAutomated": false,
+   "automatedBy": null,
+   "protected": false
+  },
+  "extendedEntities": {},
+  "card": null,
+  "place": {},
+  "entities": {
+   "hashtags": [
+    {
+     "indices": [
+      106,
+      110
+     ],
+     "text": "ポケカ"
+    },
+    {
+     "indices": [
+      111,
+      114
+     ],
+     "text": "熊本"
+    },
+    {
+     "indices": [
+      115,
+      124
+     ],
+     "text": "チームかとけん杯"
+    }
+   ]
+  },
+  "quoted_tweet": null,
+  "retweeted_tweet": null,
+  "isLimitedReply": false,
+  "communityInfo": null,
+  "article": null,
+  "_trusted": true
  }
 }
