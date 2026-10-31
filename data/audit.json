@@ -1,51 +1,51 @@
 {
-  "generated_at": "2026-10-30T12:56:43.372702+09:00",
-  "events": 2063,
+  "generated_at": "2026-10-31T12:47:18.182483+09:00",
+  "events": 2165,
   "organizers": 498,
   "by_region": {
-    "北海道・東北": 247,
-    "関東": 905,
-    "甲信越": 20,
-    "北陸": 30,
-    "東海": 179,
-    "近畿": 222,
-    "中国": 149,
-    "四国": 15,
-    "九州・沖縄": 190
+    "北海道・東北": 261,
+    "関東": 927,
+    "甲信越": 22,
+    "北陸": 26,
+    "東海": 176,
+    "近畿": 282,
+    "中国": 148,
+    "四国": 17,
+    "九州・沖縄": 197
   },
   "findings": [
     {
       "level": "warn",
       "kind": "地域未判定",
-      "message": "39件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
+      "message": "41件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
       "ids": [
-        "tTRVE",
-        "CeaFG",
         "5n9h1",
         "j6uKU",
         "x2102709252418912648",
         "DTiNn",
         "Ib4Bj",
+        "W8MQD",
         "gBjaM",
         "tLA4C",
         "z11Vw",
         "yrwuA",
         "x2107750188937007371",
         "A7lqe",
+        "PeoCC",
         "fH89n",
         "SWagW",
         "x2114538809295835648",
+        "I9PRy",
         "MdVMG",
         "x2107811652716691627",
-        "wLKTu",
-        "kKL5e"
+        "wLKTu"
       ],
-      "count": 39
+      "count": 41
     },
     {
       "level": "warn",
       "kind": "参加費の抽出ミス",
-      "message": "13件の参加費が不自然です。",
+      "message": "14件の参加費が不自然です。",
       "ids": [
         "JFy1c",
         "gafyy",
@@ -57,16 +57,17 @@
         "eejjk",
         "Yqqx1",
         "eYnko",
+        "VCvFV",
         "CqrVL",
         "bRuxr",
         "63Ip6"
       ],
-      "count": 13
+      "count": 14
     },
     {
       "level": "warn",
       "kind": "取得に失敗し続けている",
-      "message": "12件がTonamelから取得できないまま残っています。削除済み・IDの誤抽出・アクセス制限のいずれかです。",
+      "message": "25件がTonamelから取得できないまま残っています。削除済み・IDの誤抽出・アクセス制限のいずれかです。",
       "ids": [
         "XCtZO",
         "ayNAn",
@@ -79,9 +80,17 @@
         "c5OHM",
         "frCgp",
         "NM2uT",
-        "3mqIj"
+        "3mqIj",
+        "VdbCN",
+        "XjIxM",
+        "iPSas",
+        "F9I79",
+        "UNNhb",
+        "Ljsro",
+        "aysD2",
+        "0Vkll"
       ],
-      "count": 12
+      "count": 25
     },
     {
       "level": "info",
@@ -106,16 +115,17 @@
     {
       "level": "info",
       "kind": "成果ゼロの検索",
-      "message": "1本のクエリが0件でした。",
+      "message": "2本のクエリが0件でした。",
       "ids": [
-        "from:OP01_soda"
+        "from:OP01_soda",
+        "(from:taisai_tedasuke OR from:teamkatokenken) (大会 "
       ],
-      "count": 1
+      "count": 2
     },
     {
       "level": "warn",
       "kind": "除外しすぎの疑い",
-      "message": "383件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
+      "message": "263件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
       "ids": [],
       "count": 0
     }
