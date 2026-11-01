@@ -10373,5 +10373,2341 @@
   "isLimitedReply": false,
   "communityInfo": null,
   "article": null
+ },
+ "2hacz": {
+  "type": "tweet",
+  "id": "2116319242173792474",
+  "url": "https://x.com/COLLECT_shunkou/status/2116319242173792474",
+  "twitterUrl": "https://twitter.com/COLLECT_shunkou/status/2116319242173792474",
+  "text": "コレクト春光店OPENしました‼️\n\n🌟本日のイベント🌟\n\n12:00~ ポケモンカード オリパ争奪戦（高校生以下限定）\n📢募集中\nhttps://t.co/QhthJaAJzn\n\n14:00~ デュエル・マスターズ ガチデュエバトル\n📢募集中\nhttps://t.co/9TN7q3c8nt\n\n16:30~ ポケモンカード BOX争奪戦\n📢募集中\nhttps://t.co/vCfyMxw6r0\n\n19:00~ デュエル・マスターズ　BOX争奪戦\n📢募集中\nhttps://t.co/WGr3ZBFTB5\n\n皆様のご来店お待ちしております🥰",
+  "source": "",
+  "retweetCount": 1,
+  "replyCount": 0,
+  "likeCount": 2,
+  "quoteCount": 0,
+  "viewCount": 717,
+  "createdAt": "Sat Oct 31 00:00:01 +0000 2026",
+  "lang": "ja",
+  "bookmarkCount": 0,
+  "isReply": false,
+  "inReplyToId": null,
+  "conversationId": "2116319242173792474",
+  "displayTextRange": [
+   0,
+   198
+  ],
+  "inReplyToUserId": null,
+  "inReplyToUsername": null,
+  "author": {
+   "type": "user",
+   "userName": "COLLECT_shunkou",
+   "url": "https://x.com/COLLECT_shunkou",
+   "twitterUrl": "https://twitter.com/COLLECT_shunkou",
+   "id": "1802703010478559232",
+   "name": "カードショップコレクト イオン旭川春光店",
+   "isVerified": false,
+   "isBlueVerified": false,
+   "verifiedType": null,
+   "profilePicture": "https://pbs.twimg.com/profile_images/1804521393905950722/NvLmvUUD_normal.jpg",
+   "coverPicture": "https://pbs.twimg.com/profile_banners/1802703010478559232/1754700752",
+   "description": "",
+   "location": "旭川市春光町10番地 イオン旭川春光SC",
+   "followers": 1652,
+   "following": 8,
+   "status": "",
+   "canDm": false,
+   "canMediaTag": true,
+   "createdAt": "Mon Jun 17 14:01:13 +0000 2024",
+   "entities": {
+    "description": {
+     "urls": []
+    },
+    "url": {}
+   },
+   "fastFollowersCount": 0,
+   "favouritesCount": 67,
+   "hasCustomTimelines": true,
+   "isTranslator": false,
+   "mediaCount": 12725,
+   "statusesCount": 21164,
+   "withheldInCountries": [],
+   "affiliatesHighlightedLabel": {},
+   "possiblySensitive": false,
+   "pinnedTweetIds": [
+    "2114247325455716582"
+   ],
+   "profile_bio": {
+    "description": "コレクト イオン旭川春光店の公式アカウントです✨ 取扱い👉ポケカ／ワンピ／デュエマ｜サービス👉販売／買取／各種大会／ PSA鑑定代行【営業時間:9時〜21時】大会一覧→https://t.co/nvlCRhRms9 オンラインストア→https://t.co/DOx3iafqzz",
+    "entities": {
+     "description": {
+      "urls": [
+       {
+        "display_url": "x.gd/xWCh0",
+        "expanded_url": "https://x.gd/xWCh0",
+        "indices": [
+         84,
+         107
+        ],
+        "url": "https://t.co/nvlCRhRms9"
+       },
+       {
+        "display_url": "collect-shunkou.myshopify.com",
+        "expanded_url": "https://collect-shunkou.myshopify.com/",
+        "indices": [
+         117,
+         140
+        ],
+        "url": "https://t.co/DOx3iafqzz"
+       }
+      ]
+     },
+     "url": {
+      "urls": [
+       {
+        "display_url": "maps.app.goo.gl/euUgxc5mD4zsx8…",
+        "expanded_url": "https://maps.app.goo.gl/euUgxc5mD4zsx8DJ6",
+        "indices": [
+         0,
+         23
+        ],
+        "url": "https://t.co/bdm89ZvBK0"
+       }
+      ]
+     }
+    }
+   },
+   "isAutomated": false,
+   "automatedBy": null,
+   "protected": false
+  },
+  "extendedEntities": {},
+  "card": {
+   "binding_values": [
+    {
+     "key": "photo_image_full_size_large",
+     "value": {
+      "image_value": {
+       "height": 419,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=800x419",
+       "width": 800
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image",
+     "value": {
+      "image_value": {
+       "height": 150,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=280x150",
+       "width": 267
+      }
+     }
+    },
+    {
+     "key": "description",
+     "value": {
+      "string_value": "大会ルール・スイスドロー３回戦・スタンダードレギュレーション・制限時間25分・プロキシ（コピーカード）なし・デッキ変更なし参加費：無料○賞品優勝 オリパ ４パック　２位 オリパ ２パック　３位 オリパ １パック　　　　＋　参加賞 オリパ １パック○スケジュール　11:30 - 12:00　受付　12:05 - 12:30　１試合目　12:35 - 13:00　２試合目　13:05 -..."
+     }
+    },
+    {
+     "key": "domain",
+     "value": {
+      "string_value": "tonamel.com"
+     }
+    },
+    {
+     "key": "thumbnail_image_large",
+     "value": {
+      "image_value": {
+       "height": 320,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=800x320_1",
+       "width": 569
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image_small",
+     "value": {
+      "image_value": {
+       "height": 202,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=386x202",
+       "width": 386
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_original",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=orig",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "site",
+     "value": {
+      "scribe_key": "publisher_id",
+      "user_value": {
+       "id_str": "892648343016316928",
+       "path": []
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_small",
+     "value": {
+      "image_value": {
+       "height": 202,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=386x202",
+       "width": 386
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image_large",
+     "value": {
+      "image_value": {
+       "height": 419,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=800x419",
+       "width": 800
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_small",
+     "value": {
+      "image_value": {
+       "height": 81,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=144x144",
+       "width": 144
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_x_large",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=png&name=2048x2048_2_exp",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_original",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=orig",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "vanity_url",
+     "value": {
+      "scribe_key": "vanity_url",
+      "string_value": "tonamel.com"
+     }
+    },
+    {
+     "key": "photo_image_full_size",
+     "value": {
+      "image_value": {
+       "height": 314,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=600x314",
+       "width": 600
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 94.16,
+         "rgb": {
+          "blue": 255,
+          "green": 255,
+          "red": 255
+         }
+        },
+        {
+         "percentage": 4.6,
+         "rgb": {
+          "blue": 8,
+          "green": 8,
+          "red": 13
+         }
+        },
+        {
+         "percentage": 1.62,
+         "rgb": {
+          "blue": 123,
+          "green": 121,
+          "red": 124
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "title",
+     "value": {
+      "string_value": "ポケモンカードゲーム　オリパ争奪戦（高校生以下限定） - Tonamel"
+     }
+    },
+    {
+     "key": "summary_photo_image_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 94.16,
+         "rgb": {
+          "blue": 255,
+          "green": 255,
+          "red": 255
+         }
+        },
+        {
+         "percentage": 4.6,
+         "rgb": {
+          "blue": 8,
+          "green": 8,
+          "red": 13
+         }
+        },
+        {
+         "percentage": 1.62,
+         "rgb": {
+          "blue": 123,
+          "green": 121,
+          "red": 124
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image_x_large",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=png&name=2048x2048_2_exp",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image",
+     "value": {
+      "image_value": {
+       "height": 314,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=600x314",
+       "width": 600
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 94.16,
+         "rgb": {
+          "blue": 255,
+          "green": 255,
+          "red": 255
+         }
+        },
+        {
+         "percentage": 4.6,
+         "rgb": {
+          "blue": 8,
+          "green": 8,
+          "red": 13
+         }
+        },
+        {
+         "percentage": 1.62,
+         "rgb": {
+          "blue": 123,
+          "green": 121,
+          "red": 124
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_x_large",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=png&name=2048x2048_2_exp",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "card_url",
+     "value": {
+      "scribe_key": "card_url",
+      "string_value": "https://t.co/ROiN65TX0u"
+     }
+    },
+    {
+     "key": "summary_photo_image_original",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=orig",
+       "width": 1600
+      }
+     }
+    }
+   ],
+   "card_platform": {
+    "platform": {
+     "audience": {
+      "name": "production"
+     },
+     "device": {
+      "name": "iPhone",
+      "version": "13"
+     }
+    }
+   },
+   "name": "summary_large_image",
+   "url": "https://t.co/ROiN65TX0u",
+   "user_refs_results": [
+    {
+     "rest_id": "892648343016316928",
+     "result": {
+      "__typename": "User",
+      "action_counts": {
+       "favorites_count": 1950
+      },
+      "avatar": {
+       "image_url": "https://pbs.twimg.com/profile_images/892653332002557952/FZG98Ok6_normal.jpg"
+      },
+      "banner": {
+       "image_url": "https://pbs.twimg.com/profile_banners/892648343016316928/1585718520"
+      },
+      "core": {
+       "created_at": "Wed Aug 02 07:28:44 +0000 2017",
+       "name": "【公式】Tonamel（トナメル）",
+       "screen_name": "TonamelJP"
+      },
+      "dm_permissions": {
+       "can_dm": true
+      },
+      "exclusive_tweet_following": false,
+      "follow_request_sent": false,
+      "identity_profile_labels_highlighted_label": {},
+      "location": {
+       "location": ""
+      },
+      "media_permissions": {
+       "can_media_tag": true
+      },
+      "notifications_settings": {
+       "notifications_enabled": false
+      },
+      "pinned_items": {
+       "tweet_ids_str": [
+        "1930489975436656702"
+       ]
+      },
+      "privacy": {
+       "protected": false,
+       "suspended": false
+      },
+      "private_super_following": false,
+      "profile_bio": {
+       "description": "Tonamelは「主催者の力になる」がコンセプトの日本最大級のイベント運営支援プラットフォームです。\n中の人が新機能/仕様変更のお知らせ中心に色々呟きます。\nご意見ご要望はこちらからお気軽にどうぞ。→https://t.co/VlaX0SqNX9\n※DMでの返信は原則行っておりません。",
+       "entities": {
+        "description": {
+         "urls": [
+          {
+           "display_url": "tonamel.com/contact",
+           "expanded_url": "https://tonamel.com/contact",
+           "indices": [
+            100,
+            123
+           ],
+           "url": "https://t.co/VlaX0SqNX9"
+          }
+         ]
+        },
+        "url": {
+         "urls": [
+          {
+           "display_url": "tonamel.com",
+           "expanded_url": "https://tonamel.com/",
+           "indices": [
+            0,
+            23
+           ],
+           "url": "https://t.co/aWComY9nVc"
+          }
+         ]
+        }
+       }
+      },
+      "profile_image_shape": "Circle",
+      "profile_metadata": {
+       "profile_interstitial_type": "",
+       "profile_link_color": "29CB44"
+      },
+      "profile_translation": {
+       "translator_type_enum": "None"
+      },
+      "properties": {
+       "has_extended_profile": false,
+       "has_no_screen_name": false
+      },
+      "relationship_counts": {
+       "followers": 11995,
+       "following": 505
+      },
+      "relationship_perspectives": {
+       "blocked_by": false,
+       "blocking": false,
+       "followed_by": false,
+       "following": false,
+       "live_following": false,
+       "muting": false
+      },
+      "rest_id": "892648343016316928",
+      "smart_blocked_by": false,
+      "smart_blocking": false,
+      "super_follow_eligible": false,
+      "super_followed_by": false,
+      "super_following": false,
+      "tweet_counts": {
+       "media_tweets": 1318,
+       "tweets": 5175
+      },
+      "verification": {
+       "is_blue_verified": false,
+       "verified": false
+      },
+      "website": {
+       "url": "https://t.co/aWComY9nVc"
+      }
+     }
+    }
+   ]
+  },
+  "place": {},
+  "entities": {
+   "hashtags": [],
+   "symbols": [],
+   "urls": [
+    {
+     "display_url": "tonamel.com/competition/hD…",
+     "expanded_url": "https://tonamel.com/competition/hD1nx",
+     "indices": [
+      66,
+      89
+     ],
+     "url": "https://t.co/QhthJaAJzn"
+    },
+    {
+     "display_url": "tonamel.com/competition/yH…",
+     "expanded_url": "https://tonamel.com/competition/yHXAd",
+     "indices": [
+      123,
+      146
+     ],
+     "url": "https://t.co/9TN7q3c8nt"
+    },
+    {
+     "display_url": "tonamel.com/competition/CM…",
+     "expanded_url": "https://tonamel.com/competition/CMIuF",
+     "indices": [
+      175,
+      198
+     ],
+     "url": "https://t.co/vCfyMxw6r0"
+    },
+    {
+     "display_url": "tonamel.com/competition/2h…",
+     "expanded_url": "https://tonamel.com/competition/2hacz",
+     "indices": [
+      230,
+      253
+     ],
+     "url": "https://t.co/WGr3ZBFTB5"
+    }
+   ],
+   "user_mentions": []
+  },
+  "quoted_tweet": null,
+  "retweeted_tweet": null,
+  "isLimitedReply": false,
+  "communityInfo": null,
+  "article": null
+ },
+ "CMIuF": {
+  "type": "tweet",
+  "id": "2116319242173792474",
+  "url": "https://x.com/COLLECT_shunkou/status/2116319242173792474",
+  "twitterUrl": "https://twitter.com/COLLECT_shunkou/status/2116319242173792474",
+  "text": "コレクト春光店OPENしました‼️\n\n🌟本日のイベント🌟\n\n12:00~ ポケモンカード オリパ争奪戦（高校生以下限定）\n📢募集中\nhttps://t.co/QhthJaAJzn\n\n14:00~ デュエル・マスターズ ガチデュエバトル\n📢募集中\nhttps://t.co/9TN7q3c8nt\n\n16:30~ ポケモンカード BOX争奪戦\n📢募集中\nhttps://t.co/vCfyMxw6r0\n\n19:00~ デュエル・マスターズ　BOX争奪戦\n📢募集中\nhttps://t.co/WGr3ZBFTB5\n\n皆様のご来店お待ちしております🥰",
+  "source": "",
+  "retweetCount": 1,
+  "replyCount": 0,
+  "likeCount": 2,
+  "quoteCount": 0,
+  "viewCount": 717,
+  "createdAt": "Sat Oct 31 00:00:01 +0000 2026",
+  "lang": "ja",
+  "bookmarkCount": 0,
+  "isReply": false,
+  "inReplyToId": null,
+  "conversationId": "2116319242173792474",
+  "displayTextRange": [
+   0,
+   198
+  ],
+  "inReplyToUserId": null,
+  "inReplyToUsername": null,
+  "author": {
+   "type": "user",
+   "userName": "COLLECT_shunkou",
+   "url": "https://x.com/COLLECT_shunkou",
+   "twitterUrl": "https://twitter.com/COLLECT_shunkou",
+   "id": "1802703010478559232",
+   "name": "カードショップコレクト イオン旭川春光店",
+   "isVerified": false,
+   "isBlueVerified": false,
+   "verifiedType": null,
+   "profilePicture": "https://pbs.twimg.com/profile_images/1804521393905950722/NvLmvUUD_normal.jpg",
+   "coverPicture": "https://pbs.twimg.com/profile_banners/1802703010478559232/1754700752",
+   "description": "",
+   "location": "旭川市春光町10番地 イオン旭川春光SC",
+   "followers": 1652,
+   "following": 8,
+   "status": "",
+   "canDm": false,
+   "canMediaTag": true,
+   "createdAt": "Mon Jun 17 14:01:13 +0000 2024",
+   "entities": {
+    "description": {
+     "urls": []
+    },
+    "url": {}
+   },
+   "fastFollowersCount": 0,
+   "favouritesCount": 67,
+   "hasCustomTimelines": true,
+   "isTranslator": false,
+   "mediaCount": 12725,
+   "statusesCount": 21164,
+   "withheldInCountries": [],
+   "affiliatesHighlightedLabel": {},
+   "possiblySensitive": false,
+   "pinnedTweetIds": [
+    "2114247325455716582"
+   ],
+   "profile_bio": {
+    "description": "コレクト イオン旭川春光店の公式アカウントです✨ 取扱い👉ポケカ／ワンピ／デュエマ｜サービス👉販売／買取／各種大会／ PSA鑑定代行【営業時間:9時〜21時】大会一覧→https://t.co/nvlCRhRms9 オンラインストア→https://t.co/DOx3iafqzz",
+    "entities": {
+     "description": {
+      "urls": [
+       {
+        "display_url": "x.gd/xWCh0",
+        "expanded_url": "https://x.gd/xWCh0",
+        "indices": [
+         84,
+         107
+        ],
+        "url": "https://t.co/nvlCRhRms9"
+       },
+       {
+        "display_url": "collect-shunkou.myshopify.com",
+        "expanded_url": "https://collect-shunkou.myshopify.com/",
+        "indices": [
+         117,
+         140
+        ],
+        "url": "https://t.co/DOx3iafqzz"
+       }
+      ]
+     },
+     "url": {
+      "urls": [
+       {
+        "display_url": "maps.app.goo.gl/euUgxc5mD4zsx8…",
+        "expanded_url": "https://maps.app.goo.gl/euUgxc5mD4zsx8DJ6",
+        "indices": [
+         0,
+         23
+        ],
+        "url": "https://t.co/bdm89ZvBK0"
+       }
+      ]
+     }
+    }
+   },
+   "isAutomated": false,
+   "automatedBy": null,
+   "protected": false
+  },
+  "extendedEntities": {},
+  "card": {
+   "binding_values": [
+    {
+     "key": "photo_image_full_size_large",
+     "value": {
+      "image_value": {
+       "height": 419,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=800x419",
+       "width": 800
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image",
+     "value": {
+      "image_value": {
+       "height": 150,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=280x150",
+       "width": 267
+      }
+     }
+    },
+    {
+     "key": "description",
+     "value": {
+      "string_value": "大会ルール・スイスドロー３回戦・スタンダードレギュレーション・制限時間25分・プロキシ（コピーカード）なし・デッキ変更なし参加費：無料○賞品優勝 オリパ ４パック　２位 オリパ ２パック　３位 オリパ １パック　　　　＋　参加賞 オリパ １パック○スケジュール　11:30 - 12:00　受付　12:05 - 12:30　１試合目　12:35 - 13:00　２試合目　13:05 -..."
+     }
+    },
+    {
+     "key": "domain",
+     "value": {
+      "string_value": "tonamel.com"
+     }
+    },
+    {
+     "key": "thumbnail_image_large",
+     "value": {
+      "image_value": {
+       "height": 320,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=800x320_1",
+       "width": 569
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image_small",
+     "value": {
+      "image_value": {
+       "height": 202,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=386x202",
+       "width": 386
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_original",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=orig",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "site",
+     "value": {
+      "scribe_key": "publisher_id",
+      "user_value": {
+       "id_str": "892648343016316928",
+       "path": []
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_small",
+     "value": {
+      "image_value": {
+       "height": 202,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=386x202",
+       "width": 386
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image_large",
+     "value": {
+      "image_value": {
+       "height": 419,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=800x419",
+       "width": 800
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_small",
+     "value": {
+      "image_value": {
+       "height": 81,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=144x144",
+       "width": 144
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_x_large",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=png&name=2048x2048_2_exp",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_original",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=orig",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "vanity_url",
+     "value": {
+      "scribe_key": "vanity_url",
+      "string_value": "tonamel.com"
+     }
+    },
+    {
+     "key": "photo_image_full_size",
+     "value": {
+      "image_value": {
+       "height": 314,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=600x314",
+       "width": 600
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 94.16,
+         "rgb": {
+          "blue": 255,
+          "green": 255,
+          "red": 255
+         }
+        },
+        {
+         "percentage": 4.6,
+         "rgb": {
+          "blue": 8,
+          "green": 8,
+          "red": 13
+         }
+        },
+        {
+         "percentage": 1.62,
+         "rgb": {
+          "blue": 123,
+          "green": 121,
+          "red": 124
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "title",
+     "value": {
+      "string_value": "ポケモンカードゲーム　オリパ争奪戦（高校生以下限定） - Tonamel"
+     }
+    },
+    {
+     "key": "summary_photo_image_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 94.16,
+         "rgb": {
+          "blue": 255,
+          "green": 255,
+          "red": 255
+         }
+        },
+        {
+         "percentage": 4.6,
+         "rgb": {
+          "blue": 8,
+          "green": 8,
+          "red": 13
+         }
+        },
+        {
+         "percentage": 1.62,
+         "rgb": {
+          "blue": 123,
+          "green": 121,
+          "red": 124
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image_x_large",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=png&name=2048x2048_2_exp",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image",
+     "value": {
+      "image_value": {
+       "height": 314,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=600x314",
+       "width": 600
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 94.16,
+         "rgb": {
+          "blue": 255,
+          "green": 255,
+          "red": 255
+         }
+        },
+        {
+         "percentage": 4.6,
+         "rgb": {
+          "blue": 8,
+          "green": 8,
+          "red": 13
+         }
+        },
+        {
+         "percentage": 1.62,
+         "rgb": {
+          "blue": 123,
+          "green": 121,
+          "red": 124
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_x_large",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=png&name=2048x2048_2_exp",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "card_url",
+     "value": {
+      "scribe_key": "card_url",
+      "string_value": "https://t.co/ROiN65TX0u"
+     }
+    },
+    {
+     "key": "summary_photo_image_original",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=orig",
+       "width": 1600
+      }
+     }
+    }
+   ],
+   "card_platform": {
+    "platform": {
+     "audience": {
+      "name": "production"
+     },
+     "device": {
+      "name": "iPhone",
+      "version": "13"
+     }
+    }
+   },
+   "name": "summary_large_image",
+   "url": "https://t.co/ROiN65TX0u",
+   "user_refs_results": [
+    {
+     "rest_id": "892648343016316928",
+     "result": {
+      "__typename": "User",
+      "action_counts": {
+       "favorites_count": 1950
+      },
+      "avatar": {
+       "image_url": "https://pbs.twimg.com/profile_images/892653332002557952/FZG98Ok6_normal.jpg"
+      },
+      "banner": {
+       "image_url": "https://pbs.twimg.com/profile_banners/892648343016316928/1585718520"
+      },
+      "core": {
+       "created_at": "Wed Aug 02 07:28:44 +0000 2017",
+       "name": "【公式】Tonamel（トナメル）",
+       "screen_name": "TonamelJP"
+      },
+      "dm_permissions": {
+       "can_dm": true
+      },
+      "exclusive_tweet_following": false,
+      "follow_request_sent": false,
+      "identity_profile_labels_highlighted_label": {},
+      "location": {
+       "location": ""
+      },
+      "media_permissions": {
+       "can_media_tag": true
+      },
+      "notifications_settings": {
+       "notifications_enabled": false
+      },
+      "pinned_items": {
+       "tweet_ids_str": [
+        "1930489975436656702"
+       ]
+      },
+      "privacy": {
+       "protected": false,
+       "suspended": false
+      },
+      "private_super_following": false,
+      "profile_bio": {
+       "description": "Tonamelは「主催者の力になる」がコンセプトの日本最大級のイベント運営支援プラットフォームです。\n中の人が新機能/仕様変更のお知らせ中心に色々呟きます。\nご意見ご要望はこちらからお気軽にどうぞ。→https://t.co/VlaX0SqNX9\n※DMでの返信は原則行っておりません。",
+       "entities": {
+        "description": {
+         "urls": [
+          {
+           "display_url": "tonamel.com/contact",
+           "expanded_url": "https://tonamel.com/contact",
+           "indices": [
+            100,
+            123
+           ],
+           "url": "https://t.co/VlaX0SqNX9"
+          }
+         ]
+        },
+        "url": {
+         "urls": [
+          {
+           "display_url": "tonamel.com",
+           "expanded_url": "https://tonamel.com/",
+           "indices": [
+            0,
+            23
+           ],
+           "url": "https://t.co/aWComY9nVc"
+          }
+         ]
+        }
+       }
+      },
+      "profile_image_shape": "Circle",
+      "profile_metadata": {
+       "profile_interstitial_type": "",
+       "profile_link_color": "29CB44"
+      },
+      "profile_translation": {
+       "translator_type_enum": "None"
+      },
+      "properties": {
+       "has_extended_profile": false,
+       "has_no_screen_name": false
+      },
+      "relationship_counts": {
+       "followers": 11995,
+       "following": 505
+      },
+      "relationship_perspectives": {
+       "blocked_by": false,
+       "blocking": false,
+       "followed_by": false,
+       "following": false,
+       "live_following": false,
+       "muting": false
+      },
+      "rest_id": "892648343016316928",
+      "smart_blocked_by": false,
+      "smart_blocking": false,
+      "super_follow_eligible": false,
+      "super_followed_by": false,
+      "super_following": false,
+      "tweet_counts": {
+       "media_tweets": 1318,
+       "tweets": 5175
+      },
+      "verification": {
+       "is_blue_verified": false,
+       "verified": false
+      },
+      "website": {
+       "url": "https://t.co/aWComY9nVc"
+      }
+     }
+    }
+   ]
+  },
+  "place": {},
+  "entities": {
+   "hashtags": [],
+   "symbols": [],
+   "urls": [
+    {
+     "display_url": "tonamel.com/competition/hD…",
+     "expanded_url": "https://tonamel.com/competition/hD1nx",
+     "indices": [
+      66,
+      89
+     ],
+     "url": "https://t.co/QhthJaAJzn"
+    },
+    {
+     "display_url": "tonamel.com/competition/yH…",
+     "expanded_url": "https://tonamel.com/competition/yHXAd",
+     "indices": [
+      123,
+      146
+     ],
+     "url": "https://t.co/9TN7q3c8nt"
+    },
+    {
+     "display_url": "tonamel.com/competition/CM…",
+     "expanded_url": "https://tonamel.com/competition/CMIuF",
+     "indices": [
+      175,
+      198
+     ],
+     "url": "https://t.co/vCfyMxw6r0"
+    },
+    {
+     "display_url": "tonamel.com/competition/2h…",
+     "expanded_url": "https://tonamel.com/competition/2hacz",
+     "indices": [
+      230,
+      253
+     ],
+     "url": "https://t.co/WGr3ZBFTB5"
+    }
+   ],
+   "user_mentions": []
+  },
+  "quoted_tweet": null,
+  "retweeted_tweet": null,
+  "isLimitedReply": false,
+  "communityInfo": null,
+  "article": null
+ },
+ "yHXAd": {
+  "type": "tweet",
+  "id": "2116319242173792474",
+  "url": "https://x.com/COLLECT_shunkou/status/2116319242173792474",
+  "twitterUrl": "https://twitter.com/COLLECT_shunkou/status/2116319242173792474",
+  "text": "コレクト春光店OPENしました‼️\n\n🌟本日のイベント🌟\n\n12:00~ ポケモンカード オリパ争奪戦（高校生以下限定）\n📢募集中\nhttps://t.co/QhthJaAJzn\n\n14:00~ デュエル・マスターズ ガチデュエバトル\n📢募集中\nhttps://t.co/9TN7q3c8nt\n\n16:30~ ポケモンカード BOX争奪戦\n📢募集中\nhttps://t.co/vCfyMxw6r0\n\n19:00~ デュエル・マスターズ　BOX争奪戦\n📢募集中\nhttps://t.co/WGr3ZBFTB5\n\n皆様のご来店お待ちしております🥰",
+  "source": "",
+  "retweetCount": 1,
+  "replyCount": 0,
+  "likeCount": 2,
+  "quoteCount": 0,
+  "viewCount": 717,
+  "createdAt": "Sat Oct 31 00:00:01 +0000 2026",
+  "lang": "ja",
+  "bookmarkCount": 0,
+  "isReply": false,
+  "inReplyToId": null,
+  "conversationId": "2116319242173792474",
+  "displayTextRange": [
+   0,
+   198
+  ],
+  "inReplyToUserId": null,
+  "inReplyToUsername": null,
+  "author": {
+   "type": "user",
+   "userName": "COLLECT_shunkou",
+   "url": "https://x.com/COLLECT_shunkou",
+   "twitterUrl": "https://twitter.com/COLLECT_shunkou",
+   "id": "1802703010478559232",
+   "name": "カードショップコレクト イオン旭川春光店",
+   "isVerified": false,
+   "isBlueVerified": false,
+   "verifiedType": null,
+   "profilePicture": "https://pbs.twimg.com/profile_images/1804521393905950722/NvLmvUUD_normal.jpg",
+   "coverPicture": "https://pbs.twimg.com/profile_banners/1802703010478559232/1754700752",
+   "description": "",
+   "location": "旭川市春光町10番地 イオン旭川春光SC",
+   "followers": 1652,
+   "following": 8,
+   "status": "",
+   "canDm": false,
+   "canMediaTag": true,
+   "createdAt": "Mon Jun 17 14:01:13 +0000 2024",
+   "entities": {
+    "description": {
+     "urls": []
+    },
+    "url": {}
+   },
+   "fastFollowersCount": 0,
+   "favouritesCount": 67,
+   "hasCustomTimelines": true,
+   "isTranslator": false,
+   "mediaCount": 12725,
+   "statusesCount": 21164,
+   "withheldInCountries": [],
+   "affiliatesHighlightedLabel": {},
+   "possiblySensitive": false,
+   "pinnedTweetIds": [
+    "2114247325455716582"
+   ],
+   "profile_bio": {
+    "description": "コレクト イオン旭川春光店の公式アカウントです✨ 取扱い👉ポケカ／ワンピ／デュエマ｜サービス👉販売／買取／各種大会／ PSA鑑定代行【営業時間:9時〜21時】大会一覧→https://t.co/nvlCRhRms9 オンラインストア→https://t.co/DOx3iafqzz",
+    "entities": {
+     "description": {
+      "urls": [
+       {
+        "display_url": "x.gd/xWCh0",
+        "expanded_url": "https://x.gd/xWCh0",
+        "indices": [
+         84,
+         107
+        ],
+        "url": "https://t.co/nvlCRhRms9"
+       },
+       {
+        "display_url": "collect-shunkou.myshopify.com",
+        "expanded_url": "https://collect-shunkou.myshopify.com/",
+        "indices": [
+         117,
+         140
+        ],
+        "url": "https://t.co/DOx3iafqzz"
+       }
+      ]
+     },
+     "url": {
+      "urls": [
+       {
+        "display_url": "maps.app.goo.gl/euUgxc5mD4zsx8…",
+        "expanded_url": "https://maps.app.goo.gl/euUgxc5mD4zsx8DJ6",
+        "indices": [
+         0,
+         23
+        ],
+        "url": "https://t.co/bdm89ZvBK0"
+       }
+      ]
+     }
+    }
+   },
+   "isAutomated": false,
+   "automatedBy": null,
+   "protected": false
+  },
+  "extendedEntities": {},
+  "card": {
+   "binding_values": [
+    {
+     "key": "photo_image_full_size_large",
+     "value": {
+      "image_value": {
+       "height": 419,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=800x419",
+       "width": 800
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image",
+     "value": {
+      "image_value": {
+       "height": 150,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=280x150",
+       "width": 267
+      }
+     }
+    },
+    {
+     "key": "description",
+     "value": {
+      "string_value": "大会ルール・スイスドロー３回戦・スタンダードレギュレーション・制限時間25分・プロキシ（コピーカード）なし・デッキ変更なし参加費：無料○賞品優勝 オリパ ４パック　２位 オリパ ２パック　３位 オリパ １パック　　　　＋　参加賞 オリパ １パック○スケジュール　11:30 - 12:00　受付　12:05 - 12:30　１試合目　12:35 - 13:00　２試合目　13:05 -..."
+     }
+    },
+    {
+     "key": "domain",
+     "value": {
+      "string_value": "tonamel.com"
+     }
+    },
+    {
+     "key": "thumbnail_image_large",
+     "value": {
+      "image_value": {
+       "height": 320,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=800x320_1",
+       "width": 569
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image_small",
+     "value": {
+      "image_value": {
+       "height": 202,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=386x202",
+       "width": 386
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_original",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=orig",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "site",
+     "value": {
+      "scribe_key": "publisher_id",
+      "user_value": {
+       "id_str": "892648343016316928",
+       "path": []
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_small",
+     "value": {
+      "image_value": {
+       "height": 202,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=386x202",
+       "width": 386
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image_large",
+     "value": {
+      "image_value": {
+       "height": 419,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=800x419",
+       "width": 800
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_small",
+     "value": {
+      "image_value": {
+       "height": 81,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=144x144",
+       "width": 144
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_x_large",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=png&name=2048x2048_2_exp",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_original",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=orig",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "vanity_url",
+     "value": {
+      "scribe_key": "vanity_url",
+      "string_value": "tonamel.com"
+     }
+    },
+    {
+     "key": "photo_image_full_size",
+     "value": {
+      "image_value": {
+       "height": 314,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=600x314",
+       "width": 600
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 94.16,
+         "rgb": {
+          "blue": 255,
+          "green": 255,
+          "red": 255
+         }
+        },
+        {
+         "percentage": 4.6,
+         "rgb": {
+          "blue": 8,
+          "green": 8,
+          "red": 13
+         }
+        },
+        {
+         "percentage": 1.62,
+         "rgb": {
+          "blue": 123,
+          "green": 121,
+          "red": 124
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "title",
+     "value": {
+      "string_value": "ポケモンカードゲーム　オリパ争奪戦（高校生以下限定） - Tonamel"
+     }
+    },
+    {
+     "key": "summary_photo_image_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 94.16,
+         "rgb": {
+          "blue": 255,
+          "green": 255,
+          "red": 255
+         }
+        },
+        {
+         "percentage": 4.6,
+         "rgb": {
+          "blue": 8,
+          "green": 8,
+          "red": 13
+         }
+        },
+        {
+         "percentage": 1.62,
+         "rgb": {
+          "blue": 123,
+          "green": 121,
+          "red": 124
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image_x_large",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=png&name=2048x2048_2_exp",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image",
+     "value": {
+      "image_value": {
+       "height": 314,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=600x314",
+       "width": 600
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 94.16,
+         "rgb": {
+          "blue": 255,
+          "green": 255,
+          "red": 255
+         }
+        },
+        {
+         "percentage": 4.6,
+         "rgb": {
+          "blue": 8,
+          "green": 8,
+          "red": 13
+         }
+        },
+        {
+         "percentage": 1.62,
+         "rgb": {
+          "blue": 123,
+          "green": 121,
+          "red": 124
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_x_large",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=png&name=2048x2048_2_exp",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "card_url",
+     "value": {
+      "scribe_key": "card_url",
+      "string_value": "https://t.co/ROiN65TX0u"
+     }
+    },
+    {
+     "key": "summary_photo_image_original",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=orig",
+       "width": 1600
+      }
+     }
+    }
+   ],
+   "card_platform": {
+    "platform": {
+     "audience": {
+      "name": "production"
+     },
+     "device": {
+      "name": "iPhone",
+      "version": "13"
+     }
+    }
+   },
+   "name": "summary_large_image",
+   "url": "https://t.co/ROiN65TX0u",
+   "user_refs_results": [
+    {
+     "rest_id": "892648343016316928",
+     "result": {
+      "__typename": "User",
+      "action_counts": {
+       "favorites_count": 1950
+      },
+      "avatar": {
+       "image_url": "https://pbs.twimg.com/profile_images/892653332002557952/FZG98Ok6_normal.jpg"
+      },
+      "banner": {
+       "image_url": "https://pbs.twimg.com/profile_banners/892648343016316928/1585718520"
+      },
+      "core": {
+       "created_at": "Wed Aug 02 07:28:44 +0000 2017",
+       "name": "【公式】Tonamel（トナメル）",
+       "screen_name": "TonamelJP"
+      },
+      "dm_permissions": {
+       "can_dm": true
+      },
+      "exclusive_tweet_following": false,
+      "follow_request_sent": false,
+      "identity_profile_labels_highlighted_label": {},
+      "location": {
+       "location": ""
+      },
+      "media_permissions": {
+       "can_media_tag": true
+      },
+      "notifications_settings": {
+       "notifications_enabled": false
+      },
+      "pinned_items": {
+       "tweet_ids_str": [
+        "1930489975436656702"
+       ]
+      },
+      "privacy": {
+       "protected": false,
+       "suspended": false
+      },
+      "private_super_following": false,
+      "profile_bio": {
+       "description": "Tonamelは「主催者の力になる」がコンセプトの日本最大級のイベント運営支援プラットフォームです。\n中の人が新機能/仕様変更のお知らせ中心に色々呟きます。\nご意見ご要望はこちらからお気軽にどうぞ。→https://t.co/VlaX0SqNX9\n※DMでの返信は原則行っておりません。",
+       "entities": {
+        "description": {
+         "urls": [
+          {
+           "display_url": "tonamel.com/contact",
+           "expanded_url": "https://tonamel.com/contact",
+           "indices": [
+            100,
+            123
+           ],
+           "url": "https://t.co/VlaX0SqNX9"
+          }
+         ]
+        },
+        "url": {
+         "urls": [
+          {
+           "display_url": "tonamel.com",
+           "expanded_url": "https://tonamel.com/",
+           "indices": [
+            0,
+            23
+           ],
+           "url": "https://t.co/aWComY9nVc"
+          }
+         ]
+        }
+       }
+      },
+      "profile_image_shape": "Circle",
+      "profile_metadata": {
+       "profile_interstitial_type": "",
+       "profile_link_color": "29CB44"
+      },
+      "profile_translation": {
+       "translator_type_enum": "None"
+      },
+      "properties": {
+       "has_extended_profile": false,
+       "has_no_screen_name": false
+      },
+      "relationship_counts": {
+       "followers": 11995,
+       "following": 505
+      },
+      "relationship_perspectives": {
+       "blocked_by": false,
+       "blocking": false,
+       "followed_by": false,
+       "following": false,
+       "live_following": false,
+       "muting": false
+      },
+      "rest_id": "892648343016316928",
+      "smart_blocked_by": false,
+      "smart_blocking": false,
+      "super_follow_eligible": false,
+      "super_followed_by": false,
+      "super_following": false,
+      "tweet_counts": {
+       "media_tweets": 1318,
+       "tweets": 5175
+      },
+      "verification": {
+       "is_blue_verified": false,
+       "verified": false
+      },
+      "website": {
+       "url": "https://t.co/aWComY9nVc"
+      }
+     }
+    }
+   ]
+  },
+  "place": {},
+  "entities": {
+   "hashtags": [],
+   "symbols": [],
+   "urls": [
+    {
+     "display_url": "tonamel.com/competition/hD…",
+     "expanded_url": "https://tonamel.com/competition/hD1nx",
+     "indices": [
+      66,
+      89
+     ],
+     "url": "https://t.co/QhthJaAJzn"
+    },
+    {
+     "display_url": "tonamel.com/competition/yH…",
+     "expanded_url": "https://tonamel.com/competition/yHXAd",
+     "indices": [
+      123,
+      146
+     ],
+     "url": "https://t.co/9TN7q3c8nt"
+    },
+    {
+     "display_url": "tonamel.com/competition/CM…",
+     "expanded_url": "https://tonamel.com/competition/CMIuF",
+     "indices": [
+      175,
+      198
+     ],
+     "url": "https://t.co/vCfyMxw6r0"
+    },
+    {
+     "display_url": "tonamel.com/competition/2h…",
+     "expanded_url": "https://tonamel.com/competition/2hacz",
+     "indices": [
+      230,
+      253
+     ],
+     "url": "https://t.co/WGr3ZBFTB5"
+    }
+   ],
+   "user_mentions": []
+  },
+  "quoted_tweet": null,
+  "retweeted_tweet": null,
+  "isLimitedReply": false,
+  "communityInfo": null,
+  "article": null
+ },
+ "hD1nx": {
+  "type": "tweet",
+  "id": "2116319242173792474",
+  "url": "https://x.com/COLLECT_shunkou/status/2116319242173792474",
+  "twitterUrl": "https://twitter.com/COLLECT_shunkou/status/2116319242173792474",
+  "text": "コレクト春光店OPENしました‼️\n\n🌟本日のイベント🌟\n\n12:00~ ポケモンカード オリパ争奪戦（高校生以下限定）\n📢募集中\nhttps://t.co/QhthJaAJzn\n\n14:00~ デュエル・マスターズ ガチデュエバトル\n📢募集中\nhttps://t.co/9TN7q3c8nt\n\n16:30~ ポケモンカード BOX争奪戦\n📢募集中\nhttps://t.co/vCfyMxw6r0\n\n19:00~ デュエル・マスターズ　BOX争奪戦\n📢募集中\nhttps://t.co/WGr3ZBFTB5\n\n皆様のご来店お待ちしております🥰",
+  "source": "",
+  "retweetCount": 1,
+  "replyCount": 0,
+  "likeCount": 2,
+  "quoteCount": 0,
+  "viewCount": 717,
+  "createdAt": "Sat Oct 31 00:00:01 +0000 2026",
+  "lang": "ja",
+  "bookmarkCount": 0,
+  "isReply": false,
+  "inReplyToId": null,
+  "conversationId": "2116319242173792474",
+  "displayTextRange": [
+   0,
+   198
+  ],
+  "inReplyToUserId": null,
+  "inReplyToUsername": null,
+  "author": {
+   "type": "user",
+   "userName": "COLLECT_shunkou",
+   "url": "https://x.com/COLLECT_shunkou",
+   "twitterUrl": "https://twitter.com/COLLECT_shunkou",
+   "id": "1802703010478559232",
+   "name": "カードショップコレクト イオン旭川春光店",
+   "isVerified": false,
+   "isBlueVerified": false,
+   "verifiedType": null,
+   "profilePicture": "https://pbs.twimg.com/profile_images/1804521393905950722/NvLmvUUD_normal.jpg",
+   "coverPicture": "https://pbs.twimg.com/profile_banners/1802703010478559232/1754700752",
+   "description": "",
+   "location": "旭川市春光町10番地 イオン旭川春光SC",
+   "followers": 1652,
+   "following": 8,
+   "status": "",
+   "canDm": false,
+   "canMediaTag": true,
+   "createdAt": "Mon Jun 17 14:01:13 +0000 2024",
+   "entities": {
+    "description": {
+     "urls": []
+    },
+    "url": {}
+   },
+   "fastFollowersCount": 0,
+   "favouritesCount": 67,
+   "hasCustomTimelines": true,
+   "isTranslator": false,
+   "mediaCount": 12725,
+   "statusesCount": 21164,
+   "withheldInCountries": [],
+   "affiliatesHighlightedLabel": {},
+   "possiblySensitive": false,
+   "pinnedTweetIds": [
+    "2114247325455716582"
+   ],
+   "profile_bio": {
+    "description": "コレクト イオン旭川春光店の公式アカウントです✨ 取扱い👉ポケカ／ワンピ／デュエマ｜サービス👉販売／買取／各種大会／ PSA鑑定代行【営業時間:9時〜21時】大会一覧→https://t.co/nvlCRhRms9 オンラインストア→https://t.co/DOx3iafqzz",
+    "entities": {
+     "description": {
+      "urls": [
+       {
+        "display_url": "x.gd/xWCh0",
+        "expanded_url": "https://x.gd/xWCh0",
+        "indices": [
+         84,
+         107
+        ],
+        "url": "https://t.co/nvlCRhRms9"
+       },
+       {
+        "display_url": "collect-shunkou.myshopify.com",
+        "expanded_url": "https://collect-shunkou.myshopify.com/",
+        "indices": [
+         117,
+         140
+        ],
+        "url": "https://t.co/DOx3iafqzz"
+       }
+      ]
+     },
+     "url": {
+      "urls": [
+       {
+        "display_url": "maps.app.goo.gl/euUgxc5mD4zsx8…",
+        "expanded_url": "https://maps.app.goo.gl/euUgxc5mD4zsx8DJ6",
+        "indices": [
+         0,
+         23
+        ],
+        "url": "https://t.co/bdm89ZvBK0"
+       }
+      ]
+     }
+    }
+   },
+   "isAutomated": false,
+   "automatedBy": null,
+   "protected": false
+  },
+  "extendedEntities": {},
+  "card": {
+   "binding_values": [
+    {
+     "key": "photo_image_full_size_large",
+     "value": {
+      "image_value": {
+       "height": 419,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=800x419",
+       "width": 800
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image",
+     "value": {
+      "image_value": {
+       "height": 150,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=280x150",
+       "width": 267
+      }
+     }
+    },
+    {
+     "key": "description",
+     "value": {
+      "string_value": "大会ルール・スイスドロー３回戦・スタンダードレギュレーション・制限時間25分・プロキシ（コピーカード）なし・デッキ変更なし参加費：無料○賞品優勝 オリパ ４パック　２位 オリパ ２パック　３位 オリパ １パック　　　　＋　参加賞 オリパ １パック○スケジュール　11:30 - 12:00　受付　12:05 - 12:30　１試合目　12:35 - 13:00　２試合目　13:05 -..."
+     }
+    },
+    {
+     "key": "domain",
+     "value": {
+      "string_value": "tonamel.com"
+     }
+    },
+    {
+     "key": "thumbnail_image_large",
+     "value": {
+      "image_value": {
+       "height": 320,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=800x320_1",
+       "width": 569
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image_small",
+     "value": {
+      "image_value": {
+       "height": 202,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=386x202",
+       "width": 386
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_original",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=orig",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "site",
+     "value": {
+      "scribe_key": "publisher_id",
+      "user_value": {
+       "id_str": "892648343016316928",
+       "path": []
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_small",
+     "value": {
+      "image_value": {
+       "height": 202,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=386x202",
+       "width": 386
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image_large",
+     "value": {
+      "image_value": {
+       "height": 419,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=800x419",
+       "width": 800
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_small",
+     "value": {
+      "image_value": {
+       "height": 81,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=144x144",
+       "width": 144
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_x_large",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=png&name=2048x2048_2_exp",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_original",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=orig",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "vanity_url",
+     "value": {
+      "scribe_key": "vanity_url",
+      "string_value": "tonamel.com"
+     }
+    },
+    {
+     "key": "photo_image_full_size",
+     "value": {
+      "image_value": {
+       "height": 314,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=600x314",
+       "width": 600
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 94.16,
+         "rgb": {
+          "blue": 255,
+          "green": 255,
+          "red": 255
+         }
+        },
+        {
+         "percentage": 4.6,
+         "rgb": {
+          "blue": 8,
+          "green": 8,
+          "red": 13
+         }
+        },
+        {
+         "percentage": 1.62,
+         "rgb": {
+          "blue": 123,
+          "green": 121,
+          "red": 124
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "title",
+     "value": {
+      "string_value": "ポケモンカードゲーム　オリパ争奪戦（高校生以下限定） - Tonamel"
+     }
+    },
+    {
+     "key": "summary_photo_image_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 94.16,
+         "rgb": {
+          "blue": 255,
+          "green": 255,
+          "red": 255
+         }
+        },
+        {
+         "percentage": 4.6,
+         "rgb": {
+          "blue": 8,
+          "green": 8,
+          "red": 13
+         }
+        },
+        {
+         "percentage": 1.62,
+         "rgb": {
+          "blue": 123,
+          "green": 121,
+          "red": 124
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image_x_large",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=png&name=2048x2048_2_exp",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "summary_photo_image",
+     "value": {
+      "image_value": {
+       "height": 314,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=600x314",
+       "width": 600
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 94.16,
+         "rgb": {
+          "blue": 255,
+          "green": 255,
+          "red": 255
+         }
+        },
+        {
+         "percentage": 4.6,
+         "rgb": {
+          "blue": 8,
+          "green": 8,
+          "red": 13
+         }
+        },
+        {
+         "percentage": 1.62,
+         "rgb": {
+          "blue": 123,
+          "green": 121,
+          "red": 124
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "photo_image_full_size_x_large",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=png&name=2048x2048_2_exp",
+       "width": 1600
+      }
+     }
+    },
+    {
+     "key": "card_url",
+     "value": {
+      "scribe_key": "card_url",
+      "string_value": "https://t.co/ROiN65TX0u"
+     }
+    },
+    {
+     "key": "summary_photo_image_original",
+     "value": {
+      "image_value": {
+       "height": 900,
+       "url": "https://pbs.twimg.com/card_img/2114976253031927808/ZBKUyO62?format=jpg&name=orig",
+       "width": 1600
+      }
+     }
+    }
+   ],
+   "card_platform": {
+    "platform": {
+     "audience": {
+      "name": "production"
+     },
+     "device": {
+      "name": "iPhone",
+      "version": "13"
+     }
+    }
+   },
+   "name": "summary_large_image",
+   "url": "https://t.co/ROiN65TX0u",
+   "user_refs_results": [
+    {
+     "rest_id": "892648343016316928",
+     "result": {
+      "__typename": "User",
+      "action_counts": {
+       "favorites_count": 1950
+      },
+      "avatar": {
+       "image_url": "https://pbs.twimg.com/profile_images/892653332002557952/FZG98Ok6_normal.jpg"
+      },
+      "banner": {
+       "image_url": "https://pbs.twimg.com/profile_banners/892648343016316928/1585718520"
+      },
+      "core": {
+       "created_at": "Wed Aug 02 07:28:44 +0000 2017",
+       "name": "【公式】Tonamel（トナメル）",
+       "screen_name": "TonamelJP"
+      },
+      "dm_permissions": {
+       "can_dm": true
+      },
+      "exclusive_tweet_following": false,
+      "follow_request_sent": false,
+      "identity_profile_labels_highlighted_label": {},
+      "location": {
+       "location": ""
+      },
+      "media_permissions": {
+       "can_media_tag": true
+      },
+      "notifications_settings": {
+       "notifications_enabled": false
+      },
+      "pinned_items": {
+       "tweet_ids_str": [
+        "1930489975436656702"
+       ]
+      },
+      "privacy": {
+       "protected": false,
+       "suspended": false
+      },
+      "private_super_following": false,
+      "profile_bio": {
+       "description": "Tonamelは「主催者の力になる」がコンセプトの日本最大級のイベント運営支援プラットフォームです。\n中の人が新機能/仕様変更のお知らせ中心に色々呟きます。\nご意見ご要望はこちらからお気軽にどうぞ。→https://t.co/VlaX0SqNX9\n※DMでの返信は原則行っておりません。",
+       "entities": {
+        "description": {
+         "urls": [
+          {
+           "display_url": "tonamel.com/contact",
+           "expanded_url": "https://tonamel.com/contact",
+           "indices": [
+            100,
+            123
+           ],
+           "url": "https://t.co/VlaX0SqNX9"
+          }
+         ]
+        },
+        "url": {
+         "urls": [
+          {
+           "display_url": "tonamel.com",
+           "expanded_url": "https://tonamel.com/",
+           "indices": [
+            0,
+            23
+           ],
+           "url": "https://t.co/aWComY9nVc"
+          }
+         ]
+        }
+       }
+      },
+      "profile_image_shape": "Circle",
+      "profile_metadata": {
+       "profile_interstitial_type": "",
+       "profile_link_color": "29CB44"
+      },
+      "profile_translation": {
+       "translator_type_enum": "None"
+      },
+      "properties": {
+       "has_extended_profile": false,
+       "has_no_screen_name": false
+      },
+      "relationship_counts": {
+       "followers": 11995,
+       "following": 505
+      },
+      "relationship_perspectives": {
+       "blocked_by": false,
+       "blocking": false,
+       "followed_by": false,
+       "following": false,
+       "live_following": false,
+       "muting": false
+      },
+      "rest_id": "892648343016316928",
+      "smart_blocked_by": false,
+      "smart_blocking": false,
+      "super_follow_eligible": false,
+      "super_followed_by": false,
+      "super_following": false,
+      "tweet_counts": {
+       "media_tweets": 1318,
+       "tweets": 5175
+      },
+      "verification": {
+       "is_blue_verified": false,
+       "verified": false
+      },
+      "website": {
+       "url": "https://t.co/aWComY9nVc"
+      }
+     }
+    }
+   ]
+  },
+  "place": {},
+  "entities": {
+   "hashtags": [],
+   "symbols": [],
+   "urls": [
+    {
+     "display_url": "tonamel.com/competition/hD…",
+     "expanded_url": "https://tonamel.com/competition/hD1nx",
+     "indices": [
+      66,
+      89
+     ],
+     "url": "https://t.co/QhthJaAJzn"
+    },
+    {
+     "display_url": "tonamel.com/competition/yH…",
+     "expanded_url": "https://tonamel.com/competition/yHXAd",
+     "indices": [
+      123,
+      146
+     ],
+     "url": "https://t.co/9TN7q3c8nt"
+    },
+    {
+     "display_url": "tonamel.com/competition/CM…",
+     "expanded_url": "https://tonamel.com/competition/CMIuF",
+     "indices": [
+      175,
+      198
+     ],
+     "url": "https://t.co/vCfyMxw6r0"
+    },
+    {
+     "display_url": "tonamel.com/competition/2h…",
+     "expanded_url": "https://tonamel.com/competition/2hacz",
+     "indices": [
+      230,
+      253
+     ],
+     "url": "https://t.co/WGr3ZBFTB5"
+    }
+   ],
+   "user_mentions": []
+  },
+  "quoted_tweet": null,
+  "retweeted_tweet": null,
+  "isLimitedReply": false,
+  "communityInfo": null,
+  "article": null
  }
 }
