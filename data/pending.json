@@ -12709,5 +12709,428 @@
   "isLimitedReply": false,
   "communityInfo": null,
   "article": null
+ },
+ "Y2iaj": {
+  "type": "tweet",
+  "id": "2116500444382196070",
+  "url": "https://x.com/COLLECT_shunkou/status/2116500444382196070",
+  "twitterUrl": "https://twitter.com/COLLECT_shunkou/status/2116500444382196070",
+  "text": "本日の営業終了しました‼\n\n🌟明日のイベント🌟\n\n14:00~ ポケモンカード トレーナーズリーグ(オープン)\n📢募集中\nhttps://t.co/tjhCf2pZZh\n\n15:00~ ワンピースカード 交流会\n📢募集中\nhttps://t.co/9578KdlP8h\n\n17:30~ デュエル・マスターズ 8人大会\n📢募集中\nhttps://t.co/mrt5Kebg9U\n\n18:30~ ポケモンカード オリパ争奪戦\n📢募集中\nhttps://t.co/ujwBeOuJeH\n\nまたのご来店をお待ちしております🥰",
+  "source": "",
+  "retweetCount": 0,
+  "replyCount": 0,
+  "likeCount": 1,
+  "quoteCount": 0,
+  "viewCount": 983,
+  "createdAt": "Sat Oct 31 12:00:03 +0000 2026",
+  "lang": "ja",
+  "bookmarkCount": 0,
+  "isReply": false,
+  "inReplyToId": null,
+  "conversationId": "2116500444382196070",
+  "displayTextRange": [
+   0,
+   195
+  ],
+  "inReplyToUserId": null,
+  "inReplyToUsername": null,
+  "author": {
+   "type": "user",
+   "userName": "COLLECT_shunkou",
+   "url": "https://x.com/COLLECT_shunkou",
+   "twitterUrl": "https://twitter.com/COLLECT_shunkou",
+   "id": "1802703010478559232",
+   "name": "カードショップコレクト イオン旭川春光店",
+   "isVerified": false,
+   "isBlueVerified": false,
+   "verifiedType": null,
+   "profilePicture": "https://pbs.twimg.com/profile_images/1804521393905950722/NvLmvUUD_normal.jpg",
+   "coverPicture": "https://pbs.twimg.com/profile_banners/1802703010478559232/1754700752",
+   "description": "",
+   "location": "旭川市春光町10番地 イオン旭川春光SC",
+   "followers": 1658,
+   "following": 7,
+   "status": "",
+   "canDm": false,
+   "canMediaTag": true,
+   "createdAt": "Mon Jun 17 14:01:13 +0000 2024",
+   "entities": {
+    "description": {
+     "urls": []
+    },
+    "url": {}
+   },
+   "fastFollowersCount": 0,
+   "favouritesCount": 67,
+   "hasCustomTimelines": true,
+   "isTranslator": false,
+   "mediaCount": 12755,
+   "statusesCount": 21220,
+   "withheldInCountries": [],
+   "affiliatesHighlightedLabel": {},
+   "possiblySensitive": false,
+   "pinnedTweetIds": [
+    "2114247325455716582"
+   ],
+   "profile_bio": {
+    "description": "コレクト イオン旭川春光店の公式アカウントです✨ 取扱い👉ポケカ／ワンピ／デュエマ｜サービス👉販売／買取／各種大会／ PSA鑑定代行【営業時間:9時〜21時】大会一覧→https://t.co/nvlCRhRms9 オンラインストア→https://t.co/DOx3iafqzz",
+    "entities": {
+     "description": {
+      "urls": [
+       {
+        "display_url": "x.gd/xWCh0",
+        "expanded_url": "https://x.gd/xWCh0",
+        "indices": [
+         84,
+         107
+        ],
+        "url": "https://t.co/nvlCRhRms9"
+       },
+       {
+        "display_url": "collect-shunkou.myshopify.com",
+        "expanded_url": "https://collect-shunkou.myshopify.com/",
+        "indices": [
+         117,
+         140
+        ],
+        "url": "https://t.co/DOx3iafqzz"
+       }
+      ]
+     },
+     "url": {
+      "urls": [
+       {
+        "display_url": "maps.app.goo.gl/euUgxc5mD4zsx8…",
+        "expanded_url": "https://maps.app.goo.gl/euUgxc5mD4zsx8DJ6",
+        "indices": [
+         0,
+         23
+        ],
+        "url": "https://t.co/bdm89ZvBK0"
+       }
+      ]
+     }
+    }
+   },
+   "isAutomated": false,
+   "automatedBy": null,
+   "protected": false
+  },
+  "extendedEntities": {},
+  "card": {
+   "binding_values": [
+    {
+     "key": "thumbnail_image",
+     "value": {
+      "image_value": {
+       "height": 144,
+       "url": "https://pbs.twimg.com/card_img/2115327155836178432/28S_4pzg?format=jpg&name=144x144_2",
+       "width": 144
+      }
+     }
+    },
+    {
+     "key": "description",
+     "value": {
+      "string_value": "ポケモンカードゲームのイベント情報を確認したりイベントへのエントリーができる公式サイトです。"
+     }
+    },
+    {
+     "key": "domain",
+     "value": {
+      "string_value": "players.pokemon-card.com"
+     }
+    },
+    {
+     "key": "thumbnail_image_large",
+     "value": {
+      "image_value": {
+       "height": 420,
+       "url": "https://pbs.twimg.com/card_img/2115327155836178432/28S_4pzg?format=jpg&name=420x420_2",
+       "width": 420
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_original",
+     "value": {
+      "image_value": {
+       "height": 630,
+       "url": "https://pbs.twimg.com/card_img/2115327155836178432/28S_4pzg?format=jpg&name=orig",
+       "width": 1200
+      }
+     }
+    },
+    {
+     "key": "site",
+     "value": {
+      "scribe_key": "publisher_id",
+      "user_value": {
+       "id_str": "323091128",
+       "path": []
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_small",
+     "value": {
+      "image_value": {
+       "height": 100,
+       "url": "https://pbs.twimg.com/card_img/2115327155836178432/28S_4pzg?format=jpg&name=100x100_2",
+       "width": 100
+      }
+     }
+    },
+    {
+     "key": "thumbnail_image_x_large",
+     "value": {
+      "image_value": {
+       "height": 630,
+       "url": "https://pbs.twimg.com/card_img/2115327155836178432/28S_4pzg?format=png&name=2048x2048_2_exp",
+       "width": 1200
+      }
+     }
+    },
+    {
+     "key": "vanity_url",
+     "value": {
+      "scribe_key": "vanity_url",
+      "string_value": "players.pokemon-card.com"
+     }
+    },
+    {
+     "key": "thumbnail_image_color",
+     "value": {
+      "image_color_value": {
+       "palette": [
+        {
+         "percentage": 94.88,
+         "rgb": {
+          "blue": 253,
+          "green": 251,
+          "red": 231
+         }
+        },
+        {
+         "percentage": 1.54,
+         "rgb": {
+          "blue": 36,
+          "green": 207,
+          "red": 230
+         }
+        },
+        {
+         "percentage": 0.57,
+         "rgb": {
+          "blue": 106,
+          "green": 98,
+          "red": 199
+         }
+        },
+        {
+         "percentage": 0.5,
+         "rgb": {
+          "blue": 178,
+          "green": 239,
+          "red": 240
+         }
+        },
+        {
+         "percentage": 0.45,
+         "rgb": {
+          "blue": 110,
+          "green": 215,
+          "red": 232
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "title",
+     "value": {
+      "string_value": "ポケモンカードゲーム プレイヤーズクラブ"
+     }
+    },
+    {
+     "key": "card_url",
+     "value": {
+      "scribe_key": "card_url",
+      "string_value": "https://t.co/53i0QiU82x"
+     }
+    }
+   ],
+   "card_platform": {
+    "platform": {
+     "audience": {
+      "name": "production"
+     },
+     "device": {
+      "name": "iPhone",
+      "version": "13"
+     }
+    }
+   },
+   "name": "summary",
+   "url": "https://t.co/53i0QiU82x",
+   "user_refs_results": [
+    {
+     "rest_id": "323091128",
+     "result": {
+      "__typename": "User",
+      "action_counts": {
+       "favorites_count": 1
+      },
+      "avatar": {
+       "image_url": "https://pbs.twimg.com/profile_images/2082118305029160960/HMhwzHsu_normal.jpg"
+      },
+      "banner": {
+       "image_url": "https://pbs.twimg.com/profile_banners/323091128/1788965473"
+      },
+      "core": {
+       "created_at": "Fri Jun 24 07:12:45 +0000 2011",
+       "name": "ポケモン公式",
+       "screen_name": "Pokemon_cojp"
+      },
+      "dm_permissions": {
+       "can_dm": false
+      },
+      "exclusive_tweet_following": false,
+      "follow_request_sent": false,
+      "identity_profile_labels_highlighted_label": {},
+      "location": {
+       "location": "東京都"
+      },
+      "media_permissions": {
+       "can_media_tag": true
+      },
+      "notifications_settings": {
+       "notifications_enabled": false
+      },
+      "pinned_items": {
+       "tweet_ids_str": [
+        "2097699156387090631"
+       ]
+      },
+      "privacy": {
+       "protected": false,
+       "suspended": false
+      },
+      "private_super_following": false,
+      "profile_bio": {
+       "description": "株式会社ポケモンの公式アカウントより、ポケモンの最新情報をお届けします。\nお客様からの個別のメッセージなどは、X上ではご返答できかねますのでご了承下さい。\n「ポケットモンスターオフィシャルサイト」のお問い合わせ窓口よりご連絡下さい。",
+       "entities": {
+        "description": {},
+        "url": {
+         "urls": [
+          {
+           "display_url": "pokemon.co.jp",
+           "expanded_url": "http://www.pokemon.co.jp/",
+           "indices": [
+            0,
+            23
+           ],
+           "url": "https://t.co/768t9Qp5JL"
+          }
+         ]
+        }
+       }
+      },
+      "profile_image_shape": "Square",
+      "profile_metadata": {
+       "profile_interstitial_type": "",
+       "profile_link_color": "0088CC"
+      },
+      "profile_translation": {
+       "translator_type_enum": "None"
+      },
+      "properties": {
+       "has_extended_profile": false,
+       "has_no_screen_name": false
+      },
+      "relationship_counts": {
+       "followers": 3081601,
+       "following": 25
+      },
+      "relationship_perspectives": {
+       "blocked_by": false,
+       "blocking": false,
+       "followed_by": false,
+       "following": false,
+       "live_following": false,
+       "muting": false
+      },
+      "rest_id": "323091128",
+      "smart_blocked_by": false,
+      "smart_blocking": false,
+      "super_follow_eligible": false,
+      "super_followed_by": false,
+      "super_following": false,
+      "tweet_counts": {
+       "media_tweets": 131093,
+       "tweets": 134837
+      },
+      "verification": {
+       "is_blue_verified": true,
+       "verified": false,
+       "verified_type": "Business"
+      },
+      "website": {
+       "url": "https://t.co/768t9Qp5JL"
+      }
+     }
+    }
+   ]
+  },
+  "place": {},
+  "entities": {
+   "hashtags": [],
+   "symbols": [],
+   "urls": [
+    {
+     "display_url": "players.pokemon-card.com/event/detail/1…",
+     "expanded_url": "https://players.pokemon-card.com/event/detail/1171124/1/20887/20261101/1974265",
+     "indices": [
+      61,
+      84
+     ],
+     "url": "https://t.co/tjhCf2pZZh"
+    },
+    {
+     "display_url": "bandai-tcg-plus.com/event/8618452",
+     "expanded_url": "https://www.bandai-tcg-plus.com/event/8618452",
+     "indices": [
+      111,
+      134
+     ],
+     "url": "https://t.co/9578KdlP8h"
+    },
+    {
+     "display_url": "tonamel.com/competition/KO…",
+     "expanded_url": "https://tonamel.com/competition/KO01O",
+     "indices": [
+      164,
+      187
+     ],
+     "url": "https://t.co/mrt5Kebg9U"
+    },
+    {
+     "display_url": "tonamel.com/competition/Y2…",
+     "expanded_url": "https://tonamel.com/competition/Y2iaj",
+     "indices": [
+      216,
+      239
+     ],
+     "url": "https://t.co/ujwBeOuJeH"
+    }
+   ],
+   "user_mentions": []
+  },
+  "quoted_tweet": null,
+  "retweeted_tweet": null,
+  "isLimitedReply": false,
+  "communityInfo": null,
+  "article": null
  }
 }
