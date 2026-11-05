@@ -1,25 +1,24 @@
 {
-  "generated_at": "2026-11-04T13:24:40.690906+09:00",
-  "events": 2107,
-  "organizers": 502,
+  "generated_at": "2026-11-05T12:16:49.025761+09:00",
+  "events": 2095,
+  "organizers": 503,
   "by_region": {
-    "北海道・東北": 221,
-    "関東": 928,
+    "北海道・東北": 224,
+    "関東": 906,
     "甲信越": 18,
-    "北陸": 20,
-    "東海": 231,
-    "近畿": 245,
-    "中国": 142,
-    "四国": 16,
-    "九州・沖縄": 173
+    "北陸": 24,
+    "東海": 224,
+    "近畿": 259,
+    "中国": 138,
+    "四国": 15,
+    "九州・沖縄": 172
   },
   "findings": [
     {
       "level": "warn",
       "kind": "地域未判定",
-      "message": "47件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
+      "message": "49件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
       "ids": [
-        "hrl2M",
         "A7lqe",
         "PeoCC",
         "0yZrN",
@@ -30,37 +29,43 @@
         "I9JVg",
         "2ttZ4",
         "x5o5C",
+        "7XqMv",
         "SWagW",
+        "TuejO",
         "I9PRy",
         "MdVMG",
+        "RFJQm",
         "x2107811652716691627",
         "wLKTu",
         "kKL5e",
-        "3APTb",
-        "FDpGi",
-        "Hb6gj"
+        "3APTb"
       ],
-      "count": 47
+      "count": 49
     },
     {
       "level": "warn",
       "kind": "参加費の抽出ミス",
-      "message": "12件の参加費が不自然です。",
+      "message": "17件の参加費が不自然です。",
       "ids": [
         "osK1a",
         "JgJ1R",
+        "WEnn3",
         "PVJMp",
         "LqUqF",
+        "SRsuD",
         "gafyy",
         "eejjk",
+        "PwK10",
         "Yqqx1",
         "eYnko",
         "VCvFV",
         "CqrVL",
         "bRuxr",
+        "GuK6c",
+        "aTFZE",
         "63Ip6"
       ],
-      "count": 12
+      "count": 17
     },
     {
       "level": "warn",
@@ -93,7 +98,7 @@
     {
       "level": "info",
       "kind": "登録キーマンの成果ゼロ",
-      "message": "11人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
+      "message": "10人の登録キーマンから大会が1件も取れていません。ハンドル違い、開催が先、または告知が別アカウントの可能性。",
       "ids": [
         "tomoshibi_cup",
         "ISHIKAWAPOKECA",
@@ -104,10 +109,9 @@
         "torepoinfo",
         "OP01_soda",
         "nrissgn913",
-        "team__wassyoi",
         "moukahai"
       ],
-      "count": 11
+      "count": 10
     },
     {
       "level": "info",
@@ -121,7 +125,7 @@
     {
       "level": "warn",
       "kind": "除外しすぎの疑い",
-      "message": "389件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
+      "message": "239件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
       "ids": [],
       "count": 0
     }
