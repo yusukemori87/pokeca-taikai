@@ -1,50 +1,50 @@
 {
-  "generated_at": "2026-11-08T11:46:27.261590+09:00",
-  "count": 2085,
+  "generated_at": "2026-11-08T12:12:24.094936+09:00",
+  "count": 2096,
   "horizon": "2027-02-11",
   "by_prefecture": {
-    "東京都": 605,
-    "大阪府": 132,
+    "東京都": 607,
+    "大阪府": 134,
     "福岡県": 115,
-    "愛知県": 108,
+    "愛知県": 107,
     "茨城県": 93,
-    "岡山県": 82,
+    "岡山県": 83,
     "京都府": 79,
     "千葉県": 76,
     "宮城県": 68,
-    "北海道": 63,
+    "北海道": 65,
     "オンライン": 61,
-    "兵庫県": 56,
+    "兵庫県": 58,
     "神奈川県": 55,
-    "埼玉県": 53,
+    "埼玉県": 54,
     "静岡県": 50,
-    "不明": 50,
+    "不明": 49,
     "三重県": 47,
     "福島県": 46,
+    "広島県": 23,
     "沖縄県": 21,
-    "広島県": 20,
     "滋賀県": 17,
     "鹿児島県": 13,
     "岩手県": 12,
     "岐阜県": 12,
     "熊本県": 12,
+    "栃木県": 11,
     "山口県": 11,
     "大分県": 10,
-    "栃木県": 10,
-    "石川県": 10,
     "新潟県": 10,
     "山形県": 9,
     "佐賀県": 8,
     "奈良県": 7,
+    "石川県": 7,
     "愛媛県": 7,
     "宮崎県": 6,
+    "富山県": 6,
     "長野県": 6,
     "秋田県": 6,
     "徳島県": 5,
     "群馬県": 5,
     "福井県": 5,
     "島根県": 5,
-    "富山県": 4,
     "長崎県": 4,
     "和歌山県": 4,
     "鳥取県": 3,
@@ -732,29 +732,31 @@
       "collected_at": "2026-11-07T19:15:31.379411+09:00"
     },
     {
-      "id": "mKnWQ",
-      "title": "三洋堂トレカ館城山店　ポケカトレーナーズリーグ",
-      "url": "https://tonamel.com/competition/mKnWQ",
+      "id": "x2119025640380985502",
+      "title": "11/8の大会情報",
+      "url": "https://x.com/cherumo2010/status/2119025640380985502",
       "date": "2026-11-08",
       "start_time": "11:00",
-      "prefecture": "愛知県",
-      "venue": "三洋堂トレカ館城山店",
-      "address": "愛知県尾張旭市新居町諏訪南1305",
+      "prefecture": "東京都",
+      "prefecture_inferred": null,
+      "venue": null,
+      "address": null,
       "online": false,
-      "fee": null,
-      "capacity": 16,
+      "fee": "300円",
+      "capacity": null,
       "prize": null,
       "format": "その他",
       "kind": "ショップ主催",
-      "organizer_url": "https://tonamel.com/organization/sGM74",
-      "summary": "【大会フォーマット】・トレーナーズリーグ オープン【受付開始】・当日大会開始30分前に三洋堂書店城山店２階にてアナウンス後、受付を開始します。参加希望の方は大会開始30分前から大会開始時間までに当店２階にてエントリー希望とトレカ館スタッフにお声掛けください。・エントリーの際、お名前はポケモンカードプレイヤーズクラブに登録されているお名前でエントリーをお願いします。・基本は先着順になります。受付開始",
-      "source_tweet_url": null,
-      "organizer_handle": null,
-      "announced_by": null,
-      "organizer_name": "三洋堂トレカ館城山店",
+      "organizer_url": "https://x.com/cherumo2010",
+      "summary": "🌟11/8の大会情報🌟 #ポケモンカードゲーム 11:00～ ジムバトル(小学生の部) 11:30〜ジムバトル（オープン） 19:00～ ポケカ非公認大会 🟥受付の締め切りは開始予定時間の15分前までです‼️ 定員 ジム（オープン）/非公認 64名(当日先着受付) ジム（小学生以下）/16名 ◾️参加費 現金300円または400円以上のお買い物 ジムバトルのエントリーはプレイヤーズIDが必要です⚠",
+      "source_tweet_url": "https://x.com/cherumo2010/status/2119025640380985502",
+      "organizer_handle": "cherumo2010",
+      "announced_by": "cherumo2010",
+      "organizer_name": "秋葉原チェルモ cherumoAKIBA",
+      "x_only": true,
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:30.092152+09:00",
-      "collected_at": "2026-11-08T10:26:30.093164+09:00"
+      "tweeted_at": "2026-11-07T20:14:16+09:00",
+      "collected_at": "2026-11-08T12:12:24.074122+09:00"
     },
     {
       "id": "B6XkM",
@@ -957,6 +959,31 @@
       "pv": 7,
       "tweeted_at": "2026-11-06T04:53:25+09:00",
       "collected_at": "2026-11-07T12:30:08.314550+09:00"
+    },
+    {
+      "id": "U8Q0U",
+      "title": "11月8日 ミライチャンピオンカップ2026.11",
+      "url": "https://tonamel.com/competition/U8Q0U",
+      "date": "2026-11-08",
+      "start_time": "12:30",
+      "prefecture": "岡山県",
+      "venue": "イズミゆめタウン久世店 ギフトショップ和み",
+      "address": "〒719-3204 岡山県真庭市惣１７０",
+      "online": false,
+      "fee": "100円",
+      "capacity": 20,
+      "prize": "あり)★ポケモンカード始めたけどルール分からない!対戦する場所ない! 相手居ない!そんなプ…",
+      "format": "その他",
+      "kind": "自主大会",
+      "organizer_url": "https://tonamel.com/organization/Ylwjj",
+      "summary": "中学生以下の大会です。参加費はいつも通り100円です。◆2026年1月23日から大会で使えるカードのレギュレーションが変更になります。詳しくは公式HPをご確認下さい。https://www.pokemon-card.com/info/004764.html★ポケモンカードゲームを通じた交流、バトル（参加賞あり）★ポケモンカード始めたけどルール分からない！対戦する場所ない！ 相手居ない！そんなプレイ",
+      "source_tweet_url": "https://x.com/PokedachiTV/status/2119004460454481987",
+      "organizer_handle": null,
+      "announced_by": "PokedachiTV",
+      "organizer_name": "ポケだちのわジムバトル",
+      "pv": 7,
+      "tweeted_at": "2026-11-07T18:50:07+09:00",
+      "collected_at": "2026-11-08T12:09:53.295001+09:00"
     },
     {
       "id": "KeDYm",
@@ -1557,33 +1584,35 @@
       "announced_by": null,
       "organizer_name": "TSUTAYA鹿嶋南店　",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:32.236296+09:00",
-      "collected_at": "2026-11-08T10:26:32.236434+09:00"
+      "tweeted_at": "2026-11-08T10:25:30.005682+09:00",
+      "collected_at": "2026-11-08T10:25:30.006031+09:00"
     },
     {
-      "id": "P2dKp",
-      "title": "11/8 ハレツー100円デイリー",
-      "url": "https://tonamel.com/competition/P2dKp",
+      "id": "x2119047121236361494",
+      "title": "コンソメリーグ（X告知）",
+      "url": "https://x.com/consomme_pokeca/status/2119047121236361494",
       "date": "2026-11-08",
       "start_time": "13:00",
-      "prefecture": "石川県",
-      "venue": "晴れる屋2 金沢店",
-      "address": "石川県金沢市竪町45-2 CoCoTTo KANAZAWA 2F",
+      "prefecture": "富山県",
+      "prefecture_inferred": null,
+      "venue": null,
+      "address": null,
       "online": false,
-      "fee": "100円",
-      "capacity": 30,
+      "fee": "無料",
+      "capacity": 10,
       "prize": null,
-      "format": "スタンダード",
+      "format": "その他",
       "kind": "ショップ主催",
-      "organizer_url": "https://tonamel.com/organization/1Op0b",
-      "summary": "【参加費】100円【ルール】スタンダードレギュレーション【賞品】3勝：晴れる屋2ポイント 500 pt2勝：スタンダードレギュレーションのパック 1パック ※定価200円以内 参加賞：シングルカード100円割引券全勝した方はデッキリストのご提出をお願いしております。【スケジュール】チェックイン時間：12:30～エントリー・チェックイン締め切り時間：13:00定員：30名全3回戦です。",
-      "source_tweet_url": null,
-      "organizer_handle": null,
-      "announced_by": null,
-      "organizer_name": "晴れる屋2 金沢店",
+      "organizer_url": "https://x.com/consomme_pokeca",
+      "summary": "RT @compoff_favo: コンプオフ富山ファボーレ店は11月で2周年✨ 記念イベントとして ポケカ強豪プレイヤーの キクチシュウマ選手（コンソメ）に挑戦！イベントを開催！ 明日11/8(日）13:00~ 参加費無料！ 10人限定 ※応募多数の場合はキッズを優先に抽選に…",
+      "source_tweet_url": "https://x.com/consomme_pokeca/status/2119047121236361494",
+      "organizer_handle": "consomme_pokeca",
+      "announced_by": "consomme_pokeca",
+      "organizer_name": "キクチシュウマ 11/14東京 28愛知（トレカキャンプ）",
+      "x_only": true,
       "pv": 7,
-      "tweeted_at": "2026-11-08T11:29:53.477287+09:00",
-      "collected_at": "2026-11-08T11:29:53.477622+09:00"
+      "tweeted_at": "2026-11-07T21:39:38+09:00",
+      "collected_at": "2026-11-08T12:12:24.079217+09:00"
     },
     {
       "id": "E1piX",
@@ -1957,8 +1986,35 @@
       "announced_by": null,
       "organizer_name": "BOOKOFF具志川店",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:15.685037+09:00",
-      "collected_at": "2026-11-08T10:26:15.685733+09:00"
+      "tweeted_at": "2026-11-08T10:25:05.412804+09:00",
+      "collected_at": "2026-11-08T10:25:05.413283+09:00"
+    },
+    {
+      "id": "x2118947229893370192",
+      "title": "ストポケ杯（X告知）",
+      "url": "https://x.com/storage0810/status/2118947229893370192",
+      "date": "2026-11-08",
+      "start_time": "14:00",
+      "prefecture": "広島県",
+      "prefecture_inferred": true,
+      "venue": null,
+      "address": null,
+      "online": false,
+      "fee": null,
+      "capacity": null,
+      "prize": null,
+      "format": "その他",
+      "kind": "ショップ主催",
+      "organizer_url": "https://x.com/storage0810",
+      "summary": "《大会結果》 🔥ガンダムカード🔥 〈参加者〉10人 🏆優勝🏆 【名前】マグさん 【デッキ】青緑ロンドベル 本日のガンダムカード WORLD CHAMPIONSHIPS 26-27 店舗予選の優勝は、マグさんでした。おめでとうございます。🎉 次回は11/8(日)14:00〜 ニュータイプチャレンジの開催を予定しております。✨",
+      "source_tweet_url": "https://x.com/storage0810/status/2118947229893370192",
+      "organizer_handle": "storage0810",
+      "announced_by": "storage0810",
+      "organizer_name": "ストレージワン広島店",
+      "x_only": true,
+      "pv": 7,
+      "tweeted_at": "2026-11-07T15:02:42+09:00",
+      "collected_at": "2026-11-08T12:12:24.068384+09:00"
     },
     {
       "id": "JCOLI",
@@ -2389,31 +2445,6 @@
       "pv": 7,
       "tweeted_at": "2026-11-01T16:25:22+09:00",
       "collected_at": "2026-11-03T13:46:22.016884+09:00"
-    },
-    {
-      "id": "4PTKl",
-      "title": "11/8 ふらっとポケカ交流会　ポケカ30th記念Ver",
-      "url": "https://tonamel.com/competition/4PTKl",
-      "date": "2026-11-08",
-      "start_time": "15:30",
-      "prefecture": "石川県",
-      "venue": "晴れる屋2 金沢店",
-      "address": "石川県金沢市竪町45-2 CoCoTTo KANAZAWA 2F",
-      "online": false,
-      "fee": "300円",
-      "capacity": 30,
-      "prize": null,
-      "format": "スタンダード",
-      "kind": "ショップ主催",
-      "organizer_url": "https://tonamel.com/organization/1Op0b",
-      "summary": "【参加費】300円【ルール】スタンダードレギュレーション300円で全2回戦に参加でき、拡張パック「30th CELEBRATION」1パックをお持ち帰りいただけます。【イベント内容】全2回戦イベント中、対戦と対戦の間にデッキ変更が可能です全勝した方はデッキリストのご提出をお願いしております。※パックは全2回戦に参加された方へ、イベント終了時にお渡しします。【スケジュール】チェックイン時間：15:0",
-      "source_tweet_url": null,
-      "organizer_handle": null,
-      "announced_by": null,
-      "organizer_name": "晴れる屋2 金沢店",
-      "pv": 7,
-      "tweeted_at": "2026-11-08T11:29:50.768115+09:00",
-      "collected_at": "2026-11-08T11:29:50.768519+09:00"
     },
     {
       "id": "rkOm5",
@@ -3016,6 +3047,31 @@
       "collected_at": "2026-10-30T23:16:10.175056+09:00"
     },
     {
+      "id": "BZhij",
+      "title": "デュエル・マスターズ パック争奪戦(17:30~)",
+      "url": "https://tonamel.com/competition/BZhij",
+      "date": "2026-11-08",
+      "start_time": "17:30",
+      "prefecture": "北海道",
+      "venue": "カードショップコレクト　春光店",
+      "address": "北海道旭川市春光町１０番地　イオン旭川春光SC",
+      "online": false,
+      "fee": "500円",
+      "capacity": 8,
+      "prize": "優勝：15パック",
+      "format": "その他",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/aN7sS",
+      "summary": "〇大会ルール・トーナメント 3回戦・フォーマット オリジナル・制限時間20分 1本先取・デッキ変更なし○参加費：500円○賞品優勝 15パック ２位 10パック ３位 5パック ４位～８位 1パック ＋ 参加賞 100円クーポン○スケジュール 17:00 - 17:30 受付 17:35 - 17:55 １試合目 18:00 - 18:20 ２試合目 18:25 - 18:45 ３試合目※試合の進",
+      "source_tweet_url": "https://x.com/COLLECT_shunkou/status/2119037148644962362",
+      "organizer_handle": null,
+      "announced_by": "COLLECT_shunkou",
+      "organizer_name": "カードショップコレクト イオン旭川春光店",
+      "pv": 7,
+      "tweeted_at": "2026-11-07T21:00:00+09:00",
+      "collected_at": "2026-11-08T12:09:49.244640+09:00"
+    },
+    {
       "id": "UVc09",
       "title": "ふらっとポケカ交流会",
       "url": "https://tonamel.com/competition/UVc09",
@@ -3241,31 +3297,6 @@
       "collected_at": "2026-10-30T23:16:52.631818+09:00"
     },
     {
-      "id": "xf422",
-      "title": "11/8 ハレツーバトル",
-      "url": "https://tonamel.com/competition/xf422",
-      "date": "2026-11-08",
-      "start_time": "18:00",
-      "prefecture": "石川県",
-      "venue": "晴れる屋2 金沢店",
-      "address": "石川県金沢市竪町45-2 CoCoTTo KANAZAWA 2F",
-      "online": false,
-      "fee": "500円",
-      "capacity": 30,
-      "prize": null,
-      "format": "スタンダード",
-      "kind": "ショップ主催",
-      "organizer_url": "https://tonamel.com/organization/1Op0b",
-      "summary": "【参加費】500円【ルール】スタンダードレギュレーション【賞品】3勝：晴れる屋2ポイント 1,500 pt2勝：晴れる屋2ポイント500 pt参加賞：スタンダードレギュレーションパック 1パック ※定価200円以内参加賞はこちらでご用意させていただいたものとなります。変更はできません。全勝した方はデッキリストのご提出をお願いしております。【スケジュール】チェックイン時間：17:30～エントリー・チ",
-      "source_tweet_url": null,
-      "organizer_handle": null,
-      "announced_by": null,
-      "organizer_name": "晴れる屋2 金沢店",
-      "pv": 7,
-      "tweeted_at": "2026-11-08T11:29:58.299043+09:00",
-      "collected_at": "2026-11-08T11:29:58.299429+09:00"
-    },
-    {
       "id": "HuZyG",
       "title": "30th CELEBRATION パック開封会",
       "url": "https://tonamel.com/competition/HuZyG",
@@ -3462,8 +3493,33 @@
       "announced_by": null,
       "organizer_name": "晴れる屋2 大宮店",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:33.304089+09:00",
-      "collected_at": "2026-11-08T10:26:33.304465+09:00"
+      "tweeted_at": "2026-11-08T10:25:31.227698+09:00",
+      "collected_at": "2026-11-08T10:25:31.228138+09:00"
+    },
+    {
+      "id": "4Lr2Y",
+      "title": "デュエル・マスターズ　オリパ争奪戦（19:00〜）",
+      "url": "https://tonamel.com/competition/4Lr2Y",
+      "date": "2026-11-08",
+      "start_time": "19:00",
+      "prefecture": "北海道",
+      "venue": "カードショップコレクトBiVi新さっぽろ店",
+      "address": "北海道札幌市厚別区厚別中央１条６丁目３−３ BiVi新さっぽろ",
+      "online": false,
+      "fee": "1ドリンク注文",
+      "capacity": 16,
+      "prize": "優勝：オリパ 9パック",
+      "format": "その他",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/r6BVc",
+      "summary": "〇大会ルール・スイスドロー 4回戦・フォーマット オリジナル・制限時間20分 1本先取・デッキ変更なし○参加費：１ドリンク注文○賞品優勝 オリパ 9パック ２位 オリパ 7パック ３位 オリパ 4パック 4位 オリパ2パック ＋ 参加賞 オリパ １パック○スケジュール 18:00 - 19:00 受付 19:05 - 19:25 １試合目 19:30 - 19:50 ２試合目 19:55 - 20",
+      "source_tweet_url": "https://x.com/COLLECT_BiVi/status/2119052255324471385",
+      "organizer_handle": null,
+      "announced_by": "COLLECT_BiVi",
+      "organizer_name": "カードショップコレクトBiVi新さっぽろ店",
+      "pv": 7,
+      "tweeted_at": "2026-11-07T22:00:02+09:00",
+      "collected_at": "2026-11-08T12:09:48.021497+09:00"
     },
     {
       "id": "gB4w1",
@@ -12978,6 +13034,33 @@
       "collected_at": "2026-11-07T12:30:08.335512+09:00"
     },
     {
+      "id": "x2118673530233471129",
+      "title": "大会情報",
+      "url": "https://x.com/ryuunoshippo_4/status/2118673530233471129",
+      "date": "2026-11-13",
+      "start_time": null,
+      "prefecture": "兵庫県",
+      "prefecture_inferred": null,
+      "venue": null,
+      "address": null,
+      "online": false,
+      "fee": null,
+      "capacity": null,
+      "prize": null,
+      "format": "その他",
+      "kind": "ショップ主催",
+      "organizer_url": "https://x.com/ryuunoshippo_4",
+      "summary": "【大会情報】 #ヴァンガード 本日のVG ショップファイトは1️⃣0️⃣名の方にご参加いただきました✨ 👑全勝者👑 ダイ 様 🎊おめでとうございます🎊 キーカードはこちら↓📸 次回は11/13(金)1️⃣9️⃣:0️⃣0️⃣から開催予定です🔥 皆様のご参加お待ちしております🐉 #竜のしっぽ姫路店",
+      "source_tweet_url": "https://x.com/ryuunoshippo_4/status/2118673530233471129",
+      "organizer_handle": "ryuunoshippo_4",
+      "announced_by": "ryuunoshippo_4",
+      "organizer_name": "竜のしっぽ 姫路店",
+      "x_only": true,
+      "pv": 7,
+      "tweeted_at": "2026-11-06T20:55:07+09:00",
+      "collected_at": "2026-11-08T12:12:24.058259+09:00"
+    },
+    {
       "id": "11boD",
       "title": "スクランブルEX（えくすとら！）",
       "url": "https://tonamel.com/competition/11boD",
@@ -15360,8 +15443,8 @@
       "url": "https://x.com/consomme_pokeca/status/2107811652716691627",
       "date": "2026-11-14",
       "start_time": "18:00",
-      "prefecture": null,
-      "prefecture_inferred": null,
+      "prefecture": "富山県",
+      "prefecture_inferred": true,
       "venue": null,
       "address": null,
       "online": false,
@@ -16065,6 +16148,33 @@
       "pv": 7,
       "tweeted_at": "2026-11-01T17:08:38+09:00",
       "collected_at": "2026-11-03T13:46:22.019452+09:00"
+    },
+    {
+      "id": "x2118972813839306933",
+      "title": "大会情報",
+      "url": "https://x.com/ryuunoshippo_4/status/2118972813839306933",
+      "date": "2026-11-14",
+      "start_time": null,
+      "prefecture": "兵庫県",
+      "prefecture_inferred": null,
+      "venue": null,
+      "address": null,
+      "online": false,
+      "fee": null,
+      "capacity": null,
+      "prize": null,
+      "format": "その他",
+      "kind": "ショップ主催",
+      "organizer_url": "https://x.com/ryuunoshippo_4",
+      "summary": "【大会情報】 #ガンダム 本日のショップバトルは1️⃣3️⃣名の方にご参加いただきました✨ 👑全勝者👑 豺狼 様 🎊おめでとうございます🎊 ⬇️キーカードを見せて頂きました📸⬇️ 次回は11/14(土）1️⃣5️⃣:0️⃣0️⃣よりを開催予定です✨ 次回も皆様のご参加お待ちしております🐉 #竜のしっぽ姫路店",
+      "source_tweet_url": "https://x.com/ryuunoshippo_4/status/2118972813839306933",
+      "organizer_handle": "ryuunoshippo_4",
+      "announced_by": "ryuunoshippo_4",
+      "organizer_name": "竜のしっぽ 姫路店",
+      "x_only": true,
+      "pv": 7,
+      "tweeted_at": "2026-11-07T16:44:22+09:00",
+      "collected_at": "2026-11-08T12:12:24.069708+09:00"
     },
     {
       "id": "Ww0QB",
@@ -18690,8 +18800,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋２　静岡店",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:27.777891+09:00",
-      "collected_at": "2026-11-08T10:26:27.778648+09:00"
+      "tweeted_at": "2026-11-08T10:25:24.495267+09:00",
+      "collected_at": "2026-11-08T10:25:24.496033+09:00"
     },
     {
       "id": "uXp8p",
@@ -19302,6 +19412,33 @@
       "collected_at": "2026-11-03T13:46:22.055670+09:00"
     },
     {
+      "id": "x2118996321243963513",
+      "title": "次回開催予定大会は",
+      "url": "https://x.com/bo_toyonaka_tc/status/2118996321243963513",
+      "date": "2026-11-15",
+      "start_time": null,
+      "prefecture": "大阪府",
+      "prefecture_inferred": null,
+      "venue": null,
+      "address": null,
+      "online": false,
+      "fee": null,
+      "capacity": 12,
+      "prize": null,
+      "format": "その他",
+      "kind": "ショップ主催",
+      "organizer_url": "https://x.com/bo_toyonaka_tc",
+      "summary": "🌟大会結果🌟 11/7（土）遊戯王ランキングデュエル 11/7（火）16:00〜 参加人数:12名 優勝者🎉:toritoriさん デッキ名:ヴァレット コメント:良きかな 次回開催予定大会は11月15日です！ 次回の大会のご参加お待ちしております🙇✨ #BSB豊中三国店 #遊戯王",
+      "source_tweet_url": "https://x.com/bo_toyonaka_tc/status/2118996321243963513",
+      "organizer_handle": "bo_toyonaka_tc",
+      "announced_by": "bo_toyonaka_tc",
+      "organizer_name": "ブックオフ豊中三国店トレカ",
+      "x_only": true,
+      "pv": 7,
+      "tweeted_at": "2026-11-07T18:17:46+09:00",
+      "collected_at": "2026-11-08T12:12:24.072019+09:00"
+    },
+    {
       "id": "qNl7G",
       "title": "ハレツーバトル",
       "url": "https://tonamel.com/competition/qNl7G",
@@ -19648,8 +19785,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋２　静岡店",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:16.754223+09:00",
-      "collected_at": "2026-11-08T10:26:16.754410+09:00"
+      "tweeted_at": "2026-11-08T10:25:06.658084+09:00",
+      "collected_at": "2026-11-08T10:25:06.658333+09:00"
     },
     {
       "id": "fkaJ9",
@@ -20573,8 +20710,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋２　静岡店",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:17.825267+09:00",
-      "collected_at": "2026-11-08T10:26:17.825560+09:00"
+      "tweeted_at": "2026-11-08T10:25:09.634989+09:00",
+      "collected_at": "2026-11-08T10:25:09.635328+09:00"
     },
     {
       "id": "mOoA0",
@@ -21073,8 +21210,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋２　静岡店",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:21.178049+09:00",
-      "collected_at": "2026-11-08T10:26:21.178231+09:00"
+      "tweeted_at": "2026-11-08T10:25:13.572528+09:00",
+      "collected_at": "2026-11-08T10:25:13.572766+09:00"
     },
     {
       "id": "HYhsY",
@@ -22073,8 +22210,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋２　静岡店",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:20.053238+09:00",
-      "collected_at": "2026-11-08T10:26:20.053556+09:00"
+      "tweeted_at": "2026-11-08T10:25:12.355940+09:00",
+      "collected_at": "2026-11-08T10:25:12.356311+09:00"
     },
     {
       "id": "aGs8m",
@@ -22473,8 +22610,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋２　静岡店",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:14.581581+09:00",
-      "collected_at": "2026-11-08T10:26:14.615119+09:00"
+      "tweeted_at": "2026-11-08T10:25:02.866997+09:00",
+      "collected_at": "2026-11-08T10:25:02.878366+09:00"
     },
     {
       "id": "ryrVg",
@@ -23473,8 +23610,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋２　静岡店",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:26.682774+09:00",
-      "collected_at": "2026-11-08T10:26:26.683052+09:00"
+      "tweeted_at": "2026-11-08T10:25:23.274982+09:00",
+      "collected_at": "2026-11-08T10:25:23.275309+09:00"
     },
     {
       "id": "Y6CQF",
@@ -23925,8 +24062,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋２　静岡店",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:28.844057+09:00",
-      "collected_at": "2026-11-08T10:26:28.844250+09:00"
+      "tweeted_at": "2026-11-08T10:25:25.709793+09:00",
+      "collected_at": "2026-11-08T10:25:25.710056+09:00"
     },
     {
       "id": "Hb6gj",
@@ -25102,8 +25239,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋２　静岡店",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:34.374316+09:00",
-      "collected_at": "2026-11-08T10:26:34.374629+09:00"
+      "tweeted_at": "2026-11-08T10:25:32.454202+09:00",
+      "collected_at": "2026-11-08T10:25:32.454544+09:00"
     },
     {
       "id": "x2116828280980726072",
@@ -25529,8 +25666,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋２　静岡店",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:22.323384+09:00",
-      "collected_at": "2026-11-08T10:26:22.323594+09:00"
+      "tweeted_at": "2026-11-08T10:25:14.804234+09:00",
+      "collected_at": "2026-11-08T10:25:14.804479+09:00"
     },
     {
       "id": "MCFxj",
@@ -26604,8 +26741,8 @@
       "announced_by": null,
       "organizer_name": "晴れる屋２　静岡店",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:23.422302+09:00",
-      "collected_at": "2026-11-08T10:26:23.422602+09:00"
+      "tweeted_at": "2026-11-08T10:25:16.039538+09:00",
+      "collected_at": "2026-11-08T10:25:16.039872+09:00"
     },
     {
       "id": "AfKsX",
@@ -29360,6 +29497,31 @@
       "pv": 7,
       "tweeted_at": "2026-10-06T19:25:15.109198+09:00",
       "collected_at": "2026-10-06T19:25:15.111629+09:00"
+    },
+    {
+      "id": "eMg8I",
+      "title": "鶺鴒会  (ベイブレードx交流会)",
+      "url": "https://tonamel.com/competition/eMg8I",
+      "date": "2026-11-22",
+      "start_time": "10:00",
+      "prefecture": "栃木県",
+      "venue": "小山市大谷市民交流センター「あいとぴあ」",
+      "address": "〒323-0813 栃木県小山市横倉４９９−６",
+      "online": false,
+      "fee": null,
+      "capacity": 32,
+      "prize": null,
+      "format": "その他",
+      "kind": "交流会",
+      "organizer_url": "https://tonamel.com/organization/cyPst",
+      "summary": "このページは大会参加者用のページになります。お気をつけ下さい。【対戦ルール】･2ブロック総当たり.オール3on3.スタジアム保護のためMNは使用禁止.RAは端部が露出していないものは弾かせていただきます。その他ルールはWRR(ワグテイルリーグルール)レギュレーションを適用（適用方式は保険未加入方式）https://sites.google.com/view/wagtail-league-rule/",
+      "source_tweet_url": "https://x.com/K_Nero0313/status/2119054705754353807",
+      "organizer_handle": null,
+      "announced_by": "K_Nero0313",
+      "organizer_name": "ホビー交流団体　「鶺鴒会」",
+      "pv": 7,
+      "tweeted_at": "2026-11-07T22:09:46+09:00",
+      "collected_at": "2026-11-08T12:09:50.488424+09:00"
     },
     {
       "id": "1w6RX",
@@ -46641,8 +46803,8 @@
       "announced_by": null,
       "organizer_name": "かつた杯",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:18.988867+09:00",
-      "collected_at": "2026-11-08T10:26:18.990094+09:00"
+      "tweeted_at": "2026-11-08T10:25:10.870224+09:00",
+      "collected_at": "2026-11-08T10:25:10.871555+09:00"
     },
     {
       "id": "psZID",
@@ -46916,8 +47078,8 @@
       "announced_by": null,
       "organizer_name": "ポケカJリーグ",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:35.446264+09:00",
-      "collected_at": "2026-11-08T10:26:35.446790+09:00"
+      "tweeted_at": "2026-11-08T10:25:34.008747+09:00",
+      "collected_at": "2026-11-08T10:25:34.009336+09:00"
     },
     {
       "id": "rO9Pg",
@@ -47049,6 +47211,33 @@
       "pv": 7,
       "tweeted_at": "2026-10-30T14:58:56+09:00",
       "collected_at": "2026-11-01T11:07:05.105095+09:00"
+    },
+    {
+      "id": "x2119043799351791624",
+      "title": "三郷ポケカ部（X告知）",
+      "url": "https://x.com/misatoptcgc/status/2119043799351791624",
+      "date": "2026-12-05",
+      "start_time": null,
+      "prefecture": "埼玉県",
+      "prefecture_inferred": true,
+      "venue": null,
+      "address": null,
+      "online": false,
+      "fee": null,
+      "capacity": null,
+      "prize": null,
+      "format": "その他",
+      "kind": "自主大会",
+      "organizer_url": "https://x.com/misatoptcgc",
+      "summary": "#むれをあつめる対戦会 終了🙆 今回も沢山の方にご参加いただきまして ありがとうございました！ いつも皆さんの集中力がすごくて ビックリ😮 少しでも皆さんのお力になれていれば🙌 次は12/5開催！エントリー受付中です🤲 #三郷ポケカ部",
+      "source_tweet_url": "https://x.com/misatoptcgc/status/2119043799351791624",
+      "organizer_handle": "misatoptcgc",
+      "announced_by": "misatoptcgc",
+      "organizer_name": "三郷ポケカ部",
+      "x_only": true,
+      "pv": 7,
+      "tweeted_at": "2026-11-07T21:26:26+09:00",
+      "collected_at": "2026-11-08T12:12:24.078857+09:00"
     },
     {
       "id": "2No3Q",
@@ -47572,8 +47761,8 @@
       "announced_by": null,
       "organizer_name": "ぽん太",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:31.168731+09:00",
-      "collected_at": "2026-11-08T10:26:31.169580+09:00"
+      "tweeted_at": "2026-11-08T10:25:27.218009+09:00",
+      "collected_at": "2026-11-08T10:25:27.218918+09:00"
     },
     {
       "id": "x2094277198220083376",
@@ -48286,6 +48475,31 @@
       "collected_at": "2026-11-03T13:46:10.257299+09:00"
     },
     {
+      "id": "oykgt",
+      "title": "第3回 未明杯",
+      "url": "https://tonamel.com/competition/oykgt",
+      "date": "2026-12-12",
+      "start_time": "12:00",
+      "prefecture": "広島県",
+      "venue": "レプトントレカ海田店",
+      "address": "広島県安芸郡海田町南大正町2-19 アセントビル2階",
+      "online": false,
+      "fee": "500円",
+      "capacity": 20,
+      "prize": null,
+      "format": "その他",
+      "kind": "自主大会",
+      "organizer_url": "https://tonamel.com/organization/7JQG5",
+      "summary": "【 ご挨拶 】 広島県でひっそりと活動しております、ユラと申します。普段はポケモンカードをメインに...関西を中心に活動している「みっくちゅ☆じゅ〜ちゅ」というチームに所属しております。ご存知の方も、ご存知ない方も以後お見知りおきを... 第2回より公認オーガナイザーイベントになりました！ 普段はレプトントレカ海田店様にて身内でカジュアルにプレイしているだけで私自身なんの実績も持ち合わせてはいませ",
+      "source_tweet_url": "https://x.com/utsushimi_event/status/2118980308326592553",
+      "organizer_handle": null,
+      "announced_by": "utsushimi_event",
+      "organizer_name": "うつしみのつどい",
+      "pv": 7,
+      "tweeted_at": "2026-11-07T17:14:08+09:00",
+      "collected_at": "2026-11-08T12:12:13.303531+09:00"
+    },
+    {
       "id": "poQjQ",
       "title": "池袋カードシークレット　64人　個人戦",
       "url": "https://tonamel.com/competition/poQjQ",
@@ -48407,8 +48621,8 @@
       "announced_by": null,
       "organizer_name": "じぞうちゃんねる",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:24.492436+09:00",
-      "collected_at": "2026-11-08T10:26:24.493004+09:00"
+      "tweeted_at": "2026-11-08T10:25:18.779498+09:00",
+      "collected_at": "2026-11-08T10:25:18.780118+09:00"
     },
     {
       "id": "ypwUd",
@@ -48634,8 +48848,8 @@
       "announced_by": null,
       "organizer_name": "戦道 Ikusa-Michi",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:25.575708+09:00",
-      "collected_at": "2026-11-08T10:26:25.576828+09:00"
+      "tweeted_at": "2026-11-08T10:25:21.784407+09:00",
+      "collected_at": "2026-11-08T10:25:21.785590+09:00"
     },
     {
       "id": "05ym8",
@@ -48959,8 +49173,8 @@
       "announced_by": null,
       "organizer_name": "カードショップ リッケ",
       "pv": 7,
-      "tweeted_at": "2026-11-08T10:26:36.515501+09:00",
-      "collected_at": "2026-11-08T10:26:36.516223+09:00"
+      "tweeted_at": "2026-11-08T10:25:35.513994+09:00",
+      "collected_at": "2026-11-08T10:25:35.514788+09:00"
     },
     {
       "id": "ECUah",
@@ -49036,6 +49250,33 @@
       "pv": 7,
       "tweeted_at": "2026-10-10T01:21:56.264682+09:00",
       "collected_at": "2026-10-10T01:21:56.266220+09:00"
+    },
+    {
+      "id": "x2118987832350187896",
+      "title": "久しぶりに夢幻杯やります",
+      "url": "https://x.com/ohara_las_0123/status/2118987832350187896",
+      "date": "2026-12-13",
+      "start_time": "14:00",
+      "prefecture": "東京都",
+      "prefecture_inferred": true,
+      "venue": null,
+      "address": null,
+      "online": false,
+      "fee": null,
+      "capacity": null,
+      "prize": null,
+      "format": "その他",
+      "kind": "自主大会",
+      "organizer_url": "https://x.com/ohara_las_0123",
+      "summary": "RT @tarako_pokeca: 【久しぶりに夢幻杯やります！】 お疲れ様です！ 12月13日日曜日14:00〜表参道で夢幻杯やります！ 今回はチーム戦！ 36チームご参加可能です🫡 募集は明日8日20:00〜 ご参加お待ちしております！",
+      "source_tweet_url": "https://x.com/ohara_las_0123/status/2118987832350187896",
+      "organizer_handle": "ohara_las_0123",
+      "announced_by": "ohara_las_0123",
+      "organizer_name": "オハら@下北沢CS",
+      "x_only": true,
+      "pv": 7,
+      "tweeted_at": "2026-11-07T17:44:02+09:00",
+      "collected_at": "2026-11-08T12:12:24.071086+09:00"
     },
     {
       "id": "kPRxH",
@@ -49898,6 +50139,56 @@
       "collected_at": "2026-11-02T11:35:31.845194+09:00"
     },
     {
+      "id": "s5wMT",
+      "title": "第3回 研究発表会",
+      "url": "https://tonamel.com/competition/s5wMT",
+      "date": "2026-12-19",
+      "start_time": "11:00",
+      "prefecture": "広島県",
+      "venue": "レプトントレカ海田店",
+      "address": "広島県安芸郡海田町南大正町2-19 アセントビル2階",
+      "online": false,
+      "fee": "500円",
+      "capacity": 32,
+      "prize": "優勝：拡張パック15パック",
+      "format": "スタンダード",
+      "kind": "自主大会",
+      "organizer_url": "https://tonamel.com/organization/7JQG5",
+      "summary": "広島県でひっそりと活動しております、ユラと申します。関西を中心に活動している「みっくちゅ☆じゅ〜ちゅ」というチームに所属しております。ご存知の方も、ご存知ない方も以後お見知りおきを... オーガナイザーイベントの派生として自主大会を開催させていただく運びとなりました。※こちらの大会はオーガナイザーイベントではございません。 エントリーをされる場合Xアカウントをお持ちの方は運営アカウントのフォロー",
+      "source_tweet_url": "https://x.com/utsushimi_event/status/2118911797160010059",
+      "organizer_handle": null,
+      "announced_by": "utsushimi_event",
+      "organizer_name": "うつしみのつどい",
+      "pv": 7,
+      "tweeted_at": "2026-11-07T12:41:54+09:00",
+      "collected_at": "2026-11-08T12:12:16.021491+09:00"
+    },
+    {
+      "id": "4K2Do",
+      "title": "【竜のしっぽNU茶屋町店】DM荒木のしっぽ杯 Bithday2026 ~#幸せフィールド貼ってやで~",
+      "url": "https://tonamel.com/competition/4K2Do",
+      "date": "2026-12-19",
+      "start_time": "12:00",
+      "prefecture": "大阪府",
+      "venue": "竜のしっぽ NU茶屋町店",
+      "address": "大阪市北区茶屋町10番12号 4階",
+      "online": false,
+      "fee": "1,200円",
+      "capacity": 32,
+      "prize": null,
+      "format": "レギュ限定",
+      "kind": "ショップ主催",
+      "organizer_url": "https://tonamel.com/organization/yoeU5",
+      "summary": "ご覧いただきありがとうございます！こちらは竜のしっぽ「NU茶屋町店」デュエマ荒木のしっぽ杯 Birthday 2026の応募受付ページです。～～～～～～～～～～～～～～～～～～～～～～～すっかりNU茶のしっぽの人気のイベントになった「デュエマ荒木のしっぽ杯」その主催といえば当店のマスコット店員（？）の荒木さんですが、なんとこの12月は荒木さんの誕生日🎂いつもより豪華な荒木杯を開催します！全4回戦を",
+      "source_tweet_url": "https://x.com/ryuunoshippo_nu/status/2118667209379917996",
+      "organizer_handle": null,
+      "announced_by": "ryuunoshippo_nu",
+      "organizer_name": "トレカショップ　竜のしっぽ　NU茶屋町店",
+      "pv": 7,
+      "tweeted_at": "2026-11-06T20:30:00+09:00",
+      "collected_at": "2026-11-08T12:09:58.778740+09:00"
+    },
+    {
       "id": "rD4B3",
       "title": "よりみち対戦会#22",
       "url": "https://tonamel.com/competition/rD4B3",
@@ -49944,8 +50235,8 @@
       "announced_by": null,
       "organizer_name": "トレカショップVOW",
       "pv": 7,
-      "tweeted_at": "2026-11-08T11:29:54.683054+09:00",
-      "collected_at": "2026-11-08T11:29:54.683881+09:00"
+      "tweeted_at": "2026-11-08T10:25:17.279637+09:00",
+      "collected_at": "2026-11-08T10:25:17.280196+09:00"
     },
     {
       "id": "PYUc3",
@@ -50019,8 +50310,8 @@
       "announced_by": null,
       "organizer_name": "トレカショップ　竜のしっぽ　NU茶屋町店",
       "pv": 7,
-      "tweeted_at": "2026-11-08T11:29:51.983285+09:00",
-      "collected_at": "2026-11-08T11:29:51.985795+09:00"
+      "tweeted_at": "2026-11-08T10:25:08.156614+09:00",
+      "collected_at": "2026-11-08T10:25:08.158603+09:00"
     },
     {
       "id": "x2111421399697072589",
@@ -50198,8 +50489,8 @@
       "announced_by": null,
       "organizer_name": "きょが先生主催大会",
       "pv": 7,
-      "tweeted_at": "2026-11-08T11:29:49.495414+09:00",
-      "collected_at": "2026-11-08T11:29:49.519263+09:00"
+      "tweeted_at": "2026-11-08T10:25:04.106671+09:00",
+      "collected_at": "2026-11-08T10:25:04.107758+09:00"
     },
     {
       "id": "q1LX6",
@@ -50223,8 +50514,8 @@
       "announced_by": null,
       "organizer_name": "ササキヒロムチャンネル",
       "pv": 7,
-      "tweeted_at": "2026-11-08T11:29:57.087553+09:00",
-      "collected_at": "2026-11-08T11:29:57.089261+09:00"
+      "tweeted_at": "2026-11-08T10:25:28.511635+09:00",
+      "collected_at": "2026-11-08T10:25:28.512556+09:00"
     },
     {
       "id": "nhNMC",
@@ -50400,8 +50691,8 @@
       "announced_by": null,
       "organizer_name": "あるこころのポケ会　あつをの方",
       "pv": 7,
-      "tweeted_at": "2026-11-08T11:29:55.881153+09:00",
-      "collected_at": "2026-11-08T11:29:55.883242+09:00"
+      "tweeted_at": "2026-11-08T10:25:20.259669+09:00",
+      "collected_at": "2026-11-08T10:25:20.261001+09:00"
     },
     {
       "id": "kAhsb",
@@ -52349,6 +52640,14 @@
   ],
   "organizers": [
     {
+      "handle": "utsushimi_event",
+      "name": "うつしみのつどい",
+      "area": "広島県",
+      "region": "中国",
+      "note": "直近3ヶ月で2件の大会を主催しています。",
+      "auto": true
+    },
+    {
       "handle": "kajipoke",
       "name": "かじ",
       "area": "広島県東広島市",
@@ -52361,6 +52660,14 @@
       "area": "広島県",
       "region": "中国",
       "note": "「ならくのうらもん杯」主催。"
+    },
+    {
+      "handle": "PokedachiTV",
+      "name": "ポケだちのわジムバトル",
+      "area": "岡山県",
+      "region": "中国",
+      "note": "直近3ヶ月で2件の大会を主催しています。",
+      "auto": true
     },
     {
       "handle": "7Ymrma",
@@ -52566,15 +52873,6 @@
       "area": "岡山県",
       "region": "中国",
       "note": "白黒杯を主催。最大59名規模。",
-      "keyman": true,
-      "type": "individual"
-    },
-    {
-      "handle": "utsushimi_event",
-      "name": "研究発表会",
-      "area": "広島県",
-      "region": "中国",
-      "note": "研究発表会を主催。最大35名規模。",
       "keyman": true,
       "type": "individual"
     },
