@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-11-12T08:37:52.693008+09:00",
-  "events": 1922,
+  "generated_at": "2026-11-11T08:57:26.406660+09:00",
+  "events": 1968,
   "organizers": 505,
   "by_region": {
-    "北海道・東北": 187,
-    "関東": 820,
-    "甲信越": 20,
-    "北陸": 26,
-    "東海": 183,
-    "近畿": 264,
-    "中国": 122,
+    "北海道・東北": 191,
+    "関東": 844,
+    "甲信越": 18,
+    "北陸": 21,
+    "東海": 191,
+    "近畿": 270,
+    "中国": 128,
     "四国": 12,
-    "九州・沖縄": 176
+    "九州・沖縄": 179
   },
   "findings": [
     {
       "level": "warn",
       "kind": "地域未判定",
-      "message": "55件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
+      "message": "58件の大会で都道府県が判定できていません。CITY_HINTS に地名を足すか、会場名の書き方を確認してください。",
       "ids": [
+        "2ttZ4",
+        "x5o5C",
+        "7XqMv",
+        "XaMoM",
+        "Y7Wny",
         "SWagW",
         "TuejO",
         "y3Mvz",
         "jGYe9",
-        "dXYLy",
         "4wzMy",
         "mb1ch",
         "I9PRy",
         "MdVMG",
-        "jgYqj",
         "RFJQm",
         "WvNMk",
         "fgJq7",
         "G6VsJ",
         "wLKTu",
         "kKL5e",
-        "3APTb",
-        "FDpGi",
-        "cGayE",
-        "KCif0"
+        "3APTb"
       ],
-      "count": 55
+      "count": 58
     },
     {
       "level": "warn",
@@ -117,14 +117,14 @@
       "message": "2本のクエリが0件でした。",
       "ids": [
         "from:OP01_soda",
-        "(from:kokorodrop_380 OR from:miCky86poke OR from:m"
+        "(ポケカ OR ポケモンカード) (自主大会 OR 非公認大会 OR CS OR 交流会 OR 杯)"
       ],
       "count": 2
     },
     {
       "level": "warn",
       "kind": "除外しすぎの疑い",
-      "message": "236件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
+      "message": "233件を「ポケカ以外」として除外しました。本物の大会まで弾いていないか、除外ログを確認してください。",
       "ids": [],
       "count": 0
     }
